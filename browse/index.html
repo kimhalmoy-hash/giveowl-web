@@ -421,6 +421,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   // ---------- Native (Capacitor) – alt er valgfritt, nettsiden fungerer uten ----------
   var CAP = window.Capacitor;
   var NATIVE = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
+  var IOS = NATIVE && !!(CAP.getPlatform && CAP.getPlatform()==='ios'); // iOS: background refresh timing is up to iOS
   var regPlugin = (window.capacitorExports && window.capacitorExports.registerPlugin) || (CAP && CAP.registerPlugin);
   function plugin(n){try{return (NATIVE && regPlugin) ? regPlugin(n) : null;}catch(e){return null;}}
   var LN = plugin('LocalNotifications'), SHARE = plugin('Share'), APP = plugin('App');
@@ -884,7 +885,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
       var ti=document.createElement('input'); ti.type='time'; ti.value=V.tid; ti.disabled=av; ti.onchange=function(){if(/^\d\d:\d\d$/.test(ti.value)){V.tid=ti.value;endreVarsler();}};
       p.appendChild(rad(t('v_tid'),PERM==='granted'?t('v_tid_s')+' '+(PLANLAGT===1?t('v_planlagt1'):t('v_planlagt',{n:PLANLAGT})):t('v_tid_s'),ti));
       if(GO){
-        p.appendChild(rad(t('nv_tittel'),t('nv_s'),bryter(nyePå(),function(v){NV.på=v;lagre('nyeVarsler',NV); if(v && PERM!=='granted') spørOmTillatelse(); else {synkNye();oppdater();}},av)));
+        p.appendChild(rad(t('nv_tittel'),t(IOS?'nv_s_ios':'nv_s'),bryter(nyePå(),function(v){NV.på=v;lagre('nyeVarsler',NV); if(v && PERM!=='granted') spørOmTillatelse(); else {synkNye();oppdater();}},av)));
         var mv=document.createElement('label'); mv.className='velg'; var ms=document.createElement('select'); mv.appendChild(ms);
         fyllValg(ms,[['kalender',t('nv_m_kal')],['alle',t('nv_m_alle')]],NV.modus); ms.disabled=av||!nyePå(); ms.setAttribute('aria-label',t('nv_modus'));
         ms.onchange=function(){NV.modus=ms.value==='alle'?'alle':'kalender';lagre('nyeVarsler',NV);synkNye();};
