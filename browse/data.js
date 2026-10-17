@@ -3158,14 +3158,14 @@ window.OPPFORINGER = [
   "sjekket": "2026-10-17",
   "kreverKjop": false,
   "sponset": false,
-  "kilde": "Arrangørens side / offisielle regler",
+  "kilde": "Official rules on peets.com (Aug 3 – Dec 13, 2026 PT; US excl. RI and TN, 19+; no purchase necessary), sjekket 2026-10-17",
   "type": "konkurranse",
   "land": "US",
   "tittel": "Peet's Home for the Holidays Giveaway",
   "arrangor": "Peet's Coffee",
-  "premie": "Southwest Airlines flight e-passes (weekly draws, see terms for details)",
+  "premie": "4 winners each get four Southwest e-passes – round-trip travel for the winner and a guest (ARV $800 each); weekly draws Nov 23, Nov 30, Dec 7 and Dec 14",
   "valuta": "USD",
-  "hvordanDelta": "Fill in the online form (or email customerservice@peets.com). 19+, no purchase necessary",
+  "hvordanDelta": "Fill in the online entry form (or email customerservice@peets.com). US residents 19+, excluding RI and TN",
   "url": "https://www.peets.com/pages/holiday-giveaway",
   "start": "2026-08-03",
   "slutt": "2026-12-13",
@@ -3173,7 +3173,9 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "engang",
   "id": "peet-s-coffee--peet-s-home-for-the-holidays-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "sesong": "jul",
+  "premieVerdi": 800
  },
  {
   "type": "konkurranse",
