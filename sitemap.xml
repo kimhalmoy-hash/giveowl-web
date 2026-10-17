@@ -481,15 +481,7 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/c/de/advent-calendars/</loc>
-    <lastmod>2026-10-17</lastmod>
-  </url>
-  <url>
     <loc>https://giveowl.com/c/dk/</loc>
-    <lastmod>2026-10-17</lastmod>
-  </url>
-  <url>
-    <loc>https://giveowl.com/c/dk/advent-calendars/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
@@ -505,11 +497,11 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/c/no/advent-calendars/</loc>
+    <loc>https://giveowl.com/c/se/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/c/se/</loc>
+    <loc>https://giveowl.com/c/se/advent-calendars/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
@@ -521,7 +513,75 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/c/no/julekalender/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/de/adventskalender/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/dk/julekalender/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/us/holiday-sweepstakes/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/au/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/ca/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/de/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/dk/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/gb/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/no/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/us/new/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/us/daily/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/agravis-raiffeisen-ag--agravis-adventskalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/bild-axel-springer--bild-online-adventskalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/connect-weka-media-publishing--connect-online-adventskalender--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
@@ -537,6 +597,10 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/headquarter--headquarters-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/iroma-italia-partner--julekalender-2026-om-roma-og-italia--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
@@ -545,7 +609,39 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/bb-hotels--bb-hotels-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/boligmappa--boligmappa-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/norges-brannvesen-lokale-brannvesen--brannvesenets-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/bygger-n--bygger-n-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/destination-gotland--destination-gotland-julkalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/elgiganten--elgiganten-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/elkjop--elkjop-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/felleskjopet--felleskjopet-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/forbo-flooring--forbo-julekalender--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
@@ -553,11 +649,71 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/lexus-norge--lexus-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/london-heritage-quarter--london-heritage-quarter-online-advent-calendar--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/mathallen-oslo--mathallen-oslo-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/mejerimedier-mejeriforum--mejerimedier-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/mester-gronn--mester-gronn-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/multitrend--multitrend-julekalender--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/mobelringen-ruen--mobelringen-ruen-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/selskabet-for-arbejderhistorie-sfah--sfah-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/spielarena-tegernsee--spielarena-tegernsee-adventskalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/sprakradet--sprakradets-adventskalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/storebrand--storebrand-og-kron-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/systemkjop--systemkjop-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/toyota-norge--toyota-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/ut-i-nord--ut-i-nord-adventskalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/xl-byg--xl-byg-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/folketidende--folketidendes-julekalender--2026/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/rib-software--rib-s-julekalender--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>

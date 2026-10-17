@@ -89,3 +89,5 @@ h1,h2,h3{overflow-wrap:anywhere;hyphens:auto}
 [dir=rtl] .landlenker a{margin:0 0 6px 12px}
 .oppfliste .oppf dl{grid-template-columns:minmax(0,1fr);gap:0}.oppfliste .oppf dd{margin-bottom:6px}
 .relatert{margin:24px 0}.relatert h2{font-size:20px;margin:0 0 8px}.relatert ul{margin:0;padding-inline-start:20px}.relatert li{margin:4px 0}
+.tag.forv{background:#EEF0F7;color:#3b4256;border:1px dashed #8a93ad}
+.flere{font-size:14px;line-height:1.9}.flere a{white-space:nowrap}
