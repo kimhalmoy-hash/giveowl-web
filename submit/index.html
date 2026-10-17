@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a giveaway – GiveOwl</title>
+<meta name="description" content="Running a giveaway, sweepstakes, contest or online advent calendar? Submit it to GiveOwl. Listing is free.">
+<meta name="theme-color" content="#1F2A5C">
+<link rel="icon" type="image/svg+xml" href="../assets/owl.svg">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="topp-smal">
+  <div class="wrap">
+    <nav class="nav">
+      <a class="logo" href="../"><img src="../assets/owl.svg" alt=""> <span>Give<b>Owl</b></span></a>
+      <div class="navlenker"><a href="../browse/" data-t="nav_browse">Browse</a><button class="sprak" id="sprak" type="button">NO</button></div>
+    </nav>
+    <div class="side" style="padding-bottom:0">
+      <h1 style="margin:10px 0 6px;font-size:34px;letter-spacing:-.5px" data-t="h1">Submit a giveaway</h1>
+      <p style="margin:0;opacity:.85" data-t="lead">Running a giveaway, sweepstakes, contest or online advent calendar? Tell us about it. Listing is free, and we review every submission before it goes live.</p>
+    </div>
+  </div>
+</header>
+<main class="side">
+  <!-- NOTE: this form stores nothing and has no backend. "Send" opens the visitor's own email app with a prefilled
+       message to SUBMIT_TO below. Replace with a real form endpoint later if wanted (and update the privacy policy). -->
+  <form class="skjema" id="skjema" novalidate>
+    <label><span data-t="f_arr">Organizer / brand *</span><input name="arrangor" required maxlength="120" autocomplete="organization"></label>
+    <label><span data-t="f_tittel">Name of the giveaway *</span><input name="tittel" required maxlength="160"></label>
+    <label><span data-t="f_premie">Prize(s) *</span><input name="premie" required maxlength="240" data-tp="p_premie" placeholder="e.g. $500 gift card, 3 winners"></label>
+    <div class="to">
+      <label><span data-t="f_type">Type</span>
+        <select name="type"><option value="konkurranse" data-t="o_konk">Giveaway / sweepstakes / contest</option><option value="julekalender" data-t="o_jul">Online advent calendar</option></select></label>
+      <label><span data-t="f_land">Open to residents of *</span>
+        <select name="land"><option>US</option><option>CA</option><option>GB</option><option>IE</option><option>AU</option><option>NO</option><option>SE</option><option>DK</option><option>FI</option><option>DE</option><option value="INT" data-t="o_int">Worldwide</option></select></label>
+    </div>
+    <div class="to">
+      <label><span data-t="f_start">Start date</span><input type="date" name="start"></label>
+      <label><span data-t="f_slutt">End date / deadline *</span><input type="date" name="slutt" required></label>
+    </div>
+    <label><span data-t="f_url">Link to the giveaway or official rules (your own site) *</span><input type="url" name="url" required placeholder="https://"></label>
+    <label><span data-t="f_delta">How to enter</span><textarea name="hvordanDelta" maxlength="400" data-tp="p_delta" placeholder="e.g. Fill in the form once per day. US residents 18+."></textarea></label>
+    <label class="avkrysning"><input type="checkbox" name="utenKjop" checked> <span data-t="f_kjop">No purchase necessary (there is a free way to enter)</span></label>
+    <label><span data-t="f_epost">Your email (so we can reply) *</span><input type="email" name="epost" required autocomplete="email"></label>
+    <label class="avkrysning"><input type="checkbox" name="ok" required> <span data-t="f_ok">I am the organizer or allowed to submit this, and the details are correct.</span></label>
+    <div class="cta"><button class="knapp primar" type="submit" data-t="send">Send by email</button><button class="knapp mork" type="button" id="kopier" data-t="kopier">Copy details</button></div>
+    <p class="merk" id="melding" role="status"></p>
+    <p class="merk" data-t="merk">This page stores nothing. “Send by email” opens your own email app with the details filled in. See our <a href="../privacy/">privacy policy</a>.</p>
+  </form>
+</main>
+<footer class="site"><div class="wrap"><p><a href="../" data-t="hjem">Home</a><a href="../privacy/" data-t="nav_privacy">Privacy</a><a href="mailto:info@hendtas.com">info@hendtas.com</a></p><p>© 2026 HENDTAS, Norway.</p></div></footer>
+<script src="../assets/i18n.js"></script>
+<script>
+var SUBMIT_TO = 'info@hendtas.com'; // change to e.g. submit@giveowl.com once that mailbox exists
+var lang = GiveOwlI18n({
+  en:{},
+  nb:{_title:'Meld inn en konkurranse – GiveOwl', nav_browse:'Se oversikten', nav_privacy:'Personvern', hjem:'Hjem',
+    h1:'Meld inn en konkurranse', lead:'Arrangerer du en konkurranse, giveaway eller julekalender på nett? Fortell oss om den. Det er gratis å bli oppført, og vi går gjennom alt før det publiseres.',
+    f_arr:'Arrangør / merkevare *', f_tittel:'Navn på konkurransen *', f_premie:'Premie(r) *', p_premie:'f.eks. gavekort på 500 kr, 3 vinnere',
+    f_type:'Type', o_konk:'Konkurranse / giveaway', o_jul:'Julekalender på nett', f_land:'Åpen for innbyggere i *', o_int:'Hele verden',
+    f_start:'Startdato', f_slutt:'Sluttdato / frist *', f_url:'Lenke til konkurransen eller vilkårene (din egen side) *',
+    f_delta:'Slik deltar man', p_delta:'f.eks. Fyll ut skjemaet én gang per dag. 18 år+.', f_kjop:'Uten kjøp (det finnes en gratis måte å delta på)',
+    f_epost:'Din e-post (så vi kan svare) *', f_ok:'Jeg er arrangøren eller har lov til å melde inn denne, og opplysningene stemmer.',
+    send:'Send på e-post', kopier:'Kopier opplysningene',
+    merk:'Denne siden lagrer ingenting. «Send på e-post» åpner ditt eget e-postprogram med opplysningene fylt inn. Se <a href="../privacy/#nb">personvernerklæringen</a>.'}
+});
+var M = {en:{mangler:'Please fill in the required fields (*).', kopiert:'Copied. Paste it into an email to ', aapner:'Opening your email app…'},
+         nb:{mangler:'Fyll ut de obligatoriske feltene (*).', kopiert:'Kopiert. Lim det inn i en e-post til ', aapner:'Åpner e-postprogrammet ditt…'}};
+var f = document.getElementById('skjema');
+function data(){var d={}; new FormData(f).forEach(function(v,k){d[k]=v;}); d.kreverKjop=!f.utenKjop.checked; delete d.utenKjop; delete d.ok; return d;}
+function tekst(d){return 'GiveOwl submission\n\n'+Object.keys(d).map(function(k){return k+': '+d[k];}).join('\n')+'\n\nJSON:\n'+JSON.stringify(d,null,2);}
+function sjekk(){ if(!f.checkValidity()){ document.getElementById('melding').textContent=M[lang()].mangler; f.reportValidity(); return false;} return true; }
+f.addEventListener('submit',function(ev){ev.preventDefault(); if(!sjekk()) return; var d=data();
+  document.getElementById('melding').textContent=M[lang()].aapner;
+  location.href='mailto:'+SUBMIT_TO+'?subject='+encodeURIComponent('GiveOwl submission: '+d.arrangor+' – '+d.tittel)+'&body='+encodeURIComponent(tekst(d));});
+document.getElementById('kopier').onclick=function(){ if(!sjekk()) return; var s=tekst(data());
+  (navigator.clipboard?navigator.clipboard.writeText(s):Promise.reject()).then(function(){document.getElementById('melding').textContent=M[lang()].kopiert+SUBMIT_TO;},function(){prompt('Copy:',s);});};
+</script>
+</body>
+</html>

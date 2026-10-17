@@ -1,0 +1,17 @@
+# Only the static website belongs in this repo. Never commit keys, builds or app sources.
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*PASSORD*
+*password*
+keystore.properties
+keys/
+android-app/
+release/
+node_modules/
+.env*
+*.aab
+*.apk
+.DS_Store

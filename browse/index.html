@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1F2A5C">
+<meta name="description" content="GiveOwl finds giveaways, sweepstakes, contests and online advent calendars. Save favorites and enter at the organizer.">
+<title>GiveOwl – Giveaways, sweepstakes &amp; contests</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%231F2A5C'/%3E%3Ccircle cx='50' cy='56' r='32' fill='%23F7931E'/%3E%3Ccircle cx='38' cy='48' r='13' fill='%23FFF6E6'/%3E%3Ccircle cx='62' cy='48' r='13' fill='%23FFF6E6'/%3E%3Ccircle cx='38' cy='48' r='8' fill='%231F2A5C'/%3E%3Ccircle cx='62' cy='48' r='8' fill='%231F2A5C'/%3E%3C/svg%3E">
+<style>
+:root{
+  --natt:#1F2A5C; --natt-2:#2B3A7A; --natt-3:#3A4B96;
+  --oransje:#F7931E; --oransje-m:#E0701F; --korall:#FF5A5F; --gull:#FFD23F; --gull-lys:#FFF1C9;
+  --krem:#FFF8EE; --papir:#FFFFFF; --blekk:#1A2140; --dempet:#5E6787; --linje:#ECE4D6; --ok:#1F9D6B;
+  --radius:18px; --skygge:0 1px 0 rgba(0,0,0,.03),0 8px 22px -10px rgba(31,42,92,.35);
+  --font: ui-rounded,"SF Pro Rounded","Nunito","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --hode-a:#2B3A7A; --hode-b:#18214A; --primar:var(--natt); --primar-h:var(--natt-2); --aksent:var(--oransje);
+}
+/* Sesongtema: julekalender-fanen i november–desember */
+body.advent{ --hode-a:#2a7a62; --hode-b:#0b2e24; --primar:#0f3b2e; --primar-h:#164c3c; --aksent:#c8372d; --krem:#fbf7ef; }
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font);color:var(--blekk);background:var(--krem);-webkit-font-smoothing:antialiased;min-height:100vh;transition:background .3s}
+button,input,select{font:inherit;color:inherit}
+a{color:inherit}
+.skjult{display:none!important}
+
+header.topp{position:relative;overflow:hidden;color:#fff;background:radial-gradient(120% 90% at 85% -10%,var(--hode-a) 0%,transparent 60%),linear-gradient(170deg,var(--hode-a) 0%,var(--hode-b) 100%);padding:calc(14px + env(safe-area-inset-top)) 18px 58px}
+.prikker{position:absolute;inset:0;pointer-events:none;opacity:.35;background-image:radial-gradient(2px 2px at 20px 30px,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 90px 80px,#fff 50%,transparent 51%),radial-gradient(1px 1px at 150px 20px,#fff 50%,transparent 51%),radial-gradient(2px 2px at 210px 110px,#fff 50%,transparent 51%);background-size:240px 160px}
+body.advent .prikker{opacity:.55;animation:sno 30s linear infinite}
+@keyframes sno{to{background-position:0 160px}}
+@media (prefers-reduced-motion:reduce){body.advent .prikker{animation:none}}
+.topp-inner{position:relative;max-width:760px;margin:0 auto}
+.topplinje{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.merke{display:flex;align-items:center;gap:10px;text-decoration:none}
+.merke svg{flex:none;filter:drop-shadow(0 3px 6px rgba(0,0,0,.25))}
+.merke h1{font-weight:850;font-size:28px;letter-spacing:-.4px;margin:0;line-height:1}
+.merke h1 b{color:var(--gull);font-weight:850}
+.merke small{display:block;font-size:12.5px;font-weight:600;opacity:.75;letter-spacing:.2px;margin-top:3px}
+.sprak{appearance:none;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:6px 11px;font-size:13px;font-weight:750;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.sprak:hover{background:rgba(255,255,255,.18)}
+.ingress{margin:14px 0 0;font-size:15px;line-height:1.45;opacity:.88;max-width:520px}
+.kant{position:absolute;left:0;right:0;bottom:-1px;height:26px;background:var(--krem);border-radius:26px 26px 0 0}
+body.advent .kant{height:14px;border-radius:0;background:linear-gradient(45deg,var(--krem) 50%,transparent 52%) left bottom/20px 20px repeat-x,linear-gradient(-45deg,var(--krem) 50%,transparent 52%) left bottom/20px 20px repeat-x}
+
+main{max-width:760px;margin:-40px auto 0;padding:0 14px calc(40px + env(safe-area-inset-bottom));position:relative}
+.faner{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--papir);border-radius:16px;padding:5px;box-shadow:var(--skygge)}
+.fane{appearance:none;border:0;background:transparent;border-radius:12px;padding:11px 8px;font-weight:750;font-size:15px;color:var(--dempet);cursor:pointer;display:flex;gap:8px;align-items:center;justify-content:center}
+.fane .antall{font-size:12px;font-weight:800;background:var(--linje);color:var(--dempet);border-radius:99px;padding:1px 8px;min-width:22px}
+.fane[aria-selected="true"]{background:var(--primar);color:#fff}
+.fane[aria-selected="true"] .antall{background:rgba(255,255,255,.2);color:#fff}
+.fane:focus-visible,.chip:focus-visible,.knapp:focus-visible,.stjerne:focus-visible,input:focus-visible,select:focus-visible,.sprak:focus-visible{outline:3px solid var(--gull);outline-offset:2px}
+
+.verktoy{margin-top:14px;display:grid;gap:10px}
+.sokrad{display:grid;grid-template-columns:1fr auto;gap:8px}
+.sok{position:relative}
+.sok svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--dempet)}
+.sok input{width:100%;border:1px solid var(--linje);background:var(--papir);border-radius:14px;padding:12px 12px 12px 40px;font-size:16px}
+.land{position:relative}
+.land select{appearance:none;border:1px solid var(--linje);background:var(--papir);border-radius:14px;padding:12px 30px 12px 12px;font-size:15px;font-weight:650;max-width:44vw;cursor:pointer}
+.land::after{content:"";position:absolute;right:12px;top:50%;width:7px;height:7px;border-right:2px solid var(--dempet);border-bottom:2px solid var(--dempet);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.rad{display:flex;gap:8px 14px;align-items:center;flex-wrap:wrap}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 2px 4px;margin:0 -2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;appearance:none;border:1px solid var(--linje);background:var(--papir);border-radius:99px;padding:7px 12px;font-size:14px;font-weight:650;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--gull-lys);border-color:var(--gull);color:#6b4a0c}
+.bryter{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--dempet);cursor:pointer;user-select:none;font-weight:600}
+.bryter input{appearance:none;width:36px;height:22px;border-radius:99px;background:var(--linje);position:relative;cursor:pointer;margin:0;flex:none}
+.bryter input::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.bryter input:checked{background:var(--ok)}
+.bryter input:checked::after{transform:translateX(14px)}
+
+.luker{margin-top:16px;border-radius:var(--radius);padding:16px;color:#fff;background:linear-gradient(135deg,#c8372d 0%,#a92b22 100%);box-shadow:var(--skygge);position:relative;overflow:hidden}
+.luker h2{margin:0 0 4px;font-size:20px}
+.luker p{margin:0 0 10px;opacity:.9;font-size:14px}
+.luker ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.luker li a{display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;background:rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;font-weight:700}
+.luker .dato{position:absolute;right:14px;top:8px;font-size:46px;font-weight:850;opacity:.22;line-height:1}
+.info{margin-top:14px;display:flex;gap:10px;align-items:flex-start;background:var(--gull-lys);border:1px solid #f3dc97;color:#5e470f;border-radius:14px;padding:12px 14px;font-size:14px;line-height:1.45}
+
+.liste{margin-top:16px;display:grid;gap:12px}
+.kort{background:var(--papir);border-radius:var(--radius);box-shadow:var(--skygge);padding:16px;display:grid;gap:12px;border:1px solid rgba(236,228,214,.7);position:relative}
+.kort.utlopt{opacity:.6}
+.kort-topp{display:flex;gap:12px;align-items:flex-start}
+.ikon{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#FFE9D2;color:var(--oransje-m)}
+.kort[data-type="julekalender"] .ikon{background:#e5f0eb;color:#1f6150}
+.tittelblokk{flex:1;min-width:0}
+.arrangor{font-size:13px;font-weight:750;color:var(--dempet);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.kort h3{margin:3px 0 0;font-size:17px;line-height:1.3;font-weight:800}
+.stjerne{appearance:none;border:0;background:transparent;width:40px;height:40px;margin:-6px -6px 0 0;border-radius:10px;display:grid;place-items:center;cursor:pointer;color:#c3bcae}
+.stjerne[aria-pressed="true"]{color:var(--oransje)}
+.stjerne:active{transform:scale(.9)}
+.premie{display:flex;gap:10px;align-items:flex-start;background:var(--krem);border-radius:12px;padding:10px 12px;font-size:15px;line-height:1.4;font-weight:600}
+.premie svg{flex:none;margin-top:2px;color:var(--korall)}
+.fakta{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:14px;line-height:1.4;margin:0}
+.fakta dt{color:var(--dempet);font-weight:700}
+.fakta dd{margin:0}
+.merker{display:flex;gap:6px;flex-wrap:wrap}
+.merkelapp{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:800;letter-spacing:.2px;border-radius:99px;padding:2px 8px;background:var(--linje);color:var(--dempet)}
+.merkelapp.aktiv{background:#dff3ea;color:var(--ok)}
+.merkelapp.kommer{background:#fdf1d8;color:#8a5d06}
+.merkelapp.utlopt{background:#f6e2e1;color:#a92b22}
+.merkelapp.snart{background:#ffe3e3;color:#c22a2f}
+.merkelapp.kjop{background:#fff0e0;color:#a24d07}
+.merkelapp.verden{background:#e7ebfb;color:var(--natt-2)}
+.merkelapp.sponset{background:#efe9ff;color:#5b3fb6}
+.kort-bunn{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.liten{font-size:12px;color:var(--dempet)}
+.knapp{appearance:none;border:0;text-decoration:none;display:inline-flex;align-items:center;gap:8px;background:var(--primar);color:#fff;font-weight:800;font-size:15px;border-radius:12px;padding:11px 16px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.25);cursor:pointer}
+.knapp:hover{background:var(--primar-h)}
+.knapp:active{transform:translateY(1px);box-shadow:none}
+.knapp.lys{background:var(--papir);color:var(--primar);border:1px solid var(--linje);box-shadow:none}
+
+.tom{text-align:center;padding:30px 18px 26px;color:var(--dempet);background:var(--papir);border-radius:var(--radius);border:1px dashed #dcd2bf;display:grid;gap:8px;justify-items:center}
+.tom svg{margin-bottom:4px}
+.tom strong{display:block;color:var(--blekk);font-size:17px}
+.tom p{margin:0;max-width:360px;line-height:1.45}
+.tom .rad{justify-content:center;margin-top:6px}
+
+footer.merknad{margin-top:22px;display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;color:var(--dempet);padding:14px;border-radius:14px;background:#f4ede0}
+footer.merknad svg{flex:none;margin-top:2px}
+footer.merknad a{font-weight:700;margin-right:8px}
+@media (max-width:400px){.fane{font-size:14.5px;gap:6px;padding:10px 4px}.fane svg{display:none}.merke h1{font-size:25px}}
+@media (min-width:640px){.liste{grid-template-columns:1fr 1fr}.merke h1{font-size:34px}}
+</style>
+</head>
+<body>
+<header class="topp">
+  <div class="prikker" aria-hidden="true"></div>
+  <div class="topp-inner">
+    <div class="topplinje">
+      <a class="merke" id="hjem" href="#">
+        <svg width="46" height="46" viewBox="-420 -440 840 840" aria-hidden="true"><g >
+  <!-- ear tufts -->
+  <path d="M-250 -250 L-300 -420 L-120 -330 Z" fill="#E8742A"/>
+  <path d="M250 -250 L300 -420 L120 -330 Z" fill="#E8742A"/>
+  <!-- body -->
+  <path d="M0 -360 C 230 -360 330 -220 330 -40 C 330 200 210 380 0 380 C -210 380 -330 200 -330 -40 C -330 -220 -230 -360 0 -360 Z" fill="#F7931E"/>
+  <!-- wings -->
+  <path d="M-325 -20 C -380 120 -330 260 -210 330 C -250 220 -255 110 -230 10 Z" fill="#E0701F"/>
+  <path d="M325 -20 C 380 120 330 260 210 330 C 250 220 255 110 230 10 Z" fill="#E0701F"/>
+  <!-- belly -->
+  <ellipse cx="0" cy="190" rx="185" ry="170" fill="#FFE2B8"/>
+  <path d="M-80 140 q20 26 40 0 q20 26 40 0 q20 26 40 0 q20 26 40 0" fill="none" stroke="#F4B26A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M-60 220 q20 26 40 0 q20 26 40 0 q20 26 40 0" fill="none" stroke="#F4B26A" stroke-width="14" stroke-linecap="round"/>
+  <!-- face disc -->
+  <circle cx="-120" cy="-110" r="150" fill="#FFF6E6"/>
+  <circle cx="120" cy="-110" r="150" fill="#FFF6E6"/>
+  <!-- eyes -->
+  <circle cx="-120" cy="-110" r="92" fill="#1F2A5C"/>
+  <circle cx="120" cy="-110" r="92" fill="#1F2A5C"/>
+  <circle cx="-92" cy="-140" r="30" fill="#fff"/>
+  <circle cx="148" cy="-140" r="30" fill="#fff"/>
+  <circle cx="-140" cy="-78" r="12" fill="#fff" opacity=".8"/>
+  <circle cx="100" cy="-78" r="12" fill="#fff" opacity=".8"/>
+  <!-- beak -->
+  <path d="M-38 -10 L38 -10 L0 50 Z" fill="#FFB020" stroke="#E0701F" stroke-width="8" stroke-linejoin="round"/>
+  <!-- gift held by the owl -->
+  <g>
+    <rect x="-118" y="182" width="236" height="170" rx="22" fill="#FF5A5F"/>
+    <rect x="-136" y="146" width="272" height="64" rx="20" fill="#FF7478"/>
+    <rect x="-22" y="146" width="44" height="206" fill="#FFD23F"/>
+    <path d="M0 148 C -40 80 -120 90 -100 130 C -88 152 -40 150 0 148 Z" fill="#FFD23F"/>
+    <path d="M0 148 C 40 80 120 90 100 130 C 88 152 40 150 0 148 Z" fill="#FFD23F"/>
+  </g>
+  <!-- wing tips over the gift -->
+  <path d="M-250 120 C -200 170 -150 230 -120 290 C -170 300 -230 260 -262 200 Z" fill="#E0701F"/>
+  <path d="M250 120 C 200 170 150 230 120 290 C 170 300 230 260 262 200 Z" fill="#E0701F"/>
+  <!-- feet -->
+  <g fill="#FFB020"><ellipse cx="-80" cy="378" rx="44" ry="22"/><ellipse cx="80" cy="378" rx="44" ry="22"/></g>
+</g></svg>
+        <div><h1>Give<b>Owl</b></h1><small data-t="tagline"></small></div>
+      </a>
+      <button class="sprak" id="sprak" type="button"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg><span id="sprakTekst">NO</span></button>
+    </div>
+    <p class="ingress" data-t="ingress"></p>
+  </div>
+  <div class="kant" aria-hidden="true"></div>
+</header>
+
+<main>
+  <nav class="faner" role="tablist">
+    <button class="fane" role="tab" data-type="konkurranse" aria-selected="true">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8S10.5 3 8 3.5 6.5 8 12 8zm0 0s1.5-5 4-4.5S17.5 8 12 8z"/></svg>
+      <span data-t="fane_konk"></span> <span class="antall" id="antKonk">0</span></button>
+    <button class="fane" role="tab" data-type="julekalender" aria-selected="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+      <span data-t="fane_jul"></span> <span class="antall" id="antJul">0</span></button>
+  </nav>
+
+  <section class="verktoy">
+    <div class="sokrad">
+      <label class="sok">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="sok" type="search" autocomplete="off">
+      </label>
+      <label class="land"><select id="land"></select></label>
+    </div>
+    <div class="chips" id="kategori" role="group"></div>
+    <div class="rad">
+      <label class="bryter"><input type="checkbox" id="utenKjop"> <span data-t="uten_kjop"></span></label>
+      <label class="bryter"><input type="checkbox" id="kunFav"> <span data-t="kun_fav"></span></label>
+      <label class="bryter"><input type="checkbox" id="visUtlopt"> <span data-t="vis_utlopt"></span></label>
+    </div>
+  </section>
+
+  <section class="luker skjult" id="luker" aria-live="polite">
+    <span class="dato" id="lukeDato"></span>
+    <h2 data-t="luker_tittel"></h2>
+    <p data-t="luker_tekst"></p>
+    <ul id="lukeListe"></ul>
+  </section>
+  <div class="info skjult" id="adventInfo"></div>
+
+  <section class="liste" id="liste" aria-live="polite"></section>
+
+  <footer class="merknad">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>
+    <span><span data-t="merknad"></span> <span id="bygget"></span><br><span id="lenker"></span></span>
+  </footer>
+</main>
+
+<template id="kortMal">
+  <article class="kort">
+    <div class="kort-topp">
+      <div class="ikon" aria-hidden="true"></div>
+      <div class="tittelblokk">
+        <div class="arrangor"><span class="navn"></span><span class="merkelapp status"></span></div>
+        <h3></h3>
+      </div>
+      <button class="stjerne" aria-pressed="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.7 5.7 6.2.8-4.6 4.3 1.2 6.1L12 16.8l-5.5 2.9 1.2-6.1-4.6-4.3 6.2-.8z"/></svg>
+      </button>
+    </div>
+    <div class="premie"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8S10.5 3 8 3.5 6.5 8 12 8zm0 0s1.5-5 4-4.5S17.5 8 12 8z"/></svg><span class="premietekst"></span></div>
+    <dl class="fakta"></dl>
+    <div class="merker"></div>
+    <div class="kort-bunn">
+      <span class="liten sjekket"></span>
+      <a class="knapp delta" target="_blank" rel="noopener noreferrer"><span></span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+    </div>
+  </article>
+</template>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script>
+(function(){
+  'use strict';
+  var CFG = window.LUKE_CONFIG || {};
+  var ALLE = (window.OPPFORINGER || []).slice();
+  var BYGGET = window.OPPFORINGER_BYGGET || '';
+
+  // ---------- Tekster (en = standard, nb = norsk) ----------
+  var T = {
+    en: {
+      tagline:'Giveaways, sweepstakes & contests',
+      ingress:'Find giveaways, sweepstakes and contests you can enter, plus online advent calendars in season. Save your favorites and enter at the organizer.',
+      fane_konk:'Giveaways', fane_jul:'Advent calendars',
+      sok:'Search', land_alle:'All countries',
+      uten_kjop:'No purchase necessary', kun_fav:'Favorites only', vis_utlopt:'Show expired',
+      kat_alle:'All categories',
+      kat:{reise:'Travel',mat:'Food & drink',elektronikk:'Tech',gavekort:'Cash & gift cards',barn:'Kids',annet:'Other'},
+      luker_tittel:"Today's doors", luker_tekst:'Your favorite advent calendars with a door open today.', luke:'door',
+      advent_info:'Online advent calendars open on December 1. Most are announced in November, so check back. Tap the star to save the ones you like.',
+      frist:'Deadline', periode:'Period', slik:'How to enter', kategori:'Category',
+      lopende:'Ongoing, no fixed deadline', des_ukjent:'December (date not announced)', fra:'From',
+      idag:'today', imorgen:'tomorrow', dager_igjen:'{n} days left',
+      st_aktiv:'Open', st_kommer:'Coming', st_starter:'Starts in {n} d', st_utlopt:'Expired', st_snart:'Ends soon', st_luke:'Door open',
+      krever_kjop:'Purchase required', verden:'Worldwide', sponset:'Sponsored',
+      sjekket:'Link checked {d}', dod:'Link not responding',
+      delta:'Enter at organizer', delta_aria:'Enter at {o} (opens in a new tab)',
+      fav_legg:'Save as favorite', fav_fjern:'Remove from favorites',
+      tom_land_t:'Nothing in {land} yet', tom_land:'We are adding new giveaways every day. Try worldwide entries, or tell us about one we are missing.',
+      tom_jul_t:'No advent calendars here yet', tom_jul:'Most advent calendars are announced in November and open December 1.',
+      tom_fav_t:'No favorites yet', tom_fav:'Tap the star on a card to save it.',
+      tom_filter_t:'No matches', tom_filter:'Try another filter or search.',
+      vis_alle_land:'Show all countries', tips_oss:'Submit a giveaway',
+      merknad:'You always enter on the organizer\u2019s own site. GiveOwl only links and never collects your entries. Read the official rules before you enter.',
+      oppdatert:'List updated {d}.', personvern:'Privacy', send_inn:'Submit a giveaway'
+    },
+    nb: {
+      tagline:'Konkurranser og julekalendere',
+      ingress:'Finn konkurranser og giveaways du kan delta i, og julekalendere på nett i sesongen. Lagre favorittene og delta hos arrangøren.',
+      fane_konk:'Konkurranser', fane_jul:'Julekalendere',
+      sok:'Søk', land_alle:'Alle land',
+      uten_kjop:'Uten kjøp', kun_fav:'Bare favoritter', vis_utlopt:'Vis utløpte',
+      kat_alle:'Alle kategorier',
+      kat:{reise:'Reise',mat:'Mat og drikke',elektronikk:'Elektronikk',gavekort:'Penger og gavekort',barn:'Barn',annet:'Annet'},
+      luker_tittel:'Dagens luker', luker_tekst:'Favorittkalenderne dine som har åpen luke i dag.', luke:'luke',
+      advent_info:'Julekalendere på nett åpner 1. desember. De fleste annonseres i november, så titt innom igjen. Trykk på stjernen for å lagre dem du liker.',
+      frist:'Frist', periode:'Periode', slik:'Slik deltar du', kategori:'Kategori',
+      lopende:'Løpende, ingen fast frist', des_ukjent:'Desember (dato ikke oppgitt)', fra:'Fra',
+      idag:'i dag', imorgen:'i morgen', dager_igjen:'{n} dager igjen',
+      st_aktiv:'Åpen', st_kommer:'Kommer', st_starter:'Starter om {n} d', st_utlopt:'Utløpt', st_snart:'Snart slutt', st_luke:'Luke åpen',
+      krever_kjop:'Krever kjøp', verden:'Hele verden', sponset:'Sponset',
+      sjekket:'Lenke sjekket {d}', dod:'Lenken svarer ikke',
+      delta:'Delta hos arrangør', delta_aria:'Delta hos {o} (åpnes i ny fane)',
+      fav_legg:'Lagre som favoritt', fav_fjern:'Fjern fra favoritter',
+      tom_land_t:'Ingenting i {land} ennå', tom_land:'Vi legger inn nye konkurranser hver dag. Se dem som gjelder hele verden, eller tips oss om en som mangler.',
+      tom_jul_t:'Ingen julekalendere her ennå', tom_jul:'De fleste julekalendere annonseres i november og åpner 1. desember.',
+      tom_fav_t:'Ingen favoritter ennå', tom_fav:'Trykk på stjernen på et kort for å lagre det.',
+      tom_filter_t:'Ingen treff', tom_filter:'Prøv et annet filter eller søk.',
+      vis_alle_land:'Vis alle land', tips_oss:'Tips oss',
+      merknad:'Du deltar alltid hos arrangøren. GiveOwl lenker bare videre og samler ikke inn svarene dine. Les vilkårene før du deltar.',
+      oppdatert:'Oversikten ble oppdatert {d}.', personvern:'Personvern', send_inn:'Meld inn en konkurranse'
+    }
+  };
+  var LANDLISTE = ['US','CA','GB','IE','AU','NO','SE','DK','FI','DE'];
+  var FLAGG = {US:'🇺🇸',CA:'🇨🇦',GB:'🇬🇧',IE:'🇮🇪',AU:'🇦🇺',NO:'🇳🇴',SE:'🇸🇪',DK:'🇩🇰',FI:'🇫🇮',DE:'🇩🇪',INT:'🌍'};
+  var LANDNAVN = {en:{US:'United States',CA:'Canada',GB:'United Kingdom',IE:'Ireland',AU:'Australia',NO:'Norway',SE:'Sweden',DK:'Denmark',FI:'Finland',DE:'Germany'},
+                  nb:{US:'USA',CA:'Canada',GB:'Storbritannia',IE:'Irland',AU:'Australia',NO:'Norge',SE:'Sverige',DK:'Danmark',FI:'Finland',DE:'Tyskland'}};
+  var IKON = {
+    julekalender:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2"/></svg>',
+    konkurranse:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>'
+  };
+  var UGLE = document.querySelector('.merke svg').innerHTML;
+
+  function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+  var q = new URLSearchParams(location.search);
+  var IDAG = /^\d{4}-\d\d-\d\d$/.test(q.get('dato')||'') ? q.get('dato') : iso(new Date());
+  function lagre(k,v){try{localStorage.setItem('giveowl.'+k,JSON.stringify(v));}catch(e){}}
+  function hent(k,d){try{var v=localStorage.getItem('giveowl.'+k);return v==null?d:JSON.parse(v);}catch(e){return d;}}
+
+  // ---------- Språk og land fra enheten ----------
+  function enhetsSprak(){var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);
+    for(var i=0;i<l.length;i++){if(/^(nb|nn|no)\b/i.test(l[i])) return 'nb'; if(/^en\b/i.test(l[i])) return 'en';} return 'en';}
+  function enhetsLand(){var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en-US']);
+    for(var i=0;i<l.length;i++){var m=/^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Z]{2}))?/i.exec(l[i]||''); if(!m) continue;
+      var r=(m[2]||'').toUpperCase(); if(r && LANDLISTE.indexOf(r)>=0) return r;
+      var s=m[1].toLowerCase(); var map={nb:'NO',nn:'NO',no:'NO',sv:'SE',da:'DK',fi:'FI',de:'DE'}; if(map[s]) return map[s];}
+    return 'US';}
+
+  // Ferske data: lagret kopi fra nettet hvis nyere enn den innebygde
+  function gyldig(d){return d && Array.isArray(d.oppforinger) && d.oppforinger.every(function(e){return e && e.id && e.tittel && e.url && e.type;});}
+  (function(){var c=hent('data',null); if(gyldig(c) && String(c.bygget||'')>=BYGGET){ALLE=c.oppforinger.slice();BYGGET=c.bygget||BYGGET;}})();
+
+  var fav = new Set(hent('favoritter',[]));
+  var lagret = hent('filter',{});
+  var S = {
+    lang: (q.get('lang')==='nb'||q.get('lang')==='en') ? q.get('lang') : (hent('lang',null) || enhetsSprak()),
+    land: (q.get('land')||'').toUpperCase() || lagret.land || enhetsLand(),
+    type: lagret.type || 'konkurranse', kategori:'alle', sok:'',
+    utenKjop: lagret.utenKjop!==false, kunFav: !!lagret.kunFav, visUtlopt: !!lagret.visUtlopt
+  };
+  if(q.get('fane')==='konkurranse'||q.get('fane')==='julekalender') S.type=q.get('fane');
+  if(q.get('fav')) q.get('fav').split(',').forEach(function(id){fav.add(id);}); // for test og skjermbilder
+  if(S.land!=='ALLE' && LANDLISTE.indexOf(S.land)<0) S.land='US';
+
+  function t(k,v){var s=(T[S.lang]&&T[S.lang][k]); if(s==null) s=T.en[k]; if(v) for(var x in v) s=String(s).replace('{'+x+'}',v[x]); return s;}
+  function landNavn(c){return (LANDNAVN[S.lang]||LANDNAVN.en)[c]||c;}
+  function dager(a,b){return Math.round((new Date(b+'T12:00')-new Date(a+'T12:00'))/864e5);}
+  function datoTekst(s){
+    var d=new Date(s+'T12:00'); var o={month:'short',day:'numeric'}; if(s.slice(0,4)!==IDAG.slice(0,4)) o.year='numeric';
+    try{return new Intl.DateTimeFormat(S.lang==='nb'?'nb-NO':'en-US',o).format(d);}catch(e){return s;}
+  }
+
+  function status(e){
+    if(e.dod) return 'utløpt';
+    var aar = e.aar || +(e.start||e.slutt||e.funnet||IDAG).slice(0,4);
+    var start=e.start, slutt=e.slutt;
+    if(!start && e.type==='julekalender'){start=aar+'-12-01'; if(!slutt) slutt=aar+'-12-31';}
+    if(slutt && slutt<IDAG) return 'utløpt';
+    if(start && start>IDAG) return 'kommer';
+    return 'aktiv';
+  }
+  function merk(){ALLE.forEach(function(e){e._status=status(e);});}
+  merk();
+  function lukeÅpen(e){return e.type==='julekalender' && e._status==='aktiv' && IDAG.slice(5,7)==='12';}
+  var adventSesong = /^(11|12)$/.test(IDAG.slice(5,7));
+
+  var $=function(id){return document.getElementById(id);};
+  function iLand(e){return S.land==='ALLE' || e.land===S.land || e.land==='INT';}
+  function synlig(e){return (S.visUtlopt || e._status!=='utløpt') && (!S.utenKjop || !e.kreverKjop);}
+  function antallFor(type,land){return ALLE.filter(function(e){return e.type===type && (land==='ALLE'||e.land===land||e.land==='INT') && e._status!=='utløpt' && (!S.utenKjop||!e.kreverKjop);}).length;}
+
+  function chip(el,verdi,tekst,aktiv,cb){var b=document.createElement('button');b.className='chip';b.type='button';b.textContent=tekst;b.setAttribute('aria-pressed',aktiv?'true':'false');b.onclick=function(){cb(verdi);};el.appendChild(b);}
+
+  function tegnTekster(){
+    document.documentElement.lang = S.lang==='nb'?'nb':'en';
+    document.querySelectorAll('[data-t]').forEach(function(n){n.textContent=t(n.getAttribute('data-t'));});
+    $('sok').placeholder=t('sok'); $('sok').setAttribute('aria-label',t('sok'));
+    $('sprakTekst').textContent = S.lang==='nb' ? 'EN' : 'NO';
+    $('sprak').setAttribute('aria-label', S.lang==='nb' ? 'Switch to English' : 'Bytt til norsk');
+    var sel=$('land'); sel.innerHTML='';
+    var o=document.createElement('option'); o.value='ALLE'; o.textContent='🌍 '+t('land_alle'); sel.appendChild(o);
+    LANDLISTE.slice().sort(function(a,b){ if(a==='US')return -1; if(b==='US')return 1; return landNavn(a).localeCompare(landNavn(b),S.lang);}).forEach(function(c){
+      var o=document.createElement('option'); o.value=c; var n=antallFor(S.type,c)-antallFor(S.type,'INT_ONLY');
+      o.textContent=FLAGG[c]+' '+landNavn(c); sel.appendChild(o);});
+    sel.value=S.land; sel.setAttribute('aria-label',t('land_alle'));
+    var lenker=[]; if(CFG.privacyUrl) lenker.push('<a href="'+CFG.privacyUrl+'" target="_blank" rel="noopener">'+t('personvern')+'</a>');
+    if(CFG.submitUrl) lenker.push('<a href="'+CFG.submitUrl+'" target="_blank" rel="noopener">'+t('send_inn')+'</a>');
+    $('lenker').innerHTML=lenker.join('');
+    if(BYGGET) $('bygget').textContent=t('oppdatert',{d:datoTekst(BYGGET)});
+  }
+
+  function tegnKategorier(){
+    var kat=[]; ALLE.forEach(function(e){if(e.type===S.type && iLand(e) && synlig(e) && kat.indexOf(e.kategori)<0) kat.push(e.kategori);});
+    var navn=t('kat'); kat.sort(function(a,b){return (navn[a]||a).localeCompare(navn[b]||b,S.lang);});
+    if(S.kategori!=='alle' && kat.indexOf(S.kategori)<0) S.kategori='alle';
+    var el=$('kategori'); el.innerHTML='';
+    if(kat.length<2){el.classList.add('skjult');return;} el.classList.remove('skjult');
+    chip(el,'alle',t('kat_alle'),S.kategori==='alle',function(v){S.kategori=v;oppdater();});
+    kat.forEach(function(k){chip(el,k,navn[k]||k,S.kategori===k,function(v){S.kategori=v;oppdater();});});
+  }
+
+  function treff(e){
+    if(e.type!==S.type || !iLand(e) || !synlig(e)) return false;
+    if(S.kategori!=='alle' && e.kategori!==S.kategori) return false;
+    if(S.kunFav && !fav.has(e.id)) return false;
+    var s=S.sok.trim().toLowerCase();
+    if(s && (e.tittel+' '+e.arrangor+' '+e.premie+' '+(e.hvordanDelta||'')).toLowerCase().indexOf(s)<0) return false;
+    return true;
+  }
+
+  function fristTekst(e){
+    if(e.type==='julekalender'){
+      if(e.start && e.slutt) return datoTekst(e.start)+' – '+datoTekst(e.slutt);
+      if(e.start) return t('fra')+' '+datoTekst(e.start);
+      return t('des_ukjent');
+    }
+    if(!e.slutt) return t('lopende');
+    var d=dager(IDAG,e.slutt), s=datoTekst(e.slutt);
+    if(d===0) return s+' ('+t('idag')+')'; if(d===1) return s+' ('+t('imorgen')+')';
+    if(d>1 && d<=14) return s+' ('+t('dager_igjen',{n:d})+')';
+    return s;
+  }
+  function merkelapp(e){
+    if(e._status==='utløpt') return [t('st_utlopt'),'utlopt'];
+    if(e._status==='kommer'){var s=e.start||((e.aar||IDAG.slice(0,4))+'-12-01'),d=dager(IDAG,s); return [d<=7?t('st_starter',{n:d}):t('st_kommer'),'kommer'];}
+    if(e.type==='konkurranse' && e.slutt && dager(IDAG,e.slutt)<=3) return [t('st_snart'),'snart'];
+    if(lukeÅpen(e)) return [t('st_luke'),'aktiv'];
+    return [t('st_aktiv'),'aktiv'];
+  }
+
+  function lagKort(e){
+    var n=$('kortMal').content.firstElementChild.cloneNode(true);
+    n.dataset.type=e.type; if(e._status==='utløpt') n.classList.add('utlopt');
+    n.querySelector('.ikon').innerHTML=IKON[e.type];
+    n.querySelector('.navn').textContent=(S.land==='ALLE'||e.land!==S.land ? (FLAGG[e.land]||'')+' ' : '')+e.arrangor;
+    var m=merkelapp(e), ml=n.querySelector('.status'); ml.textContent=m[0]; ml.classList.add(m[1]);
+    n.querySelector('h3').textContent=e.tittel;
+    n.querySelector('.premietekst').textContent=e.premie||'–';
+    var dl=n.querySelector('.fakta');
+    [[e.type==='julekalender'?t('periode'):t('frist'),fristTekst(e)],[t('slik'),e.hvordanDelta||'–'],[t('kategori'),t('kat')[e.kategori]||e.kategori]].forEach(function(p){
+      var dt=document.createElement('dt');dt.textContent=p[0];var dd=document.createElement('dd');dd.textContent=p[1];dl.appendChild(dt);dl.appendChild(dd);});
+    var mk=n.querySelector('.merker');
+    function lapp(txt,cls){var s=document.createElement('span');s.className='merkelapp '+cls;s.textContent=txt;mk.appendChild(s);}
+    if(e.kreverKjop) lapp(t('krever_kjop'),'kjop');
+    if(e.land==='INT') lapp('🌍 '+t('verden'),'verden');
+    if(e.sponset) lapp(t('sponset'),'sponset');
+    if(!mk.children.length) mk.remove();
+    n.querySelector('.sjekket').textContent = e.dod ? t('dod') : (e.sjekket ? t('sjekket',{d:datoTekst(e.sjekket)}) : '');
+    var a=n.querySelector('.delta'); a.href=e.url; a.firstChild.textContent=t('delta'); a.setAttribute('aria-label',t('delta_aria',{o:e.arrangor}));
+    if(e.sponset) a.rel='noopener noreferrer sponsored';
+    var st=n.querySelector('.stjerne'), p=fav.has(e.id);
+    st.setAttribute('aria-pressed',p?'true':'false'); st.setAttribute('aria-label',p?t('fav_fjern'):t('fav_legg'));
+    st.onclick=function(){ if(fav.has(e.id)) fav.delete(e.id); else fav.add(e.id); lagre('favoritter',Array.from(fav)); oppdater(); };
+    return n;
+  }
+
+  function tegnLuker(){
+    var boks=$('luker'), ul=$('lukeListe');
+    var i=ALLE.filter(function(e){return fav.has(e.id) && lukeÅpen(e) && iLand(e);});
+    if(IDAG.slice(5,7)!=='12' || !i.length || S.type!=='julekalender'){boks.classList.add('skjult');return;}
+    boks.classList.remove('skjult'); $('lukeDato').textContent=+IDAG.slice(8,10); ul.innerHTML='';
+    i.forEach(function(e){var li=document.createElement('li'),a=document.createElement('a');a.href=e.url;a.target='_blank';a.rel='noopener noreferrer';
+      a.innerHTML='<span></span><span aria-hidden="true">→</span>';a.firstChild.textContent=e.arrangor+' – '+t('luke')+' '+(+IDAG.slice(8,10));li.appendChild(a);ul.appendChild(li);});
+  }
+
+  function tomTilstand(){
+    var t0=document.createElement('div'); t0.className='tom';
+    var ugle='<svg width="64" height="64" viewBox="-420 -440 840 840" aria-hidden="true">'+UGLE+'</svg>';
+    var landHar = ALLE.some(function(e){return e.type===S.type && e.land===S.land && e._status!=='utløpt';});
+    var tittel, tekst, knapper=[];
+    if(S.kunFav){tittel=t('tom_fav_t');tekst=t('tom_fav');}
+    else if(S.type==='julekalender' && (S.land==='ALLE'||landHar)){tittel=t('tom_jul_t');tekst=t('tom_jul');}
+    else if(S.land!=='ALLE' && !landHar){tittel=t('tom_land_t',{land:landNavn(S.land)});tekst=S.type==='julekalender'?t('tom_jul'):t('tom_land');knapper.push(['alle',t('vis_alle_land')]);}
+    else {tittel=t('tom_filter_t');tekst=t('tom_filter');}
+    t0.innerHTML=ugle+'<strong></strong><p></p><div class="rad"></div>';
+    t0.querySelector('strong').textContent=tittel; t0.querySelector('p').textContent=tekst;
+    var r=t0.querySelector('.rad');
+    knapper.forEach(function(k){var b=document.createElement('button');b.className='knapp lys';b.type='button';b.textContent=k[1];b.onclick=function(){S.land='ALLE';oppdater();};r.appendChild(b);});
+    if(CFG.submitUrl && !S.kunFav){var a=document.createElement('a');a.className='knapp lys';a.href=CFG.submitUrl;a.target='_blank';a.rel='noopener';a.textContent=t('tips_oss');r.appendChild(a);}
+    return t0;
+  }
+
+  function oppdater(){
+    lagre('filter',{type:S.type,land:S.land,utenKjop:S.utenKjop,kunFav:S.kunFav,visUtlopt:S.visUtlopt});
+    document.body.classList.toggle('advent', S.type==='julekalender' && adventSesong);
+    document.querySelector('meta[name="theme-color"]').content = (S.type==='julekalender' && adventSesong) ? '#0f3b2e' : '#1F2A5C';
+    document.querySelectorAll('.fane').forEach(function(f){f.setAttribute('aria-selected',f.dataset.type===S.type?'true':'false');});
+    $('antKonk').textContent=antallFor('konkurranse',S.land); $('antJul').textContent=antallFor('julekalender',S.land);
+    $('utenKjop').checked=S.utenKjop; $('kunFav').checked=S.kunFav; $('visUtlopt').checked=S.visUtlopt;
+    tegnTekster(); tegnKategorier(); tegnLuker();
+    var info=$('adventInfo');
+    if(S.type==='julekalender' && IDAG.slice(5,7)!=='12'){info.textContent=t('advent_info');info.classList.remove('skjult');} else info.classList.add('skjult');
+    var liste=$('liste'); liste.innerHTML='';
+    var rang={aktiv:0,kommer:1,'utløpt':2};
+    var r=ALLE.filter(treff).sort(function(a,b){
+      return rang[a._status]-rang[b._status] || (a.land==='INT')-(b.land==='INT') || (b.sponset?1:0)-(a.sponset?1:0) || (a.slutt||a.start||'9999').localeCompare(b.slutt||b.start||'9999') || a.tittel.localeCompare(b.tittel);
+    });
+    var landHar = S.land==='ALLE' || ALLE.some(function(e){return e.type===S.type && e.land===S.land && e._status!=='utløpt';});
+    if(!r.length || (!landHar && !S.kunFav)){liste.appendChild(tomTilstand());}
+    if(!r.length) return;
+    r.forEach(function(e){liste.appendChild(lagKort(e));});
+  }
+
+  document.querySelectorAll('.fane').forEach(function(f){f.onclick=function(){S.type=f.dataset.type;S.kategori='alle';oppdater();};});
+  $('sok').addEventListener('input',function(ev){S.sok=ev.target.value;oppdater();});
+  $('land').onchange=function(ev){S.land=ev.target.value;S.kategori='alle';oppdater();};
+  $('utenKjop').onchange=function(ev){S.utenKjop=ev.target.checked;oppdater();};
+  $('kunFav').onchange=function(ev){S.kunFav=ev.target.checked;oppdater();};
+  $('visUtlopt').onchange=function(ev){S.visUtlopt=ev.target.checked;oppdater();};
+  $('sprak').onclick=function(){S.lang=S.lang==='nb'?'en':'nb';lagre('lang',S.lang);oppdater();};
+  if(CFG.homeUrl) $('hjem').href=CFG.homeUrl; else $('hjem').onclick=function(ev){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'});};
+  oppdater();
+
+  // Hent nyeste oversikt fra nettet (tidsavbrudd). Feiler det, brukes lagret eller innebygd kopi.
+  function hentFraNett(){
+    var url=CFG.dataUrl; if(!url || typeof fetch!=='function') return;
+    var ctrl=typeof AbortController==='function'?new AbortController():null;
+    var tm=setTimeout(function(){if(ctrl) ctrl.abort();}, CFG.timeoutMs||8000);
+    fetch(url+(url.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store',signal:ctrl?ctrl.signal:undefined})
+      .then(function(r){if(!r.ok) throw new Error('HTTP '+r.status); return r.json();})
+      .then(function(d){ if(!gyldig(d)) throw new Error('invalid'); if(String(d.bygget||'')<BYGGET) return;
+        lagre('data',{bygget:d.bygget,oppforinger:d.oppforinger}); ALLE=d.oppforinger.slice(); BYGGET=d.bygget||BYGGET; merk(); oppdater(); })
+      .catch(function(){}).then(function(){clearTimeout(tm);});
+  }
+  hentFraNett();
+  document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible') hentFraNett();});
+})();
+</script>
+</body>
+</html>
