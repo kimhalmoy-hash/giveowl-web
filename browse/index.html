@@ -820,12 +820,14 @@ footer.merknad a{font-weight:700;margin-right:8px}
     if(!LN || PERM!=='granted') return;
     var nå=Date.now(), tid=(V.tid||'09:00').split(':'), liste=[];
     function når(dato){var d=new Date(dato+'T00:00:00'); d.setHours(+tid[0]||9,+tid[1]||0,0,0); return d;}
-    var felles={channelId:'giveowl-reminders',smallIcon:'ic_stat_giveowl',iconColor:'#F7931E'};
+    // Inexact on purpose: isExactNotification:false stops the plugin from opening the system
+    // 'Alarms & reminders' (exact alarm) screen. Reminders don't need minute precision.
+    var felles={channelId:'giveowl-reminders',smallIcon:'ic_stat_giveowl',iconColor:'#F7931E',isExactNotification:false,isExactMandatory:false};
     if(V.frist) ALLE.forEach(function(e){
       if(!fav.has(e.id) || e.type!=='konkurranse' || !e.slutt || e._status==='utløpt') return;
       if(!erDaglig(e) && deltatt[e.id]) return;
       var at=når(forrigeDag(e.slutt)); if(at.getTime()<=nå) return;
-      liste.push(Object.assign({id:hashId(e.id),title:t('n_frist_t',{t:e.tittel}),body:t('n_frist',{o:e.arrangor,p:e.premie||''}),schedule:{at:at,allowWhileIdle:true},extra:{id:e.id}},felles));
+      liste.push(Object.assign({id:hashId(e.id),title:t('n_frist_t',{t:e.tittel}),body:t('n_frist',{o:e.arrangor,p:e.premie||''}),schedule:{at:at},extra:{id:e.id}},felles));
     });
     if(V.luker){
       var år=+IDAG.slice(0,4), kal=ALLE.filter(function(e){return fav.has(e.id) && e.type==='julekalender' && !e.dod;});
@@ -833,14 +835,23 @@ footer.merknad a{font-weight:700;margin-right:8px}
         var ds=år+'-12-'+pad(d); if(ds<IDAG) continue;
         var åpne=kal.filter(function(e){var a=e.aar||år; if(a!==år) return false; var s=e.start||a+'-12-01', sl=e.slutt||a+'-12-24'; return s<=ds && ds<=sl;});
         if(!åpne.length) continue; var at=når(ds); if(at.getTime()<=nå) continue;
-        liste.push(Object.assign({id:800000+d,title:t('n_luke_t',{d:d}),body:t('n_luke',{l:åpne.map(function(e){return e.arrangor;}).join(', ')}),schedule:{at:at,allowWhileIdle:true},extra:{id:åpne.length===1?åpne[0].id:'',fane:'julekalender'}},felles));
+        liste.push(Object.assign({id:800000+d,title:t('n_luke_t',{d:d}),body:t('n_luke',{l:åpne.map(function(e){return e.arrangor;}).join(', ')}),schedule:{at:at},extra:{id:åpne.length===1?åpne[0].id:'',fane:'julekalender'}},felles));
       }
     }
     liste=liste.slice(0,64);
-    LN.getPending().then(function(r){var ids=(r&&r.notifications||[]).map(function(n){return {id:n.id};}); return ids.length?LN.cancel({notifications:ids}):null;})
-      .then(function(){return liste.length?LN.schedule({notifications:liste}):null;})
-      .then(function(){PLANLAGT=liste.length; if(S.vis==='innst') oppdater();})
-      .catch(function(){});
+    // Never let scheduling crash the app: batch first, then one by one, then give up quietly.
+    function enOgEn(){ return liste.reduce(function(p,n){ return p.then(function(ok){
+        try{ return LN.schedule({notifications:[n]}).then(function(){return ok+1;},function(){return ok;}); }catch(e){ return ok; } }); }, Promise.resolve(0)); }
+    function planAlle(){ if(!liste.length) return Promise.resolve(0);
+      try{ return LN.schedule({notifications:liste}).then(function(){return liste.length;}, enOgEn); }catch(e){ return enOgEn(); } }
+    try{
+      Promise.resolve().then(function(){return LN.getPending();})
+        .then(function(r){var ids=(r&&r.notifications||[]).map(function(n){return {id:n.id};}); return ids.length?LN.cancel({notifications:ids}):null;})
+        .catch(function(){})
+        .then(planAlle)
+        .then(function(n){PLANLAGT=n||0; if(S.vis==='innst') oppdater();})
+        .catch(function(){PLANLAGT=0;});
+    }catch(e){ PLANLAGT=0; }
   }
 
   // ---------- Dyplenker: giveowl.com/browse/#<id> og trykk på varsel ----------
