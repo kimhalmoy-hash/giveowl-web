@@ -15,7 +15,8 @@
   h2 { color: var(--accent); font-size: 20px; margin: 32px 0 8px; }
   h3 { font-size: 16px; margin: 20px 0 4px; }
   a { color: var(--accent); }
-  .lang { display:flex; gap:8px; margin: 16px 0 24px; align-items:center; }
+  .lang { display:flex; flex-wrap:wrap; gap:8px; margin: 16px 0 24px; align-items:center; }
+  .lang select { min-width:0; max-width:100%; }
   .lang a { border:1px solid var(--line); border-radius:8px; padding:6px 12px; text-decoration:none; }
   .lang .hjem { margin-right:auto; display:flex; gap:8px; align-items:center; border:0; padding:0; color:var(--ink); font-weight:800; }
   .lang .hjem img { width:32px; height:32px; }
@@ -29,6 +30,9 @@
     hr { border-color:#ccd2e6; } code { background:#eef0f7 !important; }
     .lang { display:none; } #nb { break-before: page; }
   }
+  .sprak { background:var(--card); color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:6px 8px; font:inherit; font-size:14px; }
+  [dir=rtl] .lang .hjem { margin-right:0; margin-left:auto; }
+  #tr .binding { border-color: var(--gold); }
   code { background:#18214A; padding: 1px 5px; border-radius: 4px; }
 </style>
 </head>
@@ -36,10 +40,14 @@
 <main>
 <!-- If ads or purchases are added, update this policy (AdMob / Google Play sections) before release. -->
 
-<div class="lang"><a class="hjem" href="../"><img src="../assets/owl.svg" alt=""> GiveOwl</a><a href="#en">English</a><a href="#nb">Norsk</a></div>
+<div class="lang"><a class="hjem" href="../"><img src="../assets/owl.svg" alt=""> GiveOwl</a><select class="sprak" id="sprak" aria-label="Language"></select><a href="#en">English</a><a href="#nb">Norsk</a></div>
+
+<!-- Translated version (other languages), injected from assets/lang/<code>.js. The English version below is binding. -->
+<section id="tr" hidden></section>
+<hr id="trhr" hidden>
 
 <!-- ======================= ENGLISH ======================= -->
-<section id="en" lang="en">
+<section id="en" lang="en" dir="ltr">
 <h1>Privacy Policy for GiveOwl</h1>
 <p class="meta">Last updated: October 17, 2026 · Applies to the Android app “GiveOwl” (package name <code>com.hendtas.giveowl</code>) and the website giveowl.com</p>
 
@@ -97,7 +105,7 @@ In the EEA you may also complain to the Norwegian Data Protection Authority (Dat
 <hr>
 
 <!-- ======================= NORSK ======================= -->
-<section id="nb" lang="nb">
+<section id="nb" lang="nb" dir="ltr">
 <h1>Personvernerklæring for GiveOwl</h1>
 <p class="meta">Sist oppdatert: 17. oktober 2026 · Gjelder Android-appen «GiveOwl» (pakkenavn <code>com.hendtas.giveowl</code>) og nettstedet giveowl.com</p>
 
@@ -152,5 +160,15 @@ Du kan klage til Datatilsynet (<a href="https://www.datatilsynet.no">datatilsyne
 <p>HENDTAS · Norge · <a href="mailto:info@hendtas.com">info@hendtas.com</a></p>
 </section>
 </main>
+<script>
+document.addEventListener('giveowl:lang',function(ev){
+  var d=ev.detail, s=document.getElementById('tr'), hr=document.getElementById('trhr'), html=d.t && d.t._html;
+  if(d.lang!=='en' && d.lang!=='nb' && html){ s.innerHTML=html; s.lang=d.lang; s.dir=document.documentElement.dir; s.hidden=false; hr.hidden=false; }
+  else { s.innerHTML=''; s.hidden=true; hr.hidden=true; }
+  if(d.lang==='nb' && !location.hash){ var n=document.getElementById('nb'); if(n) n.scrollIntoView(); }
+});
+</script>
+<script src="../assets/i18n.js"></script>
+<script>GiveOwlI18n('privacy');</script>
 </body>
 </html>

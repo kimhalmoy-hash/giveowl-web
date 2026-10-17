@@ -104,7 +104,8 @@ main{max-width:760px;margin:-40px auto 0;padding:0 14px calc(96px + env(safe-are
 .merkelapp.kjop{background:#fff0e0;color:#a24d07}
 .merkelapp.verden{background:#e7ebfb;color:var(--natt-2)}
 .merkelapp.sponset{background:#efe9ff;color:#5b3fb6}
-.kort-bunn{display:grid;gap:10px}
+.kort-bunn{display:grid;gap:10px;grid-template-columns:minmax(0,1fr)}
+.kort{grid-template-columns:minmax(0,1fr)}.kort>*{min-width:0}.fakta dd{min-width:0;overflow-wrap:anywhere}.knapp.delta{max-width:100%;white-space:normal}
 .knapp.delta{justify-content:center;width:100%}
 .smaknapper{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .smaknapper .sjekket{margin-left:auto;text-align:right}
@@ -213,6 +214,24 @@ footer.merknad svg{flex:none;margin-top:2px}
 footer.merknad a{font-weight:700;margin-right:8px}
 @media (max-width:400px){.fane{font-size:14.5px;gap:6px;padding:10px 4px}.fane svg{display:none}.merke h1{font-size:25px}}
 @media (min-width:640px){.liste{grid-template-columns:1fr 1fr}.merke h1{font-size:34px}}
+/* ---- RTL (Arabic) ---- */
+[dir=rtl] .sok svg{left:auto;right:13px}
+[dir=rtl] .sok input{padding:12px 40px 12px 12px}
+[dir=rtl] .land select{padding:12px 12px 12px 30px}
+[dir=rtl] .velg select{padding:9px 12px 9px 28px}
+[dir=rtl] .land::after,[dir=rtl] .velg::after{right:auto;left:12px}
+[dir=rtl] .bryter input::after{left:auto;right:3px}
+[dir=rtl] .bryter input:checked::after{transform:translateX(-14px)}
+[dir=rtl] .luker .dato{right:auto;left:14px}
+[dir=rtl] .smaknapper .sjekket{margin-left:0;margin-right:auto;text-align:left}
+[dir=rtl] .forklaring i{margin-right:0;margin-left:5px}
+[dir=rtl] .plus ul{padding-left:0;padding-right:20px}
+[dir=rtl] footer.merknad a{margin-right:0;margin-left:8px}
+[dir=rtl] nav.bunn .prikk{left:auto;right:calc(50% + 6px)}
+[dir=rtl] .knapp.delta svg{transform:scaleX(-1)}
+[dir=rtl] body{font-family:system-ui,"Segoe UI","Noto Sans Arabic",Roboto,sans-serif}
+/* long words (de, fi) */
+h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflow-wrap:anywhere;hyphens:auto}
 </style>
 </head>
 <body>
@@ -313,7 +332,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
 
   <footer class="merknad">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>
-    <span><span data-t="merknad"></span> <span data-t="aff_kort"></span> <span id="bygget"></span><br><span id="lenker"></span></span>
+    <span><span data-t="merknad"></span> <span data-t="aff_kort"></span> <span data-t="org_sprak"></span> <span id="bygget"></span><br><span id="lenker"></span></span>
   </footer>
 </div>
 <div id="vIdag" class="skjult"></div>
@@ -339,14 +358,14 @@ footer.merknad a{font-weight:700;margin-right:8px}
     <div class="kort-topp">
       <div class="ikon" aria-hidden="true"></div>
       <div class="tittelblokk">
-        <div class="arrangor"><span class="navn"></span><span class="merkelapp status"></span></div>
-        <h3></h3>
+        <div class="arrangor"><span class="navn" dir="auto"></span><span class="merkelapp status"></span></div>
+        <h3 dir="auto"></h3>
       </div>
       <button class="stjerne" aria-pressed="false">
         <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.7 5.7 6.2.8-4.6 4.3 1.2 6.1L12 16.8l-5.5 2.9 1.2-6.1-4.6-4.3 6.2-.8z"/></svg>
       </button>
     </div>
-    <div class="premie"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8S10.5 3 8 3.5 6.5 8 12 8zm0 0s1.5-5 4-4.5S17.5 8 12 8z"/></svg><span class="premietekst"></span></div>
+    <div class="premie" dir="auto"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8S10.5 3 8 3.5 6.5 8 12 8zm0 0s1.5-5 4-4.5S17.5 8 12 8z"/></svg><span class="premietekst"></span></div>
     <dl class="fakta"></dl>
     <div class="merker"></div>
     <div class="kort-bunn">
@@ -361,6 +380,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
   </article>
 </template>
 
+<script src="i18n.js"></script>
 <script src="config.js"></script>
 <script src="data.js"></script>
 <script>
@@ -371,138 +391,14 @@ footer.merknad a{font-weight:700;margin-right:8px}
   var BYGGET = window.OPPFORINGER_BYGGET || '';
 
   // ---------- Tekster (en = standard, nb = norsk) ----------
-  var T = {
-    en: {
-      tagline:'Giveaways, sweepstakes & contests',
-      nav_idag:'Today', ingress_idag:'Your daily entries in one place. Tap Enter: the organizer opens and the entry is ticked off. Everything resets at midnight.',
-      idag_t:'Today', idag_igjen:'{n} left today', idag_igjen1:'1 left today', idag_ferdig:'All done for today!', idag_av:'{x} of {y} done',
-      idag_ingen_t:'No daily entries today', idag_ingen:'Star advent calendars and daily giveaways. While they run, they show up here every day with a checklist and streaks.',
-      idag_hint:'Resets at midnight. Advent calendars count from December 1.',
-      sek_igjen:'Not done yet', sek_ferdig:'Done today', sek_kal_snart:'Advent calendars coming up',
-      delta_merk:'Enter', merk_manuelt:'Mark done', angre:'Undo', rekke:'{n} days in a row', starter:'Starts {d}',
-      luker_vis:'Doors 1–24', luke_gjort:'Entered', luke_tapt:'Missed', luke_idag:'Today', luke_senere:'Upcoming',
-      annonse:'Ad', aff_kort:'Listings marked “Ad” or “Sponsored” are paid placements or affiliate links.',
-      innst_annonser:'Ads and affiliate links', aff_info:'Some links may be ads or affiliate links (marked “Ad”). If you enter or buy something through them, GiveOwl may earn a commission at no extra cost to you. Paid listings are marked “Sponsored”. This never decides which giveaways we list.',
-      plus_rad:'GiveOwl Plus', plus_rad_s:'Coming soon', plus_tittel:'GiveOwl <span>Plus</span>', plus_ingress:'We are working on an optional upgrade for people who enter a lot.',
-      plus_f1:'No ads, if ads are ever added', plus_f2:'Extra reminders, for example a second evening reminder for doors you have not opened', plus_f3:'Unlimited tracked calendars and full streak history',
-      plus_kommer:'Coming soon', plus_fritt:'Plus is not available yet. Everything in GiveOwl is free today, and the free version stays.', tilbake:'Back',
-      n_luke_t1:'1 door left today', n_luke_tn:'{n} doors left today', n_luke_b:'Door {d}: {l}',
-      ingress:'Find giveaways, sweepstakes and contests you can enter, plus online advent calendars in season. Save your favorites and enter at the organizer.',
-      fane_konk:'Giveaways', fane_jul:'Advent calendars',
-      sok:'Search', land_alle:'All countries',
-      uten_kjop:'No purchase necessary', kun_fav:'Favorites only', vis_utlopt:'Show expired',
-      kat_alle:'All categories',
-      kat:{reise:'Travel',mat:'Food & drink',elektronikk:'Tech',gavekort:'Cash & gift cards',barn:'Kids',annet:'Other'},
-      luker_tittel:"Today's doors", luker_tekst:'Your favorite advent calendars with a door open today.', luke:'door',
-      advent_info:'Online advent calendars open on December 1. Most are announced in November, so check back. Tap the star to save the ones you like.',
-      frist:'Deadline', periode:'Period', slik:'How to enter', kategori:'Category',
-      lopende:'Ongoing, no fixed deadline', des_ukjent:'December (date not announced)', fra:'From',
-      idag:'today', imorgen:'tomorrow', dager_igjen:'{n} days left',
-      st_aktiv:'Open', st_kommer:'Coming', st_starter:'Starts in {n} d', st_utlopt:'Expired', st_snart:'Ends soon', st_luke:'Door open',
-      krever_kjop:'Purchase required', verden:'Worldwide', sponset:'Sponsored',
-      sjekket:'Link checked {d}', dod:'Link not responding',
-      delta:'Enter at organizer', delta_aria:'Enter at {o} (opens in a new tab)',
-      fav_legg:'Save as favorite', fav_fjern:'Remove from favorites',
-      tom_land_t:'Nothing in {land} yet', tom_land:'We are adding new giveaways every day. Try worldwide entries, or tell us about one we are missing.',
-      tom_jul_t:'No advent calendars here yet', tom_jul:'Most advent calendars are announced in November and open December 1.',
-      tom_fav_t:'No favorites yet', tom_fav:'Tap the star on a card to save it.',
-      tom_filter_t:'No matches', tom_filter:'Try another filter or search.',
-      vis_alle_land:'Show all countries', tips_oss:'Submit a giveaway',
-      merknad:'You always enter on the organizer\u2019s own site. GiveOwl only links and never collects your entries. Read the official rules before you enter.',
-      oppdatert:'List updated {d}.', personvern:'Privacy', send_inn:'Submit a giveaway',
-      nav_utforsk:'Explore', nav_mine:'My entries', nav_innst:'Settings',
-      ingress_mine:'Tick off what you have entered. Daily giveaways reset every morning, so you always know what is left today.',
-      ingress_innst:'Reminders, language and country.',
-      sort_frist:'Deadline', sort_nyest:'Newest', sort_verdi:'Prize value', sort_aria:'Sort',
-      innsats_alle:'Any effort', innsats_aria:'Effort', innsats_label:'Effort',
-      innsats:{rask:'Quick (about 1 min)',middels:'Medium (a few min)',lang:'Takes effort'},
-      innsats_kort:{rask:'Quick',middels:'Medium',lang:'Takes effort'},
-      daglig:'Daily entry', ny:'New',
-      merk_deltatt:'Mark entered', deltatt_idag:'Entered today', deltatt:'Entered',
-      del:'Share', del_aria:'Share {t}', del_kopiert:'Link copied',
-      fremdrift_t:"Today's entries", fremdrift:'{x} of {y} done', fremdrift_ferdig:'All done for today!', fremdrift_ingen:'Nothing to enter today',
-      fremdrift_tom:'Star giveaways you want to enter. They show up here as a checklist, and daily ones come back every morning.',
-      fremdrift_hint:'Daily giveaways reset at midnight. One-time entries stay done.',
-      sek_idag:'To do today', sek_gjort:'Done today', sek_tidligere:'Entered earlier', sek_senere:'Coming up', sek_utlopt:'Ended',
-      innst_varsler:'Reminders', v_frist:'Deadline reminders', v_frist_s:'The day before a favorite closes.',
-      v_luker:'Advent door reminders', v_luker_s:'Every day in December for your favorite advent calendars.',
-      v_tid:'Reminder time', v_tid_s:'When reminders arrive.',
-      v_av:'Notifications are blocked for GiveOwl. Turn them on in your phone settings under Apps \u203a GiveOwl \u203a Notifications.',
-      v_tillat:'Allow notifications', v_tillat_s:'GiveOwl needs permission to send reminders.',
-      v_web:'Reminders are available in the GiveOwl app for Android.', v_planlagt:'{n} reminders scheduled.', v_planlagt1:'1 reminder scheduled.',
-      innst_generelt:'General', innst_sprak:'Language', innst_land:'Country', innst_land_s:'Shows giveaways open to residents of this country.',
-      innst_om:'About', versjon:'Version {v}', nullstill:'Clear entry marks', nullstill_s:'Removes all \u201centered\u201d ticks. Favorites are kept.', nullstill_ok:'Clear all entry marks?', nullstill_knapp:'Clear',
-      spor_t:'Want a reminder?', spor:'GiveOwl can remind you the day before a favorite closes, and about new advent doors in December.', spor_ja:'Turn on', spor_nei:'Not now',
-      n_kanal:'Reminders', n_frist_t:'Last day tomorrow: {t}', n_frist:'{o} \u00b7 {p}', n_luke_t:'Door {d} is open', n_luke:'New doors today: {l}'
-    },
-    nb: {
-      tagline:'Konkurranser og julekalendere',
-      nav_idag:'I dag', ingress_idag:'Dagens deltakelser samlet. Trykk Delta: arrangøren åpnes og deltakelsen krysses av. Alt nullstilles ved midnatt.',
-      idag_t:'I dag', idag_igjen:'{n} igjen i dag', idag_igjen1:'1 igjen i dag', idag_ferdig:'Alt gjort for i dag!', idag_av:'{x} av {y} gjort',
-      idag_ingen_t:'Ingen daglige deltakelser i dag', idag_ingen:'Stjernemerk julekalendere og daglige konkurranser. Mens de pågår, dukker de opp her hver dag med sjekkliste og rekker.',
-      idag_hint:'Nullstilles ved midnatt. Julekalenderne teller fra 1. desember.',
-      sek_igjen:'Ikke gjort ennå', sek_ferdig:'Gjort i dag', sek_kal_snart:'Julekalendere som kommer',
-      delta_merk:'Delta', merk_manuelt:'Merk som gjort', angre:'Angre', rekke:'{n} dager på rad', starter:'Starter {d}',
-      luker_vis:'Luke 1–24', luke_gjort:'Deltatt', luke_tapt:'Gikk glipp av', luke_idag:'I dag', luke_senere:'Kommer',
-      annonse:'Annonse', aff_kort:'Oppføringer merket «Annonse» er betalte plasseringer eller affiliate-lenker.',
-      innst_annonser:'Annonser og affiliate-lenker', aff_info:'Noen lenker kan være annonser eller affiliate-lenker (merket «Annonse»). Hvis du deltar eller handler via dem, kan GiveOwl få provisjon uten at det koster deg noe ekstra. Betalte oppføringer er også merket «Annonse». Det bestemmer aldri hvilke konkurranser vi tar med.',
-      plus_rad:'GiveOwl Plus', plus_rad_s:'Kommer snart', plus_tittel:'GiveOwl <span>Plus</span>', plus_ingress:'Vi jobber med en valgfri oppgradering for deg som deltar mye.',
-      plus_f1:'Ingen reklame, hvis reklame noen gang kommer', plus_f2:'Ekstra påminnelser, for eksempel en ekstra kveldspåminnelse for luker du ikke har åpnet', plus_f3:'Ubegrenset antall fulgte kalendere og full historikk for rekker',
-      plus_kommer:'Kommer snart', plus_fritt:'Plus er ikke tilgjengelig ennå. Alt i GiveOwl er gratis i dag, og gratisversjonen blir værende.', tilbake:'Tilbake',
-      n_luke_t1:'1 luke igjen i dag', n_luke_tn:'{n} luker igjen i dag', n_luke_b:'Luke {d}: {l}',
-      ingress:'Finn konkurranser og giveaways du kan delta i, og julekalendere på nett i sesongen. Lagre favorittene og delta hos arrangøren.',
-      fane_konk:'Konkurranser', fane_jul:'Julekalendere',
-      sok:'Søk', land_alle:'Alle land',
-      uten_kjop:'Uten kjøp', kun_fav:'Bare favoritter', vis_utlopt:'Vis utløpte',
-      kat_alle:'Alle kategorier',
-      kat:{reise:'Reise',mat:'Mat og drikke',elektronikk:'Elektronikk',gavekort:'Penger og gavekort',barn:'Barn',annet:'Annet'},
-      luker_tittel:'Dagens luker', luker_tekst:'Favorittkalenderne dine som har åpen luke i dag.', luke:'luke',
-      advent_info:'Julekalendere på nett åpner 1. desember. De fleste annonseres i november, så titt innom igjen. Trykk på stjernen for å lagre dem du liker.',
-      frist:'Frist', periode:'Periode', slik:'Slik deltar du', kategori:'Kategori',
-      lopende:'Løpende, ingen fast frist', des_ukjent:'Desember (dato ikke oppgitt)', fra:'Fra',
-      idag:'i dag', imorgen:'i morgen', dager_igjen:'{n} dager igjen',
-      st_aktiv:'Åpen', st_kommer:'Kommer', st_starter:'Starter om {n} d', st_utlopt:'Utløpt', st_snart:'Snart slutt', st_luke:'Luke åpen',
-      krever_kjop:'Krever kjøp', verden:'Hele verden', sponset:'Annonse',
-      sjekket:'Lenke sjekket {d}', dod:'Lenken svarer ikke',
-      delta:'Delta hos arrangør', delta_aria:'Delta hos {o} (åpnes i ny fane)',
-      fav_legg:'Lagre som favoritt', fav_fjern:'Fjern fra favoritter',
-      tom_land_t:'Ingenting i {land} ennå', tom_land:'Vi legger inn nye konkurranser hver dag. Se dem som gjelder hele verden, eller tips oss om en som mangler.',
-      tom_jul_t:'Ingen julekalendere her ennå', tom_jul:'De fleste julekalendere annonseres i november og åpner 1. desember.',
-      tom_fav_t:'Ingen favoritter ennå', tom_fav:'Trykk på stjernen på et kort for å lagre det.',
-      tom_filter_t:'Ingen treff', tom_filter:'Prøv et annet filter eller søk.',
-      vis_alle_land:'Vis alle land', tips_oss:'Tips oss',
-      merknad:'Du deltar alltid hos arrangøren. GiveOwl lenker bare videre og samler ikke inn svarene dine. Les vilkårene før du deltar.',
-      oppdatert:'Oversikten ble oppdatert {d}.', personvern:'Personvern', send_inn:'Meld inn en konkurranse',
-      nav_utforsk:'Utforsk', nav_mine:'Mine deltakelser', nav_innst:'Innstillinger',
-      ingress_mine:'Kryss av det du har deltatt i. Daglige konkurranser nullstilles hver morgen, så du ser hva som gjenstår i dag.',
-      ingress_innst:'Påminnelser, språk og land.',
-      sort_frist:'Frist', sort_nyest:'Nyeste', sort_verdi:'Premieverdi', sort_aria:'Sorter',
-      innsats_alle:'All innsats', innsats_aria:'Innsats', innsats_label:'Innsats',
-      innsats:{rask:'Rask (ca. 1 min)',middels:'Middels (noen min)',lang:'Krever innsats'},
-      innsats_kort:{rask:'Rask',middels:'Middels',lang:'Krever innsats'},
-      daglig:'Daglig deltakelse', ny:'Ny',
-      merk_deltatt:'Merk som deltatt', deltatt_idag:'Deltatt i dag', deltatt:'Deltatt',
-      del:'Del', del_aria:'Del {t}', del_kopiert:'Lenken er kopiert',
-      fremdrift_t:'Dagens deltakelser', fremdrift:'{x} av {y} gjort', fremdrift_ferdig:'Alt gjort for i dag!', fremdrift_ingen:'Ingenting å delta i i dag',
-      fremdrift_tom:'Stjernemerk konkurranser du vil delta i. De dukker opp her som en sjekkliste, og de daglige kommer tilbake hver morgen.',
-      fremdrift_hint:'Daglige konkurranser nullstilles ved midnatt. Engangsdeltakelser forblir avkrysset.',
-      sek_idag:'Gjenstår i dag', sek_gjort:'Gjort i dag', sek_tidligere:'Deltatt tidligere', sek_senere:'Kommer snart', sek_utlopt:'Avsluttet',
-      innst_varsler:'Påminnelser', v_frist:'Påminnelse om frist', v_frist_s:'Dagen før en favoritt stenger.',
-      v_luker:'Påminnelse om luker', v_luker_s:'Hver dag i desember for favorittkalenderne dine.',
-      v_tid:'Tidspunkt', v_tid_s:'Når påminnelsene kommer.',
-      v_av:'Varsler er blokkert for GiveOwl. Slå dem på i telefonens innstillinger under Apper \u203a GiveOwl \u203a Varsler.',
-      v_tillat:'Tillat varsler', v_tillat_s:'GiveOwl trenger tillatelse for å sende påminnelser.',
-      v_web:'Påminnelser finnes i GiveOwl-appen for Android.', v_planlagt:'{n} påminnelser planlagt.', v_planlagt1:'1 påminnelse planlagt.',
-      innst_generelt:'Generelt', innst_sprak:'Språk', innst_land:'Land', innst_land_s:'Viser konkurranser som er åpne for innbyggere i dette landet.',
-      innst_om:'Om', versjon:'Versjon {v}', nullstill:'Nullstill avkrysninger', nullstill_s:'Fjerner alle «deltatt»-merker. Favorittene beholdes.', nullstill_ok:'Fjerne alle deltakelsesmerker?', nullstill_knapp:'Nullstill',
-      spor_t:'Vil du ha en påminnelse?', spor:'GiveOwl kan minne deg på dagen før en favoritt stenger, og om nye luker i desember.', spor_ja:'Slå på', spor_nei:'Ikke nå',
-      n_kanal:'Påminnelser', n_frist_t:'Siste frist i morgen: {t}', n_frist:'{o} \u00b7 {p}', n_luke_t:'Luke {d} er åpen', n_luke:'Nye luker i dag: {l}'
-    }
-  };
-  var LANDLISTE = ['US','CA','GB','IE','AU','NO','SE','DK','FI','DE'];
-  var FLAGG = {US:'🇺🇸',CA:'🇨🇦',GB:'🇬🇧',IE:'🇮🇪',AU:'🇦🇺',NO:'🇳🇴',SE:'🇸🇪',DK:'🇩🇰',FI:'🇫🇮',DE:'🇩🇪',INT:'🌍'};
-  var LANDNAVN = {en:{US:'United States',CA:'Canada',GB:'United Kingdom',IE:'Ireland',AU:'Australia',NO:'Norway',SE:'Sweden',DK:'Denmark',FI:'Finland',DE:'Germany'},
-                  nb:{US:'USA',CA:'Canada',GB:'Storbritannia',IE:'Irland',AU:'Australia',NO:'Norge',SE:'Sverige',DK:'Danmark',FI:'Finland',DE:'Tyskland'}};
+  // UI strings live in i18n/app/<code>.json (one file per language), bundled into i18n.js by scripts/bygg-i18n.mjs.
+  var T = window.GO_I18N || {en:{}};
+  var SPRAK = window.GO_SPRAK || [{code:'en',navn:'English',locale:'en-US',dir:'ltr'}];
+  function sprakInfo(c){for(var i=0;i<SPRAK.length;i++) if(SPRAK[i].code===c) return SPRAK[i]; return null;}
+  var LANDLISTE = ['US','CA','GB','IE','AU','NO','SE','DK','FI','DE','ES','MX','BR','FR','IT','NL','PL','TR','JP','KR','IN','ID','AE','SA'];
+  var FLAGG = {US:'🇺🇸',CA:'🇨🇦',GB:'🇬🇧',IE:'🇮🇪',AU:'🇦🇺',NO:'🇳🇴',SE:'🇸🇪',DK:'🇩🇰',FI:'🇫🇮',DE:'🇩🇪',ES:'🇪🇸',MX:'🇲🇽',BR:'🇧🇷',FR:'🇫🇷',IT:'🇮🇹',NL:'🇳🇱',PL:'🇵🇱',TR:'🇹🇷',JP:'🇯🇵',KR:'🇰🇷',IN:'🇮🇳',ID:'🇮🇩',AE:'🇦🇪',SA:'🇸🇦',INT:'🌍'};
+  var LANDNAVN = {en:{US:'United States',CA:'Canada',GB:'United Kingdom',IE:'Ireland',AU:'Australia',NO:'Norway',SE:'Sweden',DK:'Denmark',FI:'Finland',DE:'Germany',ES:'Spain',MX:'Mexico',BR:'Brazil',FR:'France',IT:'Italy',NL:'Netherlands',PL:'Poland',TR:'Türkiye',JP:'Japan',KR:'South Korea',IN:'India',ID:'Indonesia',AE:'United Arab Emirates',SA:'Saudi Arabia'},
+                  nb:{US:'USA',CA:'Canada',GB:'Storbritannia',IE:'Irland',AU:'Australia',NO:'Norge',SE:'Sverige',DK:'Danmark',FI:'Finland',DE:'Tyskland',ES:'Spania',MX:'Mexico',BR:'Brasil',FR:'Frankrike',IT:'Italia',NL:'Nederland',PL:'Polen',TR:'Tyrkia',JP:'Japan',KR:'Sør-Korea',IN:'India',ID:'Indonesia',AE:'De forente arabiske emirater',SA:'Saudi-Arabia'}};
   var IKON = {
     julekalender:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2"/></svg>',
     konkurranse:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>'
@@ -525,12 +421,16 @@ footer.merknad a{font-weight:700;margin-right:8px}
   var PERM = LN ? 'ukjent' : 'web', PLANLAGT = 0;
 
   // ---------- Språk og land fra enheten ----------
+  // Device language -> supported UI language (first match in the user's preference list wins, English fallback)
+  function normSprak(x){x=String(x||'').replace('_','-'); var p=x.split('-')[0].toLowerCase();
+    if(/^(nb|nn|no)$/.test(p)) return 'nb'; if(p==='pt') return 'pt-BR'; if(p==='zh') return 'zh-Hans'; if(p==='in') return 'id';
+    if(sprakInfo(x)) return x; return sprakInfo(p)?p:null;}
   function enhetsSprak(){var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);
-    for(var i=0;i<l.length;i++){if(/^(nb|nn|no)\b/i.test(l[i])) return 'nb'; if(/^en\b/i.test(l[i])) return 'en';} return 'en';}
+    for(var i=0;i<l.length;i++){var s=normSprak(l[i]); if(s && T[s]) return s;} return 'en';}
   function enhetsLand(){var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en-US']);
     for(var i=0;i<l.length;i++){var m=/^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Z]{2}))?/i.exec(l[i]||''); if(!m) continue;
       var r=(m[2]||'').toUpperCase(); if(r && LANDLISTE.indexOf(r)>=0) return r;
-      var s=m[1].toLowerCase(); var map={nb:'NO',nn:'NO',no:'NO',sv:'SE',da:'DK',fi:'FI',de:'DE'}; if(map[s]) return map[s];}
+      var s=m[1].toLowerCase(); var map={nb:'NO',nn:'NO',no:'NO',sv:'SE',da:'DK',fi:'FI',de:'DE',es:'ES',pt:'BR',fr:'FR',it:'IT',nl:'NL',pl:'PL',tr:'TR',ja:'JP',ko:'KR',hi:'IN',id:'ID',ar:'SA'}; if(map[s]) return map[s];}
     return 'US';}
 
   // Ferske data: lagret kopi fra nettet hvis nyere enn den innebygde
@@ -546,7 +446,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
   var lagret = hent('filter',{});
   var S = {
     vis: 'utforsk',
-    lang: (q.get('lang')==='nb'||q.get('lang')==='en') ? q.get('lang') : (hent('lang',null) || enhetsSprak()),
+    lang: (q.get('lang') && T[normSprak(q.get('lang'))]) ? normSprak(q.get('lang')) : ((T[hent('lang',null)] && hent('lang',null)) || enhetsSprak()),
     land: (q.get('land')||'').toUpperCase() || lagret.land || enhetsLand(),
     type: lagret.type || 'konkurranse', kategori:'alle', sok:'',
     utenKjop: lagret.utenKjop!==false, kunFav: !!lagret.kunFav, visUtlopt: !!lagret.visUtlopt,
@@ -574,12 +474,19 @@ footer.merknad a{font-weight:700;margin-right:8px}
   beregnNye();
   if(q.get('nye')) q.get('nye').split(',').forEach(function(id){NYE.add(id);});
 
-  function t(k,v){var s=(T[S.lang]&&T[S.lang][k]); if(s==null) s=T.en[k]; if(v) for(var x in v) s=String(s).split('{'+x+'}').join(v[x]); return s;}
-  function landNavn(c){return (LANDNAVN[S.lang]||LANDNAVN.en)[c]||c;}
+  function loc(){var i=sprakInfo(S.lang); return i?i.locale:'en-US';}
+  function tall(n){try{return new Intl.NumberFormat(loc()).format(n);}catch(e){return String(n);}}
+  // t('key',{n:3}) – values can be plain strings or plural objects {one,few,many,other} (Intl.PluralRules)
+  function t(k,v){var s=(T[S.lang]&&T[S.lang][k]); if(s==null) s=T.en[k];
+    if(s && typeof s==='object' && s.other!=null){var f='other'; try{f=new Intl.PluralRules(loc()).select(v&&v.n!=null?+v.n:1);}catch(e){} s=s[f]!=null?s[f]:s.other;}
+    if(v) for(var x in v){var y=(typeof v[x]==='number')?tall(v[x]):v[x]; s=String(s).split('{'+x+'}').join(y);} return s;}
+  var DN={}; function landNavn(c){
+    try{if(!DN[S.lang]) DN[S.lang]=new Intl.DisplayNames([loc(),'en'],{type:'region'}); var n=DN[S.lang].of(c); if(n && n!==c) return n;}catch(e){}
+    return (LANDNAVN[S.lang]||LANDNAVN.en)[c]||LANDNAVN.en[c]||c;}
   function dager(a,b){return Math.round((new Date(b+'T12:00')-new Date(a+'T12:00'))/864e5);}
   function datoTekst(s){
     var d=new Date(s+'T12:00'); var o={month:'short',day:'numeric'}; if(s.slice(0,4)!==IDAG.slice(0,4)) o.year='numeric';
-    try{return new Intl.DateTimeFormat(S.lang==='nb'?'nb-NO':'en-US',o).format(d).replace(/\.$/,'');}catch(e){return s;}
+    try{return new Intl.DateTimeFormat(loc(),o).format(d).replace(/\.$/,'');}catch(e){return s;}
   }
   function forrigeDag(s){var d=new Date(s+'T12:00'); d.setDate(d.getDate()-1); return iso(d);}
 
@@ -655,12 +562,12 @@ footer.merknad a{font-weight:700;margin-right:8px}
   function toast(msg){var el=$('toast'); el.textContent=msg; el.classList.add('vis'); clearTimeout(toast._t); toast._t=setTimeout(function(){el.classList.remove('vis');},2200);}
 
   function tegnTekster(){
-    document.documentElement.lang = S.lang==='nb'?'nb':'en';
+    var si=sprakInfo(S.lang)||SPRAK[0]; document.documentElement.lang = S.lang; document.documentElement.dir = si.dir||'ltr';
     document.querySelectorAll('[data-t]').forEach(function(n){n.textContent=t(n.getAttribute('data-t'));});
     $('ingress').textContent = S.vis==='idag' ? t('ingress_idag') : S.vis==='mine' ? t('ingress_mine') : (S.vis==='innst'||S.vis==='plus') ? t('ingress_innst') : t('ingress');
     $('sok').placeholder=t('sok'); $('sok').setAttribute('aria-label',t('sok'));
-    $('sprakTekst').textContent = S.lang==='nb' ? 'EN' : 'NO';
-    $('sprak').setAttribute('aria-label', S.lang==='nb' ? 'Switch to English' : 'Bytt til norsk');
+    $('sprakTekst').textContent = S.lang.split('-')[0].toUpperCase();
+    $('sprak').setAttribute('aria-label', t('innst_sprak')+': '+si.navn);
     landValg($('land'));
     fyllValg($('sortering'),[['frist',t('sort_frist')],['nyest',t('sort_nyest')],['verdi',t('sort_verdi')]],S.sort);
     $('sortering').setAttribute('aria-label',t('sort_aria'));
@@ -740,7 +647,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
     var dl=n.querySelector('.fakta'), rader=[[e.type==='julekalender'?t('periode'):t('frist'),fristTekst(e)],[t('slik'),e.hvordanDelta||'–']];
     if(e.innsats && t('innsats')[e.innsats]) rader.push([t('innsats_label'),t('innsats')[e.innsats]]);
     rader.push([t('kategori'),t('kat')[e.kategori]||e.kategori]);
-    rader.forEach(function(p){var dt=document.createElement('dt');dt.textContent=p[0];var dd=document.createElement('dd');dd.textContent=p[1];dl.appendChild(dt);dl.appendChild(dd);});
+    rader.forEach(function(p){var dt=document.createElement('dt');dt.textContent=p[0];var dd=document.createElement('dd');dd.dir='auto';dd.textContent=p[1];dl.appendChild(dt);dl.appendChild(dd);});
     var mk=n.querySelector('.merker');
     function lapp(txt,cls){var s=document.createElement('span');s.className='merkelapp '+cls;s.textContent=txt;mk.appendChild(s);}
     if(e.frekvens==='daglig' && e.type==='konkurranse') lapp(t('daglig'),'daglig');
@@ -887,7 +794,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
   // ---------- GiveOwl Plus (plassholder, ingen fakturering) ----------
   function tegnPlus(){
     var el=$('vPlus'); el.innerHTML='';
-    var tb=document.createElement('button'); tb.type='button'; tb.className='knapp lys'; tb.style.marginBottom='12px'; tb.textContent='← '+t('tilbake'); tb.onclick=function(){byttVis('innst');}; el.appendChild(tb);
+    var tb=document.createElement('button'); tb.type='button'; tb.className='knapp lys'; tb.style.marginBottom='12px'; tb.textContent=(document.documentElement.dir==='rtl'?'→ ':'← ')+t('tilbake'); tb.onclick=function(){byttVis('innst');}; el.appendChild(tb);
     var b=document.createElement('section'); b.className='plus';
     b.innerHTML='<div>'+ugleSvg(56)+'</div><h2>'+t('plus_tittel')+'</h2><p></p><ul><li></li><li></li><li></li></ul><button class="knapp" type="button" disabled></button><p class="fritt"></p>';
     b.querySelector('p').textContent=t('plus_ingress'); var li=b.querySelectorAll('li'); li[0].textContent=t('plus_f1'); li[1].textContent=t('plus_f2'); li[2].textContent=t('plus_f3');
@@ -949,16 +856,17 @@ footer.merknad a{font-weight:700;margin-right:8px}
       p.appendChild(rad(t('v_tid'),PERM==='granted'?t('v_tid_s')+' '+(PLANLAGT===1?t('v_planlagt1'):t('v_planlagt',{n:PLANLAGT})):t('v_tid_s'),ti));
     }
     p=seksjon(el,t('innst_generelt'));
-    var seg=document.createElement('div'); seg.className='segment';
-    [['en','English'],['nb','Norsk']].forEach(function(x){var b=document.createElement('button');b.type='button';b.textContent=x[1];b.setAttribute('aria-pressed',S.lang===x[0]?'true':'false');b.onclick=function(){settSprak(x[0]);};seg.appendChild(b);});
-    p.appendChild(rad(t('innst_sprak'),'',seg));
+    var sv=document.createElement('label'); sv.className='velg'; var ss=document.createElement('select'); ss.id='sprakValg'; sv.appendChild(ss);
+    fyllValg(ss,SPRAK.filter(function(x){return T[x.code];}).map(function(x){return [x.code,x.navn];}),S.lang);
+    ss.setAttribute('aria-label',t('innst_sprak')); ss.onchange=function(){settSprak(ss.value); var n=$('sprakValg'); if(n) n.focus();};
+    p.appendChild(rad(t('innst_sprak'),t('innst_sprak_s'),sv));
     var lv=document.createElement('label'); lv.className='velg'; var ls=document.createElement('select'); lv.appendChild(ls); landValg(ls);
     ls.onchange=function(){S.land=ls.value;S.kategori='alle';oppdater();};
     p.appendChild(rad(t('innst_land'),t('innst_land_s'),lv));
     p=seksjon(el,t('innst_om'));
     p.appendChild(rad('GiveOwl'+(CFG.versjon?' '+CFG.versjon:''), BYGGET?t('oppdatert',{d:datoTekst(BYGGET)}):''));
     if(CFG.privacyUrl||CFG.submitUrl){var ln=document.createElement('div');ln.className='innst-rad';ln.innerHTML=$('lenker').innerHTML;ln.style.justifyContent='flex-start';p.appendChild(ln);}
-    var pk=document.createElement('button'); pk.className='knapp lys'; pk.type='button'; pk.textContent='→'; pk.setAttribute('aria-label',t('plus_rad')); pk.onclick=function(){byttVis('plus');};
+    var pk=document.createElement('button'); pk.className='knapp lys'; pk.type='button'; pk.textContent=document.documentElement.dir==='rtl'?'←':'→'; pk.setAttribute('aria-label',t('plus_rad')); pk.onclick=function(){byttVis('plus');};
     p.appendChild(rad(t('plus_rad'),t('plus_rad_s'),pk));
     p.appendChild(rad(t('innst_annonser'),t('aff_info')));
     var nb=document.createElement('button'); nb.className='knapp lys'; nb.type='button'; nb.textContent=t('nullstill_knapp');
@@ -1070,7 +978,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
   $('utenKjop').onchange=function(ev){S.utenKjop=ev.target.checked;oppdater();};
   $('kunFav').onchange=function(ev){S.kunFav=ev.target.checked;oppdater();};
   $('visUtlopt').onchange=function(ev){S.visUtlopt=ev.target.checked;oppdater();};
-  $('sprak').onclick=function(){settSprak(S.lang==='nb'?'en':'nb');};
+  $('sprak').onclick=function(){byttVis('innst'); var n=$('sprakValg'); if(n){n.scrollIntoView({block:'center'}); n.focus();}};
   if(CFG.homeUrl) $('hjem').href=CFG.homeUrl; else $('hjem').onclick=function(ev){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'});};
   window.addEventListener('hashchange',fraHash);
   // Åpne på «I dag» når det finnes daglige favoritter som ikke er gjort (men ikke ved dyplenke eller ?vis=)

@@ -15,6 +15,30 @@
 <link rel="icon" type="image/svg+xml" href="assets/owl.svg">
 <link rel="apple-touch-icon" href="assets/icon-192.png">
 <link rel="stylesheet" href="assets/site.css">
+<!--seo:head-->
+<link rel="alternate" hreflang="en" href="https://giveowl.com/">
+<link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/">
+<link rel="alternate" hreflang="es" href="https://giveowl.com/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/">
+<link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/">
+<link rel="alternate" hreflang="de" href="https://giveowl.com/de/">
+<link rel="alternate" hreflang="it" href="https://giveowl.com/it/">
+<link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/">
+<link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/">
+<link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/">
+<link rel="alternate" hreflang="da" href="https://giveowl.com/da/">
+<link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/">
+<link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/">
+<link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/">
+<link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/">
+<link rel="alternate" hreflang="id" href="https://giveowl.com/id/">
+<link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/">
+<link rel="alternate" hreflang="x-default" href="https://giveowl.com/">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://giveowl.com/#org","name":"GiveOwl","url":"https://giveowl.com/","logo":"https://giveowl.com/assets/icon-512.png","email":"info@hendtas.com","parentOrganization":{"@type":"Organization","name":"HENDTAS","address":{"@type":"PostalAddress","addressCountry":"NO"}}},{"@type":"WebSite","@id":"https://giveowl.com/#website","name":"GiveOwl","url":"https://giveowl.com/","inLanguage":["en","nb","es","pt-BR","fr","de","it","nl","pl","sv","da","fi","tr","ja","ko","zh-Hans","hi","id","ar"],"publisher":{"@id":"https://giveowl.com/#org"}},{"@type":"WebPage","@id":"https://giveowl.com/","url":"https://giveowl.com/","name":"GiveOwl","inLanguage":"en","isPartOf":{"@id":"https://giveowl.com/#website"}}]}</script>
+<meta property="og:locale" content="en_US">
+<!--/seo:head-->
 </head>
 <body>
 <header class="hero">
@@ -24,7 +48,7 @@
       <div class="navlenker">
         <a href="browse/" data-t="nav_browse">Browse</a>
         <a class="valgfri" href="submit/" data-t="nav_submit">Submit a giveaway</a>
-        <button class="sprak" id="sprak" type="button">NO</button>
+        <select class="sprak" id="sprak" aria-label="Language"></select>
       </div>
     </nav>
     <div class="hero-grid">
@@ -69,7 +93,10 @@
     </div>
   </section>
 
-  <section class="blokk">
+  <!--seo:land-->
+<section class="blokk"><h2>Browse by country</h2><div class="landgrid"><a class="land" href="/c/au/"><span>🇦🇺</span> Australia</a><a class="land" href="/c/ca/"><span>🇨🇦</span> Canada</a><a class="land" href="/c/de/"><span>🇩🇪</span> Germany</a><a class="land" href="/c/dk/"><span>🇩🇰</span> Denmark</a><a class="land" href="/c/gb/"><span>🇬🇧</span> United Kingdom</a><a class="land" href="/c/no/"><span>🇳🇴</span> Norway</a><a class="land" href="/c/se/"><span>🇸🇪</span> Sweden</a><a class="land" href="/c/us/"><span>🇺🇸</span> United States</a><a class="land" href="/advent-calendars/" lang="en"><span>🎄</span> Online advent calendars 2026</a></div></section>
+<!--/seo:land-->
+<section class="blokk">
     <h2 data-t="h2_arr">Running a giveaway?</h2>
     <p class="under" data-t="under_arr">Tell us about it. Listing is free.</p>
     <a class="knapp mork" href="submit/" data-t="cta_arr">Submit a giveaway</a>
@@ -85,22 +112,7 @@
 </footer>
 <script src="assets/i18n.js"></script>
 <script>
-GiveOwlI18n({
-  en:{},
-  nb:{_title:'GiveOwl – Konkurranser og giveaways på ett sted',
-    nav_browse:'Se oversikten', nav_submit:'Meld inn en konkurranse', nav_privacy:'Personvern',
-    h1:'Alle konkurranser verdt å delta i, <em>på ett sted.</em>',
-    lead:'GiveOwl samler konkurranser og giveaways du kan delta i, og julekalendere på nett i sesongen. Filtrer på land, hopp over dem som krever kjøp, og delta hos arrangøren.',
-    cta:'Se konkurransene', snart:'Kommer snart på', senere:'Senere på',
-    h2_hva:'Dette gjør GiveOwl', under_hva:'Én ryddig liste i stedet for hundre faner.',
-    k1_t:'Laget for ditt land', k1:'GiveOwl velger land ut fra telefonen din. USA først, og Storbritannia, Canada, Norge, Sverige og flere. Du kan bytte når som helst.',
-    k2_t:'Uten kjøp', k2:'Filteret er på fra start, så du bare ser konkurranser du kan delta i gratis. Frist, premie og hvordan du deltar med ett blikk.',
-    k3_t:'Julekalendere i sesongen', k3:'I november og desember får julekalendere på nett sin egen fane, med dagens luker fra favorittene dine.',
-    trygg_t:'Vi lenker bare. Du deltar hos arrangøren.', trygg:'GiveOwl samler aldri inn svarene dine, krever ingen konto og koster ingenting. Les alltid vilkårene hos arrangøren før du deltar.',
-    h2_arr:'Arrangerer du en konkurranse?', under_arr:'Fortell oss om den. Det er gratis å bli oppført.', cta_arr:'Meld inn en konkurranse',
-    fot:'GiveOwl er ikke tilknyttet arrangørene som vises. © 2026 HENDTAS, Norge.',
-    fot_aff:'Oppføringer merket «Annonse» er betalte plasseringer eller affiliate-lenker. Hvis du deltar eller handler via dem, kan vi få provisjon uten at det koster deg noe ekstra. Det bestemmer aldri hvilke konkurranser vi tar med. <a href="privacy/#nb-ads">Mer</a>'}
-});
+GiveOwlI18n('index');
 </script>
 </body>
 </html>
