@@ -1110,4 +1110,18 @@
     <loc>https://giveowl.com/e/taste-of-home-rda-enthusiast-brands--taste-of-home-potluck-with-a-spin-recipe-contest--2026/</loc>
     <lastmod>2026-10-17</lastmod>
   </url>
+  <url>
+    <loc>https://giveowl.com/badge/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/badge/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/merke/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/badge/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/nb/merke/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/badge/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/merke/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/badge/"/>
+  </url>
 </urlset>

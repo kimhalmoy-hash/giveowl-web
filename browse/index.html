@@ -235,6 +235,8 @@ footer.merknad a{font-weight:700;margin-right:8px}
 /* long words (de, fi) */
 h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflow-wrap:anywhere;hyphens:auto}
 </style>
+<link rel="manifest" href="/manifest.webmanifest">
+<script>if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost')) addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});</script>
 </head>
 <body>
 <header class="topp">
@@ -474,7 +476,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   if(S.land!=='ALLE' && LANDLISTE.indexOf(S.land)<0) S.land='US';
 
   // «Ny»: oppføringer som ikke fantes ved forrige besøk
-  var NYE = new Set(), kjente = hent('kjente', null), KUN=null; // KUN: Set med id-er når man viser bare nye (fra varsel/banner)
+  var NYE = new Set(), kjente = hent('kjente', null), KUN=null, KUNLISTE=false, DELTLISTE=(q.get('liste')||'').split(',').filter(Boolean).slice(0,60); // KUN: Set med id-er når man viser bare nye (fra varsel/banner)
   function beregnNye(){
     var ids=ALLE.map(function(e){return e.id;});
     if(kjente){var k=new Set(kjente); ids.forEach(function(id){if(!k.has(id)) NYE.add(id);});}
@@ -634,16 +636,19 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   function erAffiliate(e){ return !!(e.affiliateUrl && /^https:\/\//.test(e.affiliateUrl)); }
   function lenke(e){ return erAffiliate(e) ? e.affiliateUrl : e.url; }
   function lenkeRel(e){ return 'noopener noreferrer'+((e.sponset||erAffiliate(e))?' sponsored nofollow':''); }
-  function delLenke(e){return (CFG.shareUrl||'https://giveowl.com/browse/')+'#'+encodeURIComponent(e.id);}
+  function sideRot(){return (CFG.shareUrl||'https://giveowl.com/browse/').replace(/browse\/?$/,'');}
+  function delLenke(e){return sideRot()+'e/'+encodeURIComponent(e.id)+'/';}
+  function delUrl(tittel,tekst,url){
+    if(SHARE){SHARE.share({title:tittel,text:tekst,url:url,dialogTitle:t('del')}).catch(function(){});return;}
+    if(navigator.share){navigator.share({title:tittel,text:tekst,url:url}).catch(function(){});return;}
+    kopier(url);
+  }
   function kopier(s){
     function reserve(){var ta=document.createElement('textarea');ta.value=s;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast(t('del_kopiert'));}catch(x){} ta.remove();}
     if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(s).then(function(){toast(t('del_kopiert'));},reserve); else reserve();
   }
   function del(e){
-    var url=delLenke(e), tekst=e.tittel+(e.premie?' – '+e.premie:'');
-    if(SHARE){SHARE.share({title:e.tittel,text:tekst,url:url,dialogTitle:t('del')}).catch(function(){});return;}
-    if(navigator.share){navigator.share({title:e.tittel,text:tekst,url:url}).catch(function(){});return;}
-    kopier(url);
+    delUrl(e.tittel, e.tittel+(e.premie?' – '+e.premie:''), delLenke(e));
   }
 
   function lagKort(e){
@@ -730,7 +735,10 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     var r=KUN ? ALLE.filter(function(e){return KUN.has(e.id);}).sort(sorter) : ALLE.filter(treff).sort(sorter);
     var ni=$('nyeInfo');
     if(KUN){ ni.classList.remove('skjult'); ni.innerHTML='<span></span> <button class="knapp lys" type="button"></button>';
-      ni.querySelector('span').textContent=t('nv_viser',{n:r.length}); var vb=ni.querySelector('button'); vb.textContent=t('nv_vis_alle'); vb.onclick=function(){KUN=null;oppdater();};
+      ni.querySelector('span').textContent=t(KUNLISTE?'liste_viser':'nv_viser',{n:r.length}); var vb=ni.querySelector('button'); vb.textContent=t('nv_vis_alle'); vb.onclick=function(){KUN=null;oppdater();};
+      if(KUNLISTE && r.some(function(e){return !fav.has(e.id);})){var fb=document.createElement('button');fb.type='button';fb.className='knapp';fb.textContent=t('liste_folg');
+        fb.onclick=function(){r.forEach(function(e){if(!fav.has(e.id)){fav.add(e.id);if(!favDato[e.id]) favDato[e.id]=IDAG;}});lagre('favoritter',Array.from(fav));lagre('favDato',favDato);planlegg();toast(t('liste_fulgt'));oppdater();};
+        vb.before(fb);}
       r.forEach(function(e){liste.appendChild(lagKort(e));}); if(r.length) return; KUN=null; r=ALLE.filter(treff).sort(sorter); }
     ni.classList.add('skjult');
     var landHar = S.land==='ALLE' || ALLE.some(function(e){return e.type===S.type && e.land===S.land && e._status!=='utløpt';});
@@ -832,6 +840,10 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     var ut=$('mineListe'); ut.innerHTML='';
     if(!mine.length){var tt=document.createElement('div');tt.className='tom';tt.style.marginTop='14px';tt.innerHTML=ugleSvg(72)+'<strong></strong><div class="rad"></div>';tt.querySelector('strong').textContent=t('tom_fav_t');
       var b=document.createElement('button');b.className='knapp';b.type='button';b.textContent=t('nav_utforsk');b.onclick=function(){byttVis('utforsk');};tt.querySelector('.rad').appendChild(b);ut.appendChild(tt);return;}
+    var dl=mine.filter(function(e){return e._status!=='utløpt';}).slice(0,40);
+    if(dl.length){var lb=document.createElement('button');lb.type='button';lb.className='knapp lys';lb.style.margin='12px 0 4px';lb.textContent=t('liste_del');
+      lb.onclick=function(){delUrl('GiveOwl', t('liste_del_tekst'), sideRot()+'browse/?liste='+dl.map(function(e){return encodeURIComponent(e.id);}).join(','));};
+      ut.appendChild(lb);}
     var grupper=[
       ['sek_idag', function(e){return dagensOppgave(e) && deltatt[e.id]!==IDAG;}],
       ['sek_gjort', function(e){return deltatt[e.id]===IDAG;}],
@@ -892,6 +904,9 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     if(CFG.privacyUrl||CFG.submitUrl){var ln=document.createElement('div');ln.className='innst-rad';ln.innerHTML=$('lenker').innerHTML;ln.style.justifyContent='flex-start';p.appendChild(ln);}
     var pk=document.createElement('button'); pk.className='knapp lys'; pk.type='button'; pk.textContent=document.documentElement.dir==='rtl'?'←':'→'; pk.setAttribute('aria-label',t('plus_rad')); pk.onclick=function(){byttVis('plus');};
     p.appendChild(rad(t('plus_rad'),t('plus_rad_s'),pk));
+    var ab=document.createElement('button'); ab.className='knapp lys'; ab.type='button'; ab.textContent=t('del');
+    ab.onclick=function(){delUrl('GiveOwl', t('anbefal_tekst'), sideRot()+(S.lang==='en'?'':S.lang.toLowerCase()+'/'));};
+    p.appendChild(rad(t('anbefal'),t('anbefal_s'),ab));
     p.appendChild(rad(t('innst_annonser'),t('aff_info')));
     var nb=document.createElement('button'); nb.className='knapp lys'; nb.type='button'; nb.textContent=t('nullstill_knapp');
     nb.onclick=function(){ if(window.confirm(t('nullstill_ok'))){deltatt={};logg={};lagre('deltatt',deltatt);lagre('logg',logg);planlegg();oppdater();} };
@@ -1009,7 +1024,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     ider=(ider||[]).filter(function(id){return ALLE.some(function(e){return e.id===id;});});
     if(!ider.length) return false;
     if(ider.length===1) return visOppforing(ider[0]);
-    KUN=new Set(ider); BANNER=null; S.vis='utforsk';
+    KUN=new Set(ider); KUNLISTE=false; BANNER=null; S.vis='utforsk';
     var f=ALLE.find(function(e){return e.id===ider[0];}); if(f) S.type=f.type;
     oppdater(); window.scrollTo(0,0); return true;
   }
@@ -1045,6 +1060,15 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     return true;
   }
   function fraHash(){var h=decodeURIComponent((location.hash||'').slice(1)); if(h) visOppforing(h);}
+  // Delt liste (?liste=id1,id2): vis bare disse, med knapp for å lagre alle som favoritter
+  function visDeltListe(){
+    if(!DELTLISTE.length) return;
+    var ider=DELTLISTE.filter(function(id){return ALLE.some(function(e){return e.id===id;});});
+    if(!ider.length) return;
+    DELTLISTE=[]; KUN=new Set(ider); KUNLISTE=true; BANNER=null; S.vis='utforsk';
+    var f=ALLE.find(function(e){return e.id===ider[0];}); if(f) S.type=f.type;
+    oppdater(); window.scrollTo(0,0);
+  }
 
   // ---------- Hendelser ----------
   document.querySelectorAll('.fane').forEach(function(f){f.onclick=function(){KUN=null;S.type=f.dataset.type;S.kategori='alle';oppdater();};});
@@ -1060,9 +1084,9 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   if(CFG.homeUrl) $('hjem').href=CFG.homeUrl; else $('hjem').onclick=function(ev){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'});};
   window.addEventListener('hashchange',fraHash);
   // Åpne på «I dag» når det finnes daglige favoritter som ikke er gjort (men ikke ved dyplenke eller ?vis=)
-  if(!visFraUrl && !location.hash && dagligeIgjen().length) S.vis='idag';
+  if(!visFraUrl && !location.hash && !DELTLISTE.length && dagligeIgjen().length) S.vis='idag';
   oppdater();
-  fraHash();
+  fraHash(); visDeltListe();
 
   // Nullstill ved lokal midnatt, også når appen står åpen
   function sjekkNyDag(){ if(q.get('dato')) return; var nyDag=iso(new Date()); if(nyDag!==IDAG){ IDAG=nyDag; merk(); planlegg(); oppdater(); } }
@@ -1100,7 +1124,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
           var nye=(r.nye||[]).filter(function(id){return ALLE.some(function(e){return e.id===id;});});
           if(nye.length && NV.på!==false && !VENTER) BANNER=nye;
           if(VENTER){var v=VENTER; VENTER=null; nyeTrykk(v);}
-          oppdater(); if(forsteHent && location.hash) fraHash();
+          oppdater(); if(forsteHent && location.hash) fraHash(); if(forsteHent) visDeltListe();
         }).catch(function(){FEIL=true; if(VENTER){var v=VENTER; VENTER=null; nyeTrykk(v);}}).then(function(){forsteHent=false;});
         return;
       }catch(e){}
@@ -1110,7 +1134,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     var tm=setTimeout(function(){if(ctrl) ctrl.abort();}, CFG.timeoutMs||8000);
     fetch(url+(url.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store',signal:ctrl?ctrl.signal:undefined})
       .then(function(r){if(!r.ok) throw new Error('HTTP '+r.status); return r.json();})
-      .then(function(d){ if(!nyeData(d)) return; oppdater(); if(forsteHent && location.hash) fraHash(); })
+      .then(function(d){ if(!nyeData(d)) return; oppdater(); if(forsteHent && location.hash) fraHash(); if(forsteHent) visDeltListe(); })
       .catch(function(){FEIL=true;}).then(function(){clearTimeout(tm); forsteHent=false;});
   }
   hentFraNett();
