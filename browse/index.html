@@ -369,7 +369,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
       v_tid:'Reminder time', v_tid_s:'When reminders arrive.',
       v_av:'Notifications are blocked for GiveOwl. Turn them on in your phone settings under Apps \u203a GiveOwl \u203a Notifications.',
       v_tillat:'Allow notifications', v_tillat_s:'GiveOwl needs permission to send reminders.',
-      v_web:'Reminders are available in the GiveOwl app for Android.', v_planlagt:'{n} reminders scheduled.',
+      v_web:'Reminders are available in the GiveOwl app for Android.', v_planlagt:'{n} reminders scheduled.', v_planlagt1:'1 reminder scheduled.',
       innst_generelt:'General', innst_sprak:'Language', innst_land:'Country', innst_land_s:'Shows giveaways open to residents of this country.',
       innst_om:'About', versjon:'Version {v}', nullstill:'Clear entry marks', nullstill_s:'Removes all \u201centered\u201d ticks. Favorites are kept.', nullstill_ok:'Clear all entry marks?', nullstill_knapp:'Clear',
       spor_t:'Want a reminder?', spor:'GiveOwl can remind you the day before a favorite closes, and about new advent doors in December.', spor_ja:'Turn on', spor_nei:'Not now',
@@ -419,7 +419,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
       v_tid:'Tidspunkt', v_tid_s:'Når påminnelsene kommer.',
       v_av:'Varsler er blokkert for GiveOwl. Slå dem på i telefonens innstillinger under Apper \u203a GiveOwl \u203a Varsler.',
       v_tillat:'Tillat varsler', v_tillat_s:'GiveOwl trenger tillatelse for å sende påminnelser.',
-      v_web:'Påminnelser finnes i GiveOwl-appen for Android.', v_planlagt:'{n} påminnelser planlagt.',
+      v_web:'Påminnelser finnes i GiveOwl-appen for Android.', v_planlagt:'{n} påminnelser planlagt.', v_planlagt1:'1 påminnelse planlagt.',
       innst_generelt:'Generelt', innst_sprak:'Språk', innst_land:'Land', innst_land_s:'Viser konkurranser som er åpne for innbyggere i dette landet.',
       innst_om:'Om', versjon:'Versjon {v}', nullstill:'Nullstill avkrysninger', nullstill_s:'Fjerner alle «deltatt»-merker. Favorittene beholdes.', nullstill_ok:'Fjerne alle deltakelsesmerker?', nullstill_knapp:'Nullstill',
       spor_t:'Vil du ha en påminnelse?', spor:'GiveOwl kan minne deg på dagen før en favoritt stenger, og om nye luker i desember.', spor_ja:'Slå på', spor_nei:'Ikke nå',
@@ -757,7 +757,7 @@ footer.merknad a{font-weight:700;margin-right:8px}
       p.appendChild(rad(t('v_frist'),t('v_frist_s'),bryter(V.frist,function(v){V.frist=v;endreVarsler();},av)));
       p.appendChild(rad(t('v_luker'),t('v_luker_s'),bryter(V.luker,function(v){V.luker=v;endreVarsler();},av)));
       var ti=document.createElement('input'); ti.type='time'; ti.value=V.tid; ti.disabled=av; ti.onchange=function(){if(/^\d\d:\d\d$/.test(ti.value)){V.tid=ti.value;endreVarsler();}};
-      p.appendChild(rad(t('v_tid'),PERM==='granted'?t('v_tid_s')+' '+t('v_planlagt',{n:PLANLAGT}):t('v_tid_s'),ti));
+      p.appendChild(rad(t('v_tid'),PERM==='granted'?t('v_tid_s')+' '+(PLANLAGT===1?t('v_planlagt1'):t('v_planlagt',{n:PLANLAGT})):t('v_tid_s'),ti));
     }
     p=seksjon(el,t('innst_generelt'));
     var seg=document.createElement('div'); seg.className='segment';
