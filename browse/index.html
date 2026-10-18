@@ -252,6 +252,10 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   .verktoy:not(.apen)>.rad,.verktoy:not(.apen)>.sortrad{display:none}
 }
 </style>
+<style>
+.kort .ikon.logo{background:#fff;border:1px solid var(--linje,#e6e1d8);padding:5px;box-sizing:border-box}
+.kort .ikon.logo img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+</style>
 </head>
 <body>
 <header class="topp">
@@ -683,7 +687,9 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   function lagKort(e){
     var n=$('kortMal').content.firstElementChild.cloneNode(true);
     n.dataset.type=e.type; n.dataset.id=e.id; if(e._status==='utløpt') n.classList.add('utlopt');
-    n.querySelector('.ikon').innerHTML=IKON[e.type];
+    var ik=n.querySelector('.ikon');
+    if(e.logo && /^\/assets\/logos\/[a-z0-9-]+\.(webp|png)(\?v=[a-f0-9]+)?$/.test(e.logo)){ var im=document.createElement('img'); im.src=e.logo; im.alt=String(e.arrangor||'').replace(/\s*\([^)]*\)\s*/g,' ').trim()+' logo'; im.loading='lazy'; im.decoding='async'; if(e.logoW){im.width=e.logoW;im.height=e.logoH;} ik.classList.add('logo'); ik.removeAttribute('aria-hidden'); ik.appendChild(im); }
+    else ik.innerHTML=IKON[e.type];
     n.querySelector('.navn').textContent=(S.land==='ALLE'||e.land!==S.land ? (FLAGG[e.land]||'')+' ' : '')+e.arrangor;
     var m=merkelapp(e), ml=n.querySelector('.status'); ml.textContent=m[0]; ml.classList.add(m[1]);
     if(NYE.has(e.id) && e._status!=='utløpt'){var ny=document.createElement('span');ny.className='merkelapp ny';ny.textContent=t('ny');ml.after(ny);}

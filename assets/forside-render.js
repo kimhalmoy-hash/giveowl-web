@@ -25,6 +25,12 @@
     var a = Array.from(w[0]), b = w[1] ? Array.from(w[1])[0] : (a[1] || '');
     return (a[0] + b).toUpperCase();
   }
+  // Arrangørens logo (lastet ned ved bygging til /assets/logos/), vist uendret i en hvit flis. Uten logo: initialer.
+  function logoImg(e, cls) {
+    if (!e.logo || !/^\/assets\/logos\/[a-z0-9-]+\.(webp|png)(\?v=[a-f0-9]+)?$/.test(e.logo)) return '';
+    return '<span class="' + cls + '"><img src="' + esc(e.logo) + '" alt="' + esc(orgNavn(e.arrangor) + ' logo') + '"' + (e.logoW && e.logoH ? ' width="' + (+e.logoW) + '" height="' + (+e.logoH) + '"' : '') + ' loading="lazy" decoding="async"></span>';
+  }
+  R.logoImg = logoImg;
   function hash(s) { var h = 2166136261; s = orgNavn(s).toLowerCase(); for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
   // Organizer covers: palette x pattern x angle x initials position, picked deterministically from the organizer name.
   // [from, to, ink]; ink contrast on both stops is >= 3:1 (initials are large bold text).
@@ -61,14 +67,14 @@
   }
 
   function kortHtml(e, o) {
-    var T = o.T, c = R.cover(e.arrangor), snart = e.type === 'konkurranse' && e.slutt && dagerMellom(o.idag, e.slutt) <= 3;
+    var T = o.T, c = R.cover(e.arrangor), logo = logoImg(e, 'fs-logo'), snart = e.type === 'konkurranse' && e.slutt && dagerMellom(o.idag, e.slutt) <= 3;
     var merke = e.sponset ? '<span class="fs-merke fs-ann">' + esc(T.spons) + '</span>' : snart ? '<span class="fs-merke fs-snart">' + esc(T.snart) + '</span>' : e.funnet === o.idag ? '<span class="fs-merke fs-ny">' + esc(T.ny) + '</span>' : '';
     var verdi = e.premieVerdi && e.valuta ? '<span class="fs-verdi">' + esc(penger(e.premieVerdi, e.valuta, o.locale)) + '</span>' : '';
     var tid = e.type === 'julekalender' || e.status === 'kommer' ? (e.start ? T.kommer + ': ' + dato(e.start, o.locale) : T.kommer) : e.slutt ? T.frist + ': ' + dato(e.slutt, o.locale) : '';
     var igjen = '';
     if (e.type === 'konkurranse' && e.slutt && e.status !== 'kommer') { var n = dagerMellom(o.idag, e.slutt); igjen = n <= 0 ? stor(T.idag) : n === 1 ? stor(T.imorgen) : flertall(T.igjen, n, o.locale); }
     return '<a class="fs-kort" href="/e/' + encodeURIComponent(e.id) + '/">' +
-      '<div class="fs-cover fs-m' + c.m + ' fs-pos' + c.pos + '" style="--ca:' + c.a + ';--cb:' + c.b + ';--ci:' + c.i + ';--cv:' + c.v + 'deg"><span class="fs-ini" aria-hidden="true">' + esc(initialer(e.arrangor)) + '</span>' + merke + verdi + '</div>' +
+      '<div class="fs-cover fs-m' + c.m + (logo ? ' fs-medlogo' : ' fs-pos' + c.pos) + '" style="--ca:' + c.a + ';--cb:' + c.b + ';--ci:' + c.i + ';--cv:' + c.v + 'deg">' + (logo || '<span class="fs-ini" aria-hidden="true">' + esc(initialer(e.arrangor)) + '</span>') + merke + verdi + '</div>' +
       '<div class="fs-kropp"><div class="fs-org" dir="auto">' + (e.land === 'INT' ? '🌍 ' : '') + esc(kort(orgNavn(e.arrangor), 40)) + '</div><h3 dir="auto">' + esc(kort(e.tittel, 72)) + '</h3><p dir="auto">' + esc(kort(e.premie, 110)) + '</p>' +
       '<div class="fs-fot">' + (tid ? '<span class="fs-frist' + (snart ? ' fs-rod' : '') + '">' + esc(tid) + '</span>' : '') + (igjen ? '<span class="fs-igjen">' + esc(igjen) + '</span>' : '') + '</div></div></a>';
   }
@@ -98,7 +104,7 @@
     if (snart.length) h += '<section class="fs-sek">' + hode('🔥 ' + esc(T.slutter.replace('{land}', ln)), null, alleLenke(o, 'konkurranse', L.konk.length)) + '<div class="fs-kgrid">' + snart.map(function (e) { return kortHtml(e, o); }).join('') + '</div></section>';
     if (!julVist && L.jul.length) h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>';
     if (L.topp.length >= 3) h += '<section class="fs-sek">' + hode('🏆 ' + esc(T.topp)) + '<p class="fs-under">' + esc(T.topp_u) + '</p><ol class="fs-toppliste">' + L.topp.slice(0, 6).map(function (e, i) {
-      return '<li><a class="fs-t5" href="/e/' + encodeURIComponent(e.id) + '/"><span class="fs-rank" aria-hidden="true">' + (i + 1) + '</span><span class="fs-t5t"><b dir="auto">' + esc(kort(e.tittel, 70)) + '</b><small dir="auto">' + esc(kort(orgNavn(e.arrangor), 40)) + (e.slutt ? ' · ' + esc(T.frist + ': ' + dato(e.slutt, o.locale)) : '') + '</small></span><span class="fs-v">' + esc(penger(e.premieVerdi, e.valuta, o.locale)) + '</span></a></li>'; }).join('') + '</ol></section>';
+      return '<li><a class="fs-t5" href="/e/' + encodeURIComponent(e.id) + '/"><span class="fs-rank" aria-hidden="true">' + (i + 1) + '</span><span class="fs-t5t">' + logoImg(e, 'fs-t5l') + '<span class="fs-t5x"><b dir="auto">' + esc(kort(e.tittel, 70)) + '</b><small dir="auto">' + esc(kort(orgNavn(e.arrangor), 40)) + (e.slutt ? ' · ' + esc(T.frist + ': ' + dato(e.slutt, o.locale)) : '') + '</small></span></span><span class="fs-v">' + esc(penger(e.premieVerdi, e.valuta, o.locale)) + '</span></a></li>'; }).join('') + '</ol></section>';
     return h;
   };
   G.GiveOwlForside = R;

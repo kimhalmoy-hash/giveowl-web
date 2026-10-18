@@ -125,4 +125,13 @@
   .fs-t5{grid-template-columns:34px 1fr;padding:12px 14px}.fs-rank{font-size:28px}.fs-v{grid-column:2;justify-self:start;font-size:15px}
   .fs-appband{padding:26px 22px;border-radius:28px;margin-top:44px}.fs-arr{padding:20px}
 }
+/* Arrangørlogoer: hvit avrundet flis midt på det fargede omslaget; logoen vises uendret (contain). */
+.fs-medlogo{justify-content:center}
+.fs-logo{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;box-sizing:border-box;height:72px;min-width:72px;max-width:62%;padding:10px 12px;background:#fff;border-radius:18px;box-shadow:0 8px 22px rgba(27,21,48,.16),0 0 0 1px rgba(27,21,48,.05)}
+.fs-logo img{display:block;width:auto;height:auto;max-width:100%;max-height:52px;object-fit:contain}
+.fs-t5t{display:flex;align-items:center;gap:12px}
+.fs-t5x{min-width:0;display:block}
+.fs-t5l{flex:none;display:flex;align-items:center;justify-content:center;width:46px;height:46px;box-sizing:border-box;padding:5px;background:#fff;border:1px solid var(--fs-line);border-radius:12px}
+.fs-t5l img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+@media (max-width:600px){.fs-logo{height:62px;min-width:62px;padding:8px 10px;border-radius:16px}.fs-logo img{max-height:46px}.fs-t5l{width:40px;height:40px}}
 @media (prefers-reduced-motion:reduce){.fs-kort,.fs-t5,.fs-knapp{transition:none}}

@@ -108,3 +108,9 @@ table.pris tbody th{font-weight:700;max-width:280px}
 .forhand{padding:16px;background:#fff;border:1px dashed var(--linje);border-radius:14px;margin:10px 0}
 .annkort select{max-width:100%;font:inherit;padding:8px;border-radius:10px;border:1px solid var(--linje)}
 .guide ol li,.guide ul li{margin:6px 0}.guide h2{margin-top:28px}.guide table.pris td,.guide table.pris th{font-size:14px}
+/* Organizer logo (downloaded at build time to /assets/logos/, shown unaltered in a white tile) */
+.oppf .arr.medlogo{display:flex;align-items:center;gap:10px}
+.arrlogo{flex:none;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;box-sizing:border-box;padding:4px;background:#fff;border:1px solid rgba(27,21,48,.12);border-radius:10px}
+.arrlogo img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.oppf.stor .arrlogo{width:56px;height:56px;padding:6px;border-radius:14px}
+
