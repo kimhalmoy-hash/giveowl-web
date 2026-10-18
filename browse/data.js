@@ -6218,6 +6218,33 @@ window.OPPFORINGER = [
   "innsats": "rask"
  },
  {
+  "funnet": "2026-10-17",
+  "sjekket": "2026-10-18",
+  "kreverKjop": false,
+  "sponset": false,
+  "innsats": "rask",
+  "type": "konkurranse",
+  "land": "US",
+  "valuta": "USD",
+  "start": "2026-10-20",
+  "slutt": "2026-11-06",
+  "frekvens": "engang",
+  "sesong": "jul",
+  "tittel": "Perdue Holiday Drop Sweepstakes",
+  "arrangor": "Perdue Farms",
+  "kilde": "Official rules on perdue.com (Oct 20 12pm ET – Nov 6, 2026 ET; 48 contiguous states + DC; no purchase necessary), checked 2026-10-17",
+  "premie": "5 winners each get a trip for two to an exclusive Perdue holiday dinner at Food Network Kitchen, New York (Dec 2, 2026), incl. airfare, plus a $1,750 Visa prepaid card (ARV $6,850 each)",
+  "premieVerdi": 6850,
+  "hvordanDelta": "From Oct 20 register at perdue.com/holiday-drop (mail-in entry also allowed). Legal residents of the 48 contiguous US states + DC",
+  "url": "https://www.perdue.com/perdue-holiday-drop-sweepstakes",
+  "kategori": "reise",
+  "id": "perdue-farms--perdue-holiday-drop-sweepstakes--2026",
+  "tags": [
+   "christmas"
+  ],
+  "status": "kommer"
+ },
+ {
   "land": "US",
   "tittel": "The Office Depot 12 Days of Giveaways",
   "arrangor": "Office Depot, LLC",
@@ -6418,33 +6445,5 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "id": "taste-of-home-rda-enthusiast-brands--taste-of-home-potluck-with-a-spin-recipe-contest--2026",
   "status": "kommer"
- },
- {
-  "funnet": "2026-10-17",
-  "sjekket": "2026-10-18",
-  "kreverKjop": false,
-  "sponset": false,
-  "innsats": "rask",
-  "type": "konkurranse",
-  "land": "US",
-  "valuta": "USD",
-  "start": "2026-10-20",
-  "slutt": "2026-11-06",
-  "frekvens": "engang",
-  "sesong": "jul",
-  "tittel": "Perdue Holiday Drop Sweepstakes",
-  "arrangor": "Perdue Farms",
-  "kilde": "Official rules on perdue.com (Oct 20 12pm ET – Nov 6, 2026 ET; 48 contiguous states + DC; no purchase necessary), checked 2026-10-17",
-  "premie": "5 winners each get a trip for two to an exclusive Perdue holiday dinner at Food Network Kitchen, New York (Dec 2, 2026), incl. airfare, plus a $1,750 Visa prepaid card (ARV $6,850 each)",
-  "premieVerdi": 6850,
-  "hvordanDelta": "From Oct 20 register at perdue.com/holiday-drop (mail-in entry also allowed). Legal residents of the 48 contiguous US states + DC",
-  "url": "https://www.perdue.com/perdue-holiday-drop-sweepstakes",
-  "kategori": "reise",
-  "id": "perdue-farms--perdue-holiday-drop-sweepstakes--2026",
-  "tags": [
-   "christmas"
-  ],
-  "status": "utløpt",
-  "dod": true
  }
 ];
