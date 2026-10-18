@@ -3596,7 +3596,8 @@ window.OPPFORINGER = [
   "kategori": "barn",
   "kilde": "Valco «Todesstern-Gewinnspiel» mit Teilnahmebedingungen (bis 15.11.2026, Valco Oy, Finnland), sjekket 2026-10-18",
   "id": "valco-oy--valco-lego-star-wars-todesstern-gewinnen-de--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "amazonUrl": "https://www.amazon.de/dp/B0FPXFMGVT?tag=giveowl-21"
  },
  {
   "funnet": "2026-10-18",
@@ -3619,7 +3620,8 @@ window.OPPFORINGER = [
   "kategori": "barn",
   "kilde": "Valco «Prenumerera på nyhetsbrevet och vinn din alldeles egna Dödsstjärna» med villkor (t.o.m. 15.11.2026, Valco Oy, Finland), sjekket 2026-10-18",
   "id": "valco-oy--valco-vinn-lego-star-wars-dodsstjarnan-se--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "amazonUrl": "https://www.amazon.de/dp/B0FPXFMGVT?tag=giveowl-21"
  },
  {
   "funnet": "2026-10-18",
@@ -3642,7 +3644,8 @@ window.OPPFORINGER = [
   "kategori": "barn",
   "kilde": "Valco «Death Star giveaway» page and rules (until 15 Nov 2026, Valco Oy, Finland, open to EU residents), sjekket 2026-10-18",
   "id": "valco-oy--valco-win-a-lego-star-wars-death-star-dk--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "amazonUrl": "https://www.amazon.de/dp/B0FPXFMGVT?tag=giveowl-21"
  },
  {
   "funnet": "2026-10-17",
@@ -4880,7 +4883,8 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "engang",
   "id": "easychoice--premietrekning-for-abonnenter-vinn-iphone-17-pro--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "amazonUrl": "https://www.amazon.de/dp/B0FQG15YVP?tag=giveowl-21"
  },
  {
   "funnet": "2026-10-18",
