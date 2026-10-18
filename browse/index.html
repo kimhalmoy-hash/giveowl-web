@@ -1116,7 +1116,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   function nyeData(d){ if(!gyldig(d)) throw new Error('invalid'); if(String(d.bygget||'')<BYGGET) return false;
     lagre('data',{bygget:d.bygget,oppforinger:d.oppforinger}); ALLE=d.oppforinger.slice(); BYGGET=d.bygget||BYGGET; merk(); beregnNye(); planlegg(); return true; }
   function hentFraNett(){
-    // Appen: native henting (https, faller tilbake til http mens HTTPS ikke er påskrudd) + sammenligning med sett-lista
+    // Appen: native henting (bare https; Android og iOS faller tilbake til samme fil på raw.githubusercontent.com) + sammenligning med sett-lista
     if(GO){
       try{
         Promise.resolve(GO.checkNow()).then(function(r){
