@@ -107,3 +107,4 @@ table.pris tbody th{font-weight:700;max-width:280px}
 .kodeboks{width:100%;min-height:96px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;border:1px solid var(--linje);border-radius:12px;padding:10px;background:#fff;color:var(--blekk)}
 .forhand{padding:16px;background:#fff;border:1px dashed var(--linje);border-radius:14px;margin:10px 0}
 .annkort select{max-width:100%;font:inherit;padding:8px;border-radius:10px;border:1px solid var(--linje)}
+.guide ol li,.guide ul li{margin:6px 0}.guide h2{margin-top:28px}.guide table.pris td,.guide table.pris th{font-size:14px}
