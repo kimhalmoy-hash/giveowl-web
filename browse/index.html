@@ -237,6 +237,21 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
 </style>
 <link rel="manifest" href="/manifest.webmanifest">
 <script>if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost')) addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});</script>
+<style>
+.merke small{opacity:1;font-size:13.5px;font-weight:700}
+.ingress{opacity:1;color:#fff;font-size:16px;font-weight:500}
+.filterknapp{display:none}
+@media (max-width:700px){
+  header.topp{padding-bottom:50px}
+  .ingress{margin-top:10px;font-size:15px}
+  .verktoy{gap:8px;margin-top:10px}
+  .filterknapp{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;font:inherit;font-size:14.5px;font-weight:700;color:var(--natt-2,#2B3A7A);background:var(--papir,#fff);border:1px solid var(--linje,#ECE4D6);border-radius:12px;padding:9px 12px;cursor:pointer}
+  .filterknapp.aktiv::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--oransje,#F7931E)}
+  .filterknapp svg{transition:transform .2s}
+  .verktoy.apen .filterknapp svg{transform:rotate(180deg)}
+  .verktoy:not(.apen)>.rad,.verktoy:not(.apen)>.sortrad{display:none}
+}
+</style>
 </head>
 <body>
 <header class="topp">
@@ -312,6 +327,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
       <label class="land"><select id="land"></select></label>
     </div>
     <div class="chips" id="kategori" role="group"></div>
+    <button type="button" class="filterknapp" id="filterKnapp" aria-expanded="false"><span id="filterTekst">Filters &amp; sort</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
     <div class="rad">
       <label class="bryter"><input type="checkbox" id="utenKjop"> <span data-t="uten_kjop"></span></label>
       <label class="bryter"><input type="checkbox" id="kunFav"> <span data-t="kun_fav"></span></label>
@@ -1158,6 +1174,13 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     hentFraNett();
   });
 })();
+</script>
+<script>
+(function(){var T={"nb":"Filter og sortering","sv":"Filter och sortering","da":"Filtre og sortering","de":"Filter & Sortierung","fi":"Suodattimet ja järjestys","en":"Filters & sort","es":"Filtros y orden","pt-BR":"Filtros e ordem","fr":"Filtres et tri","it":"Filtri e ordine","nl":"Filters & sorteren","pl":"Filtry i sortowanie","tr":"Filtre ve sıralama","ja":"絞り込みと並べ替え","ko":"필터 및 정렬","zh-Hans":"筛选和排序","hi":"फ़िल्टर और क्रम","id":"Filter & urutan","ar":"التصفية والترتيب"},k=document.getElementById('filterKnapp'),v=k&&k.closest('.verktoy');if(!k||!v)return;
+function tekst(){var l=document.documentElement.lang||'en';document.getElementById('filterTekst').textContent=T[l]||T[l.split('-')[0]]||T.en;}
+function merk(){var a=['kunFav','visUtlopt'].some(function(id){var e=document.getElementById(id);return e&&e.checked;});var u=document.getElementById('utenKjop');k.classList.toggle('aktiv',a||!!(u&&!u.checked));}
+k.addEventListener('click',function(){var o=v.classList.toggle('apen');k.setAttribute('aria-expanded',o?'true':'false');});
+v.addEventListener('change',merk);tekst();merk();new MutationObserver(tekst).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});})();
 </script>
 </body>
 </html>
