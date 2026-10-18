@@ -415,6 +415,13 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   function pad(n){return String(n).padStart(2,'0');}
   var q = new URLSearchParams(location.search);
   var IDAG = /^\d{4}-\d\d-\d\d$/.test(q.get('dato')||'') ? q.get('dato') : iso(new Date());
+  var SES=(window.LUKE_CONFIG&&window.LUKE_CONFIG.sesong)||null;
+  function osloDato(){ var d=q.get('dato')||''; if(/^\d{4}-\d\d-\d\d$/.test(d)) return d;
+    try{ return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Oslo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); }catch(x){ return IDAG; } }
+  function erSes(e){ return !!SES && Array.isArray(e.tags) && e.tags.indexOf(SES.tag)>=0; }
+  function sesAntall(){ return SES ? ALLE.filter(function(e){ return e.type==='konkurranse' && iLand(e) && e._status!=='utløpt' && erSes(e); }).length : 0; }
+  function sesVis(){ var d=osloDato(); return !!SES && S.type==='konkurranse' && d>=SES.fra && d<=SES.til && sesAntall()>=SES.min; }
+  function sesNavn(){ var bw = S.land==='ALLE' ? /^(nb|sv|da|de)$/.test(S.lang) : ['NO','SE','DK','DE'].indexOf(S.land)>=0; return bw ? 'Black Week' : 'Black Friday'; }
   function lagre(k,v){try{localStorage.setItem('giveowl.'+k,JSON.stringify(v));}catch(e){}}
   function hent(k,d){try{var v=localStorage.getItem('giveowl.'+k);return v==null?d:JSON.parse(v);}catch(e){return d;}}
 
@@ -464,6 +471,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     utenKjop: lagret.utenKjop!==false, kunFav: !!lagret.kunFav, visUtlopt: !!lagret.visUtlopt,
     sort: lagret.sort || 'frist', innsats: lagret.innsats || 'alle'
   };
+  S.ses = q.get('ses')==='1';
   // Testhjelp (skjermbilder): ?fane= ?fav= ?deltatt= ?nye= ?vis= ?sort= ?innsats=
   if(q.get('fane')==='konkurranse'||q.get('fane')==='julekalender') S.type=q.get('fane');
   if(q.get('fav')) q.get('fav').split(',').forEach(function(id){fav.add(id);});
@@ -598,13 +606,17 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     var navn=t('kat'); kat.sort(function(a,b){return (navn[a]||a).localeCompare(navn[b]||b,S.lang);});
     if(S.kategori!=='alle' && kat.indexOf(S.kategori)<0) S.kategori='alle';
     var el=$('kategori'); el.innerHTML='';
-    if(kat.length<2){el.classList.add('skjult');return;} el.classList.remove('skjult');
+    var sv=sesVis(); if(!sv) S.ses=false;
+    if(kat.length<2 && !sv){el.classList.add('skjult');return;} el.classList.remove('skjult');
+    if(sv){ var sb=document.createElement('button'); sb.className='chip ses'; sb.type='button'; sb.id='sesChip'; sb.textContent='\u{1F3F7}\uFE0F '+sesNavn(); sb.setAttribute('aria-pressed',S.ses?'true':'false'); sb.onclick=function(){ S.ses=!S.ses; oppdater(); }; el.appendChild(sb); }
+    if(kat.length<2) return;
     chip(el,'alle',t('kat_alle'),S.kategori==='alle',function(v){S.kategori=v;oppdater();});
     kat.forEach(function(k){chip(el,k,navn[k]||k,S.kategori===k,function(v){S.kategori=v;oppdater();});});
   }
 
   function treff(e){
     if(e.type!==S.type || !iLand(e) || !synlig(e)) return false;
+    if(S.ses && !erSes(e)) return false;
     if(S.kategori!=='alle' && e.kategori!==S.kategori) return false;
     if(S.innsats!=='alle' && e.innsats!==S.innsats) return false;
     if(S.kunFav && !fav.has(e.id)) return false;

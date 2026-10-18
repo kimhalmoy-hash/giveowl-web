@@ -5,5 +5,6 @@ window.LUKE_CONFIG = {
   privacyUrl: '../privacy/',
   submitUrl: '../submit/',
   homeUrl: '../',
-  web: true
+  web: true,
+  sesong: {"id":"black-friday","tag":"black-friday","fra":"2026-11-01","til":"2026-11-30","min":5,"antall":{"DE":2,"GB":3,"NO":2,"DK":1,"SE":1,"AU":2,"US":5,"CA":2}}
 };
