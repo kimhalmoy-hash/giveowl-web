@@ -3268,28 +3268,6 @@ window.OPPFORINGER = [
   "status": "aktiv"
  },
  {
-  "funnet": "2026-10-17",
-  "sjekket": "2026-10-18",
-  "kreverKjop": false,
-  "sponset": false,
-  "kilde": "Arrangørens side / offisielle regler",
-  "type": "konkurranse",
-  "land": "GB",
-  "tittel": "hub by Premier Inn: Win the ultimate London weekend",
-  "arrangor": "Premier Inn (hub by Premier Inn)",
-  "premie": "Two tickets to the London Museum opening weekend, two nights for two at hub London Old Bailey (27–29 Nov 2026) with breakfast",
-  "valuta": "GBP",
-  "hvordanDelta": "On Instagram: follow @hubhotels, like the post and tag who you would bring. UK & ROI 18+",
-  "url": "https://www.premierinn.com/gb/en/hub/london-museum-competition.html",
-  "start": "2026-10-15",
-  "slutt": "2026-11-12",
-  "kategori": "reise",
-  "innsats": "rask",
-  "frekvens": "engang",
-  "id": "premier-inn-hub-by-premier-inn--hub-by-premier-inn-win-the-ultimate-london-weekend--2026",
-  "status": "aktiv"
- },
- {
   "funnet": "2026-10-18",
   "sjekket": "2026-10-18",
   "kreverKjop": false,
