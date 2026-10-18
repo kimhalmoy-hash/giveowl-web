@@ -69,7 +69,10 @@ window.OPPFORINGER = [
   "kategori": "annet",
   "innsats": "rask",
   "id": "agravis-raiffeisen-ag--agravis-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/agravis-raiffeisen-ag.webp?v=df13513a",
+  "logoW": 256,
+  "logoH": 99
  },
  {
   "funnet": "2026-10-17",
@@ -115,7 +118,10 @@ window.OPPFORINGER = [
   "slutt": "2026-12-24",
   "kategori": "reise",
   "id": "connect-weka-media-publishing--connect-online-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/connect.webp?v=ccbd4a19",
+  "logoW": 256,
+  "logoH": 67
  },
  {
   "funnet": "2026-10-17",
@@ -375,7 +381,10 @@ window.OPPFORINGER = [
   "url": "https://allum.steenstrom.se/event-nyheter/event/allums-julkalender",
   "kategori": "gavekort",
   "id": "allum-partille--allum-julkalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/allum.webp?v=9d10f3c1",
+  "logoW": 256,
+  "logoH": 49
  },
  {
   "funnet": "2026-10-17",
@@ -679,7 +688,10 @@ window.OPPFORINGER = [
   "url": "https://www.dabplus.de/teilnahmebedingungen/",
   "kategori": "elektronikk",
   "id": "digitalradio-deutschland-e-v--dab-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/digitalradio-deutschland-e-v.webp?v=2d152252",
+  "logoW": 162,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-17",
@@ -768,7 +780,10 @@ window.OPPFORINGER = [
   "url": "https://www.oetker.co.uk/products/promotions/dr-oetker-advent-calendar-2025-tandcs",
   "kategori": "gavekort",
   "id": "dr-oetker-uk--dr-oetker-advent-calendar--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/dr-oetker.webp?v=753e0aa7",
+  "logoW": 194,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-17",
@@ -788,7 +803,10 @@ window.OPPFORINGER = [
   "url": "https://www.elgiganten.dk/kundeklub/julekalender",
   "kategori": "elektronikk",
   "id": "elgiganten--elgiganten-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/elgiganten.webp?v=1bf7de58",
+  "logoW": 256,
+  "logoH": 60
  },
  {
   "funnet": "2026-10-17",
@@ -807,7 +825,10 @@ window.OPPFORINGER = [
   "url": "https://www.elkjop.no/julegavetips/elkjops-julekalender",
   "kategori": "elektronikk",
   "id": "elkjop--elkjop-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/elkjop.webp?v=84ab90d2",
+  "logoW": 256,
+  "logoH": 92
  },
  {
   "funnet": "2026-10-17",
@@ -919,7 +940,10 @@ window.OPPFORINGER = [
   "url": "https://www.foa.dk/temaer/julekalender",
   "kategori": "annet",
   "id": "foa--foas-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/foa.webp?v=1d8f0760",
+  "logoW": 256,
+  "logoH": 35
  },
  {
   "funnet": "2026-10-17",
@@ -1255,7 +1279,10 @@ window.OPPFORINGER = [
   "url": "https://www.land.se/tavlingar",
   "kategori": "annet",
   "id": "land-tidningen--lands-julkalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/land.webp?v=18d0f6b0",
+  "logoW": 256,
+  "logoH": 88
  },
  {
   "type": "julekalender",
@@ -1454,7 +1481,10 @@ window.OPPFORINGER = [
   "url": "https://mestergronn.julekalender.no/",
   "kategori": "gavekort",
   "id": "mester-gronn--mester-gronn-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/mester-gronn.webp?v=4ebf053c",
+  "logoW": 256,
+  "logoH": 117
  },
  {
   "funnet": "2026-10-17",
@@ -1521,7 +1551,10 @@ window.OPPFORINGER = [
   "hvordanDelta": "2025: täglich teilnehmen laut Teilnahmebedingungen",
   "kategori": "annet",
   "id": "nussbaum-medien--nussbaum-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/nussbaum-medien.webp?v=49b0487d",
+  "logoW": 256,
+  "logoH": 65
  },
  {
   "funnet": "2026-10-17",
@@ -1633,7 +1666,10 @@ window.OPPFORINGER = [
   "url": "https://perletur.julekalender.no/",
   "kategori": "annet",
   "id": "perletur--perletur-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/perletur.webp?v=c309218b",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "funnet": "2026-10-17",
@@ -1698,7 +1734,10 @@ window.OPPFORINGER = [
   "url": "https://riffraff.julekalender.no/",
   "kategori": "elektronikk",
   "id": "riffraff-no--riffraff-no-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/riffraff-no.webp?v=a2536c9b",
+  "logoW": 256,
+  "logoH": 44
  },
  {
   "funnet": "2026-10-17",
@@ -1782,7 +1821,10 @@ window.OPPFORINGER = [
   "url": "https://www.schauinsland-reisen.de/gewinnspiele/adventskalender",
   "kategori": "reise",
   "id": "schauinsland-reisen--schauinsland-reisen-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/schauinsland-reisen.webp?v=1ccaa468",
+  "logoW": 256,
+  "logoH": 43
  },
  {
   "funnet": "2026-10-17",
@@ -1893,7 +1935,10 @@ window.OPPFORINGER = [
   "url": "https://sprakradet.julekalender.no/",
   "kategori": "annet",
   "id": "sprakradet--sprakradets-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/sprakradet.webp?v=a27334fc",
+  "logoW": 256,
+  "logoH": 46
  },
  {
   "funnet": "2026-10-17",
@@ -1959,7 +2004,10 @@ window.OPPFORINGER = [
   "url": "https://systemkjops.julekalender.no/",
   "kategori": "mat",
   "id": "systemkjop--systemkjop-julekalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/systemkjop.webp?v=0981d549",
+  "logoW": 256,
+  "logoH": 112
  },
  {
   "funnet": "2026-10-17",
@@ -2097,7 +2145,10 @@ window.OPPFORINGER = [
   "hvordanDelta": "2025: täglich teilnehmen laut Teilnahmebedingungen",
   "kategori": "annet",
   "id": "thomas-philipps--thomas-philipps-adventskalender--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/thomas-philipps.webp?v=5a158a28",
+  "logoW": 256,
+  "logoH": 64
  },
  {
   "funnet": "2026-10-17",
@@ -2186,7 +2237,10 @@ window.OPPFORINGER = [
   "url": "https://www.ukcampsite.co.uk/advent/",
   "kategori": "annet",
   "id": "ukcampsite-co-uk--ukcampsite-advent-calendar-giveaway--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/ukcampsite-co-uk.webp?v=d40afd5d",
+  "logoW": 256,
+  "logoH": 45
  },
  {
   "funnet": "2026-10-17",
@@ -2574,7 +2628,10 @@ window.OPPFORINGER = [
   "url": "https://www.tine.no/opplev-norge",
   "kategori": "reise",
   "id": "tine--vinn-norgesferie-reisegavekort-pa-10-000-kr-hver-uke--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/tine.webp?v=6b513f40",
+  "logoW": 182,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -2776,7 +2833,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "hgtv-warner-bros-discovery--hgtv-trick-or-treat-yourself-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/hgtv.webp?v=51a74b14",
+  "logoW": 250,
+  "logoH": 128
  },
  {
   "type": "konkurranse",
@@ -2851,7 +2911,10 @@ window.OPPFORINGER = [
   "premieVerdi": 5000,
   "valuta": "USD",
   "frekvens": "daglig",
-  "innsats": "rask"
+  "innsats": "rask",
+  "logo": "/assets/logos/tlc.webp?v=8eed3d38",
+  "logoW": 256,
+  "logoH": 123
  },
  {
   "funnet": "2026-10-18",
@@ -2874,7 +2937,10 @@ window.OPPFORINGER = [
   "kategori": "barn",
   "kilde": "Småungene «Vilkår for konkurransen: Vinn et ullsett fra Need it» (til 29.10.2026, trekning 30.10.2026, Småungene AS), sjekket 2026-10-18",
   "id": "smaungene-as--vinn-et-ullsett-fra-need-it--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/smaungene-as.webp?v=85c15353",
+  "logoW": 128,
+  "logoH": 128
  },
  {
   "land": "AU",
@@ -2975,7 +3041,10 @@ window.OPPFORINGER = [
   "kategori": "reise",
   "frekvens": "daglig",
   "id": "culver-franchising-system-llc--culver-s-curdtoberfest-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/culver-franchising-system-llc.webp?v=3cb7245d",
+  "logoW": 256,
+  "logoH": 117
  },
  {
   "type": "konkurranse",
@@ -3040,7 +3109,10 @@ window.OPPFORINGER = [
   "kategori": "annet",
   "kilde": "Broil King «Tävlingsvillkor – Broil King Sveriges nyhetsbrevstävling» (t.o.m. 1.11.2026, dragning 2.11.2026), sjekket 2026-10-18",
   "id": "broil-king-sverige--broil-king-nyhetsbrevstavling-vinn-en-royal-shadow-340--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/broil-king-sverige.webp?v=36ddb2df",
+  "logoW": 256,
+  "logoH": 40
  },
  {
   "type": "konkurranse",
@@ -3221,7 +3293,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "insp--insp-s-frontier-feast-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/insp.webp?v=e24b2806",
+  "logoW": 220,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -3273,7 +3348,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "mars-wrigley-snickers--snickers-nfl-and-circle-k-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/mars-wrigley.webp?v=c398ecd6",
+  "logoW": 256,
+  "logoH": 74
  },
  {
   "funnet": "2026-10-18",
@@ -3322,7 +3400,10 @@ window.OPPFORINGER = [
   "url": "https://www.blindstogo.com/campaigns/reasons/sweepstakes/",
   "kategori": "annet",
   "id": "blinds-to-go--blinds-to-go-reasons-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/blinds-to-go.webp?v=a9768495",
+  "logoW": 128,
+  "logoH": 128
  },
  {
   "type": "konkurranse",
@@ -3417,7 +3498,10 @@ window.OPPFORINGER = [
   "kategori": "annet",
   "kilde": "madetocreate.dk konkurrence og konkurrencebetingelser (17.10–5.11.2026, arrangør Dansk Metal, CVR 31407117), sjekket 2026-10-18",
   "id": "dansk-metal-made-to-create--vind-en-made-to-create-t-shirt-200-vindere--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/dansk-metal.webp?v=c38f4cd4",
+  "logoW": 256,
+  "logoH": 76
  },
  {
   "type": "konkurranse",
@@ -3466,7 +3550,10 @@ window.OPPFORINGER = [
   "innsats": "middels",
   "frekvens": "daglig",
   "id": "the-coca-cola-company-fanta--fanta-build-your-alebrije-sweepstakes-and-instant-win-game--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/the-coca-cola-company.webp?v=62a09177",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "funnet": "2026-10-17",
@@ -3510,7 +3597,10 @@ window.OPPFORINGER = [
   "kategori": "annet",
   "innsats": "rask",
   "id": "ecosa-the-print-emporium--win-a-4-000-home-refresh--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/ecosa-the-print-emporium.webp?v=ba6d0746",
+  "logoW": 256,
+  "logoH": 73
  },
  {
   "land": "AU",
@@ -3638,7 +3728,10 @@ window.OPPFORINGER = [
   "url": "https://cove-home.co/pages/holiday-giveaway",
   "kategori": "gavekort",
   "id": "cove-home-llc--cove-home-holiday-hosting-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/cove-home-llc.webp?v=fefd8bbc",
+  "logoW": 174,
+  "logoH": 128
  },
  {
   "type": "konkurranse",
@@ -3661,7 +3754,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "food-network-warner-bros-discovery--food-network-taste-of-fall-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/food-network.webp?v=24a3fb81",
+  "logoW": 128,
+  "logoH": 128
  },
  {
   "land": "AU",
@@ -4148,7 +4244,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "hy-vee--hy-vee-perks-hub-thanksgiving-premade-meal-pack-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/hy-vee.webp?v=d66d4337",
+  "logoW": 256,
+  "logoH": 87
  },
  {
   "land": "GB",
@@ -4854,7 +4953,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "daglig",
   "id": "schaeffer-manufacturing--schaeffer-season-2026-instant-win-and-sweeps--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/schaeffer-manufacturing.webp?v=63d42671",
+  "logoW": 251,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -5079,7 +5181,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "eos-footwear-urban-shoemakers-pty-ltd--eos-footwear-black-friday-wardrobe-win-1-000-voucher--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/eos-footwear.webp?v=20e8ec1a",
+  "logoW": 256,
+  "logoH": 93
  },
  {
   "land": "US",
@@ -5106,7 +5211,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "acon-distributacon-inc--acon-black-friday-2026-ultimate-backyard-setup-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/acon.webp?v=aee91ad8",
+  "logoW": 256,
+  "logoH": 55
  },
  {
   "land": "CA",
@@ -5132,7 +5240,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "acon--acon-black-friday-2026-ultimate-backyard-setup-giveaway-canada--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/acon.webp?v=aee91ad8",
+  "logoW": 256,
+  "logoH": 55
  },
  {
   "funnet": "2026-10-18",
@@ -5227,7 +5338,10 @@ window.OPPFORINGER = [
   "sjekket": "2026-10-18",
   "kreverKjop": false,
   "sponset": false,
-  "innsats": "rask"
+  "innsats": "rask",
+  "logo": "/assets/logos/proshop.webp?v=7558f294",
+  "logoW": 256,
+  "logoH": 20
  },
  {
   "funnet": "2026-10-17",
@@ -5578,7 +5692,10 @@ window.OPPFORINGER = [
   "url": "https://www.filson.com/pages/world-of-filson-giveaway",
   "kategori": "reise",
   "id": "filson--world-of-filson-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/filson.webp?v=0b60d1b7",
+  "logoW": 256,
+  "logoH": 61
  },
  {
   "type": "konkurranse",
@@ -5937,7 +6054,10 @@ window.OPPFORINGER = [
    "christmas"
   ],
   "id": "ferrero-deutschland-gmbh-kinder--kinder-magischer-wunschzettel-weihnachtsgewinnspiel--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/ferrero-deutschland-gmbh.webp?v=926c5c80",
+  "logoW": 182,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -6043,7 +6163,10 @@ window.OPPFORINGER = [
    "christmas"
   ],
   "id": "heim-bryggen-as--heim-bryggen-julegavekonkurranse-hele-julekulekolleksjonen--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/heim-bryggen-as.webp?v=ca481bf8",
+  "logoW": 256,
+  "logoH": 85
  },
  {
   "funnet": "2026-10-17",
@@ -6465,7 +6588,10 @@ window.OPPFORINGER = [
    "christmas"
   ],
   "id": "mars-pedigree-dreamies-at-b-m--b-m-pedigree-dreamies-christmas-text-to-win--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/mars-at-b-and-m.webp?v=c398ecd6",
+  "logoW": 256,
+  "logoH": 74
  },
  {
   "land": "NO",
@@ -6514,7 +6640,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "jagt-jakt-dk--vind-et-swazi-gavekort-pa-3-000-kr--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/jagt-jakt-dk.webp?v=18e138ae",
+  "logoW": 256,
+  "logoH": 65
  },
  {
   "funnet": "2026-10-18",
@@ -6595,7 +6724,10 @@ window.OPPFORINGER = [
    "christmas"
   ],
   "id": "hallmark-media-united-states-llc--hallmark-channel-s-very-merry-giveaway-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/hallmark-media-united-states-llc.webp?v=b20cd9a2",
+  "logoW": 256,
+  "logoH": 99
  },
  {
   "type": "konkurranse",
@@ -6797,7 +6929,10 @@ window.OPPFORINGER = [
   "innsats": "middels",
   "frekvens": "engang",
   "id": "texas-highways-ajr-media-group--texas-state-travel-guide-2026-reader-survey-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/texas-highways.webp?v=43ce01fe",
+  "logoW": 256,
+  "logoH": 115
  },
  {
   "type": "konkurranse",
@@ -6947,7 +7082,10 @@ window.OPPFORINGER = [
   "innsats": "lang",
   "frekvens": "engang",
   "id": "general-mills--general-mills-cereal-s-1-biggest-fan-contest--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/general-mills.webp?v=57654da6",
+  "logoW": 220,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -6997,7 +7135,10 @@ window.OPPFORINGER = [
   "url": "https://www.wkkelloggwonka.com/",
   "kategori": "reise",
   "id": "wk-kellogg-co--kellogg-s-cocoa-loops-wonka-golden-ticket-sweepstakes--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/wk-kellogg-co.webp?v=3fabdde6",
+  "logoW": 256,
+  "logoH": 55
  },
  {
   "funnet": "2026-10-18",
@@ -7147,7 +7288,10 @@ window.OPPFORINGER = [
   "innsats": "rask",
   "frekvens": "engang",
   "id": "callaway-golf--callaway-quarterly-gift-card-sweeps--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/callaway-golf.webp?v=069e7d4c",
+  "logoW": 227,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -7173,7 +7317,10 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Coca-Cola Sverige «Utlottningsvillkor – Coca-Cola Julkampanj 2026» (1.10–31.12.2026, inget köp krävs), sjekket 2026-10-18",
   "id": "coca-cola-services-sa-coca-cola-sverige-ab--coca-cola-julkampanj-vinn-en-coca-cola-julpyjamas--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/coca-cola-services-sa-coca-cola-sverige-ab.webp?v=62a09177",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "funnet": "2026-10-17",
@@ -7195,7 +7342,10 @@ window.OPPFORINGER = [
   "kategori": "elektronikk",
   "innsats": "rask",
   "id": "henry-s--henry-s-canon-powershot-v1-email-subscription-giveaway--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/henry-s.webp?v=f36cfa4c",
+  "logoW": 256,
+  "logoH": 46
  },
  {
   "funnet": "2026-10-17",
@@ -7273,7 +7423,10 @@ window.OPPFORINGER = [
   "status": "aktiv",
   "tags": [
    "christmas"
-  ]
+  ],
+  "logo": "/assets/logos/food-network-hgtv.webp?v=24a3fb81",
+  "logoW": 128,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-18",
@@ -7320,7 +7473,10 @@ window.OPPFORINGER = [
   "url": "https://finsup.margaritavillevacationclub.com/sweepstakes-2026",
   "kategori": "reise",
   "id": "margaritaville-vacation-club--margaritaville-vacation-club-vacation-a-day-giveaway--2027",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/margaritaville-vacation-club.webp?v=34baeeb7",
+  "logoW": 128,
+  "logoH": 128
  },
  {
   "type": "konkurranse",
@@ -7366,7 +7522,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "cst-savings-cst-spark--cst-igniting-dreams-contest-win-a-10-000-resp--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/cst-savings-cst-spark.webp?v=ee8ea9c4",
+  "logoW": 256,
+  "logoH": 114
  },
  {
   "funnet": "2026-10-17",
@@ -7385,7 +7544,10 @@ window.OPPFORINGER = [
   "kategori": "reise",
   "innsats": "rask",
   "id": "visit-northumberland--win-a-food-lover-s-break-in-northumberland--2027",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/visit-northumberland.webp?v=0214b601",
+  "logoW": 256,
+  "logoH": 22
  },
  {
   "funnet": "2026-10-18",
@@ -7483,7 +7645,10 @@ window.OPPFORINGER = [
   "url": "https://www.coca-cola.com/us/en/offerings/portfolio/evergreen-promotion",
   "kategori": "mat",
   "id": "the-coca-cola-company--coca-cola-2026-2027-product-sweepstakes--2027",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/the-coca-cola-company.webp?v=62a09177",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "funnet": "2026-10-18",
@@ -7557,7 +7722,10 @@ window.OPPFORINGER = [
   "url": "https://www.sudocremwin.com/",
   "kategori": "barn",
   "id": "leda-innovations-usa-inc-sudocrem--sudocrem-and-win-2026-instant-win-game--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/leda-innovations-usa-inc.webp?v=f6516abe",
+  "logoW": 180,
+  "logoH": 36
  },
  {
   "funnet": "2026-10-18",
@@ -7813,7 +7981,10 @@ window.OPPFORINGER = [
   "tags": [
    "christmas"
   ],
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/perdue-farms.webp?v=fcaae85b",
+  "logoW": 135,
+  "logoH": 90
  },
  {
   "funnet": "2026-10-18",
@@ -7869,7 +8040,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "office-depot-llc--the-office-depot-12-days-of-giveaways--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/office-depot-llc.webp?v=8c85b210",
+  "logoW": 256,
+  "logoH": 29
  },
  {
   "funnet": "2026-10-18",
@@ -7917,7 +8091,10 @@ window.OPPFORINGER = [
   "kategori": "gavekort",
   "kilde": "GF Forsikring konkurrencebetingelser «Vind gavekort til Go Gift november 2026» (1.–30.11.2026, lodtrækning 1.12.2026), sjekket 2026-10-18",
   "id": "gf-forsikring--vind-gavekort-til-go-gift-pa-1-000-kr-november--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/gf-forsikring.webp?v=6ea003b0",
+  "logoW": 256,
+  "logoH": 88
  },
  {
   "funnet": "2026-10-18",
@@ -8060,7 +8237,10 @@ window.OPPFORINGER = [
   "url": "https://www.coca-cola.com/de/de/legal/christmas-2026",
   "kategori": "reise",
   "id": "coca-cola-services-n-v--coca-cola-x-mas-2026-promotion--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/coca-cola-services-n-v.webp?v=62a09177",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "funnet": "2026-10-18",
@@ -8086,7 +8266,10 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Coca-Cola Deutschland «Teilnahmebedingungen X-MAS 2026» (19.10.–31.12.2026, Kassenbon erforderlich), sjekket 2026-10-18",
   "id": "coca-cola-services-n-v--coca-cola-x-mas-2026-lappland-reise-und-50-gutscheine--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/coca-cola-services-n-v.webp?v=62a09177",
+  "logoW": 256,
+  "logoH": 80
  },
  {
   "land": "US",
@@ -8110,7 +8293,10 @@ window.OPPFORINGER = [
   "sponset": false,
   "type": "konkurranse",
   "id": "crown-imports-llc-corona--corona-holiday-2026-sweepstakes--2026",
-  "status": "kommer"
+  "status": "kommer",
+  "logo": "/assets/logos/crown-imports-llc.webp?v=2fdc4f21",
+  "logoW": 252,
+  "logoH": 128
  },
  {
   "type": "konkurranse",
