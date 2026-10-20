@@ -30,7 +30,7 @@
     sek.setAttribute('data-land', o.land); sek.setAttribute('data-lang', o.lang); sek.setAttribute('data-tema', o.tema); sek.setAttribute('data-dag', o.idag);
   }
   function medData(fn) { if (alle) return fn();
-    if (!henter) henter = fetch('/data.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) { alle = d.oppforinger || []; });
+    if (!henter) henter = fetch('/assets/forside-data.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) { alle = d.oppforinger || []; });
     henter.then(fn).catch(function () {}); }
   function oppdater(land, lang) { if (land) vil.land = land; if (lang) vil.lang = lang;
     if (vil.land === vist.land && vil.lang === vist.lang && tema() === vist.tema && idag() === vist.dag) return;
