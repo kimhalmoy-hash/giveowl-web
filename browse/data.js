@@ -3351,7 +3351,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-19",
+  "sjekket": "2026-10-20",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
