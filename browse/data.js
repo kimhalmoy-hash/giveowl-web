@@ -810,7 +810,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-19",
+  "sjekket": "2026-10-20",
   "sponset": false,
   "type": "julekalender",
   "land": "GB",
