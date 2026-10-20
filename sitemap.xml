@@ -618,6 +618,8 @@
     <loc>https://giveowl.com/c/us/black-friday-sweepstakes/</loc>
     <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/black-friday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/black-week-gewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
@@ -653,9 +655,31 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/c/no/black-week-konkurranser/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/black-friday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/black-week-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/dk/black-week-konkurrencer/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/black-friday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/black-week-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/gb/black-friday-competitions/</loc>
     <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/black-friday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/black-week-gewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
@@ -664,6 +688,8 @@
     <loc>https://giveowl.com/c/de/black-week-gewinnspiele/</loc>
     <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/black-friday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/black-week-gewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
@@ -774,6 +800,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/visit-lake-district--visit-lake-district-christmas-prize-draws--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/novacare--novacare-kodekalender--2026/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
@@ -1445,6 +1475,10 @@
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/real-good-foods--real-good-foods-meatball-sweepstakes--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/oskar-davidsen--oskar-davidsen-vind-en-eksklusiv-jule-smagekasse--2026/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -1498,6 +1532,18 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/dunkin-brands-inc--dunkin-at-home-extravaganza-arcade-game--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/hickap--hickap-black-week-vind-arets-julekalender--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/hickap--hickap-black-week-vinn-arets-julekalender--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/hickap--hickap-black-week-vinn-arets-julkalender--2026/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
@@ -1613,6 +1659,10 @@
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/planke-bord-dk-aps--planke-bord-dk-black-week-vind-et-vally-plankebord--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/lego--lego-win-your-wish-list--2026/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -1666,6 +1716,14 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/just-a-pinch-american-hometown-media--just-a-pinch-holiday-kickoff-sweepstakes--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/monos-travel-usa-operations-ltd--monos-mercedes-benz-g320-giveaway--2026/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/monos-travel-usa-operations-ltd--monos-mercedes-benz-g320-giveaway-canada--2026/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
