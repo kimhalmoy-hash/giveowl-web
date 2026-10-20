@@ -35,7 +35,7 @@
       document.dispatchEvent(new CustomEvent('giveowl:lang',{detail:{lang:lang,t:t}}));
     }
     var sel=document.getElementById('sprak');
-    if(sel){ sel.innerHTML=''; SPRAK.forEach(function(x){var o=document.createElement('option');o.value=x.code;o.textContent=x.navn;o.lang=x.code;sel.appendChild(o);});
+    if(sel){ sel.innerHTML=''; SPRAK.forEach(function(x){var o=document.createElement('option');o.value=x.code;o.textContent=(window.matchMedia&&matchMedia('(max-width:600px)').matches)?('🌐 '+x.code.split('-')[0].toUpperCase()):x.navn;o.title=x.navn;o.lang=x.code;sel.appendChild(o);});
       sel.onchange=function(){lang=sel.value;lagre(lang);
         // Landing pages have one static URL per language (for search engines): go there.
         if(side!==null||(page==='index'&&location.pathname==='/')){location.href=sideUrl(lang);return;}

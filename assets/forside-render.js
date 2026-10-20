@@ -83,8 +83,8 @@
 
   R.helt = function (o) {
     var T = o.T, L = lister(o), pill;
-    if (o.tema === 'halloween') pill = '🎃 ' + esc(T.hall);
-    else if (o.tema === 'jul') pill = '🎄 ' + esc(T.jul) + (L.jul.length ? ' · ' + L.jul.length : '');
+    if (o.tema === 'jul' || (o.tema === 'halloween' && L.jul.length)) pill = '🎄 ' + esc(T.jul) + (L.jul.length ? ' · ' + L.jul.length : '');
+    else if (o.tema === 'halloween') pill = '🎃 ' + esc(T.hall);
     else if (o.tema === 'blackweek') pill = '🏷️ Black Week';
     else pill = esc(T.oppdatert.replace('{d}', dato(o.bygget || o.idag, o.locale)));
     return '<span class="fs-etikett"><i aria-hidden="true"></i>' + pill + '</span>';

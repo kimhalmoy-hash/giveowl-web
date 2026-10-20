@@ -144,3 +144,14 @@
 .fs-jg-knapp{background:#fff;color:#1F2A5C;font-weight:700;padding:12px 20px;border-radius:999px;text-decoration:none;white-space:nowrap}
 .fs-jg-knapp:hover{background:#ffe7c2}
 @media (max-width:700px){.fs-julegave{grid-template-columns:1fr;padding:22px}.fs-jg-ikon{display:none}}
+/* UX 2026-10-20: no cut-off stat cards, scroll hint on the country chips, 44px menu */
+.fs-topp .navlenker a{min-height:44px;display:inline-flex;align-items:center}
+@media (max-width:600px){
+  .fs-tall{display:grid!important;grid-template-columns:1fr 1fr!important;overflow:visible!important}
+  .fs-tall div{min-width:0}
+  .fs-land{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);padding-right:30px}
+  .fs-topp select.sprak{max-width:80px}
+  .fs-topp .navlenker a{max-width:none;white-space:nowrap;font-size:13px;padding:6px 5px}
+}
+@media (max-width:600px){.fs-topp .navlenker a[href="/browse/"]{display:none}}
+@media (max-width:440px){.fs-topp .logo span{display:none}}

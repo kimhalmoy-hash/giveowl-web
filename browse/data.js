@@ -5683,6 +5683,7 @@ window.OPPFORINGER = [
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
+  "affiliateUrl": "https://www.partner-ads.com/no/klikbanner.php?partnerid=57779&bannerid=68778&htmlurl=https://game.proshop.no/autumn-spill-no",
   "logo": "/assets/logos/proshop.webp?v=7558f294",
   "logoW": 256,
   "logoH": 20

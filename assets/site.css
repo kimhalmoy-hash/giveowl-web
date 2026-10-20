@@ -114,3 +114,28 @@ table.pris tbody th{font-weight:700;max-width:280px}
 .arrlogo img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
 .oppf.stor .arrlogo{width:56px;height:56px;padding:6px;border-radius:14px}
 
+/* UX 2026-10-20: shared light menu, calmer list pages, bigger tap targets */
+.seo .topp-smal{background:#fff;color:var(--blekk);border-bottom:1px solid var(--linje);padding-bottom:0}
+.seo .topp-smal .logo{color:var(--blekk)}.seo .topp-smal .logo b{color:var(--oransje-m)}
+.seo .topp-smal .navlenker a{color:var(--blekk);opacity:1;min-height:44px;display:inline-flex;align-items:center}
+.seo .topp-smal .navlenker a:hover{background:#F4EEE4}
+.seo .ingress{margin-bottom:10px}
+.seo .merk.oppdatert{font-size:13px;margin:0 0 14px}
+.omliste{margin:0 0 16px;background:var(--papir);border:1px solid var(--linje);border-radius:12px;padding:0 14px}
+.omliste summary{cursor:pointer;font-weight:800;color:var(--natt-2);min-height:44px;display:flex;align-items:center}
+.omliste p{margin:0 0 12px;color:var(--dempet);font-size:15px}
+.dagensrad{margin:6px 0 20px}
+.knapp.dagens{font-size:18px;padding:15px 24px}
+.delnede{margin:10px 0 22px}
+.sti a{display:inline-block;padding:10px 0}
+footer.site p a{display:inline-flex;align-items:center;min-height:44px;padding:0 6px}
+footer.site .landlenker a{min-height:40px}
+@media (max-width:600px){
+  .seo .topp-smal .nav{padding:8px 0;gap:6px}.seo .topp-smal .logo{font-size:20px}.seo .topp-smal .logo img{width:32px;height:32px}
+  .seo .topp-smal .navlenker{flex-wrap:nowrap;gap:0}.seo .topp-smal .navlenker a{padding:6px 8px;font-size:13.5px;white-space:nowrap}
+  .knapp.dagens{display:flex;justify-content:center;width:100%}
+  .oppfliste{gap:10px}.oppf{padding:14px}.oppf h3{font-size:16px}.oppf dl{margin-top:8px;font-size:13.5px}
+  .oppf h3 a{display:block;padding:4px 0}
+}
+.annonse.rolig{background:#fff;border:1px solid var(--linje);border-left:4px solid var(--oransje);border-radius:12px;padding:10px 14px;font-size:14px;color:var(--dempet);margin:14px 0}
+@media (max-width:440px){.seo .topp-smal .logo span{display:none}}
