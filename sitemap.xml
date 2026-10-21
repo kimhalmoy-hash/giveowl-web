@@ -701,6 +701,56 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/c/us/win-a-trip-sweepstakes/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-reise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/us/gift-card-giveaways/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/gb/holiday-competitions/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-reise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/de/reise-gewinnspiele/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-reise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/no/vinn-reise/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-reise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/no/vinn-gavekort/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/au/new/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1297,6 +1347,14 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/samvirke-coop--den-spanske-vinquiz-vind-6-flasker-ribera-del-duero--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/samvirke-coop-fdb-mobler--j46-jubilaeumsquizzen-vind-en-j46-stol--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/strawberry--vinn-100-000-spenn-poeng--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1310,6 +1368,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/penguin-random-house--must-have-graphic-novels-sweepstakes--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/lazy-t-ranch--ultimate-nfr-experience-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1337,6 +1399,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/hidden-valley-ranch-the-clorox-company--hidden-valley-ranch-spooky-ranch-movie-adventure--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/matbokser-no--oktoberkonkurransen-vinn-en-riskoker--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1350,6 +1416,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/marcus-hotels-inc-timber-ridge-lodge-waterpark--timber-ridge-lodge-waterpark-christmas-in-the-country-sweepstakes--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/soho-press--hell-on-a-shelf-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1378,6 +1448,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/portico-goods--win-a-30-quart-turkey-fryer-set--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/away-resorts--carfest-holiday-prize-draw--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1433,6 +1507,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/spanias-turistkontor-turespana--vinn-flybilletter-til-spania-for-10-000-kr--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/larry-s-coffee--larry-s-coffee-moccamaster-giveaway--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1485,6 +1563,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/h-n-magazine--win-a-3-night-stay-at-treallen-rock-cornwall--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/real-good-foods--real-good-foods-meatball-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1498,6 +1580,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/cove-home-llc--cove-home-holiday-hosting-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/volkswagen-ag--reise-zum-landerspiel-der-manner-in-berlin-16-11--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1529,6 +1615,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/moneymagpie--win-1-of-4-cozy-self-care-books--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/trulyaus-rex-airlines-monarto-safari-resort--trulyaus-giveaway-win-a-stay-at-monarto-safari-resort--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1538,6 +1628,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/madeon-skin-care-hard-lotion--madeon-holiday-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/tunespeak--scotty-mccreery-at-the-truth-in-nashville-tickets-meet-greet--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1582,6 +1676,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/vianor--vinn-et-sett-nokian-hakkapeliitta-01-vinterdekk--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/visit-hampshire--win-two-tickets-to-the-hawk-conservancy-trust--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1681,6 +1779,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/tunespeak--flyaway-to-the-wldlfe-long-way-home-tour--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/st-catherine-s-hospice-preston--st-catherine-s-hospice-christmas-hamper-prize-draw--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1694,6 +1796,14 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/penguin-random-house--shelf-life-survey-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/away-resorts--ibcc-holiday-prize-draw--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/margaritaville-at-sea--road-to-beachcomber-sweepstakes-zac-brown-band-love-fear-tour--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1757,6 +1867,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/samvirke-coop--stor-rejsequiz-vind-rejsegavekort-til-risskov-rejser--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/jackson-hole-mountain-resort--jackson-hole-season-snowfall-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1782,6 +1896,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/just-a-pinch-american-hometown-media--just-a-pinch-golden-leaves-sweepstakes--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/txc-designs-the-galligan-company--surron-ultra-bee-giveaway--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1845,6 +1963,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/overkill-battalion-shared-sweeps--obg6-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/plusperfekt--plusperfekt-x-taschenliebe-valentino-bags-handtasche-gewinnen--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -1862,6 +1984,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/food-and-travel-magazine--win-a-festive-trip-for-a-family-of-four-to-battersea-power-station--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/coast-magazine-kelsey-publishing--win-a-two-night-stay-at-the-pig-in-the-wall--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -1894,6 +2020,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/easychoice--premietrekning-for-abonnenter-vinn-iphone-17-pro--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/the-relais-henley--win-an-overnight-stay-afternoon-tea--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2033,6 +2163,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/baker-publishing-group--haven-s-first-chapter-sweepstakes--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/heim-bryggen-as--heim-bryggen-julegavekonkurranse-hele-julekulekolleksjonen--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -2074,6 +2208,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/continental-fagdekk-point-s--continental-vinterdekk-vinn-reisegavekort-pa-20-000-kr--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/rabbit-hole-pernod-ricard-usa--rabbit-hole-hosting-kit-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2125,6 +2263,14 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/rugeneum-gmbh--rugeneum-gewinnspiel-backstage-fuhrung-fur-zwei--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/bourne2treasure--silver-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/principe-performance-and-parts--principe-e92-335i-giveaway--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -2157,11 +2303,27 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/best-days-out-cornwall--golden-ticket-a-year-of-cornwall-days-out--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/schmallenberger-sauerland-tourismus--magazin-gewinnspiel-2026-auszeit-in-schmallenberg--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/peter-jackson--peter-jackson-win-a-wardrobe--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/anchor-bay-holidays--win-a-500-holiday-voucher--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/park-holidays-uk--win-a-park-holidays-holiday-home--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/online-competition-onlinecompetition-co-uk--win-a-sophie-allport-gressingham-duck-mug--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2186,6 +2348,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/mor-furniture-for-less-inc--mor-furniture-email-subscribers-monthly-giveaway--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/fandango--movie-inner-circle-2026-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2226,6 +2392,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/monogram-llc-abe-student-loans--abe-s-undergraduate-scholarship-sweepstakes--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/wente-family-vineyards--every-table-any-night-hosting-kit-sweepstakes--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2321,7 +2491,19 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/schmidts-tivoli-die-weihnachtsbackerei-musical--bilderratsel-familienwochenende-in-hamburg--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/vertu-motors--vertu-car-giveaway-win-a-brand-new-cupra-raval--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/food-network-hgtv-warner-bros-discovery--hgtv-food-network-home-for-the-holidays-giveaway--2027/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/europa-park-gmbh-co-mack-kg--gro-es-rulantica-gewinnspiel--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2345,7 +2527,19 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/europa-park-gmbh-co-mack-kg--europa-park-umfrage-gewinnspiel--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/cst-savings-cst-spark--cst-igniting-dreams-contest-win-a-10-000-resp--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/odenwalder-marzipan--gewinnspiel-2026-thermomix-tm7--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/krone-fisch--hurtigruten-seereise-zum-nordkap-gewinnen--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
@@ -2418,6 +2612,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/coolstuff--fotokonkurranse-vinn-1000-kr-hver-maned--2026/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/nordkurier-mediengruppe--mercedes-benz-cla-200-shooting-brake-gewinnen--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
