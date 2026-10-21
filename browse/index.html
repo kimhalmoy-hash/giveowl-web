@@ -168,6 +168,15 @@ nav.bunn button:focus-visible{outline:3px solid var(--gull);outline-offset:-3px;
 .tom .rad{justify-content:center;margin-top:6px}
 
 nav.bunn{grid-template-columns:repeat(4,1fr)}
+body.medgaver nav.bunn{grid-template-columns:repeat(5,1fr)}
+body.medgaver nav.bunn button{font-size:11px}
+.gave-kort{display:flex;gap:14px;align-items:center;background:var(--papir);border-radius:var(--radius);box-shadow:var(--skygge);padding:14px 16px;margin:0 0 12px;text-decoration:none;color:var(--blekk)}
+.gave-kort .flagg{font-size:28px;flex:none}
+.gave-kort strong{display:block;font-size:16px}
+.gave-kort small{display:block;color:var(--dempet);margin-top:2px}
+.gave-kort .pil{margin-left:auto;font-weight:800;color:var(--primar)}
+.gave-kort .merkelapp{margin-top:6px;display:inline-block}
+.knapp.amazon{justify-content:center;width:100%;background:#FF9900;color:#111}
 .idag-topp{background:var(--papir);border-radius:var(--radius);box-shadow:var(--skygge);padding:16px;display:flex;gap:16px;align-items:center}
 .ring{flex:none;position:relative;width:96px;height:96px}
 .ring svg{width:96px;height:96px;transform:rotate(-90deg);display:block}
@@ -368,6 +377,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   <section class="fremdrift" id="fremdrift" aria-live="polite"></section>
   <div id="mineListe"></div>
 </div>
+<div id="vGaver" class="skjult"></div>
 <div id="vInnst" class="skjult"></div>
 </main>
 
@@ -375,6 +385,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   <button type="button" data-vis="idag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/></svg><span data-t="nav_idag"></span><span class="prikk skjult" id="idagPrikk"></span></button>
   <button type="button" data-vis="utforsk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg><span data-t="nav_utforsk"></span></button>
   <button type="button" data-vis="mine"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8.5 12 2.2 2.2L15.5 9.5M9 3v2h6V3"/></svg><span data-t="nav_mine"></span></button>
+  <button type="button" data-vis="gaver" class="skjult" id="navGaver"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8S10.5 3 8 3.5 6.5 8 12 8zm0 0s1.5-5 4-4.5S17.5 8 12 8z"/></svg><span data-t="nav_gaver"></span></button>
   <button type="button" data-vis="innst"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.5"/><circle cx="10" cy="17" r="2.5"/></svg><span data-t="nav_innst"></span></button>
 </nav>
 <div class="toast" id="toast" role="status"></div>
@@ -499,7 +510,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   if(q.get('deltatt')) q.get('deltatt').split(',').forEach(function(id){deltatt[id]=IDAG; (logg[id]=logg[id]||[]).push(IDAG);});
   // ?logg=id~2026-12-01.2026-12-02;id2~... (skjermbilder/test)
   if(q.get('logg')) q.get('logg').split(';').forEach(function(x){var p=x.split('~'); if(p.length===2){logg[p[0]]=p[1].split('.'); var sist=logg[p[0]].slice().sort().pop(); if(sist) deltatt[p[0]]=sist;}});
-  var visFraUrl = /^(idag|utforsk|mine|innst|plus)$/.test(q.get('vis')||'');
+  var visFraUrl = /^(idag|utforsk|mine|innst|plus|gaver)$/.test(q.get('vis')||'');
   if(visFraUrl) S.vis=q.get('vis');
   if(/^(frist|nyest|verdi)$/.test(q.get('sort')||'')) S.sort=q.get('sort');
   if(/^(alle|rask|middels|lang)$/.test(q.get('innsats')||'')) S.innsats=q.get('innsats');
@@ -607,7 +618,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   function tegnTekster(){
     var si=sprakInfo(S.lang)||SPRAK[0]; document.documentElement.lang = S.lang; document.documentElement.dir = si.dir||'ltr';
     document.querySelectorAll('[data-t]').forEach(function(n){n.textContent=t(n.getAttribute('data-t'));});
-    $('ingress').textContent = S.vis==='idag' ? t('ingress_idag') : S.vis==='mine' ? t('ingress_mine') : (S.vis==='innst'||S.vis==='plus') ? t('ingress_innst') : t('ingress');
+    $('ingress').textContent = S.vis==='idag' ? t('ingress_idag') : S.vis==='mine' ? t('ingress_mine') : S.vis==='gaver' ? t('gaver_ingress') : (S.vis==='innst'||S.vis==='plus') ? t('ingress_innst') : t('ingress');
     $('sok').placeholder=t('sok'); $('sok').setAttribute('aria-label',t('sok'));
     $('sprakTekst').textContent = S.lang.split('-')[0].toUpperCase();
     $('sprak').setAttribute('aria-label', t('innst_sprak')+': '+si.navn);
@@ -710,6 +721,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     if(erAffiliate(e) && !(e.sponset && t('sponset')===t('annonse'))) lapp(t('annonse'),'annonse');
     if(!mk.children.length) mk.remove();
     n.querySelector('.sjekket').textContent = e.dod ? t('dod') : (e.sjekket ? t('sjekket',{d:datoTekst(e.sjekket)}) : '');
+    if(e.amazonUrl && /^https:\/\/www\.amazon\.(de|com)\/dp\//.test(e.amazonUrl)){var am=document.createElement('a');am.className='knapp amazon';am.href=e.amazonUrl;am.target='_blank';am.rel='noopener noreferrer sponsored nofollow';am.textContent=t('kjop_amazon')+' ↗';n.querySelector('.delta').after(am);if(!erAffiliate(e)&&!e.sponset) lapp(t('annonse'),'annonse');}
     var a=n.querySelector('.delta'); a.href=lenke(e); a.firstChild.textContent=t('delta'); a.setAttribute('aria-label',t('delta_aria',{o:e.arrangor}));
     a.rel=lenkeRel(e);
     var st=n.querySelector('.stjerne'), p=fav.has(e.id);
@@ -961,6 +973,32 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     ja.onclick=function(){spørOmTillatelse();}; nei.onclick=function(){V.spurt=true;lagre('varsler',V);oppdater();};
   }
 
+  // ---------- Gaver & kalendere (bare i appen, 1.5.0) ----------
+  var GAVESIDER=[
+    {land:'NO',type:'gave',url:'https://giveowl.com/julegaveideer/',navn:'Julegaveideer 2026'},
+    {land:'NO',type:'kal',url:'https://giveowl.com/julekalendere-til-kjops/',navn:'Julekalendere til kjøps 2026'},
+    {land:'DE',type:'kal',url:'https://giveowl.com/de/adventskalender-kaufen/',navn:'Adventskalender kaufen 2026'},
+    {land:'DE',type:'gave',url:'https://giveowl.com/de/geschenkideen/',navn:'Geschenkideen für Genießer 2026'},
+    {land:'GB',type:'gave',url:'https://giveowl.com/christmas-gifts-uk/',navn:'Christmas chocolate gifts 2026'},
+    {land:'US',type:'kal',url:'https://giveowl.com/advent-calendars-us/',navn:'Advent calendars to buy 2026'}];
+  function gaveKort(g){var a=document.createElement('a');a.className='gave-kort';a.href=g.url;a.target='_blank';a.rel='noopener noreferrer sponsored';
+    var f=document.createElement('span');f.className='flagg';f.setAttribute('aria-hidden','true');f.textContent=FLAGG[g.land]||'🎁';a.appendChild(f);
+    var d=document.createElement('div');var s=document.createElement('strong');s.textContent=t(g.type==='kal'?'gaver_type_kal':'gaver_type_gave')+' – '+landNavn(g.land);d.appendChild(s);
+    var sm=document.createElement('small');sm.dir='auto';sm.textContent=g.navn+' · giveowl.com';d.appendChild(sm);
+    var ml=document.createElement('span');ml.className='merkelapp annonse';ml.textContent=t('annonse');d.appendChild(ml);a.appendChild(d);
+    var p=document.createElement('span');p.className='pil';p.setAttribute('aria-hidden','true');p.textContent='↗';a.appendChild(p);
+    a.setAttribute('aria-label',s.textContent+'. '+t('annonse')+'. '+t('gaver_apne'));return a;}
+  function tegnGaver(){var el=$('vGaver');el.innerHTML='';
+    var h=document.createElement('h2');h.textContent=t('gaver_tittel');el.appendChild(h);
+    var mine=GAVESIDER.filter(function(g){return g.land===S.land;}), andre=GAVESIDER.filter(function(g){return g.land!==S.land;});
+    if(mine.length) mine.forEach(function(g){el.appendChild(gaveKort(g));});
+    else {var p=document.createElement('p');p.className='info';p.textContent=t('gaver_ingen');el.appendChild(p);}
+    var h3=document.createElement('h3');h3.textContent=t('gaver_andre');h3.style.margin='20px 0 10px';el.appendChild(h3);
+    andre.forEach(function(g){el.appendChild(gaveKort(g));});
+    var info=document.createElement('p');info.className='liten';info.style.color='var(--dempet)';info.textContent=t('gaver_info');el.appendChild(info);}
+  if(CFG.app){document.body.classList.add('medgaver');$('navGaver').classList.remove('skjult');}
+  else if(S.vis==='gaver') S.vis='utforsk';
+
   function byttVis(v){KUN=null;S.vis=v; oppdater(); window.scrollTo(0,0);}
   function settSprak(l){S.lang=l;lagre('lang',S.lang);planlegg();synkNye();oppdater();}
 
@@ -969,11 +1007,11 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     var advent = S.vis==='utforsk' && S.type==='julekalender' && adventSesong;
     document.body.classList.toggle('advent', advent);
     document.querySelector('meta[name="theme-color"]').content = advent ? '#0f3b2e' : '#1F2A5C';
-    ['idag','utforsk','mine','innst','plus'].forEach(function(v){$( 'v'+v.charAt(0).toUpperCase()+v.slice(1) ).classList.toggle('skjult',S.vis!==v);});
+    ['idag','utforsk','mine','innst','plus','gaver'].forEach(function(v){$( 'v'+v.charAt(0).toUpperCase()+v.slice(1) ).classList.toggle('skjult',S.vis!==v);});
     document.querySelectorAll('#bunn button').forEach(function(b){if(b.dataset.vis===S.vis || (S.vis==='plus' && b.dataset.vis==='innst')) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current');});
     tegnTekster();
     var pr=$('idagPrikk'), igjen=dagligeIgjen().length; pr.textContent=igjen; pr.classList.toggle('skjult',!(igjen>0));
-    if(S.vis==='utforsk') tegnUtforsk(); else if(S.vis==='idag') tegnIdag(); else if(S.vis==='mine') tegnMine(); else if(S.vis==='plus') tegnPlus(); else tegnInnst();
+    if(S.vis==='utforsk') tegnUtforsk(); else if(S.vis==='idag') tegnIdag(); else if(S.vis==='mine') tegnMine(); else if(S.vis==='plus') tegnPlus(); else if(S.vis==='gaver') tegnGaver(); else tegnInnst();
     tegnSpor(); tegnNyeBanner();
   }
 
