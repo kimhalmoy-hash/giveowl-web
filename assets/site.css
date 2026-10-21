@@ -148,3 +148,9 @@ footer.site .landlenker a{min-height:40px}
 .forvliste{margin:0 0 22px}.forvliste summary{cursor:pointer;font-weight:800;font-size:18px;min-height:48px;display:flex;align-items:center;gap:8px;color:var(--natt-2)}
 .forvliste .radliste{margin-top:6px}
 .kjoplenke a{font-weight:800}
+/* a11y 2026-10-21: 44px tap targets (WCAG 2.5.5) */
+footer.site .landlenker a,.sti a{min-height:44px;display:inline-flex;align-items:center}
+.relatert li a,.blokk li a,.landgrid a.land,.kjoplenke a,.fotsosial a{display:inline-flex;align-items:center;min-height:44px}
+.relatert li,.blokk li{margin:2px 0}
+.app-cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px;background:#eef1fb;border-radius:14px;padding:14px 16px;margin:1.4rem 0}
+.app-cta p{margin:0;flex:1 1 220px}
