@@ -5471,6 +5471,7 @@ window.OPPFORINGER = [
   "kategori": "barn",
   "id": "famadillo-com--turn-the-page-christmas-is-coming-book-giveaway--2026",
   "status": "aktiv",
+  "amazonUrl": "https://www.amazon.com/dp/B0HKJ3F7W1?tag=giveowl-20",
   "logo": "/assets/logos/famadillo-com.webp?v=1213b0c5",
   "logoW": 256,
   "logoH": 67
@@ -10436,6 +10437,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "id": "taste-of-home-rda-enthusiast-brands--taste-of-home-reader-survey-2026-sweepstakes--2026",
   "status": "kommer",
+  "amazonUrl": "https://www.amazon.com/dp/1621457311?tag=giveowl-20",
   "logo": "/assets/logos/taste-of-home.webp?v=d1f1fec7",
   "logoW": 128,
   "logoH": 128
