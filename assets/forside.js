@@ -20,6 +20,9 @@
       var r = (m[2] || '').toUpperCase(); if (r && K.land.indexOf(r) >= 0) return r; var s = map[m[1].toLowerCase()]; if (s && K.land.indexOf(s) >= 0) return s; }
     return null; }
   function valgtLand() { var q = (new URLSearchParams(location.search).get('land') || '').toUpperCase(); if (K.land.indexOf(q) >= 0) return q;
+    // A language page (/nb/, /sv/, /da/, /de/) shows its home country; the device locale must not override it (e.g. an en-GB browser on /nb/).
+    var hjem = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE' }[document.documentElement.getAttribute('data-sidesprak') || ''];
+    if (hjem && K.land.indexOf(hjem) >= 0) return hjem;
     var f = hent('filter', null); if (f && K.land.indexOf(f.land) >= 0) return f.land; return enhetsLand() || vist.land; }
   function tema() { return document.body.getAttribute('data-tema') || 'noytral'; }
   function tegn() {

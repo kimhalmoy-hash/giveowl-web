@@ -100,7 +100,14 @@
     if (o.tema === 'jul' && L.jul.length) { julVist = true; h += '<section class="fs-sesong fs-ses-jul">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>'; }
     else if (o.tema === 'halloween' && L.hall.length >= 2) h += '<section class="fs-sesong fs-ses-halloween">' + hode('🎃 ' + esc(T.hall), L.hall.length) + rad(L.hall.slice(0, 12)) + '</section>';
     else if (o.tema === 'blackweek' && L.bw.length >= 2) h += '<section class="fs-sesong fs-ses-blackweek">' + hode('Black Week', L.bw.length) + rad(L.bw.slice(0, 12)) + '</section>';
-    var snart = medSpons(L.konk.filter(function (e) { return e.status === 'aktiv'; })).slice(0, 8);
+    var hjemNb = o.lang === 'nb' && o.land === 'NO';
+    if (hjemNb) {
+      // Norwegian front page: Norwegian advent calendars first, then the newest open Norwegian contests (not 'ending soon').
+      if (!julVist && L.jul.length) { julVist = true; h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>'; }
+      var nye = L.konk.filter(function (e) { return e.status === 'aktiv' && e.land === 'NO'; }).slice().sort(function (a, b) { return (b.funnet || '').localeCompare(a.funnet || '') || (b.slutt || '9999').localeCompare(a.slutt || '9999'); }).slice(0, 8);
+      if (nye.length) h += '<section class="fs-sek">' + hode('🆕 Nye konkurranser i Norge', null, alleLenke(o, 'konkurranse', L.konk.length)) + '<div class="fs-kgrid">' + nye.map(function (e) { return kortHtml(e, o); }).join('') + '</div></section>';
+    }
+    var snart = hjemNb ? [] : medSpons(L.konk.filter(function (e) { return e.status === 'aktiv'; })).slice(0, 8);
     if (snart.length) h += '<section class="fs-sek">' + hode('🔥 ' + esc(T.slutter.replace('{land}', ln)), null, alleLenke(o, 'konkurranse', L.konk.length)) + '<div class="fs-kgrid">' + snart.map(function (e) { return kortHtml(e, o); }).join('') + '</div></section>';
     if (!julVist && L.jul.length) h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>';
     if (L.topp.length >= 3) h += '<section class="fs-sek">' + hode('🏆 ' + esc(T.topp)) + '<p class="fs-under">' + esc(T.topp_u) + '</p><ol class="fs-toppliste">' + L.topp.slice(0, 6).map(function (e, i) {
