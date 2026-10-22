@@ -528,7 +528,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/c/dk/</loc>
@@ -552,7 +552,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -572,7 +572,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/adventskalender/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -711,7 +711,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/gift-card-giveaways/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
@@ -760,7 +760,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/new/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/c/dk/new/</loc>
@@ -788,7 +788,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/daily/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/igive--igive-julekalender--2026/</loc>
@@ -813,6 +813,10 @@
   <url>
     <loc>https://giveowl.com/e/coupons-de--coupons-de-adventskalender-gewinnspiel--2026/</loc>
     <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/die-stadtgartner--das-stadtgartner-adventskalender-gewinnspiel--2026/</loc>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/focus-online--focus-online-adventskalender--2026/</loc>
@@ -1468,6 +1472,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/nintendo-of-america--nintendo-new-york-my-nintendo-holiday-magic-sweepstakes--2026/</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/pepsi-cola-company--2026-pepsi-grocery-gift-card-sweepstakes--2026/</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
@@ -2487,6 +2495,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/conagra-brands-hallmark-media--orville-redenbacher-s-x-hallmark-channel-snack-watch-and-win-sweepstakes--2026/</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/coca-cola-services-n-v--coca-cola-x-mas-2026-lappland-reise-und-50-gutscheine--2026/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
@@ -2730,7 +2742,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2809,7 +2821,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/gewinnspiele-weihnachten-2026/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/black-week-gewinnspiele-2026/</loc>
