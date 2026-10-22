@@ -948,7 +948,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -3055,7 +3055,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -3147,7 +3147,7 @@ window.OPPFORINGER = [
   "sponset": false,
   "id": "tlc--tlc-5-000-giveaway--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "premieVerdi": 5000,
   "valuta": "USD",
   "frekvens": "daglig",
@@ -3654,7 +3654,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "sportmann--sportmanns-oktoberkonkurranse--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": true,
   "sponset": false
  },
@@ -4072,7 +4072,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -4153,7 +4153,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -4823,7 +4823,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -7283,7 +7283,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -10266,7 +10266,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -10554,7 +10554,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -10819,7 +10819,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-17",
+  "sjekket": "2026-10-22",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
