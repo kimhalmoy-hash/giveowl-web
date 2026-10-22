@@ -946,7 +946,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
     ss.setAttribute('aria-label',t('innst_sprak')); ss.onchange=function(){settSprak(ss.value); var n=$('sprakValg'); if(n) n.focus();};
     p.appendChild(rad(t('innst_sprak'),t('innst_sprak_s'),sv));
     var lv=document.createElement('label'); lv.className='velg'; var ls=document.createElement('select'); lv.appendChild(ls); landValg(ls);
-    ls.onchange=function(){S.land=ls.value;S.kategori='alle';synkNye();oppdater();};
+    ls.onchange=function(){S.land=ls.value;landSprak();S.kategori='alle';synkNye();oppdater();};
     p.appendChild(rad(t('innst_land'),t('innst_land_s'),lv));
     p=seksjon(el,t('innst_om'));
     p.appendChild(rad('GiveOwl'+(CFG.versjon?' '+CFG.versjon:''), BYGGET?t('oppdatert',{d:datoTekst(BYGGET)}):''));
@@ -1001,6 +1001,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   else if(S.vis==='gaver') S.vis='utforsk';
 
   function byttVis(v){KUN=null;S.vis=v; oppdater(); window.scrollTo(0,0);}
+  function landSprak(){var m={NO:'nb',SE:'sv',DK:'da',DE:'de',FI:'fi',FR:'fr',ES:'es',IT:'it',NL:'nl',PL:'pl',TR:'tr',JP:'ja',KR:'ko',BR:'pt-BR'},l=m[S.land];if(l&&l!==S.lang&&sprakInfo(l)){S.lang=l;lagre('lang',l);if(typeof planlegg==='function')planlegg();}}
   function settSprak(l){S.lang=l;lagre('lang',S.lang);planlegg();synkNye();oppdater();}
 
   function oppdater(){
@@ -1149,7 +1150,7 @@ h1,h2,h3,.kort h3,.innst-rad,.chip,.merkelapp,.fane,nav.bunn button span{overflo
   document.querySelectorAll('.fane').forEach(function(f){f.onclick=function(){KUN=null;S.type=f.dataset.type;S.kategori='alle';oppdater();};});
   document.querySelectorAll('#bunn button').forEach(function(b){b.onclick=function(){byttVis(b.dataset.vis);};});
   $('sok').addEventListener('input',function(ev){KUN=null;S.sok=ev.target.value;oppdater();});
-  $('land').onchange=function(ev){S.land=ev.target.value;S.kategori='alle';synkNye();oppdater();};
+  $('land').onchange=function(ev){S.land=ev.target.value;landSprak();S.kategori='alle';synkNye();oppdater();};
   $('sortering').onchange=function(ev){S.sort=ev.target.value;oppdater();};
   $('innsats').onchange=function(ev){S.innsats=ev.target.value;oppdater();};
   $('utenKjop').onchange=function(ev){S.utenKjop=ev.target.checked;oppdater();};

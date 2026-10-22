@@ -15,6 +15,11 @@
   var enhet='en'; for(var i=0;i<l.length;i++){var s=norm(l[i]); if(s){enhet=s;break;}}
   var side=document.documentElement.getAttribute('data-sidesprak');
   var lang=norm(q.get('lang'))||(side&&norm(side))||norm(hent())||enhet;
+  // First visit to the English front page from a browser in another site language: go to that language's page
+  // (each language has its own static URL with hreflang, so crawlers and explicit choices are unaffected).
+  var DIRS={nb:1,sv:1,da:1,de:1,es:1,fr:1,it:1,nl:1,pl:1,fi:1,tr:1,ja:1,ko:1,'pt-BR':1,'zh-Hans':1,hi:1,id:1,ar:1};
+  if(location.pathname==='/'&&side===null&&!q.get('lang')&&hent()==null&&enhet!=='en'&&DIRS[enhet]&&!/bot|crawl|spider|slurp|lighthouse/i.test(navigator.userAgent)){
+    location.replace('/'+enhet.toLowerCase()+'/'+location.search+location.hash);}
   function sideUrl(c){return '/'+(c==='en'?'':c.toLowerCase()+'/');}
   var me=document.currentScript&&document.currentScript.src; var BASE=me?me.replace(/i18n\.js(\?.*)?$/,''):'assets/';
   var lastet={};

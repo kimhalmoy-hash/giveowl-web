@@ -38,7 +38,7 @@
 
   sek.addEventListener('click', function (ev) { var a = ev.target.closest && ev.target.closest('.fs-landchip'); if (!a) return;
     if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button) return; ev.preventDefault();
-    var cc = a.getAttribute('data-cc'), f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); oppdater(cc, null); });
+    var cc = a.getAttribute('data-cc'), f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de' }[cc]; if (LS && LS !== vist.lang) { lagre('lang', LS); location.href = '/' + LS + '/?land=' + cc; return; } oppdater(cc, null); });
   document.addEventListener('giveowl:lang', function (ev) { var s = finnSprak(ev.detail && ev.detail.lang); if (s) oppdater(null, s); });
   oppdater(valgtLand(), finnSprak(document.documentElement.getAttribute('lang')) || vist.lang);
 })();
