@@ -8506,7 +8506,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Watts Gallery competition page and T&Cs (1 Oct – 1 Dec 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-21",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "watts-gallery-artists-village--watts-gallery-christmas-competition-william-morris-exhibition-tickets-100-shop-voucher--2026",
