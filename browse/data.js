@@ -11480,7 +11480,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-20",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-01 – 2027-02-28), checked 2026-10-20",
