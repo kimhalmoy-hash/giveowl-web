@@ -8,8 +8,19 @@
       kopier(url, b);
     });
   });
-  function kopier(tekst, knapp) {
-    var ferdig = function () { if (!knapp) return; var f = knapp.textContent; knapp.textContent = knapp.getAttribute('data-kopiert') || '✓'; setTimeout(function () { knapp.textContent = f; }, 1800); };
+  // Guide share bar: copy link, native share (only where supported), Messenger (only on mobile).
+  var mobil = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent));
+  document.querySelectorAll('.delguide').forEach(function (bar) {
+    var url = bar.getAttribute('data-url'), tittel = bar.getAttribute('data-tittel'), status = bar.querySelector('.delstatus');
+    var kb = bar.querySelector('.delkopier');
+    if (kb) kb.addEventListener('click', function () { kopier(url, kb, status); });
+    var db = bar.querySelector('.deldel');
+    if (db && navigator.share) { db.hidden = false; db.addEventListener('click', function () { navigator.share({ title: tittel, url: url }).catch(function () {}); }); }
+    var mb = bar.querySelector('.delmsg');
+    if (mb && mobil) mb.hidden = false;
+  });
+  function kopier(tekst, knapp, status) {
+    var ferdig = function () { if (status) { status.textContent = knapp ? knapp.getAttribute('data-kopiert') : '✓'; setTimeout(function () { status.textContent = ''; }, 1800); } if (!knapp) return; var f = knapp.textContent; knapp.textContent = knapp.getAttribute('data-kopiert') || '✓'; setTimeout(function () { knapp.textContent = f; }, 1800); };
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(tekst).then(ferdig, reserve); else reserve();
     function reserve() { var ta = document.createElement('textarea'); ta.value = tekst; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); ferdig(); } catch (e) {} ta.remove(); }
   }

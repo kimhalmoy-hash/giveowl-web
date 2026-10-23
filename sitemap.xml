@@ -2908,6 +2908,26 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/guide/christmas-giveaways-2026/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/sv/julklappstips/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/christmas-gifts-uk/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/da/julegaveideer/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/christmas-gifts-uk/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
+  </url>
+  <url>
     <loc>https://giveowl.com/guide/christmas-giveaways-2026/</loc>
     <lastmod>2026-10-23</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
@@ -2989,6 +3009,12 @@
   <url>
     <loc>https://giveowl.com/julegaveideer/</loc>
     <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/christmas-gifts-uk/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
   </url>
   <url>
     <loc>https://giveowl.com/julekalendere-til-kjops/</loc>
@@ -3017,10 +3043,22 @@
   <url>
     <loc>https://giveowl.com/christmas-gifts-uk/</loc>
     <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/christmas-gifts-uk/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
   </url>
   <url>
     <loc>https://giveowl.com/de/geschenkideen/</loc>
     <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/christmas-gifts-uk/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars-us/</loc>

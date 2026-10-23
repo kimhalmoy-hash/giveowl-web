@@ -103,6 +103,11 @@ table.pris tbody th{font-weight:700;max-width:280px}
 .delbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}
 .delbar a,.delbar button{display:inline-flex;align-items:center;gap:6px;font:inherit;font-weight:750;font-size:14px;text-decoration:none;color:var(--natt);background:#fff;border:1px solid var(--linje);border-radius:999px;padding:7px 14px;cursor:pointer}
 .delbar a:hover,.delbar button:hover{border-color:var(--oransje)}
+.delbar [hidden]{display:none!important}
+.delbar a:focus-visible,.delbar button:focus-visible{outline:3px solid var(--oransje);outline-offset:2px}
+.delbar .delstatus{font-size:14px;color:var(--dempet,#5E6787)}
+.delbar .delkopier{background:var(--natt);color:#fff;border-color:var(--natt)}
+.juleboks{background:#FFF8EE;border:2px solid var(--korall,#FF5A5F);border-radius:16px;padding:14px 18px}
 .delbar .delnativ{background:var(--natt);color:#fff;border-color:var(--natt)}
 .kodeboks{width:100%;min-height:96px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;border:1px solid var(--linje);border-radius:12px;padding:10px;background:#fff;color:var(--blekk)}
 .forhand{padding:16px;background:#fff;border:1px dashed var(--linje);border-radius:14px;margin:10px 0}
