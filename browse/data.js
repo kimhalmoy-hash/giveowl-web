@@ -1,9 +1,9 @@
-// Generert av scripts/bygg.mjs 2026-10-22. Ikke rediger for hånd.
-window.OPPFORINGER_BYGGET = "2026-10-22";
+// Generert av scripts/bygg.mjs 2026-10-23. Ikke rediger for hånd.
+window.OPPFORINGER_BYGGET = "2026-10-23";
 window.OPPFORINGER = [
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -28,7 +28,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -52,7 +52,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens teilnahmebedingungen («Das erste Gewinnspiel beginnt am 1. Dezember 2026»), sjekket 2026-10-17",
@@ -76,7 +76,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -100,7 +100,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -125,7 +125,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side («Vom 1. bis zum 24.12.2026»), sjekket 2026-10-17",
@@ -150,7 +150,7 @@ window.OPPFORINGER = [
  {
   "type": "julekalender",
   "funnet": "2026-10-22",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -173,7 +173,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side («Hauptgewinn 2026: 10.000 Euro Cash»), sjekket 2026-10-17",
@@ -199,7 +199,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -237,7 +237,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "gjerrigknark-com--gjerrigknarkens-julekalender--2026",
   "status": "kommer",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "logo": "/assets/logos/gjerrigknark-com.webp?v=3094874e",
@@ -246,7 +246,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -286,7 +286,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "iroma-italia-partner--julekalender-2026-om-roma-og-italia--2026",
   "status": "kommer",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "logo": "/assets/logos/iroma-italia-partner.webp?v=7f7eeb21",
@@ -295,7 +295,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side («From 1st to 24th of December … FREE TO ENTER»), sjekket 2026-10-17",
@@ -319,7 +319,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -344,7 +344,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -368,7 +368,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -391,7 +391,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -414,7 +414,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -437,7 +437,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -460,7 +460,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -483,7 +483,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -506,7 +506,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -528,7 +528,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -550,7 +550,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -587,13 +587,13 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "norges-brannvesen-lokale-brannvesen--brannvesenets-julekalender--2026",
   "status": "kommer",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -616,7 +616,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -639,7 +639,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -659,7 +659,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -678,7 +678,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -701,7 +701,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "julekalender",
   "land": "SE",
@@ -724,7 +724,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -744,7 +744,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "julekalender",
   "land": "DK",
@@ -767,7 +767,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -790,7 +790,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -813,7 +813,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -836,7 +836,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -859,7 +859,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -902,7 +902,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -970,7 +970,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "julekalender",
   "land": "SE",
@@ -990,7 +990,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1013,7 +1013,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1033,7 +1033,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1056,7 +1056,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1079,7 +1079,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1102,7 +1102,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1125,7 +1125,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1147,7 +1147,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1170,7 +1170,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1193,7 +1193,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1217,7 +1217,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1237,7 +1237,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1260,7 +1260,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1283,7 +1283,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1306,7 +1306,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1329,7 +1329,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1352,7 +1352,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1375,7 +1375,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1398,7 +1398,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1418,7 +1418,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1441,7 +1441,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1464,7 +1464,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1501,7 +1501,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "lederne--ledernes-julekalender--2026",
   "status": "kommer",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "logo": "/assets/logos/lederne.webp?v=71afb4ce",
@@ -1510,7 +1510,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1533,7 +1533,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1556,7 +1556,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1578,7 +1578,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1601,7 +1601,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1624,7 +1624,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1647,7 +1647,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1666,7 +1666,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1689,7 +1689,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1712,7 +1712,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens kalenderside (2026, med vilkår). Tips fra søk",
@@ -1736,7 +1736,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -1759,7 +1759,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1782,7 +1782,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1805,7 +1805,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1828,7 +1828,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1851,7 +1851,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1874,7 +1874,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1917,7 +1917,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1939,7 +1939,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1962,7 +1962,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -1985,7 +1985,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2008,7 +2008,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2030,7 +2030,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2050,7 +2050,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2072,7 +2072,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2095,7 +2095,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2117,7 +2117,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2140,7 +2140,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2163,7 +2163,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2186,7 +2186,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2209,7 +2209,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2232,7 +2232,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2255,7 +2255,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2278,7 +2278,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2300,7 +2300,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2323,7 +2323,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2346,7 +2346,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2373,7 +2373,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2396,7 +2396,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2419,7 +2419,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2442,7 +2442,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2465,7 +2465,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2488,7 +2488,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2511,7 +2511,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2534,7 +2534,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2557,7 +2557,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2581,7 +2581,7 @@ window.OPPFORINGER = [
  {
   "type": "julekalender",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -2604,7 +2604,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "julekalender",
@@ -2641,7 +2641,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "voyah-norge--voyah-julekalender--2026",
   "status": "kommer",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "logo": "/assets/logos/voyah-norge.webp?v=1bd382d1",
@@ -2649,32 +2649,8 @@ window.OPPFORINGER = [
   "logoH": 128
  },
  {
-  "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
-  "sponset": false,
-  "type": "konkurranse",
-  "land": "US",
-  "tittel": "Planters x Macy's Thanksgiving Parade Sweepstakes",
-  "arrangor": "Planters (sponsor Fooji, Inc.)",
-  "premie": "Trip to the 2026 Macy's Thanksgiving Day Parade in New York for the winner + up to 4 guests: grandstand tickets and a $10,000 travel voucher for flights and hotel (ARV $10,000)",
-  "premieVerdi": 10000,
-  "valuta": "USD",
-  "hvordanDelta": "Enter once at mrpeanutparadesweepstakes.com. 50 US + DC, age of majority. Winner must travel Nov 26, 2026",
-  "url": "https://www.mrpeanutparadesweepstakes.com/",
-  "start": "2026-10-07",
-  "slutt": "2026-10-22",
-  "kategori": "reise",
-  "kreverKjop": false,
-  "innsats": "rask",
-  "frekvens": "engang",
-  "sesong": "jul",
-  "kilde": "Official rules PDF linked from the sweepstakes site (Oct 7 – Oct 22, 2026 ET; 50 US + DC; no purchase necessary; draw ~Oct 23), checked 2026-10-19",
-  "id": "planters-sponsor-fooji-inc--planters-x-macy-s-thanksgiving-parade-sweepstakes--2026",
-  "status": "aktiv"
- },
- {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2700,7 +2676,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2727,7 +2703,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -2765,7 +2741,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "strawberry--vinn-en-skremmende-hotellopplevelse-spookcation--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2775,7 +2751,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2801,7 +2777,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "GB",
@@ -2824,7 +2800,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "GB",
@@ -2849,7 +2825,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -2875,7 +2851,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -2901,7 +2877,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -2926,7 +2902,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -2951,7 +2927,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -2977,7 +2953,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3003,7 +2979,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -3028,7 +3004,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3093,7 +3069,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "kreverKjop": false,
   "sponset": false,
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "feastables--feastables-halloween-capitol-sweepstakes--2026",
   "status": "aktiv",
   "premieVerdi": 10000,
@@ -3106,7 +3082,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3158,7 +3134,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -3199,7 +3175,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Hammer Roo giveaway page and T&Cs (9–29 Oct 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "hammer-roo-woodworks-pty-ltd--hammer-roo-october-giveaway-win-the-maker-pack--2026",
@@ -3211,7 +3187,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-19 – 2026-10-29), checked 2026-10-20",
@@ -3238,7 +3214,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3262,7 +3238,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3298,7 +3274,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "strawberry--vinn-100-000-spenn-poeng--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3309,7 +3285,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -3335,7 +3311,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-22",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "land": "US",
@@ -3360,7 +3336,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "land": "US",
@@ -3389,7 +3365,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -3414,7 +3390,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3438,7 +3414,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-15 – 2026-10-31), checked 2026-10-20",
@@ -3464,7 +3440,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-18 – 2026-10-31), checked 2026-10-20",
@@ -3486,7 +3462,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3513,7 +3489,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -3538,7 +3514,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -3564,7 +3540,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3592,7 +3568,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3630,7 +3606,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "matbokser-no--oktoberkonkurransen-vinn-en-riskoker--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "middels",
@@ -3641,7 +3617,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-01 – 2026-10-31), checked 2026-10-20",
@@ -3686,7 +3662,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3714,7 +3690,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3738,7 +3714,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-13 – 2026-10-31), checked 2026-10-20",
@@ -3764,7 +3740,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-15 – 2026-10-31), checked 2026-10-20",
@@ -3786,7 +3762,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -3812,7 +3788,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -3851,7 +3827,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "uas-norway--er-du-norges-beste-dronefotograf--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 3000,
@@ -3863,7 +3839,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -3888,7 +3864,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -3916,7 +3892,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -3942,7 +3918,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-05 – 2026-11-01), checked 2026-10-20",
@@ -3967,7 +3943,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -3994,7 +3970,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -4019,7 +3995,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "middels",
@@ -4045,7 +4021,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4075,7 +4051,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-22",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Offisielle regler på pepsipromos.com, sjekket 2026-10-22",
@@ -4124,7 +4100,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-05 – 2026-11-02), checked 2026-10-20",
@@ -4149,7 +4125,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -4204,7 +4180,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -4228,7 +4204,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4254,7 +4230,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4293,14 +4269,14 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "fotografiens-hus--fotokonkurranse-for-unge-vidle-himla-god-in-a-beer-can--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "lang"
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4327,7 +4303,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -4353,7 +4329,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4379,7 +4355,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -4406,7 +4382,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -4432,7 +4408,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-22 – 2026-11-06), checked 2026-10-20",
@@ -4457,7 +4433,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -4484,7 +4460,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-06 – 2026-11-06), checked 2026-10-20",
@@ -4507,7 +4483,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -4530,7 +4506,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4561,7 +4537,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -4586,7 +4562,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -4625,7 +4601,7 @@ window.OPPFORINGER = [
   "frekvens": "ukentlig",
   "kilde": "Youi x The Block Viewers Choice Competition T&Cs (5 Aug – 8 Nov 2026, draw 9 Nov), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "nine-entertainment-co-youi--youi-x-the-block-viewers-choice-win-1-of-4-10k-freedom-vouchers--2026",
@@ -4637,7 +4613,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -4659,7 +4635,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -4685,7 +4661,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-22",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "land": "US",
@@ -4710,7 +4686,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -4735,7 +4711,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -4761,7 +4737,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -4792,7 +4768,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4819,7 +4795,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -4847,7 +4823,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -4912,7 +4888,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines--trulyaus-giveaway-win-1-of-3-euclove-cleaning-bundles--2026",
@@ -4938,7 +4914,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines--trulyaus-giveaway-win-2-nights-at-paperbark-camp-jervis-bay--2026",
@@ -4964,7 +4940,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines-american-tourister--trulyaus-giveaway-win-the-ultimate-american-tourister-luggage-set--2026",
@@ -4990,7 +4966,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines--trulyaus-giveaway-win-two-nights-at-hotel-kurrajong-canberra--2026",
@@ -5016,7 +4992,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines--trulyaus-giveaway-win-two-nights-with-cicada-luxury-camping--2026",
@@ -5027,7 +5003,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5055,7 +5031,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -5095,7 +5071,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "TrulyAus giveaway page with terms (closes 10 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "trulyaus-rex-airlines-monarto-safari-resort--trulyaus-giveaway-win-a-stay-at-monarto-safari-resort--2026",
@@ -5106,7 +5082,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -5132,7 +5108,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -5160,7 +5136,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -5185,7 +5161,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5212,7 +5188,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-01 – 2026-11-13), checked 2026-10-20",
@@ -5234,7 +5210,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -5263,7 +5239,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -5292,7 +5268,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -5321,7 +5297,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5347,7 +5323,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5371,7 +5347,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5398,7 +5374,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5425,7 +5401,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -5452,7 +5428,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5478,7 +5454,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -5513,7 +5489,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "the-nature-photography-contest--the-nature-photography-contest--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 2000,
@@ -5522,7 +5498,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5546,7 +5522,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -5573,7 +5549,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-25 – 2026-11-15), checked 2026-10-20",
@@ -5599,7 +5575,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-25 – 2026-11-15), checked 2026-10-20",
@@ -5625,7 +5601,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-25 – 2026-11-15), checked 2026-10-20",
@@ -5651,7 +5627,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-25 – 2026-11-15), checked 2026-10-20",
@@ -5677,7 +5653,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -5702,7 +5678,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -5728,7 +5704,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5753,7 +5729,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-15 – 2026-11-15), checked 2026-10-20",
@@ -5780,7 +5756,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -5805,7 +5781,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-19 – 2026-11-15), checked 2026-10-20",
@@ -5830,7 +5806,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5857,7 +5833,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-21 – 2026-11-16), checked 2026-10-20",
@@ -5879,7 +5855,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -5906,7 +5882,33 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
+  "kreverKjop": false,
+  "sponset": false,
+  "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
+  "land": "US",
+  "tittel": "BURST x MAGNA-TILES Giveaway",
+  "arrangor": "BURST Oral Care",
+  "premie": "MAGNA-TILES x Burst Kids prize set (ARV $495)",
+  "valuta": "USD",
+  "hvordanDelta": "Online entry form (opens Oct 23). 50 US + DC, 18+",
+  "url": "https://burstoralcare.com/pages/magna-tiles-x-burstkids-sweepstakes-rules",
+  "start": "2026-10-23",
+  "slutt": "2026-11-16",
+  "kategori": "barn",
+  "innsats": "rask",
+  "frekvens": "engang",
+  "premieVerdi": 495,
+  "id": "burst-oral-care--burst-x-magna-tiles-giveaway--2026",
+  "status": "aktiv",
+  "logo": "/assets/logos/burst-oral-care.webp?v=f701c827",
+  "logoW": 96,
+  "logoH": 96
+ },
+ {
+  "type": "konkurranse",
+  "funnet": "2026-10-21",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -5947,7 +5949,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Organiser's page and prize draw rules on mamabella.uk (closes 19 Nov 2026 23:59 UK time; UK, 18+; free newsletter route), sjekket 2026-10-20",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "mamabella-victoria-woollaston-webber--mamabella-win-the-sephora-favorites-advent-calendar--2026",
   "status": "aktiv"
  },
@@ -5971,7 +5973,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "BOLIA competition page and terms (5.10.–19.11.2026, draw 20.11., 12 countries incl. UK), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "bolia-a-s--bolia-black-week-competition-win-your-favourite-design--2026",
@@ -6000,7 +6002,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "BOLIA Gewinnspielseite und Gewinnspielbedingungen (5.10.–19.11.2026, Ziehung 20.11.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "bolia-a-s--bolia-black-week-gewinnspiel-lieblingsdesign-gewinnen--2026",
@@ -6029,7 +6031,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "BOLIAs konkurranseside og konkurransevilkår (5.10.–19.11.2026, trekning 20.11.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "bolia-a-s--bolia-black-week-konkurranse-vinn-favorittdesignet-ditt--2026",
@@ -6058,7 +6060,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "BOLIAs konkurrenceside og konkurrencebetingelser (5.10.–19.11.2026, lodtrækning 20.11.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "bolia-a-s--bolia-black-week-konkurrence-vind-dit-favoritdesign--2026",
@@ -6087,7 +6089,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "BOLIAs tävlingssida och tävlingsvillkor (5.10.–19.11.2026, dragning 20.11.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "bolia-a-s--bolia-black-week-tavling-vinn-din-favoritdesign--2026",
@@ -6098,7 +6100,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6130,7 +6132,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -6172,7 +6174,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Hospice's T&Cs «Christmas Hamper Prize Draw» (28 Sep – 20 Nov 2026, draw 18 Dec), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "st-catherine-s-hospice-preston--st-catherine-s-hospice-christmas-hamper-prize-draw--2026",
@@ -6201,7 +6203,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Promoter's giveaway page (5 Oct – 20 Nov 2026, winner notified by 23 Nov), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "your-holiday-concierge-brewood--your-holiday-concierge-package-perfect-giveaway-win-a-white-company-advent-calendar--2026",
@@ -6227,7 +6229,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Arrangørens side og vilkår (versjon 2026-10-06; 6.10.–20.11.2026, trekning 21.11.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "gjeldsradar-no-capivest-as--vinn-gavekort-pa-5-000-kr--2026",
@@ -6239,7 +6241,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -6265,7 +6267,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -6292,7 +6294,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -6315,7 +6317,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -6344,7 +6346,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6368,7 +6370,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6393,7 +6395,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6419,7 +6421,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6445,7 +6447,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6471,7 +6473,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6497,7 +6499,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6523,7 +6525,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6548,7 +6550,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6574,7 +6576,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -6600,7 +6602,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6627,7 +6629,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-15 – 2026-11-24), checked 2026-10-20",
@@ -6654,7 +6656,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "land": "US",
@@ -6680,7 +6682,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "GB",
@@ -6707,7 +6709,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -6730,7 +6732,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6756,7 +6758,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6783,7 +6785,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -6806,7 +6808,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -6829,7 +6831,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -6858,7 +6860,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -6888,7 +6890,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6915,7 +6917,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -6941,7 +6943,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -6968,7 +6970,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -6993,7 +6995,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7023,7 +7025,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7053,7 +7055,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7083,7 +7085,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7113,7 +7115,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7143,7 +7145,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -7167,7 +7169,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -7193,7 +7195,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-13 – 2026-11-29), checked 2026-10-20",
@@ -7236,7 +7238,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "EOS Footwear promotion page and T&Cs (15 Oct – 29 Nov 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "eos-footwear-urban-shoemakers-pty-ltd--eos-footwear-black-friday-wardrobe-win-1-000-voucher--2026",
@@ -7266,7 +7268,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "ACONs egen side «Black Friday 2026» (us.acon24.com; slutt 30.11.2026 kl. 08:00 EET), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "acon-distributacon-inc--acon-black-friday-2026-ultimate-backyard-setup-giveaway--2026",
@@ -7295,7 +7297,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "ACONs egen side «Acon 2026 Black Friday» (ca.acon24.com; slutt 30.11.2026 kl. 08:00 EET), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "acon--acon-black-friday-2026-ultimate-backyard-setup-giveaway-canada--2026",
@@ -7306,7 +7308,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7356,7 +7358,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -7381,7 +7383,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7420,7 +7422,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "proshop--proshop-hostspill--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -7431,7 +7433,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -7461,7 +7463,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "GB",
@@ -7487,7 +7489,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -7517,7 +7519,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -7539,7 +7541,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -7562,7 +7564,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -7586,7 +7588,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-06-10 – 2026-11-30), checked 2026-10-20",
@@ -7630,7 +7632,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Insider One official rules «Black Friday Power Combo Giveaway» (Aug 1 – Nov 30, 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "insider-one--insider-one-black-friday-power-combo-giveaway--2026",
@@ -7656,7 +7658,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "New Belgium official rules PDF (Aug 1 – Nov 30, 2026; 3 entry periods), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "new-belgium-brewing-company--voodoo-ranger-x-halloween-sweepstakes--2026",
@@ -7668,7 +7670,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-08-03 – 2026-11-30), checked 2026-10-20",
@@ -7690,7 +7692,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -7716,7 +7718,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -7743,7 +7745,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -7768,7 +7770,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -7791,7 +7793,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -7817,7 +7819,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-25 – 2026-11-30), checked 2026-10-20",
@@ -7843,7 +7845,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -7868,7 +7870,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -7894,7 +7896,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -7922,7 +7924,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-09 – 2026-11-30), checked 2026-10-20",
@@ -7948,7 +7950,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -7973,7 +7975,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -8002,7 +8004,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -8031,7 +8033,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -8060,7 +8062,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -8083,7 +8085,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8109,7 +8111,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -8135,7 +8137,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-19 – 2026-11-30), checked 2026-10-20",
@@ -8158,7 +8160,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-19 – 2026-11-30), checked 2026-10-20",
@@ -8181,7 +8183,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-19 – 2026-11-30), checked 2026-10-20",
@@ -8218,7 +8220,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Resort's contest page (closes Dec 1, 2026; CA excl. QC + US excl. FL/NY), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "revelstoke-mountain-resort--revelstoke-mountain-resort-winter-getaway-contest--2026",
@@ -8244,7 +8246,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Resort's contest page (closes Dec 1, 2026; US excl. FL/NY + CA excl. QC), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "revelstoke-mountain-resort--revelstoke-mountain-resort-winter-getaway-contest-us--2026",
@@ -8273,7 +8275,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Royal Collection Shop competition page and T&Cs (closes 1.12.2026, prize posted worldwide), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "royal-collection-trust--royal-collection-trust-win-a-buckingham-palace-christmas-hamper--2026",
@@ -8284,7 +8286,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "GB",
@@ -8310,7 +8312,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-19",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "land": "US",
@@ -8364,7 +8366,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -8393,7 +8395,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8424,7 +8426,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8454,7 +8456,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8479,7 +8481,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8505,7 +8507,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "ukentlig",
@@ -8531,7 +8533,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "innsats": "rask",
@@ -8560,7 +8562,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8604,7 +8606,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Competition terms & conditions on goodfoodshow.com.au (13 Oct – 9 Dec 2026, draw 10 Dec), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "the-good-food-wine-show-spectapular-enterprises-pty-ltd--win-the-ultimate-christmas-entertaining-set--2026",
@@ -8616,7 +8618,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8638,7 +8640,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -8664,7 +8666,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -8690,7 +8692,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8719,7 +8721,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -8743,7 +8745,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -8772,7 +8774,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on peets.com (Aug 3 – Dec 13, 2026 PT; US excl. RI and TN, 19+; no purchase necessary), sjekket 2026-10-17",
@@ -8802,7 +8804,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8826,7 +8828,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -8866,7 +8868,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Aktionsseite „Freddy 50 Jahre“ auf freddywear.de (Verlosung 15.12.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "freddy-freddywear-de--freddy-50-jahre-reise-nach-mailand-gewinnen--2026",
@@ -8892,7 +8894,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Arrangørens kampanjeside «Freddy 50 år» (trekning 15.12.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "freddy-freddywear-no--freddy-50-ar-vinn-tur-til-milano-og-gavekort--2026",
@@ -8904,7 +8906,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8930,7 +8932,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -8952,7 +8954,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -8976,7 +8978,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9000,7 +9002,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9030,7 +9032,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-10-15 – 2026-12-15), checked 2026-10-20",
@@ -9054,7 +9056,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9080,7 +9082,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9106,7 +9108,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9131,7 +9133,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9174,7 +9176,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Promoter's page and T&Cs «Christmas Prize Draw 2026» (9 Sep – 19 Dec 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "wickedly-welsh-chocolate-limited--wickedly-welsh-christmas-prize-draw--2026",
@@ -9186,7 +9188,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "land": "US",
@@ -9215,7 +9217,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9241,7 +9243,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "innsats": "rask",
@@ -9288,7 +9290,7 @@ window.OPPFORINGER = [
   ],
   "kilde": "Arrangørens side «Vinn et gavekort på 1 000 kr» med trekningsregler (frist 22.12.2026, trekning 23.12.), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "kunstkolonialen-as--kunstkolonialen-juleglede-vinn-gavekort-pa-1-000-kr--2026",
@@ -9311,7 +9313,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Arrangørens konkurrenceside (lodtrækning 22.12.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "jagt-jakt-dk--vind-et-swazi-gavekort-pa-3-000-kr--2026",
@@ -9323,7 +9325,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9346,7 +9348,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9372,7 +9374,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-29 – 2026-12-24), checked 2026-10-20",
@@ -9398,7 +9400,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -9427,7 +9429,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9452,7 +9454,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9483,7 +9485,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9512,7 +9514,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9535,7 +9537,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9562,7 +9564,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": true,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9588,7 +9590,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9611,7 +9613,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9634,7 +9636,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -9656,7 +9658,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9683,7 +9685,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9709,7 +9711,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9774,13 +9776,13 @@ window.OPPFORINGER = [
   "sponset": false,
   "kilde": "Official rules PDF on behr.com (Jan 1 – Dec 31, 2026 PT; 50 US + DC, 18+; no purchase necessary, free alternate entry), sjekket 2026-10-20",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "behr-paint-company--behr-rate-win-sweepstakes--2026",
   "status": "aktiv"
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -9805,7 +9807,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9832,7 +9834,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -9855,7 +9857,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -9881,7 +9883,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -9921,7 +9923,7 @@ window.OPPFORINGER = [
   "sponset": false,
   "kilde": "Official rules PDF on sallie.com (Jan 1 – Dec 31, 2026 ET, 12 monthly drawings; 50 US + DC + territories, 16+; no purchase necessary), sjekket 2026-10-20",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "slm-education-services-llc-sallie--sallie-2-000-no-essay-scholarship-sweepstakes--2026",
   "status": "aktiv",
   "logo": "/assets/logos/slm-education-services-llc.webp?v=f0d091df",
@@ -9930,7 +9932,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -9957,7 +9959,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -9995,7 +9997,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "kreverKjop": false,
   "sponset": false,
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "shopper-s-voice--shopper-s-voice-speak-up-to-win--2026",
   "status": "aktiv",
   "premieVerdi": 1500,
@@ -10008,7 +10010,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10034,7 +10036,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-01-05 – 2026-12-31), checked 2026-10-20",
@@ -10057,7 +10059,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
@@ -10080,7 +10082,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-02-17 – 2026-12-31), checked 2026-10-20",
@@ -10106,7 +10108,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10132,7 +10134,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-04-01 – 2026-12-31), checked 2026-10-20",
@@ -10158,7 +10160,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -10188,7 +10190,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10214,7 +10216,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10239,7 +10241,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -10265,7 +10267,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -10304,7 +10306,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Arrangörens kampanjsida med villkor «GPS Forest Decor-tävlingen» (1.6–31.12.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "metsa-tissue-ab-lambi--lambi-gps-konst-tavling-vinn-ett-ars-forbrukning-av-lambi--2026",
@@ -10342,7 +10344,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-07-20 – 2026-12-31), checked 2026-10-20",
@@ -10367,7 +10369,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10395,7 +10397,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10445,7 +10447,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10474,7 +10476,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10500,7 +10502,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -10541,7 +10543,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Official rules «Uncork Extraordinary Moments Holiday Sweepstakes 2026» (Sep 1 – Dec 31, 2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "herita-usa-santa-margherita--santa-margherita-uncork-extraordinary-moments-holiday-sweepstakes--2026",
@@ -10564,7 +10566,7 @@ window.OPPFORINGER = [
   "frekvens": "engang",
   "kilde": "Kampanjsidan med tävlingsvillkor (2026-09-07 – 2026-12-31, dragning januari 2027), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "ritter-sport-nordic-ab--vinna-med-ritter-sport-hitta-chokladkakan-och-vinn-en-resa--2026",
@@ -10588,7 +10590,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "kreverKjop": false,
   "sponset": false,
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "u-s-bank--u-s-bank-ultimate-super-bowl-lxi-sweepstakes--2026",
   "status": "aktiv",
   "premieVerdi": 19750,
@@ -10618,7 +10620,7 @@ window.OPPFORINGER = [
   "sponset": false,
   "kilde": "Official rules on kraftheinz.com (Sept 14 – Dec 31, 2026 ET; 50 US + DC, 18+; no purchase necessary), sjekket 2026-10-20",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "id": "kraft-heinz-foods-company-kraft-singles--kraft-singles-the-single-greatest-cheeseburger-call-sweepstakes--2026",
   "status": "aktiv",
   "logo": "/assets/logos/kraft-heinz-foods-company.webp?v=7e40d867",
@@ -10653,7 +10655,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "daglig",
@@ -10683,7 +10685,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10705,7 +10707,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -10756,7 +10758,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Offisielle regler (lest 2026-10-17; siden blokkerer automatiske sjekker fra serveren)",
@@ -10783,7 +10785,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-22",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Offisielle regler på snackwatchandwin.com, sjekket 2026-10-22",
@@ -10808,7 +10810,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "daglig",
@@ -10838,7 +10840,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -10867,7 +10869,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -10922,7 +10924,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -10947,7 +10949,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -10973,7 +10975,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "middels",
@@ -10997,7 +10999,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11021,7 +11023,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11047,7 +11049,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -11070,7 +11072,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -11094,6 +11096,33 @@ window.OPPFORINGER = [
   "logoH": 94
  },
  {
+  "type": "konkurranse",
+  "funnet": "2026-10-17",
+  "sjekket": "2026-10-23",
+  "kreverKjop": false,
+  "sponset": false,
+  "kilde": "Arrangørens side / offisielle regler",
+  "land": "US",
+  "tittel": "Taste of Home Reader Survey 2026 Sweepstakes",
+  "arrangor": "Taste of Home (RDA Enthusiast Brands)",
+  "premie": "5 × Taste of Home Ultimate Baking Cookbook (ARV $24.99 each)",
+  "premieVerdi": 24.99,
+  "valuta": "USD",
+  "hvordanDelta": "Complete the online reader survey (or enter by email); 1 entry per person. 50 US + DC, 18+. Opens Oct 23, 2026",
+  "url": "https://www.tasteofhome.com/taste-of-home-reader-survey-2026-sweepstakes-654-official-rules/",
+  "start": "2026-10-23",
+  "slutt": "2027-01-25",
+  "kategori": "mat",
+  "innsats": "middels",
+  "frekvens": "engang",
+  "id": "taste-of-home-rda-enthusiast-brands--taste-of-home-reader-survey-2026-sweepstakes--2026",
+  "status": "aktiv",
+  "amazonUrl": "https://www.amazon.com/dp/1621457311?tag=giveowl-20",
+  "logo": "/assets/logos/taste-of-home.webp?v=d1f1fec7",
+  "logoW": 128,
+  "logoH": 128
+ },
+ {
   "land": "CA",
   "tittel": "CST \"Igniting Dreams\" Contest: win a $10,000 RESP",
   "arrangor": "CST Savings / CST Spark",
@@ -11110,7 +11139,7 @@ window.OPPFORINGER = [
   "frekvens": "manedlig",
   "kilde": "Official contest rules on cst.org (Feb 2, 2026 – Jan 29, 2027), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "cst-savings-cst-spark--cst-igniting-dreams-contest-win-a-10-000-resp--2026",
@@ -11122,7 +11151,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -11149,7 +11178,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -11175,7 +11204,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-17",
@@ -11197,7 +11226,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11223,7 +11252,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-08-17 – 2027-02-14), checked 2026-10-20",
@@ -11248,7 +11277,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11274,7 +11303,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11322,7 +11351,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11347,7 +11376,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11388,7 +11417,7 @@ window.OPPFORINGER = [
   "frekvens": "manedlig",
   "kilde": "Official contest rules on enjoy.cdnbeef.ca (June 5, 2026 – Mar 31, 2027; 10 monthly draws), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "canada-beef--canadian-beef-every-taste-tells-a-story-contest--2026",
@@ -11399,7 +11428,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11425,7 +11454,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -11447,7 +11476,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "middels",
@@ -11473,7 +11502,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -11499,7 +11528,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "middels",
@@ -11525,7 +11554,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-20",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Official rules on the sponsor page (2026-09-01 – 2027-08-31), checked 2026-10-20",
@@ -11551,7 +11580,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -11589,7 +11618,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "coolstuff--bildtavling-vinn-1000-kr-varje-manad--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 1000,
@@ -11614,7 +11643,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "coolstuff--fotokonkurranse-vinn-1000-kr-hver-maned--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 1000,
@@ -11627,7 +11656,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
@@ -11666,7 +11695,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "jysk--manedlig-trekning-blant-nyhetsbrev-abonnenter--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 3000,
@@ -11691,7 +11720,7 @@ window.OPPFORINGER = [
   "funnet": "2026-10-17",
   "id": "elon--trekning-blant-elon-club-medlemmer--2026",
   "status": "aktiv",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "premieVerdi": 2000,
@@ -11703,7 +11732,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -11729,7 +11758,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -11754,34 +11783,8 @@ window.OPPFORINGER = [
   "logoH": 59
  },
  {
-  "type": "konkurranse",
-  "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
-  "kreverKjop": false,
-  "sponset": false,
-  "kilde": "Arrangørens side / offisielle regler, sjekket 2026-10-21",
-  "land": "US",
-  "tittel": "BURST x MAGNA-TILES Giveaway",
-  "arrangor": "BURST Oral Care",
-  "premie": "MAGNA-TILES x Burst Kids prize set (ARV $495)",
-  "valuta": "USD",
-  "hvordanDelta": "Online entry form (opens Oct 23). 50 US + DC, 18+",
-  "url": "https://burstoralcare.com/pages/magna-tiles-x-burstkids-sweepstakes-rules",
-  "start": "2026-10-23",
-  "slutt": "2026-11-16",
-  "kategori": "barn",
-  "innsats": "rask",
-  "frekvens": "engang",
-  "premieVerdi": 495,
-  "id": "burst-oral-care--burst-x-magna-tiles-giveaway--2026",
-  "status": "kommer",
-  "logo": "/assets/logos/burst-oral-care.webp?v=f701c827",
-  "logoW": 96,
-  "logoH": 96
- },
- {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -11829,7 +11832,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Office Depot official rules «12 Days of Giveaways» (11/9/26–11/25/26), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "office-depot-llc--the-office-depot-12-days-of-giveaways--2026",
@@ -11865,7 +11868,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "engang",
@@ -11891,7 +11894,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -11921,7 +11924,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "type": "konkurranse",
@@ -11951,7 +11954,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "frekvens": "daglig",
@@ -11999,7 +12002,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "BetterFeast vilkår «Pakkeleg 2026», opdateret 14.10.2026 (23.11.–23.12.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "betterfeast-familien-sund-aps--betterfeast-pakkeleg--2026",
@@ -12010,7 +12013,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -12040,7 +12043,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -12085,7 +12088,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Corona Holiday 2026 Sweepstakes Official Rules (Nov 2 – Dec 31, 2026, 21+), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "crown-imports-llc-corona--corona-holiday-2026-sweepstakes--2026",
@@ -12097,34 +12100,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
-  "kreverKjop": false,
-  "sponset": false,
-  "kilde": "Arrangørens side / offisielle regler",
-  "land": "US",
-  "tittel": "Taste of Home Reader Survey 2026 Sweepstakes",
-  "arrangor": "Taste of Home (RDA Enthusiast Brands)",
-  "premie": "5 × Taste of Home Ultimate Baking Cookbook (ARV $24.99 each)",
-  "premieVerdi": 24.99,
-  "valuta": "USD",
-  "hvordanDelta": "Complete the online reader survey (or enter by email); 1 entry per person. 50 US + DC, 18+. Opens Oct 23, 2026",
-  "url": "https://www.tasteofhome.com/taste-of-home-reader-survey-2026-sweepstakes-654-official-rules/",
-  "start": "2026-10-23",
-  "slutt": "2027-01-25",
-  "kategori": "mat",
-  "innsats": "middels",
-  "frekvens": "engang",
-  "id": "taste-of-home-rda-enthusiast-brands--taste-of-home-reader-survey-2026-sweepstakes--2026",
-  "status": "kommer",
-  "amazonUrl": "https://www.amazon.com/dp/1621457311?tag=giveowl-20",
-  "logo": "/assets/logos/taste-of-home.webp?v=d1f1fec7",
-  "logoW": 128,
-  "logoH": 128
- },
- {
-  "type": "konkurranse",
-  "funnet": "2026-10-17",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / offisielle regler",
@@ -12149,7 +12125,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -12194,7 +12170,7 @@ window.OPPFORINGER = [
   "sesong": "jul",
   "kilde": "Elm Organics vilkår «Vinn årets adventskalender» (11.–20.10.2026), sjekket 2026-10-18",
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "sponset": false,
   "type": "konkurranse",
   "id": "elm-organics-clean-innovation-as--elm-organics-vinn-arets-christmas-glow-adventskalender--2026",
@@ -12205,7 +12181,7 @@ window.OPPFORINGER = [
  },
  {
   "funnet": "2026-10-18",
-  "sjekket": "2026-10-22",
+  "sjekket": "2026-10-23",
   "kreverKjop": false,
   "sponset": false,
   "innsats": "rask",
@@ -12228,5 +12204,29 @@ window.OPPFORINGER = [
   "logo": "/assets/logos/baby-brezza.webp?v=f22c195e",
   "logoW": 146,
   "logoH": 41
+ },
+ {
+  "funnet": "2026-10-19",
+  "sjekket": "2026-10-23",
+  "sponset": false,
+  "type": "konkurranse",
+  "land": "US",
+  "tittel": "Planters x Macy's Thanksgiving Parade Sweepstakes",
+  "arrangor": "Planters (sponsor Fooji, Inc.)",
+  "premie": "Trip to the 2026 Macy's Thanksgiving Day Parade in New York for the winner + up to 4 guests: grandstand tickets and a $10,000 travel voucher for flights and hotel (ARV $10,000)",
+  "premieVerdi": 10000,
+  "valuta": "USD",
+  "hvordanDelta": "Enter once at mrpeanutparadesweepstakes.com. 50 US + DC, age of majority. Winner must travel Nov 26, 2026",
+  "url": "https://www.mrpeanutparadesweepstakes.com/",
+  "start": "2026-10-07",
+  "slutt": "2026-10-22",
+  "kategori": "reise",
+  "kreverKjop": false,
+  "innsats": "rask",
+  "frekvens": "engang",
+  "sesong": "jul",
+  "kilde": "Official rules PDF linked from the sweepstakes site (Oct 7 – Oct 22, 2026 ET; 50 US + DC; no purchase necessary; draw ~Oct 23), checked 2026-10-19",
+  "id": "planters-sponsor-fooji-inc--planters-x-macy-s-thanksgiving-parade-sweepstakes--2026",
+  "status": "utløpt"
  }
 ];
