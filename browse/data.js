@@ -4306,7 +4306,7 @@ window.OPPFORINGER = [
  {
   "type": "konkurranse",
   "funnet": "2026-10-21",
-  "sjekket": "2026-10-23",
+  "sjekket": "2026-10-24",
   "kreverKjop": false,
   "sponset": false,
   "kilde": "Arrangørens side / vilkår, sjekket 2026-10-21",
