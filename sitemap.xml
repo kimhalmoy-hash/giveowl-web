@@ -462,7 +462,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/submit/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-24</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/privacy/</loc>
@@ -517,6 +517,20 @@
     <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/annoncer/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/annonsera/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advertise/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/impressum/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/imprint/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/imprint/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/imprint/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/au/</loc>
