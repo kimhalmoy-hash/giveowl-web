@@ -77,9 +77,10 @@
       IT: { land: 'IT', lang: 'it', url: '/it/?land=IT' }, // IT: language page with its own listings (2026-10-25, IT hub)
       NL: { land: 'NL', lang: 'nl', url: '/nl/?land=NL' }, // NL: language page with its own listings (2026-10-25, NL hub)
       AT: { land: 'AT', lang: 'de', url: '/de/?land=AT' }, // AT: German language page, Austrian listings (2026-10-25, AT hub)
+      CH: { land: 'CH', lang: 'de', url: '/de/?land=CH' }, // CH: German language page, Swiss listings (2026-10-25, CH hub; fr/it browsers also get the German page, there are no Swiss fr/it pages)
       PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
-    var VIA = { NZ: 'AU', CH: 'DE' }; // detected country without its own section -> nearest section
+    var VIA = { NZ: 'AU' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
       'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
