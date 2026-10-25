@@ -13130,7 +13130,7 @@ window.OPPFORINGER = [
   "kreverKjop": false,
   "innsats": "rask",
   "land": "CA",
-  "tittel": "The Roasters Pack Coffee Advent Calendar Contest (origin guess)",
+  "tittel": "The Roasters Pack Coffee Advent Calendar Contest",
   "arrangor": "The Roasters Pack",
   "premie": "Six winners drawn at random from the correct entries; the top prize includes the Complete Coffee Set Up Bundle ($500+ CAD value)",
   "hvordanDelta": "Free route: mail in a handwritten entry (name, address, phone, email and your guess for the country of origin of the Day 26 coffee), postmarked by Dec 31, 2026 and received by Jan 7, 2027. The purchase route is optional. Legal residents of Canada (excl. Quebec) and the US, age of majority; Canadian winners answer a skill-testing question. Contest period Dec 1 – 31, 2026",
