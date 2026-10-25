@@ -61,7 +61,7 @@
     var a = ev.target.closest && ev.target.closest('.fs-landchip'); if (!a) return;
     if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button) return; ev.preventDefault();
     var cc = a.getAttribute('data-cc'); if (cc === 'US') lagre('usa', true);
-    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); lagre('landValgt', { land: cc, t: Date.now() }); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FI: 'fi', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', PL: 'pl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
+    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); lagre('landValgt', { land: cc, t: Date.now() }); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FI: 'fi', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', PL: 'pl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', PT: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
   document.addEventListener('giveowl:lang', function (ev) { var s = finnSprak(ev.detail && ev.detail.lang); if (s) oppdater(null, s); });
   oppdater(valgtLand(), finnSprak(document.documentElement.getAttribute('lang')) || vist.lang);
   // Tell the country/language banner (assets/site.js) which country this page shows (null while US contests are hidden on a language page).

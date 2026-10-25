@@ -80,13 +80,14 @@
       AT: { land: 'AT', lang: 'de', url: '/de/?land=AT' }, // AT: German language page, Austrian listings (2026-10-25, AT hub)
       CH: { land: 'CH', lang: 'de', url: '/de/?land=CH' }, // CH: German language page, Swiss listings (2026-10-25, CH hub; fr/it browsers also get the German page, there are no Swiss fr/it pages)
       BE: { land: 'BE', lang: 'nl', url: '/nl/?land=BE' }, 'BE-fr': { land: 'BE', lang: 'fr', url: '/fr/?land=BE' }, // BE: Dutch language page with Belgian listings, French page for browsers whose first language is French (2026-10-25, BE hub)
+      PT: { land: 'PT', lang: 'pt-br', url: '/pt-br/?land=PT' }, // PT: Portuguese (pt-BR template) language page with the Portuguese listings (2026-10-25, PT hub; there is no pt-PT page)
       PL: { land: 'PL', lang: 'pl', url: '/pl/?land=PL' }, // PL: Polish language page with Polish listings (2026-10-25, PL hub)
       FI: { land: 'FI', lang: 'fi', url: '/fi/?land=FI' } // FI: Finnish language page with Finnish listings (2026-10-25, FI hub)
     };
     var VIA = {}; // detected country without its own section -> nearest section (empty since NZ got its own section 2026-10-25)
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
-      'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
+      'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Lisbon': 'PT', 'Atlantic/Madeira': 'PT', 'Atlantic/Azores': 'PT', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
       'Asia/Tokyo': 'JP', 'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN', 'Asia/Manila': 'PH' }; // IN, PH (and MX below) are detected but have no section yet: the banner then falls back to the browser language
     var CAZ = /^America\/(Toronto|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Montreal|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Iqaluit|Yellowknife|Dawson|Dawson_Creek|Fort_Nelson|Cambridge_Bay|Rankin_Inlet|Resolute|Swift_Current|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Inuvik|Blanc-Sablon|Atikokan|Creston)$/;
     var USZ = /^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Boise|Detroit|Juneau|Sitka|Nome|Yakutat|Adak|Metlakatla|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)$/;
