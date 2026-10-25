@@ -70,6 +70,7 @@
       NO: { land: 'NO', lang: 'nb', url: '/nb/?land=NO' }, SE: { land: 'SE', lang: 'sv', url: '/sv/?land=SE' }, DK: { land: 'DK', lang: 'da', url: '/da/?land=DK' },
       DE: { land: 'DE', lang: 'de', url: '/de/?land=DE' }, GB: { land: 'GB', lang: 'en', url: '/?land=GB' }, US: { land: 'US', lang: 'en', url: '/?land=US' },
       AU: { land: 'AU', lang: 'en', url: '/?land=AU' }, CA: { land: 'CA', lang: 'en', url: '/?land=CA' },
+      IE: { land: 'IE', lang: 'en', url: '/?land=IE' }, // IE: English front page with its own listings (2026-10-25, IE hub)
       BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
       FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
       ES: { land: 'ES', lang: 'es', url: '/es/?land=ES' }, // ES: language page with its own listings (2026-10-25, ES hub)
@@ -77,7 +78,7 @@
       NL: { land: 'NL', lang: 'nl', url: '/nl/?land=NL' }, // NL: language page with its own listings (2026-10-25, NL hub)
       PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
-    var VIA = { IE: 'GB', NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
+    var VIA = { NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
       'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
