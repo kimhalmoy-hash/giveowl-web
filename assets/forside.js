@@ -26,7 +26,7 @@
   function belgia(l) { for (var i = 0; i < l.length; i++) { var p = String(l[i] || '').split('-')[0].toLowerCase(); if (p === 'nl') return 'NL'; if (p === 'fr') return 'FR'; } return null; }
   function valgtLand() { var q = (new URLSearchParams(location.search).get('land') || '').toUpperCase(); if (K.land.indexOf(q) >= 0) return q;
     // A language page (/nb/, /sv/, /da/, /de/, /fr/, /es/, /it/, /nl/, /pt-br/, /ja/) shows its home country; the device locale must not override it (e.g. an en-GB browser on /nb/).
-    var hjem = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', fr: 'FR', es: 'ES', it: 'IT', nl: 'NL', 'pt-BR': 'BR', ja: 'JP' }[document.documentElement.getAttribute('data-sidesprak') || ''];
+    var hjem = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', fi: 'FI', fr: 'FR', es: 'ES', it: 'IT', nl: 'NL', 'pt-BR': 'BR', ja: 'JP' }[document.documentElement.getAttribute('data-sidesprak') || ''];
     if (hjem && K.land.indexOf(hjem) >= 0) return hjem;
     var f = hent('filter', null); if (f && K.land.indexOf(f.land) >= 0) return f.land; return enhetsLand() || vist.land; }
   // Language pages without listings of their own (nl, fr, pl, it, es, fi and the rest): US contests are not shown by default,
@@ -55,7 +55,7 @@
     var a = ev.target.closest && ev.target.closest('.fs-landchip'); if (!a) return;
     if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button) return; ev.preventDefault();
     var cc = a.getAttribute('data-cc'); if (cc === 'US') lagre('usa', true);
-    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
+    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FI: 'fi', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
   document.addEventListener('giveowl:lang', function (ev) { var s = finnSprak(ev.detail && ev.detail.lang); if (s) oppdater(null, s); });
   oppdater(valgtLand(), finnSprak(document.documentElement.getAttribute('lang')) || vist.lang);
   // Tell the country/language banner (assets/site.js) which country this page shows (null while US contests are hidden on a language page).
