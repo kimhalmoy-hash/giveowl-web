@@ -6098,7 +6098,10 @@ window.OPPFORINGER = [
   "premieVerdi": 4000,
   "valuta": "EUR",
   "id": "vakantiepiraten-holidaypirates--vakantiepiraten-draai-aan-het-rad-win-een-reis-t-w-v-4-000--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/vakantiepiraten.webp?v=ca909a9d",
+  "logoW": 80,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-25",
@@ -6121,7 +6124,10 @@ window.OPPFORINGER = [
   "premieVerdi": 4000,
   "valuta": "EUR",
   "id": "holidaypirates-gmbh-viajeros-piratas--viajeros-piratas-sorteo-de-un-viaje-de-4-000-gira-la-ruleta-en-la-app--2026",
-  "status": "aktiv"
+  "status": "aktiv",
+  "logo": "/assets/logos/holidaypirates-gmbh.webp?v=ca909a9d",
+  "logoW": 80,
+  "logoH": 128
  },
  {
   "funnet": "2026-10-25",

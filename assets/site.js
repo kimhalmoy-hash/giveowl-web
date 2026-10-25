@@ -74,7 +74,8 @@
       FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
       ES: { land: 'ES', lang: 'es', url: '/es/?land=ES' }, // ES: language page with its own listings (2026-10-25, ES hub)
       IT: { land: 'IT', lang: 'it', url: '/it/?land=IT' }, // IT: language page with its own listings (2026-10-25, IT hub)
-      NL: { lang: 'nl', url: '/nl/' }, PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
+      NL: { land: 'NL', lang: 'nl', url: '/nl/?land=NL' }, // NL: language page with its own listings (2026-10-25, NL hub)
+      PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
     var VIA = { IE: 'GB', NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
