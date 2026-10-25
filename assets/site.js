@@ -71,6 +71,7 @@
       DE: { land: 'DE', lang: 'de', url: '/de/?land=DE' }, GB: { land: 'GB', lang: 'en', url: '/?land=GB' }, US: { land: 'US', lang: 'en', url: '/?land=US' },
       AU: { land: 'AU', lang: 'en', url: '/?land=AU' }, CA: { land: 'CA', lang: 'en', url: '/?land=CA' },
       IE: { land: 'IE', lang: 'en', url: '/?land=IE' }, // IE: English front page with its own listings (2026-10-25, IE hub)
+      NZ: { land: 'NZ', lang: 'en', url: '/?land=NZ' }, // NZ: English front page with its own listings (2026-10-25, NZ hub; before that NZ visitors were sent to the AU section)
       BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
       FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
       ES: { land: 'ES', lang: 'es', url: '/es/?land=ES' }, // ES: language page with its own listings (2026-10-25, ES hub)
@@ -81,7 +82,7 @@
       BE: { land: 'BE', lang: 'nl', url: '/nl/?land=BE' }, 'BE-fr': { land: 'BE', lang: 'fr', url: '/fr/?land=BE' }, // BE: Dutch language page with Belgian listings, French page for browsers whose first language is French (2026-10-25, BE hub)
       PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
-    var VIA = { NZ: 'AU' }; // detected country without its own section -> nearest section
+    var VIA = {}; // detected country without its own section -> nearest section (empty since NZ got its own section 2026-10-25)
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
       'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
