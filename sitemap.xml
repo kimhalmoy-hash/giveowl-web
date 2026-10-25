@@ -533,6 +533,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/imprint/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/c/at/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/at/advent-calendars/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/au/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
@@ -844,10 +852,6 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/new/</loc>
-    <lastmod>2026-10-25</lastmod>
-  </url>
-  <url>
-    <loc>https://giveowl.com/c/dk/new/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
@@ -1639,10 +1643,6 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/e/galbani-lactalis--galbani-gusto-al-dolce-vita-3-italien-reisegutscheine-a-4-000--2026/</loc>
-    <lastmod>2026-10-25</lastmod>
-  </url>
-  <url>
     <loc>https://giveowl.com/e/isabelle-quinn--isabelle-quinn-1-000-product-giveaway--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
@@ -1664,6 +1664,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/gadis-gadisa-retail--gadis-compartimos-las-recetas-sorteo-mensual-de-cocina-por-subir-tu-receta--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/galbani-lactalis--galbani-gusto-al-dolce-vita-3-italien-reisegutscheine-a-4-000--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
