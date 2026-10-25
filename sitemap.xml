@@ -470,7 +470,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advertise/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/advertise/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/annonser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/werben/"/>
@@ -480,7 +480,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/annonser/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/advertise/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/annonser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/werben/"/>
@@ -490,7 +490,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/werben/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/advertise/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/annonser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/werben/"/>
@@ -500,7 +500,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/annoncer/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/advertise/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/annonser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/werben/"/>
@@ -510,7 +510,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/annonsera/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/advertise/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/annonser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/werben/"/>
@@ -520,14 +520,14 @@
   </url>
   <url>
     <loc>https://giveowl.com/impressum/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/impressum/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/imprint/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/imprint/"/>
   </url>
   <url>
     <loc>https://giveowl.com/imprint/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/impressum/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/imprint/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/imprint/"/>
@@ -537,8 +537,12 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/c/br/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/ca/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/c/de/</loc>
@@ -550,6 +554,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/jp/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
@@ -566,7 +574,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -576,7 +584,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/julekalender/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -586,7 +594,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/adventskalender/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -670,7 +678,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/black-week-konkurranser/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/black-week-konkurrencer/"/>
@@ -710,7 +718,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/julekonkurranser/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
@@ -720,7 +728,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/weihnachtsgewinnspiele/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
@@ -730,7 +738,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/win-a-trip-sweepstakes/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
@@ -755,7 +763,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/reise-gewinnspiele/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
@@ -773,7 +781,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/vinn-gavekort/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
@@ -896,7 +904,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/deutsche-post-dhl--24-days-of-dhl-virtual-advent-calendar--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/a-rosa-hotels--a-rosa-urlaubs-adventskalender--2026/</loc>
@@ -1387,6 +1395,10 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/kodansha-ymclub--yanchagoods-coupon-campaign--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/penguin-random-house--must-have-graphic-novels-sweepstakes--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
@@ -1736,7 +1748,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/the-nature-photography-contest--the-nature-photography-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/rally-house-stores-big-ten-store--big-ten-football-championship-enter-to-win--2026/</loc>
@@ -1768,7 +1780,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/kruger-products-cashmere--cashmere-collection-2026-voting-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/smithfield-foods-eckrich--eckrich-big-ten-championship-game-sweepstakes--2026/</loc>
@@ -1879,6 +1891,10 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/agroplay-kids--mes-das-criancas-kit-boiadeirinha--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/visit-wichita--visit-wichita-s-besties-getaway-sweepstakes--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
@@ -1912,7 +1928,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/hillberg-berk--hillberg-berk-oshawa-opening-gift-card-giveaway--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/just-a-pinch-american-hometown-media--just-a-pinch-fall-feast-sweepstakes--2026/</loc>
@@ -1952,7 +1968,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/monos-travel-usa-operations-ltd--monos-mercedes-benz-g320-giveaway-canada--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/karma-no--karma-no-black-month-vinn-gavekort-pa-1-000-kr--2026/</loc>
@@ -1988,7 +2004,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/dubois-group-ltd-elf-watch--elf-watch-november-prize-draw-ca--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/dubois-group-ltd-elf-watch--elf-watch-november-prize-draw-gb--2026/</loc>
@@ -2024,7 +2040,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/acon--acon-black-friday-2026-ultimate-backyard-setup-giveaway-canada--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/gymtech-home-as--gymtech-home-apningskampanje-giveaways-gjennom-november--2026/</loc>
@@ -2095,6 +2111,10 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/ja-kyosai--ja-tokusanhin-present-campaign-round-1--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/the-relais-henley--win-an-overnight-stay-afternoon-tea--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
@@ -2104,7 +2124,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/egg-farmers-of-canada--matty-matheson-x-get-cracking-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/georgia-pacific-consumer-products-dixie--dixie-home-essentials-sweepstakes--2026/</loc>
@@ -2136,7 +2156,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/apollo-imports-inc-apollo-scooters--apollo-scooters-black-friday-weekly-draw-ca--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/apollo-imports-inc-apollo-scooters--apollo-scooters-black-friday-weekly-draw-us--2026/</loc>
@@ -2168,7 +2188,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/revelstoke-mountain-resort--revelstoke-mountain-resort-winter-getaway-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/revelstoke-mountain-resort--revelstoke-mountain-resort-winter-getaway-contest-us--2026/</loc>
@@ -2176,7 +2196,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/royal-collection-trust--royal-collection-trust-win-a-buckingham-palace-christmas-hamper--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/the-family-grapevine-west-kent--win-a-family-ticket-for-four-to-elf-the-musical-at-trinity-theatre--2026/</loc>
@@ -2208,7 +2228,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/bathorium--bathorium-presents-soak-in-st-lucia--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/santander-consumer-bank--santander-formel-1-konkurranse-gjett-resultatet-og-vinn-f1-premier--2026/</loc>
@@ -2232,7 +2252,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/canadel--canadel-buying-local-pays-off-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/baker-publishing-group--haven-s-first-chapter-sweepstakes--2026/</loc>
@@ -2480,7 +2500,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/transitions-canada--transitions-canada-contest-goldleaf-train-trip-for-two--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/metsa-tissue-ab-lambi--lambi-gps-konst-tavling-vinn-ett-ars-forbrukning-av-lambi--2026/</loc>
@@ -2552,7 +2572,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/henry-s--henry-s-canon-powershot-v1-email-subscription-giveaway--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/pop-secret-our-home--pop-secret-assemble-in-nyc-sweepstakes--2026/</loc>
@@ -2560,7 +2580,11 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/viking-river-cruises--viking-q4-2026-2027-8-day-journey-sweepstakes-canada--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/abrace-uma-causa-cob--pan-americanos-lima--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/conagra-brands-hallmark-media--orville-redenbacher-s-x-hallmark-channel-snack-watch-and-win-sweepstakes--2026/</loc>
@@ -2616,7 +2640,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/cst-savings-cst-spark--cst-igniting-dreams-contest-win-a-10-000-resp--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/odenwalder-marzipan--gewinnspiel-2026-thermomix-tm7--2026/</loc>
@@ -2660,7 +2684,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/canada-beef--canadian-beef-every-taste-tells-a-story-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/leda-innovations-usa-inc-sudocrem--sudocrem-and-win-2026-instant-win-game--2026/</loc>
@@ -2668,7 +2692,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/tourism-whistler--tourism-whistler-go-bigger-in-whistler-contest--2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/tourism-whistler--tourism-whistler-go-bigger-in-whistler-contest-au--2026/</loc>
@@ -2740,6 +2764,10 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/wbrc-gray-media-marketplace-events--wbrc-2026-christmas-village-shopping-spree-contest--2026/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/lawson--christmas-quote-post-campaign-quo-card-pay--2026/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
@@ -2840,21 +2868,21 @@
   </url>
   <url>
     <loc>https://giveowl.com/badge/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/badge/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/merke/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/badge/"/>
   </url>
   <url>
     <loc>https://giveowl.com/nb/merke/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/badge/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/merke/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/badge/"/>
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/beste-julekalendere-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2864,18 +2892,18 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/vinn-flere-konkurranser/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/falske-konkurranser/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/falske-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/fake-gewinnspiele-erkennen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/falske-konkurranser/"/>
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/skatt-pa-premier/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/julemat-tradisjoner-oppskrifter/</loc>
@@ -2907,7 +2935,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2917,7 +2945,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/fake-gewinnspiele-erkennen/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/falske-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/fake-gewinnspiele-erkennen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/falske-konkurranser/"/>
@@ -3024,7 +3052,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/guide/julkalendrar-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -3034,7 +3062,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/julekalendere-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -3044,7 +3072,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/best-advent-calendar-competitions-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -3058,7 +3086,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/black-week-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/black-week-2026/"/>
@@ -3067,7 +3095,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/guide/black-week-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/black-week-2026/"/>
@@ -3076,7 +3104,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/black-week-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/black-week-2026/"/>
@@ -3085,7 +3113,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/julekonkurranser-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3098,7 +3126,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/guide/jultavlingar-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3111,7 +3139,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/julekonkurrencer-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3138,7 +3166,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/julklappstips/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
@@ -3148,7 +3176,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/julegaveideer/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/julklappstips/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/julegaveideer/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/julegaveideer/"/>
@@ -3211,7 +3239,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/christmas-giveaways-2026-canada/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3224,7 +3252,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/christmas-competitions-uk-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3250,7 +3278,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/gewinnspiele-weihnachten-2026/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekonkurrencer-2026/"/>
@@ -3336,7 +3364,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -3346,7 +3374,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -3356,7 +3384,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -3366,7 +3394,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/sv/guide/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -3376,7 +3404,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -3386,23 +3414,23 @@
   </url>
   <url>
     <loc>https://giveowl.com/nl/gids/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/fr/guide/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/pl/poradnik/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/it/guida/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/es/guia/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/julegaveideer/</loc>

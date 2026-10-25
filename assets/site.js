@@ -70,29 +70,35 @@
       NO: { land: 'NO', lang: 'nb', url: '/nb/?land=NO' }, SE: { land: 'SE', lang: 'sv', url: '/sv/?land=SE' }, DK: { land: 'DK', lang: 'da', url: '/da/?land=DK' },
       DE: { land: 'DE', lang: 'de', url: '/de/?land=DE' }, GB: { land: 'GB', lang: 'en', url: '/?land=GB' }, US: { land: 'US', lang: 'en', url: '/?land=US' },
       AU: { land: 'AU', lang: 'en', url: '/?land=AU' }, CA: { land: 'CA', lang: 'en', url: '/?land=CA' },
+      BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
       NL: { lang: 'nl', url: '/nl/' }, FR: { lang: 'fr', url: '/fr/' }, PL: { lang: 'pl', url: '/pl/' }, IT: { lang: 'it', url: '/it/' }, ES: { lang: 'es', url: '/es/' }, FI: { lang: 'fi', url: '/fi/' }
     };
     var VIA = { IE: 'GB', NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
-      'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US' };
+      'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
+      'Asia/Tokyo': 'JP', 'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN', 'Asia/Manila': 'PH' }; // IN, PH (and MX below) are detected but have no section yet: the banner then falls back to the browser language
     var CAZ = /^America\/(Toronto|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Montreal|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Iqaluit|Yellowknife|Dawson|Dawson_Creek|Fort_Nelson|Cambridge_Bay|Rankin_Inlet|Resolute|Swift_Current|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Inuvik|Blanc-Sablon|Atikokan|Creston)$/;
     var USZ = /^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Boise|Detroit|Juneau|Sitka|Nome|Yakutat|Adak|Metlakatla|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)$/;
+    var BRZ = /^America\/(Sao_Paulo|Bahia|Fortaleza|Recife|Belem|Manaus|Cuiaba|Campo_Grande|Porto_Velho|Boa_Vista|Rio_Branco|Noronha|Araguaina|Maceio|Santarem|Eirunepe)$/;
+    var MXZ = /^America\/(Mexico_City|Cancun|Merida|Monterrey|Chihuahua|Ciudad_Juarez|Hermosillo|Mazatlan|Tijuana|Matamoros|Ojinaga|Bahia_Banderas)$/;
     function norm(x) { var s = String(x || '').replace('_', '-').split('-')[0].toLowerCase(); return /^(nb|nn|no)$/.test(s) ? 'nb' : s; }
     function sideSprak(x) { x = String(x || 'en').toLowerCase(); if (/^pt/.test(x)) return 'pt-br'; if (/^zh/.test(x)) return 'zh-hans'; return norm(x); }
     var sprakListe = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
     function tzLand() { var tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
-      if (!tz) return null; if (TZ[tz]) return TZ[tz]; if (/^Australia\//.test(tz)) return 'AU'; if (CAZ.test(tz)) return 'CA'; if (USZ.test(tz)) return 'US'; return null; }
+      if (!tz) return null; if (TZ[tz]) return TZ[tz]; if (/^Australia\//.test(tz)) return 'AU'; if (CAZ.test(tz)) return 'CA'; if (USZ.test(tz)) return 'US'; if (BRZ.test(tz)) return 'BR'; if (MXZ.test(tz)) return 'MX'; return null; }
     function spraakLand() { var i, m, cc, s;
       for (i = 0; i < sprakListe.length; i++) { m = /^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Za-z]{2}))?/i.exec(sprakListe[i] || ''); if (!m) continue; cc = (m[2] || '').toUpperCase();
         if (cc === 'BE') { s = belgia(); if (s) return s; } else if (cc && (SEK[cc] || VIA[cc])) return cc; }
-      var LS = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', nl: 'NL', fr: 'FR', pl: 'PL', it: 'IT', es: 'ES', fi: 'FI' };
-      for (i = 0; i < sprakListe.length; i++) { s = LS[norm(sprakListe[i])]; if (s) return s; }
+      var LS = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', nl: 'NL', fr: 'FR', pl: 'PL', it: 'IT', es: 'ES', fi: 'FI', ja: 'JP' };
+      for (i = 0; i < sprakListe.length; i++) { if (/^pt(-br)?$/i.test(sprakListe[i] || '')) return 'BR'; /* pt-PT must not be sent to Brazilian contests */ s = LS[norm(sprakListe[i])]; if (s) return s; }
       return null; }
     function belgia() { for (var i = 0; i < sprakListe.length; i++) { var s = norm(sprakListe[i]); if (s === 'nl') return 'NL'; if (s === 'fr') return 'FR'; } return null; }
     var funnet = tzLand(); if (funnet === 'BE') funnet = belgia() || spraakLand();
     if (!funnet) funnet = spraakLand();
-    var mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]); if (!mal) return;
+    var mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]);
+    if (!mal) { funnet = spraakLand(); mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]); } // time zone known but no section there (MX, IN, PH): use the browser language, as before
+    if (!mal) return;
     var sek = SEK[mal], sidesprak = sideSprak(document.documentElement.getAttribute('lang') || 'en');
     var forste = norm(sprakListe[0]);
     // Reading a non-English page in the browser's own first language: the visitor has chosen it, do not second-guess.
