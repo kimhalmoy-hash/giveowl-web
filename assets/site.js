@@ -80,7 +80,7 @@
       AT: { land: 'AT', lang: 'de', url: '/de/?land=AT' }, // AT: German language page, Austrian listings (2026-10-25, AT hub)
       CH: { land: 'CH', lang: 'de', url: '/de/?land=CH' }, // CH: German language page, Swiss listings (2026-10-25, CH hub; fr/it browsers also get the German page, there are no Swiss fr/it pages)
       BE: { land: 'BE', lang: 'nl', url: '/nl/?land=BE' }, 'BE-fr': { land: 'BE', lang: 'fr', url: '/fr/?land=BE' }, // BE: Dutch language page with Belgian listings, French page for browsers whose first language is French (2026-10-25, BE hub)
-      PL: { lang: 'pl', url: '/pl/' },
+      PL: { land: 'PL', lang: 'pl', url: '/pl/?land=PL' }, // PL: Polish language page with Polish listings (2026-10-25, PL hub)
       FI: { land: 'FI', lang: 'fi', url: '/fi/?land=FI' } // FI: Finnish language page with Finnish listings (2026-10-25, FI hub)
     };
     var VIA = {}; // detected country without its own section -> nearest section (empty since NZ got its own section 2026-10-25)
