@@ -71,7 +71,8 @@
       DE: { land: 'DE', lang: 'de', url: '/de/?land=DE' }, GB: { land: 'GB', lang: 'en', url: '/?land=GB' }, US: { land: 'US', lang: 'en', url: '/?land=US' },
       AU: { land: 'AU', lang: 'en', url: '/?land=AU' }, CA: { land: 'CA', lang: 'en', url: '/?land=CA' },
       BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
-      NL: { lang: 'nl', url: '/nl/' }, FR: { lang: 'fr', url: '/fr/' }, PL: { lang: 'pl', url: '/pl/' }, IT: { lang: 'it', url: '/it/' }, ES: { lang: 'es', url: '/es/' }, FI: { lang: 'fi', url: '/fi/' }
+      FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
+      NL: { lang: 'nl', url: '/nl/' }, PL: { lang: 'pl', url: '/pl/' }, IT: { lang: 'it', url: '/it/' }, ES: { lang: 'es', url: '/es/' }, FI: { lang: 'fi', url: '/fi/' }
     };
     var VIA = { IE: 'GB', NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',

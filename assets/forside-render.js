@@ -70,7 +70,7 @@
     var T = o.T, c = R.cover(e.arrangor), logo = logoImg(e, 'fs-logo'), snart = e.type === 'konkurranse' && e.slutt && dagerMellom(o.idag, e.slutt) <= 3;
     var merke = e.sponset ? '<span class="fs-merke fs-ann">' + esc(T.spons) + '</span>' : snart ? '<span class="fs-merke fs-snart">' + esc(T.snart) + '</span>' : e.funnet === o.idag ? '<span class="fs-merke fs-ny">' + esc(T.ny) + '</span>' : '';
     var verdi = e.premieVerdi && e.valuta ? '<span class="fs-verdi">' + esc(penger(e.premieVerdi, e.valuta, o.locale)) + '</span>' : '';
-    var tid = e.type === 'julekalender' || e.status === 'kommer' ? (e.start ? T.kommer + ': ' + dato(e.start, o.locale) : T.kommer) : e.slutt ? T.frist + ': ' + dato(e.slutt, o.locale) : '';
+    var tid = e.type === 'julekalender' || e.status === 'kommer' ? (e.start ? T.kommer + (T.kol || ':') + ' ' + dato(e.start, o.locale) : T.kommer) : e.slutt ? T.frist + (T.kol || ':') + ' ' + dato(e.slutt, o.locale) : '';
     var igjen = '';
     if (e.type === 'konkurranse' && e.slutt && e.status !== 'kommer') { var n = dagerMellom(o.idag, e.slutt); igjen = n <= 0 ? stor(T.idag) : n === 1 ? stor(T.imorgen) : flertall(T.igjen, n, o.locale); }
     return '<a class="fs-kort" href="/e/' + encodeURIComponent(e.id) + '/">' +
