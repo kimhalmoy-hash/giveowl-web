@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Sun, 25 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>P7 Klem JUL: vinn billetter til julekonsert med Kurt Nilsen – P4 Radio Hele Norge AS (P7 Klem)</title>
     <link>https://giveowl.com/e/p4-radio-hele-norge-as-p7-klem--p7-klem-jul-vinn-billetter-til-julekonsert-med-kurt-nilsen--2026/</link>
@@ -174,22 +174,6 @@
     <enclosure url="https://giveowl.com/og/cb4a4593fee2.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Ikke bekreftet for 2026 (i 2025: daglig quiz med trekning blant riktige svar; premiene vises ikke lenger på siden). 2025: registrer deg med e-post og svar på dagens quiz. Gratis, 16 år+, medlemskap ikke påkrevd</description>
-  </item>
-  <item>
-    <title>Vinn en skremmende hotellopplevelse (Spookcation) – Strawberry</title>
-    <link>https://giveowl.com/e/strawberry--vinn-en-skremmende-hotellopplevelse-spookcation--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/strawberry--vinn-en-skremmende-hotellopplevelse-spookcation--2026/</guid>
-    <enclosure url="https://giveowl.com/og/9ddaa807fac1.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Hotellovernatting med middag på et «hjemsøkt» hotell på halloween, to vinnere. Frist: 25. oktober 2026. Meld deg på skjemaet på siden (18 år+)</description>
-  </item>
-  <item>
-    <title>Vinn Norgesferie – reisegavekort på 10 000 kr hver uke – TINE</title>
-    <link>https://giveowl.com/e/tine--vinn-norgesferie-reisegavekort-pa-10-000-kr-hver-uke--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/tine--vinn-norgesferie-reisegavekort-pa-10-000-kr-hver-uke--2026/</guid>
-    <enclosure url="https://giveowl.com/og/5df38acb5066.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Ett reisegavekort på 10 000 kr hos De Historiske Hotel &amp; Spisesteder trekkes hver uke. Frist: 25. oktober 2026. Fyll ut skjemaet på kampanjesiden (navn, telefon, e-post). Reglene krever ikke kjøp. 18 år+, bosatt i Norge</description>
   </item>
   <item>
     <title>Vinn 100 000 Spenn-poeng – Strawberry</title>
@@ -406,6 +390,22 @@
     <enclosure url="https://giveowl.com/og/7e7c77915cc6.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Premier for 2026 ikke publisert ennå. Åpne dagens luke på Elkjøps julekalenderside i desember. Vilkår for 2026 er ikke publisert – les dem når kalenderen åpner</description>
+  </item>
+  <item>
+    <title>Felleskjøpet julekalender 2026 – Felleskjøpet</title>
+    <link>https://giveowl.com/e/felleskjopet--felleskjopet-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/felleskjopet--felleskjopet-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/2a3dd2b1a8db.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ikke bekreftet for 2026 (i 2025: daglige premier, f.eks. bålbrenner). Delta i dagens luke med e-post. I 2025 uten kjøpsforpliktelse, 16 år+</description>
+  </item>
+  <item>
+    <title>Kid Interiør julekalender 2026 – Kid Interiør</title>
+    <link>https://giveowl.com/e/kid-interior--kid-interior-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/kid-interior--kid-interior-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/d4f5dba44cc9.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ikke bekreftet for 2026 (i 2025: daglige interiørpremier, f.eks. oppskriftsbok til 450 kr; luke 24 Jenny støpejernsgryte til 1 599,90 kr). 2025: svar på dagens luke på julekalender.no 1.–24. desember. Premier sendes kun i Norge. 16 år+</description>
   </item>
 </channel>
 </rss>

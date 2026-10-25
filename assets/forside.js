@@ -19,7 +19,7 @@
     var map = { nb: 'NO', nn: 'NO', no: 'NO', sv: 'SE', da: 'DK', fi: 'FI', de: 'DE', es: 'ES', pt: 'BR', fr: 'FR', it: 'IT', nl: 'NL', pl: 'PL', tr: 'TR', ja: 'JP', ko: 'KR', hi: 'IN', id: 'ID', ar: 'SA' };
     for (var i = 0; i < l.length; i++) { var m = /^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Z]{2}))?/i.exec(l[i] || ''); if (!m) continue;
       var r = (m[2] || '').toUpperCase(); if (r && K.land.indexOf(r) >= 0) return r;
-      // Countries without their own listings: no nearest-country mapping any more (IE, NZ, AT, CH and BE have their own sections since 2026-10-25); BE falls back to NL or FR by browser language only if there is no BE section in the data.
+      // Countries without their own listings: no nearest-country mapping any more (IE, NZ, AT, CH and BE have their own sections since 2026-10-25, CZ since 2026-10-26: English page, no Czech language); BE falls back to NL or FR by browser language only if there is no BE section in the data.
       var via = r === 'BE' ? belgia(l) : null; if (via && K.land.indexOf(via) >= 0) return via;
       if (m[1].toLowerCase() === 'pt' && r && r !== 'BR') continue; /* pt-PT etc.: Brazilian contests do not apply */ var s = map[m[1].toLowerCase()]; if (s && K.land.indexOf(s) >= 0) return s; }
     return null; }

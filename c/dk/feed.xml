@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/dk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver konkurrence linker til arrangørens officielle betingelser. GiveOwl indsamler aldrig dine svar.</description>
   <language>da</language>
-  <lastBuildDate>Sun, 25 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Adventskalender 2026: vind kalender + gavekort på 500 kr. – Neglefeber</title>
     <link>https://giveowl.com/e/neglefeber--adventskalender-2026-vind-kalender-gavekort-pa-500-kr--2026/</link>
@@ -264,14 +264,6 @@
     <description>Præmie: Ikke bekræftet for 2026 (i 2025: en ny præmie bag hver af 24 låger og en hovedpræmie – 12 solcelle-lanterner til ca. 3.000 kr.; præmier for i alt ca. 15.000 kr.). 2025: udfyld formularen bag dagens låge og tilmeld dig Claus Dalbys nyhedsbrev, 1.–24. december. 18+, bosat i Danmark</description>
   </item>
   <item>
-    <title>The Spookcation Hotel: vind et uhyggeligt hotelophold (DK) – Strawberry</title>
-    <link>https://giveowl.com/e/strawberry--the-spookcation-hotel-vind-et-uhyggeligt-hotelophold-dk--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/strawberry--the-spookcation-hotel-vind-et-uhyggeligt-hotelophold-dk--2026/</guid>
-    <enclosure url="https://giveowl.com/og/b1e80bfc0e50.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Præmie: Gratis overnatning for 2 på et «hjemsøgt» hotel 31. okt–1. nov 2026; 11 vindere fordelt på 10 hoteller. Frist: 25. oktober 2026. Tilmeld dig på konkurrencesiden og skriv en motivation (vinderne udvælges ud fra motivationen). Gratis, 18+. Løber 12.–25. oktober 2026. Transport ikke inkluderet</description>
-  </item>
-  <item>
     <title>Vind en Made to Create t-shirt (200 vindere) – Dansk Metal (Made to Create)</title>
     <link>https://giveowl.com/e/dansk-metal-made-to-create--vind-en-made-to-create-t-shirt-200-vindere--2026/</link>
     <guid isPermaLink="true">https://giveowl.com/e/dansk-metal-made-to-create--vind-en-made-to-create-t-shirt-200-vindere--2026/</guid>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/133ace8b3912.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Præmie: Præmier hver dag + hovedpræmie (ikke offentliggjort endnu). Tilmeld dig, så får du dagens låge på e-mail hele december; hver låge giver et lod til hovedpræmien</description>
+  </item>
+  <item>
+    <title>Forbo julekalender 2026 – Forbo Flooring</title>
+    <link>https://giveowl.com/e/forbo-flooring--forbo-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/forbo-flooring--forbo-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/9399ba39248a.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Præmie: Præmier ikke offentliggjort endnu. Tilmeld dig med navn og e-mail (nyhedsbrev) og svar i dagens låge. Gratis, 16 år+</description>
   </item>
 </channel>
 </rss>
