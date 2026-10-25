@@ -159,3 +159,18 @@ footer.site .landlenker a,.sti a{min-height:44px;display:inline-flex;align-items
 .relatert li,.blokk li{margin:2px 0}
 .app-cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px;background:#eef1fb;border-radius:14px;padding:14px 16px;margin:1.4rem 0}
 .app-cta p{margin:0;flex:1 1 220px}
+/* Language selector in the header (2026-10-25): <details>, no JS needed */
+.landvelger{position:relative;margin-inline-start:2px}
+.landvelger summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:6px 10px;border-radius:99px;font-weight:700;font-size:14px;color:var(--blekk,#1A2140);white-space:nowrap}
+.landvelger summary::-webkit-details-marker{display:none}
+.landvelger summary::after{content:"▾";font-size:11px;opacity:.7}
+.landvelger summary:hover,.landvelger[open] summary{background:#F4EEE4}
+.landvelger summary:focus-visible,.landvelger a:focus-visible{outline:2px solid var(--oransje-m,#F7931E);outline-offset:2px}
+.landvelger ul{position:absolute;inset-inline-end:0;top:100%;z-index:30;margin:4px 0 0;padding:6px;list-style:none;background:#fff;border:1px solid var(--linje,#ECE4D6);border-radius:12px;box-shadow:0 8px 24px rgba(26,33,64,.16);width:max-content;max-width:min(92vw,360px);columns:2;column-gap:4px}
+.landvelger li{break-inside:avoid}
+.seo .topp-smal .navlenker .landvelger a,.landvelger .na{display:flex;align-items:center;min-height:40px;padding:6px 10px;border-radius:8px;font-size:14px;font-weight:600;white-space:nowrap;color:var(--blekk,#1A2140)}
+.landvelger .na{font-weight:800;background:#EEF0F8;color:var(--natt-2,#2B3A7A)}
+@media (max-width:600px){.landvelger summary{padding:6px 6px;font-size:13px}.landvelger ul{columns:1;width:200px;max-height:70vh;overflow-y:auto;overflow-x:hidden}}
+@media (max-width:440px){.landvelger summary{padding:6px 4px;gap:2px;font-size:0}.landvelger summary span{font-size:17px}}
+@media (max-width:400px){.seo .topp-smal:has(.landvelger) .wrap{padding-left:12px;padding-right:12px}.landvelger summary::after{display:none}.seo .topp-smal .navlenker:has(.landvelger)>a{font-size:13px;padding:6px 4px}}
+@media (max-width:340px){.seo .topp-smal .navlenker:has(.landvelger){flex-wrap:wrap;justify-content:flex-end}}
