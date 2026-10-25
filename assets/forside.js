@@ -19,7 +19,7 @@
     var map = { nb: 'NO', nn: 'NO', no: 'NO', sv: 'SE', da: 'DK', fi: 'FI', de: 'DE', es: 'ES', pt: 'BR', fr: 'FR', it: 'IT', nl: 'NL', pl: 'PL', tr: 'TR', ja: 'JP', ko: 'KR', hi: 'IN', id: 'ID', ar: 'SA' };
     for (var i = 0; i < l.length; i++) { var m = /^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Z]{2}))?/i.exec(l[i] || ''); if (!m) continue;
       var r = (m[2] || '').toUpperCase(); if (r && K.land.indexOf(r) >= 0) return r;
-      // Countries without their own listings: nearest country we do list (IE -> GB, NZ -> AU, AT and CH have their own sections since 2026-10-25); BE -> NL or FR by browser language, only if that section exists in the data.
+      // Countries without their own listings: nearest country we do list (IE -> GB, NZ -> AU, AT, CH and BE have their own sections since 2026-10-25); BE falls back to NL or FR by browser language only if there is no BE section in the data.
       var via = { IE: 'GB', NZ: 'AU' }[r] || (r === 'BE' ? belgia(l) : null); if (via && K.land.indexOf(via) >= 0) return via;
       if (m[1].toLowerCase() === 'pt' && r && r !== 'BR') continue; /* pt-PT etc.: Brazilian contests do not apply */ var s = map[m[1].toLowerCase()]; if (s && K.land.indexOf(s) >= 0) return s; }
     return null; }
@@ -55,7 +55,7 @@
     var a = ev.target.closest && ev.target.closest('.fs-landchip'); if (!a) return;
     if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button) return; ev.preventDefault();
     var cc = a.getAttribute('data-cc'); if (cc === 'US') lagre('usa', true);
-    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', AT: 'de', CH: 'de', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
+    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
   document.addEventListener('giveowl:lang', function (ev) { var s = finnSprak(ev.detail && ev.detail.lang); if (s) oppdater(null, s); });
   oppdater(valgtLand(), finnSprak(document.documentElement.getAttribute('lang')) || vist.lang);
   // Tell the country/language banner (assets/site.js) which country this page shows (null while US contests are hidden on a language page).

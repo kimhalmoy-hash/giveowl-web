@@ -78,6 +78,7 @@
       NL: { land: 'NL', lang: 'nl', url: '/nl/?land=NL' }, // NL: language page with its own listings (2026-10-25, NL hub)
       AT: { land: 'AT', lang: 'de', url: '/de/?land=AT' }, // AT: German language page, Austrian listings (2026-10-25, AT hub)
       CH: { land: 'CH', lang: 'de', url: '/de/?land=CH' }, // CH: German language page, Swiss listings (2026-10-25, CH hub; fr/it browsers also get the German page, there are no Swiss fr/it pages)
+      BE: { land: 'BE', lang: 'nl', url: '/nl/?land=BE' }, 'BE-fr': { land: 'BE', lang: 'fr', url: '/fr/?land=BE' }, // BE: Dutch language page with Belgian listings, French page for browsers whose first language is French (2026-10-25, BE hub)
       PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
     var VIA = { NZ: 'AU' }; // detected country without its own section -> nearest section
@@ -96,16 +97,16 @@
       if (!tz) return null; if (TZ[tz]) return TZ[tz]; if (/^Australia\//.test(tz)) return 'AU'; if (CAZ.test(tz)) return 'CA'; if (USZ.test(tz)) return 'US'; if (BRZ.test(tz)) return 'BR'; if (MXZ.test(tz)) return 'MX'; return null; }
     function spraakLand() { var i, m, cc, s;
       for (i = 0; i < sprakListe.length; i++) { m = /^([a-z]{2,3})(?:-[A-Za-z]{4})?(?:-([A-Za-z]{2}))?/i.exec(sprakListe[i] || ''); if (!m) continue; cc = (m[2] || '').toUpperCase();
-        if (cc === 'BE') { s = belgia(); if (s) return s; } else if (cc && (SEK[cc] || VIA[cc])) return cc; }
+        if (cc && (SEK[cc] || VIA[cc])) return cc; }
       var LS = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', nl: 'NL', fr: 'FR', pl: 'PL', it: 'IT', es: 'ES', fi: 'FI', ja: 'JP' };
       for (i = 0; i < sprakListe.length; i++) { if (/^pt(-br)?$/i.test(sprakListe[i] || '')) return 'BR'; /* pt-PT must not be sent to Brazilian contests */ s = LS[norm(sprakListe[i])]; if (s) return s; }
       return null; }
-    function belgia() { for (var i = 0; i < sprakListe.length; i++) { var s = norm(sprakListe[i]); if (s === 'nl') return 'NL'; if (s === 'fr') return 'FR'; } return null; }
-    var funnet = tzLand(); if (funnet === 'BE') funnet = belgia() || spraakLand();
+    var funnet = tzLand();
     if (!funnet) funnet = spraakLand();
     var mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]);
     if (!mal) { funnet = spraakLand(); mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]); } // time zone known but no section there (MX, IN, PH): use the browser language, as before
     if (!mal) return;
+    if (mal === 'BE' && norm(sprakListe[0]) === 'fr') mal = 'BE-fr';
     var sek = SEK[mal], sidesprak = sideSprak(document.documentElement.getAttribute('lang') || 'en');
     var forste = norm(sprakListe[0]);
     // Reading a non-English page in the browser's own first language: the visitor has chosen it, do not second-guess.
