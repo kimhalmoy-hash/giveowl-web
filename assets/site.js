@@ -73,7 +73,8 @@
       BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
       FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
       ES: { land: 'ES', lang: 'es', url: '/es/?land=ES' }, // ES: language page with its own listings (2026-10-25, ES hub)
-      NL: { lang: 'nl', url: '/nl/' }, PL: { lang: 'pl', url: '/pl/' }, IT: { lang: 'it', url: '/it/' }, FI: { lang: 'fi', url: '/fi/' }
+      IT: { land: 'IT', lang: 'it', url: '/it/?land=IT' }, // IT: language page with its own listings (2026-10-25, IT hub)
+      NL: { lang: 'nl', url: '/nl/' }, PL: { lang: 'pl', url: '/pl/' }, FI: { lang: 'fi', url: '/fi/' }
     };
     var VIA = { IE: 'GB', NZ: 'AU', AT: 'DE', CH: 'DE' }; // detected country without its own section -> nearest section
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
