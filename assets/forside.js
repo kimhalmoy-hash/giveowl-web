@@ -24,11 +24,17 @@
       if (m[1].toLowerCase() === 'pt' && r && r !== 'BR') continue; /* pt-PT etc.: Brazilian contests do not apply */ var s = map[m[1].toLowerCase()]; if (s && K.land.indexOf(s) >= 0) return s; }
     return null; }
   function belgia(l) { for (var i = 0; i < l.length; i++) { var p = String(l[i] || '').split('-')[0].toLowerCase(); if (p === 'nl') return 'NL'; if (p === 'fr') return 'FR'; } return null; }
+  // Mobile fix 2026-10-25: the browse app saves giveowl.filter.land on EVERY render, also when the country was only the device default
+  // (en-US -> US), so a stale filter turned Norwegian visitors into US visitors. Only a country the visitor picked actively counts:
+  // giveowl.landValgt = {land, t} is written by a country chip / the US button here and by the country picker in the browse app,
+  // and is honoured for 30 days. giveowl.filter.land alone is ignored here (the browse app still uses it for itself).
+  function eksplisittLand() { var v = hent('landValgt', null); return v && typeof v.t === 'number' && Date.now() - v.t < 30 * 864e5 && K.land.indexOf(v.land) >= 0 ? v.land : null; }
   function valgtLand() { var q = (new URLSearchParams(location.search).get('land') || '').toUpperCase(); if (K.land.indexOf(q) >= 0) return q;
+    var ev = eksplisittLand(); if (ev) return ev;
     // A language page (/nb/, /sv/, /da/, /de/, /fr/, /es/, /it/, /nl/, /pt-br/, /ja/) shows its home country; the device locale must not override it (e.g. an en-GB browser on /nb/).
     var hjem = { nb: 'NO', sv: 'SE', da: 'DK', de: 'DE', fi: 'FI', fr: 'FR', es: 'ES', it: 'IT', nl: 'NL', pl: 'PL', 'pt-BR': 'BR', ja: 'JP' }[document.documentElement.getAttribute('data-sidesprak') || ''];
     if (hjem && K.land.indexOf(hjem) >= 0) return hjem;
-    var f = hent('filter', null); if (f && K.land.indexOf(f.land) >= 0) return f.land; return enhetsLand() || vist.land; }
+    return enhetsLand() || vist.land; }
   // Language pages without listings of their own (nl, fr, pl, it, es, fi and the rest): US contests are not shown by default,
   // only a labelled box with a button; they appear (labelled) when the visitor asks for them (?land=US, the US chip or the button).
   var LOKAL = { en: 1, nb: 1, sv: 1, da: 1, de: 1 };
@@ -51,11 +57,11 @@
     medData(function () { if (vil.land !== vist.land || vil.lang !== vist.lang || tema() !== vist.tema || idag() !== vist.dag || usaModus() !== vist.usa) tegn(); }); }
 
   sek.addEventListener('click', function (ev) { var u = ev.target.closest && ev.target.closest('.fs-usa-vis');
-    if (u && !(ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button)) { ev.preventDefault(); lagre('usa', true); var fu = hent('filter', {}) || {}; fu.land = 'US'; lagre('filter', fu); oppdater('US', null); return; }
+    if (u && !(ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button)) { ev.preventDefault(); lagre('usa', true); var fu = hent('filter', {}) || {}; fu.land = 'US'; lagre('filter', fu); lagre('landValgt', { land: 'US', t: Date.now() }); oppdater('US', null); return; }
     var a = ev.target.closest && ev.target.closest('.fs-landchip'); if (!a) return;
     if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button) return; ev.preventDefault();
     var cc = a.getAttribute('data-cc'); if (cc === 'US') lagre('usa', true);
-    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FI: 'fi', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', PL: 'pl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
+    var f = hent('filter', {}) || {}; f.land = cc; lagre('filter', f); lagre('landValgt', { land: cc, t: Date.now() }); var LS = { NO: 'nb', SE: 'sv', DK: 'da', DE: 'de', FI: 'fi', FR: 'fr', ES: 'es', IT: 'it', NL: 'nl', PL: 'pl', AT: 'de', CH: 'de', BE: 'nl', BR: 'pt-BR', JP: 'ja' }[cc]; if (LS && LS !== vist.lang && !(cc === 'BE' && vist.lang === 'fr')) { lagre('lang', LS); location.href = '/' + LS.toLowerCase() + '/?land=' + cc; return; } oppdater(cc, null); });
   document.addEventListener('giveowl:lang', function (ev) { var s = finnSprak(ev.detail && ev.detail.lang); if (s) oppdater(null, s); });
   oppdater(valgtLand(), finnSprak(document.documentElement.getAttribute('lang')) || vist.lang);
   // Tell the country/language banner (assets/site.js) which country this page shows (null while US contests are hidden on a language page).

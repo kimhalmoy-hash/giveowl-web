@@ -94,7 +94,7 @@
   R.innhold = function (o) {
     var T = o.T, K = o.K, h = '', skjul = o.usa === 'skjul';
     var chips = function (forst) { return '<div class="fs-land" role="group" aria-label="' + esc(T.land) + '">' + (forst ? [o.land].concat(K.land.filter(function (x) { return x !== o.land; })) : K.land).map(function (x) {
-      return '<a class="fs-landchip" data-cc="' + x + '" href="/c/' + x.toLowerCase() + '/" aria-pressed="' + (forst && x === o.land) + '">' + (K.flagg[x] || '') + ' ' + esc(landNavn(x, o)) + '</a>'; }).join('') + '</div>'; };
+      return '<a class="fs-landchip" data-cc="' + x + '" href="/c/' + x.toLowerCase() + '/"' + (forst && x === o.land ? ' aria-current="true"' : '') + '>' + (K.flagg[x] || '') + ' ' + esc(landNavn(x, o)) + '</a>'; }).join('') + '</div>'; };
     if (skjul) return chips(false) + '<section class="fs-sek fs-usa"><div class="fs-usa-boks"><h2><span aria-hidden="true">' + (K.flagg.US || '') + '</span> ' + esc(T.usa_h) + '</h2><p>' + esc(T.usa_u) + '</p><a class="fs-knapp fs-usa-vis" href="/c/us/">' + esc(T.usa_vis) + '</a></div></section>';
     var L = lister(o), ln = landNavn(o.land, o);
     h += chips(true);

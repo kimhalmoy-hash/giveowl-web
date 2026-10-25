@@ -174,3 +174,30 @@ footer.site .landlenker a,.sti a{min-height:44px;display:inline-flex;align-items
 @media (max-width:440px){.landvelger summary{padding:6px 4px;gap:2px;font-size:0}.landvelger summary span{font-size:17px}}
 @media (max-width:400px){.seo .topp-smal:has(.landvelger) .wrap{padding-left:12px;padding-right:12px}.landvelger summary::after{display:none}.seo .topp-smal .navlenker:has(.landvelger)>a{font-size:13px;padding:6px 4px}}
 @media (max-width:340px){.seo .topp-smal .navlenker:has(.landvelger){flex-wrap:wrap;justify-content:flex-end}}
+
+/* Mobile review 2026-10-25 (scripts/bygg-seo.mjs lenkerad(): topic lists as a chip row, guides in <details>) */
+.flere a{white-space:normal;overflow-wrap:anywhere}
+.flere{margin:0 0 14px}
+.flere-chips{list-style:none;margin:0 0 8px;padding:2px 0 6px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;-webkit-mask-image:linear-gradient(90deg,#000 90%,transparent);mask-image:linear-gradient(90deg,#000 90%,transparent)}
+.flere-chips::-webkit-scrollbar{display:none}
+.flere-chips li{flex:none;scroll-snap-align:start}
+.flere-chips a{display:flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--linje);color:var(--blekk);text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
+.flere-chips a:hover{border-color:var(--oransje)}
+.flere-mer{background:var(--papir);border:1px solid var(--linje);border-radius:12px;padding:0 14px}
+.flere-mer summary{cursor:pointer;font-weight:800;color:var(--natt-2);min-height:44px;display:flex;align-items:center;gap:8px}
+.flere-liste{list-style:none;margin:0;padding:0 0 6px}
+.flere-liste a{display:flex;align-items:center;min-height:44px;color:var(--blekk);text-decoration:none;border-top:1px solid var(--linje);font-size:15px;line-height:1.3;padding:6px 0}
+.flere-liste li:first-child a{border-top:0}
+.flere-liste a:hover{text-decoration:underline}
+@media (min-width:700px){.flere-chips{flex-wrap:wrap;overflow:visible;-webkit-mask-image:none;mask-image:none}}
+/* old inline «a · a · a» lists on other pages (seasonal links, language alternatives): tap-friendly, never wider than the screen */
+p.flere a{display:inline-block;padding:6px 0}
+/* long words/URLs in cards must wrap instead of widening the page */
+.oppf a,.oppf dd,.relatert a,.guide a{overflow-wrap:anywhere}
+/* hub list rows: 44px tap target */
+.radliste a{min-height:44px;display:flex;align-items:center}
+/* page language menu: summary 44px wide on phones, menu never wider than the screen */
+@media (max-width:440px){.landvelger summary{min-width:44px;justify-content:center}.landvelger ul{max-width:calc(100vw - 24px)}}
+/* delbar (share) buttons: 44px */
+.delbar a,.delbar button{min-height:44px}
+.flere-mer .ant{font-size:14px;background:#EEF0F8;color:var(--natt-2);border-radius:99px;padding:2px 10px}

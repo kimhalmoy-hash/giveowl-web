@@ -163,3 +163,22 @@
 .fs-usa-boks p{margin:0 0 16px;color:var(--fs-muted);line-height:1.5}
 .fs-usa-merk{margin:16px 0 0;padding:12px 16px;background:#fff;border:1.5px solid var(--fs-line);border-radius:16px;color:var(--fs-muted);line-height:1.45}
 .fs-usa-merk b{color:var(--fs-ink)}
+
+/* Mobile review 2026-10-25 */
+.fs-landchip[aria-current=true]{background:var(--fs-ink);border-color:var(--fs-ink);color:#fff}
+.amz-opplysning,.amz-opplysning small{color:#5F5975}
+@media (max-width:600px){
+  /* hero was ~485px tall (owl scene + pill + 4-line h1 + lead + button) so the first contests started below the fold: owl only, smaller type */
+  .fs-ill svg{display:none!important}
+  .fs-ill{max-width:64px;margin:0 0 4px;order:-1}
+  .fs-ill img{position:static;transform:rotate(-4deg);width:64px;height:auto}
+  .fs-inn{padding:14px 18px 18px;gap:0}
+  .fs-helt{margin-top:10px}
+  .fs-helt h1{font-size:30px;line-height:1.05;margin:10px 0 8px}
+  .fs-lead{font-size:16px;line-height:1.45;margin-bottom:14px}
+  .fs-knapp{padding:13px 24px}
+  .fs-tall{gap:8px!important;margin-top:8px}
+  .fs-tall div{padding:10px 14px;border-radius:16px}.fs-tall b{font-size:24px}
+}
+/* 44px tap target for the country chips (were 40px) */
+.fs-landchip{display:inline-flex;align-items:center;min-height:44px}

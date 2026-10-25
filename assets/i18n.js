@@ -18,8 +18,11 @@
   // First visit to the English front page from a browser in another site language: go to that language's page
   // (each language has its own static URL with hreflang, so crawlers and explicit choices are unaffected).
   var DIRS={nb:1,sv:1,da:1,de:1,es:1,fr:1,it:1,nl:1,pl:1,fi:1,tr:1,ja:1,ko:1,'pt-BR':1,'zh-Hans':1,hi:1,id:1,ar:1};
-  if(location.pathname==='/'&&side===null&&!q.get('lang')&&hent()==null&&enhet!=='en'&&DIRS[enhet]&&!/bot|crawl|spider|slurp|lighthouse/i.test(navigator.userAgent)){
-    location.replace('/'+enhet.toLowerCase()+'/'+location.search+location.hash);}
+  // Mobile 2026-10-25: also when the visitor has already picked a language (saved giveowl.lang). Before, a saved 'nb' kept the
+  // English front page (English menu, US market) with Norwegian text on top. An explicit English choice never redirects.
+  var lagret=norm(hent()), mal=lagret||enhet;
+  if(location.pathname==='/'&&side===null&&!q.get('lang')&&mal!=='en'&&DIRS[mal]&&!/bot|crawl|spider|slurp|lighthouse/i.test(navigator.userAgent)){
+    location.replace('/'+mal.toLowerCase()+'/'+location.search+location.hash);}
   function sideUrl(c){return '/'+(c==='en'?'':c.toLowerCase()+'/');}
   var me=document.currentScript&&document.currentScript.src; var BASE=me?me.replace(/i18n\.js(\?.*)?$/,''):'assets/';
   var lastet={};
