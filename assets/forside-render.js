@@ -89,10 +89,16 @@
     else pill = esc(T.oppdatert.replace('{d}', dato(o.bygget || o.idag, o.locale)));
     return '<span class="fs-etikett"><i aria-hidden="true"></i>' + pill + '</span>';
   };
+  // o.usa: '' normally. On a language page without listings of its own (nl, fr, pl, it, es, fi ...) the US contests are not shown by
+  // default: 'skjul' = only the country chips and a labelled box with a button; 'merk' = the US list, labelled as US contests.
   R.innhold = function (o) {
-    var T = o.T, L = lister(o), K = o.K, h = '', ln = landNavn(o.land, o);
-    h += '<div class="fs-land" role="group" aria-label="' + esc(T.land) + '">' + [o.land].concat(K.land.filter(function (x) { return x !== o.land; })).map(function (x) {
-      return '<a class="fs-landchip" data-cc="' + x + '" href="/c/' + x.toLowerCase() + '/" aria-pressed="' + (x === o.land) + '">' + (K.flagg[x] || '') + ' ' + esc(landNavn(x, o)) + '</a>'; }).join('') + '</div>';
+    var T = o.T, K = o.K, h = '', skjul = o.usa === 'skjul';
+    var chips = function (forst) { return '<div class="fs-land" role="group" aria-label="' + esc(T.land) + '">' + (forst ? [o.land].concat(K.land.filter(function (x) { return x !== o.land; })) : K.land).map(function (x) {
+      return '<a class="fs-landchip" data-cc="' + x + '" href="/c/' + x.toLowerCase() + '/" aria-pressed="' + (forst && x === o.land) + '">' + (K.flagg[x] || '') + ' ' + esc(landNavn(x, o)) + '</a>'; }).join('') + '</div>'; };
+    if (skjul) return chips(false) + '<section class="fs-sek fs-usa"><div class="fs-usa-boks"><h2><span aria-hidden="true">' + (K.flagg.US || '') + '</span> ' + esc(T.usa_h) + '</h2><p>' + esc(T.usa_u) + '</p><a class="fs-knapp fs-usa-vis" href="/c/us/">' + esc(T.usa_vis) + '</a></div></section>';
+    var L = lister(o), ln = landNavn(o.land, o);
+    h += chips(true);
+    if (o.usa === 'merk') h += '<p class="fs-usa-merk"><b>' + (K.flagg.US || '') + ' ' + esc(T.usa_h) + '.</b> ' + esc(T.usa_u) + '</p>';
     var t0 = L.topp[0];
     h += '<div class="fs-tall"><div><b>' + L.konk.length + '</b><span>' + esc(T.konk) + '</span></div>' + (L.jul.length ? '<div><b>' + L.jul.length + '</b><span>' + esc(T.jul) + '</span></div>' : '') +
       '<div><b>' + L.uke + '</b><span>' + esc(T.uke) + '</span></div>' + (t0 ? '<div><b>' + esc(penger(t0.premieVerdi, t0.valuta, o.locale)) + '</b><span>' + esc(T.topp) + '</span></div>' : '') + '</div>';
