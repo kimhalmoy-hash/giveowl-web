@@ -4858,9 +4858,10 @@ window.OPPFORINGER = [
   "start": null,
   "slutt": "2026-10-31",
   "kategori": "reise",
-  "kilde": "Solresors tävlingssida (pågår hela oktober, sjekket 25.10.2026); länkade villkorssidan beskriver en äldre tävling (1–14 april), så 18-årsgränsen kommer från den generella villkorssidan",
+  "kilde": "Solresors tävlingssida (pågår hela oktober, sjekket 25.10.2026); den länkade villkorssidan beskriver en annan, äldre tävling (1–14 april, 1 000 kr) – motstridande villkor, därför obekräftad",
   "id": "solresor--solresor-vinn-5-000-kr-att-resa-for--2026",
   "status": "aktiv",
+  "bekreftet": false,
   "logo": "/assets/logos/solresor.webp?v=17c6ebcb",
   "logoW": 128,
   "logoH": 128
