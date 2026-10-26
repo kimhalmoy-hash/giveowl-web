@@ -72,7 +72,7 @@
       AU: { land: 'AU', lang: 'en', url: '/?land=AU' }, CA: { land: 'CA', lang: 'en', url: '/?land=CA' },
       IE: { land: 'IE', lang: 'en', url: '/?land=IE' }, // IE: English front page with its own listings (2026-10-25, IE hub)
       NZ: { land: 'NZ', lang: 'en', url: '/?land=NZ' }, // NZ: English front page with its own listings (2026-10-25, NZ hub; before that NZ visitors were sent to the AU section)
-      BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX, IN and PH have no listings yet, so they have no section here.
+      BR: { land: 'BR', lang: 'pt-br', url: '/pt-br/?land=BR' }, JP: { land: 'JP', lang: 'ja', url: '/ja/?land=JP' }, // BR/JP: language page with its own listings (2026-10-25, wave 3). MX and PH have no listings yet, so they have no section here.
       FR: { land: 'FR', lang: 'fr', url: '/fr/?land=FR' }, // FR: language page with its own listings (2026-10-25, FR hub)
       ES: { land: 'ES', lang: 'es', url: '/es/?land=ES' }, // ES: language page with its own listings (2026-10-25, ES hub)
       IT: { land: 'IT', lang: 'it', url: '/it/?land=IT' }, // IT: language page with its own listings (2026-10-25, IT hub)
@@ -82,6 +82,8 @@
       BE: { land: 'BE', lang: 'nl', url: '/nl/?land=BE' }, 'BE-fr': { land: 'BE', lang: 'fr', url: '/fr/?land=BE' }, // BE: Dutch language page with Belgian listings, French page for browsers whose first language is French (2026-10-25, BE hub)
       PT: { land: 'PT', lang: 'pt-br', url: '/pt-br/?land=PT' }, // PT: Portuguese (pt-BR template) language page with the Portuguese listings (2026-10-25, PT hub; there is no pt-PT page)
       CZ: { land: 'CZ', lang: 'en', url: '/?land=CZ' }, // CZ: English front page with its own Czech listings (2026-10-26, CZ hub; there is no Czech language page)
+      ZA: { land: 'ZA', lang: 'en', url: '/?land=ZA' }, // ZA: English front page with its own South African listings (2026-10-26, ZA hub)
+      IN: { land: 'IN', lang: 'en', url: '/?land=IN' }, // IN: English front page with its own Indian listings (2026-10-26, IN hub)
       PL: { land: 'PL', lang: 'pl', url: '/pl/?land=PL' }, // PL: Polish language page with Polish listings (2026-10-25, PL hub)
       FI: { land: 'FI', lang: 'fi', url: '/fi/?land=FI' } // FI: Finnish language page with Finnish listings (2026-10-25, FI hub)
     };
@@ -89,7 +91,7 @@
     var TZ = { 'Europe/Oslo': 'NO', 'Europe/Stockholm': 'SE', 'Europe/Copenhagen': 'DK', 'Europe/Berlin': 'DE', 'Europe/Busingen': 'DE', 'Europe/Vienna': 'AT', 'Europe/Zurich': 'CH',
       'Europe/London': 'GB', 'Europe/Belfast': 'GB', 'Europe/Jersey': 'GB', 'Europe/Guernsey': 'GB', 'Europe/Isle_of_Man': 'GB', 'Europe/Dublin': 'IE', 'Europe/Brussels': 'BE',
       'Europe/Amsterdam': 'NL', 'Europe/Paris': 'FR', 'Europe/Warsaw': 'PL', 'Europe/Prague': 'CZ', 'Europe/Lisbon': 'PT', 'Atlantic/Madeira': 'PT', 'Atlantic/Azores': 'PT', 'Europe/Rome': 'IT', 'Europe/Madrid': 'ES', 'Europe/Helsinki': 'FI', 'Pacific/Auckland': 'NZ', 'Pacific/Chatham': 'NZ', 'Pacific/Honolulu': 'US',
-      'Asia/Tokyo': 'JP', 'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN', 'Asia/Manila': 'PH' }; // IN, PH (and MX below) are detected but have no section yet: the banner then falls back to the browser language
+      'Asia/Tokyo': 'JP', 'Asia/Kolkata': 'IN', 'Asia/Calcutta': 'IN', 'Africa/Johannesburg': 'ZA', 'Asia/Manila': 'PH' }; // PH (and MX below) are detected but have no section yet: the banner then falls back to the browser language
     var CAZ = /^America\/(Toronto|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Montreal|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Iqaluit|Yellowknife|Dawson|Dawson_Creek|Fort_Nelson|Cambridge_Bay|Rankin_Inlet|Resolute|Swift_Current|Thunder_Bay|Nipigon|Rainy_River|Pangnirtung|Inuvik|Blanc-Sablon|Atikokan|Creston)$/;
     var USZ = /^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Boise|Detroit|Juneau|Sitka|Nome|Yakutat|Adak|Metlakatla|Menominee|Indiana\/.+|Kentucky\/.+|North_Dakota\/.+)$/;
     var BRZ = /^America\/(Sao_Paulo|Bahia|Fortaleza|Recife|Belem|Manaus|Cuiaba|Campo_Grande|Porto_Velho|Boa_Vista|Rio_Branco|Noronha|Araguaina|Maceio|Santarem|Eirunepe)$/;
@@ -108,7 +110,7 @@
     var funnet = tzLand();
     if (!funnet) funnet = spraakLand();
     var mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]);
-    if (!mal) { funnet = spraakLand(); mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]); } // time zone known but no section there (MX, IN, PH): use the browser language, as before
+    if (!mal) { funnet = spraakLand(); mal = funnet && (SEK[funnet] ? funnet : VIA[funnet]); } // time zone known but no section there (MX, PH): use the browser language, as before
     if (!mal) return;
     if (mal === 'BE' && norm(sprakListe[0]) === 'fr') mal = 'BE-fr';
     var sek = SEK[mal], sidesprak = sideSprak(document.documentElement.getAttribute('lang') || 'en');
