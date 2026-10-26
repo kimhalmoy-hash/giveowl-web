@@ -1,9 +1,9 @@
-// GiveOwl service worker: makes giveowl.com installable and lets /browse/ open offline.
+// GiveOwl service worker: makes giveowl.com installable and lets /browse/ open offline (v3: /browse/ is split into app.js, per-language lang/*.js, data.js and detaljer.js; all are cached on first use).
 // Pages and data.json: network first (always fresh when online), cache as fallback.
 // Static assets (images, logos): cache first, refreshed in the background. CSS/JS: network first, so new HTML never meets old CSS
 // (several pages link /assets/site.css without a ?v= version). No tracking, no push.
-const V = 'giveowl-v2';
-const KJERNE = ['/browse/', '/browse/index.html', '/browse/config.js', '/browse/i18n.js', '/browse/data.js', '/data.json', '/assets/site.css', '/assets/owl.svg', '/assets/icon-192.png'];
+const V = 'giveowl-v3';
+const KJERNE = ['/browse/', '/browse/index.html', '/browse/config.js', '/browse/sprak.js', '/browse/lang/en.js', '/browse/app.js', '/browse/data.js', '/browse/detaljer.js', '/assets/site.css', '/assets/owl.svg', '/assets/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(KJERNE)).catch(() => {})); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== V).map(x => caches.delete(x)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
