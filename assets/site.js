@@ -186,3 +186,25 @@
     window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
   }
 })();
+// nav 2026-10-29: country picker (details.landmeny) – search filter, close on outside click / Escape. Works without JS (plain links).
+(function () {
+  var m = document.querySelectorAll('details.landmeny'); if (!m.length) return;
+  function lukk(unntak) { for (var i = 0; i < m.length; i++) if (m[i] !== unntak) m[i].open = false; }
+  document.addEventListener('click', function (e) { for (var i = 0; i < m.length; i++) if (m[i].open && !m[i].contains(e.target)) m[i].open = false; });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { for (var i = 0; i < m.length; i++) if (m[i].open) { m[i].open = false; m[i].querySelector('summary').focus(); } } });
+  Array.prototype.forEach.call(m, function (d) {
+    var s = d.querySelector('.lm-sok'), ingen = d.querySelector('.lm-ingen'); if (!s) return;
+    s.hidden = false;
+    d.addEventListener('toggle', function () { if (d.open) { lukk(d); if (window.matchMedia('(min-width:700px)').matches) s.focus(); } });
+    s.addEventListener('input', function () {
+      var q = s.value.trim().toLowerCase(), n = 0;
+      Array.prototype.forEach.call(d.querySelectorAll('.lm-gruppe'), function (g) {
+        var synlig = 0;
+        Array.prototype.forEach.call(g.querySelectorAll('li'), function (li) { var a = li.firstChild, ok = !q || (a.getAttribute('data-sok') || '').indexOf(q) >= 0; li.hidden = !ok; if (ok) synlig++; });
+        g.hidden = !synlig; n += synlig;
+      });
+      if (ingen) ingen.hidden = n > 0;
+    });
+    s.addEventListener('keydown', function (e) { if (e.key === 'Enter') { var a = d.querySelector('.lm-gruppe li:not([hidden]) a'); if (a) { e.preventDefault(); location.href = a.href; } } });
+  });
+})();

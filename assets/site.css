@@ -201,3 +201,63 @@ p.flere a{display:inline-block;padding:6px 0}
 /* delbar (share) buttons: 44px */
 .delbar a,.delbar button{min-height:44px}
 .flere-mer .ant{font-size:14px;background:#EEF0F8;color:var(--natt-2);border-radius:99px;padding:2px 10px}
+/* nav 2026-10-29: country picker + category bar (subnav), entry related cards/prev-next, footer countries by region. Generated markup in scripts/lib/nav.mjs. */
+.subnav{background:#fff;border-bottom:1px solid var(--linje);position:sticky;top:0;z-index:30;box-shadow:0 2px 6px rgba(26,33,64,.04)}
+.subnav-inn{display:flex;align-items:center;gap:10px;min-height:48px}
+.subnav-lenker{display:flex;gap:6px;list-style:none;margin:0;padding:6px 0;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}
+.subnav-lenker::-webkit-scrollbar{display:none}
+.subnav-lenker a{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--linje);background:#fff;color:var(--blekk);text-decoration:none;font-size:14px;font-weight:600;white-space:nowrap}
+.subnav-lenker a:hover{border-color:var(--natt-3);background:#F7F4FF}
+.subnav-lenker a[aria-current]{background:var(--natt);border-color:var(--natt);color:#fff}
+.subnav-lenker .ant{font-size:12px;font-weight:700;background:var(--gull-lys);color:var(--blekk);border-radius:999px;padding:1px 7px}
+.landmeny{position:relative;flex:none}
+.landmeny>summary{list-style:none;display:inline-flex;align-items:center;gap:8px;min-height:38px;padding:0 12px;border-radius:10px;background:var(--natt);color:#fff;font-weight:700;font-size:14.5px;cursor:pointer;white-space:nowrap;user-select:none}
+.landmeny>summary::-webkit-details-marker{display:none}
+.landmeny>summary::after{content:"";width:7px;height:7px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-2px);margin-left:2px}
+.landmeny[open]>summary::after{transform:rotate(-135deg) translateY(-1px)}
+.landmeny>summary:hover{background:var(--natt-2)}
+.lm-f{font-size:18px;line-height:1}
+.lm-panel{position:absolute;top:calc(100% + 8px);left:0;z-index:60;width:min(760px,calc(100vw - 32px));max-height:min(80vh,640px);overflow:auto;background:#fff;border:1px solid var(--linje);border-radius:14px;box-shadow:0 18px 40px rgba(26,33,64,.18);padding:14px 16px}
+[dir=rtl] .lm-panel{left:auto;right:0}
+.lm-sok{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px 12px;border:1px solid var(--linje);border-radius:10px;margin:0 0 10px}
+.lm-grupper{columns:3 200px;column-gap:20px}
+.lm-gruppe{break-inside:avoid;margin:0 0 10px}
+.lm-reg{margin:4px 0 4px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--dempet)}
+.lm-gruppe ul{list-style:none;margin:0;padding:0}
+.lm-gruppe a{display:flex;align-items:center;gap:8px;min-height:36px;padding:0 8px;border-radius:8px;color:var(--blekk);text-decoration:none;font-size:14.5px}
+.lm-gruppe a:hover,.lm-gruppe a:focus{background:#F4EEE4}
+.lm-gruppe a[aria-current]{background:var(--gull-lys);font-weight:700}
+.lm-n{margin-left:auto;font-size:12px;color:var(--dempet)}
+[dir=rtl] .lm-n{margin-left:0;margin-right:auto}
+.lm-andre{margin:6px 0 0;border-top:1px solid var(--linje);padding-top:8px}.lm-andre a{text-decoration:none;font-weight:600}
+.lm-ingen{color:var(--dempet);margin:4px 0}
+.fs-topp+.subnav{position:relative}
+@media (max-width:640px){
+  .subnav-inn{gap:6px}
+  .landmeny>summary{padding:0 10px;min-height:36px}
+  .landmeny .lm-navn{max-width:9ch;overflow:hidden;text-overflow:ellipsis}
+  .lm-panel{position:fixed;left:8px;right:8px;top:auto;width:auto;max-height:72vh;margin-top:8px}
+  .lm-grupper{columns:2 140px}
+  .subnav-lenker a{padding:0 10px;font-size:13.5px}
+}
+@media (min-width:900px){body .fs-land{flex-wrap:wrap;overflow:visible}}
+/* entry pages */
+.sti span[aria-current]{color:var(--blekk)}
+.forrneste{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.forrneste a{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:1px solid var(--linje);border-radius:12px;background:#fff;text-decoration:none;color:var(--blekk)}
+.forrneste a[rel=next]{text-align:end}
+.forrneste small{color:var(--dempet);font-weight:700}
+.forrneste a:hover,.relkort .rk:hover{border-color:var(--natt-3);box-shadow:0 4px 14px rgba(26,33,64,.08)}
+.relkort{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:10px 0 14px}
+.relkort .rk{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border:1px solid var(--linje);border-radius:12px;background:#fff;text-decoration:none;color:var(--blekk)}
+.rk-t{font-weight:700;line-height:1.3}.rk-a,.rk-f{font-size:13px;color:var(--dempet)}.rk-p{font-size:13.5px}
+.rk-f{margin-top:auto}
+.relalle{margin:6px 0 0}
+/* footer countries by region */
+.fotland{margin:0 0 16px}
+.fl-h{margin:0 0 6px}
+.fl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:4px 20px}
+.fl-reg{margin:8px 0 2px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#8E97C2}
+footer.site .fl-grid a{display:flex;align-items:center;min-height:34px;margin:0;padding:0}
+footer.site .fl-ekstra a{display:inline-flex;min-height:40px;align-items:center}
+/* /nav 2026-10-29 */
