@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Wed, 28 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Beautyheaven julekalender 2026 – Beautyheaven</title>
+    <link>https://giveowl.com/e/beautyheaven--beautyheaven-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/beautyheaven--beautyheaven-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/472ee566f4f6.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Thu, 29 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ikke bekreftet for 2026 (i 2025: bl.a. stor goodiebag verdt 2 900 kr i luke 1 og rabattkode på 500 kr i luke 24). Svar på dagens luke. I 2025 gratis, 16 år+</description>
+  </item>
   <item>
     <title>Milwaukee: vinn en julekalender (10 vinnere i Norden) – Milwaukee Tool (TTI EMEA Limited)</title>
     <link>https://giveowl.com/e/milwaukee-tool-tti-emea-limited--milwaukee-vinn-en-julekalender-10-vinnere-i-norden--2026/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/7e7c77915cc6.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Premier for 2026 ikke publisert ennå. Åpne dagens luke på Elkjøps julekalenderside i desember. Vilkår for 2026 er ikke publisert – les dem når kalenderen åpner</description>
-  </item>
-  <item>
-    <title>Felleskjøpet julekalender 2026 – Felleskjøpet</title>
-    <link>https://giveowl.com/e/felleskjopet--felleskjopet-julekalender--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/felleskjopet--felleskjopet-julekalender--2026/</guid>
-    <enclosure url="https://giveowl.com/og/2a3dd2b1a8db.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Ikke bekreftet for 2026 (i 2025: daglige premier, f.eks. bålbrenner). Delta i dagens luke med e-post. I 2025 uten kjøpsforpliktelse, 16 år+</description>
   </item>
 </channel>
 </rss>

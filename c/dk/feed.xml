@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/dk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver konkurrence linker til arrangørens officielle betingelser. GiveOwl indsamler aldrig dine svar.</description>
   <language>da</language>
-  <lastBuildDate>Wed, 28 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Milwaukee: vind en julekalender (10 vindere i Norden) – Milwaukee Tool (TTI EMEA Limited)</title>
     <link>https://giveowl.com/e/milwaukee-tool-tti-emea-limited--milwaukee-vind-en-julekalender-10-vindere-i-norden--2026/</link>
@@ -22,14 +22,6 @@
     <enclosure url="https://giveowl.com/og/4122eb8ead73.jpg" type="image/jpeg" length="0"/>
     <pubDate>Wed, 28 Oct 2026 08:00:00 GMT</pubDate>
     <description>Præmie: 5 gavekort à 1.000 kr til H2O. Frist: 13. november 2026. Tilmeld dig Black Friday Early Access på siden og bekræft din e-mail; gratis og uden køb. 18+ med bopæl i Danmark</description>
-  </item>
-  <item>
-    <title>Adventskalender 2026: vind kalender + gavekort på 500 kr. – Neglefeber</title>
-    <link>https://giveowl.com/e/neglefeber--adventskalender-2026-vind-kalender-gavekort-pa-500-kr--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/neglefeber--adventskalender-2026-vind-kalender-gavekort-pa-500-kr--2026/</guid>
-    <enclosure url="https://giveowl.com/og/6e08707096ee.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Præmie: Årets adventskalender og gavekort på 500 kr. til neglefeber.dk. Frist: 28. oktober 2026. Skriv dig på VIP-listen via formularen på neglefeber.dk/pages/adventskalender (gratis, intet køb; du tilmeldes også Neglefebers nyhedsbrev). Én gang pr. person. 18+, bosat i Danmark. Frist onsdag 28. oktober kl. 12; vinderen trækkes samme dag</description>
   </item>
   <item>
     <title>Vind en kop hylde (Kvik S04) – Kvik</title>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/9ec8bc7e0651.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Præmie: Ikke bekræftet for 2026 (i 2025: daglige præmier fra bl.a. Royal Copenhagen, Georg Jensen Damask og Kay Bojesen). 2025: skrab dagens låge, svar rigtigt på spørgsmålet og udfyld kontaktformularen. Alle kan deltage (ikke kun medlemmer)</description>
+  </item>
+  <item>
+    <title>Folketidendes julekalender 2026 – Folketidende</title>
+    <link>https://giveowl.com/e/folketidende--folketidendes-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/folketidende--folketidendes-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/133ace8b3912.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Præmie: Præmier hver dag + hovedpræmie (ikke offentliggjort endnu). Tilmeld dig, så får du dagens låge på e-mail hele december; hver låge giver et lod til hovedpræmien</description>
   </item>
 </channel>
 </rss>
