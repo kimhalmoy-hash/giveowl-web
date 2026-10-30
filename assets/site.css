@@ -289,3 +289,24 @@ footer.site{background:var(--natt)}
 .tag.slutt{background:var(--frist-l);color:var(--frist)}
 .tag.kjop{background:#FFEEDD;color:#8a3d00}.tag.ann{background:#F1EEE8;color:#5B4A1F}
 .subnav-lenker .ant{background:#F1EEE8}
+/* ===== Redesign 2026-10-30, fase 2: fem faste faner (markup i scripts/lib/nav.mjs), filtrene som piller under ===== */
+.faner{background:var(--natt-2);color:#fff;position:sticky;top:0;z-index:31}
+.fane-liste{list-style:none;margin:0;padding:0;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.fane-liste::-webkit-scrollbar{display:none}
+.fane{display:flex;align-items:center;gap:8px;min-height:46px;padding:0 14px;color:#fff;text-decoration:none;font-weight:700;font-size:15px;white-space:nowrap;border-bottom:3px solid transparent;opacity:.88}
+.fane:hover{opacity:1;background:rgba(255,255,255,.06)}
+.fane[aria-current]{opacity:1;border-bottom-color:var(--oransje)}
+.fane:focus-visible{outline:2px solid var(--oransje);outline-offset:-2px}
+.fane .prikk{width:9px;height:9px;border-radius:50%;flex:none;background:var(--oransje)}
+.f-konk .prikk{background:#3FC48A}.f-kal .prikk{background:#FF6B81}.f-bw .prikk{background:var(--gull)}.f-gave .prikk{background:#B794F6}.f-guide .prikk{background:#7FA8FF}
+.fane .ant{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border-radius:999px;padding:1px 8px}
+.subnav.med-faner{position:relative;top:auto}
+.fs-topp+.faner{position:sticky}
+@media (max-width:760px){
+  .faner{position:relative}
+  .faner .wrap{padding:0 6px}
+  .fane-liste{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;overflow:visible}
+  .fane{justify-content:center;min-height:44px;padding:0 4px;font-size:13px;gap:5px;white-space:normal;text-align:center;line-height:1.15}
+  .fane .ant{display:none}
+  .fane .prikk{width:7px;height:7px}
+}
