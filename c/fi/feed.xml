@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/fi/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Jokainen arvonta linkittää järjestäjän virallisiin sääntöihin. GiveOwl ei koskaan kerää osallistumisiasi.</description>
   <language>fi</language>
-  <lastBuildDate>Fri, 30 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Marketsz Major Sweepstake: win an iPhone 18 Pro – Marketsz Inc.</title>
     <link>https://giveowl.com/e/marketsz-inc--marketsz-major-sweepstake--2026/</link>
@@ -46,14 +46,6 @@
     <enclosure url="https://giveowl.com/og/b71689131a4d.jpg" type="image/jpeg" length="0"/>
     <pubDate>Tue, 27 Oct 2026 08:00:00 GMT</pubDate>
     <description>Palkinto: Pääpalkinto Nintendo Switch -pelikonsoli ja Nintendo eShop -lahjakortti; viikoittain yllätyspalkintoina luettavaa. Vastaa oikein joulukalenteriluukun kysymykseen ja täytä yhteystiedot; osallistuminen joka päivä parantaa mahdollisuuksia. Luukkujen päivämääriä ei ole vielä kerrottu</description>
-  </item>
-  <item>
-    <title>Celsius: matka Miamiin katsomaan Florida Panthers -ottelua – Celsius Suomi</title>
-    <link>https://giveowl.com/e/celsius-suomi--celsius-matka-miamiin-katsomaan-florida-panthers-ottelua--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/celsius-suomi--celsius-matka-miamiin-katsomaan-florida-panthers-ottelua--2026/</guid>
-    <enclosure url="https://giveowl.com/og/834b0b1b14b0.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Palkinto: Matka kahdelle Miamiin (24.–27.3.2027) ja Florida Panthers -ottelu; lisäpalkintoina pelipaitoja ja Celsius-jääkaappeja. Päättyy: 30. lokakuuta 2026. Täytä sähköposti, ikä ja valitse suosikkimakusi Celsiuksen kampanjasivulla sekä vahvista säännöt ja 18 v. ikä. Ilmainen, ei ostovelvoitetta; postiosoitteen on oltava Suomessa</description>
   </item>
   <item>
     <title>Apetit Pannuateria: Fiskars Norden -paistokasari (K-Ruoka) – Apetit ja Kesko</title>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/5e689dd29fec.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
     <description>Palkinto: Finnkinon elokuvalippuja joka kuukausi. Tilaa Episodin ilmainen uutiskirje, niin osallistut automaattisesti kuukausittaiseen arvontaan</description>
+  </item>
+  <item>
+    <title>Verkkokauppa.com: kuukausittain 500 € lahjakortti uutiskirjeen tilaajille – Verkkokauppa.com</title>
+    <link>https://giveowl.com/e/verkkokauppa-com--verkkokauppa-com-kuukausittain-500-lahjakortti-uutiskirjeen-tilaajille--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/verkkokauppa-com--verkkokauppa-com-kuukausittain-500-lahjakortti-uutiskirjeen-tilaajille--2026/</guid>
+    <enclosure url="https://giveowl.com/og/84b19b89aed6.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Palkinto: 500 euron lahjakortti Verkkokauppa.comiin joka kuukausi. Tilaa Verkkokauppa.comin uutiskirje, niin olet automaattisesti mukana kuukausiarvonnassa. Tilaus sisältää markkinointisuostumuksen; voi perua milloin tahansa</description>
   </item>
 </channel>
 </rss>

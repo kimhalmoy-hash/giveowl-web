@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/dk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver konkurrence linker til arrangørens officielle betingelser. GiveOwl indsamler aldrig dine svar.</description>
   <language>da</language>
-  <lastBuildDate>Fri, 30 Oct 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>B.E.G. Adventskalender (Danmark): daglig quiz og præmier – B.E.G. Brück Electronic</title>
     <link>https://giveowl.com/e/b-e-g-bruck-electronic--b-e-g-adventskalender-danmark-daglig-quiz-og-praemier--2026/</link>
@@ -240,22 +240,6 @@
     <description>Præmie: Juleweekend for 2 (ca. 4.000 kr): overnatning med wellness og morgenmad på Color Hotel Skagen, frokost for 2 på Skagen Fiskerestaurant, gløgg for 2 på Brøndums Hotel, churros på Aalborg julemarked, æbleskiver og gløgg på Salling Rooftop og billetter til Aalborg Zoo for 2. Weekenden skal bruges 21.–22. november 2026. Frist: 6. november 2026. Tilmeld dig Enjoy Nordjyllands nyhedsbrev. 18+. Vinderen skal dele billeder fra weekenden</description>
   </item>
   <item>
-    <title>Den spanske vinquiz: vind 6 flasker Ribera del Duero – Samvirke (Coop)</title>
-    <link>https://giveowl.com/e/samvirke-coop--den-spanske-vinquiz-vind-6-flasker-ribera-del-duero--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/samvirke-coop--den-spanske-vinquiz-vind-6-flasker-ribera-del-duero--2026/</guid>
-    <enclosure url="https://giveowl.com/og/3aabe3edef2d.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Præmie: 6 flasker rødvin fra Ribera del Duero, samlet værdi 1.200 kr. Frist: 30. oktober 2026. Svar på vinquizzen på samvirke.dk. Slutter 30. oktober 2026</description>
-  </item>
-  <item>
-    <title>J46-jubilæumsquizzen: vind en J46-stol – Samvirke (Coop) / FDB Møbler</title>
-    <link>https://giveowl.com/e/samvirke-coop-fdb-mobler--j46-jubilaeumsquizzen-vind-en-j46-stol--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/samvirke-coop-fdb-mobler--j46-jubilaeumsquizzen-vind-en-j46-stol--2026/</guid>
-    <enclosure url="https://giveowl.com/og/0f6e7b790303.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Præmie: 10 vindere: J46-stol i jubilæumsfarven (værdi 1.799 kr). Frist: 30. oktober 2026. Svar på quizzen på samvirke.dk. Slutter 30. oktober 2026</description>
-  </item>
-  <item>
     <title>Stor rejsequiz: vind rejsegavekort til Risskov Rejser – Samvirke (Coop)</title>
     <link>https://giveowl.com/e/samvirke-coop--stor-rejsequiz-vind-rejsegavekort-til-risskov-rejser--2026/</link>
     <guid isPermaLink="true">https://giveowl.com/e/samvirke-coop--stor-rejsequiz-vind-rejsegavekort-til-risskov-rejser--2026/</guid>
@@ -406,6 +390,22 @@
     <enclosure url="https://giveowl.com/og/82fee39f17e5.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Præmie: Ikke bekræftet for 2026 (i 2025: præmier for 100.000 kr). I 2025 krævede deltagelse medlemskab af Elgigantens gratis kundeklub, men intet køb</description>
+  </item>
+  <item>
+    <title>FOAs julekalender 2026 – FOA</title>
+    <link>https://giveowl.com/e/foa--foas-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/foa--foas-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/9ec8bc7e0651.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Præmie: Ikke bekræftet for 2026 (i 2025: daglige præmier fra bl.a. Royal Copenhagen, Georg Jensen Damask og Kay Bojesen). 2025: skrab dagens låge, svar rigtigt på spørgsmålet og udfyld kontaktformularen. Alle kan deltage (ikke kun medlemmer)</description>
+  </item>
+  <item>
+    <title>Folketidendes julekalender 2026 – Folketidende</title>
+    <link>https://giveowl.com/e/folketidende--folketidendes-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/folketidende--folketidendes-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/133ace8b3912.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Præmie: Præmier hver dag + hovedpræmie (ikke offentliggjort endnu). Tilmeld dig, så får du dagens låge på e-mail hele december; hver låge giver et lod til hovedpræmien</description>
   </item>
 </channel>
 </rss>
