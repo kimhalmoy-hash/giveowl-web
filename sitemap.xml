@@ -547,6 +547,16 @@
   <url>
     <loc>https://giveowl.com/c/be/</loc>
     <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/be/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/be/fr/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/be/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/br/</loc>
