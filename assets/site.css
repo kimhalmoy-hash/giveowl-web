@@ -310,3 +310,11 @@ footer.site{background:var(--natt)}
   .fane .ant{display:none}
   .fane .prikk{width:7px;height:7px}
 }
+/* ===== Redesign 2026-10-30, fase 4: typemerke og fargeflate på kortene (markup i scripts/bygg-seo.mjs kortHtml) ===== */
+.oppf{overflow:hidden}
+.oppf-type{margin:-16px -18px 12px;padding:10px 18px;background:var(--k-konk-l);border-bottom:1px solid var(--linje)}
+.oppf.k-kal .oppf-type{background:var(--k-kal-l)}
+.typemerke{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:3px 8px;background:var(--k-konk);color:#fff;line-height:1.4}
+.oppf.k-kal .typemerke{background:var(--k-kal)}
+.oppf.stor .oppf-type{margin:-22px -22px 16px;padding:12px 22px}
+@media (max-width:760px){.oppf .oppf-type{margin:-14px -14px 10px;padding:9px 14px}.oppf.stor .oppf-type{margin:-22px -22px 14px;padding:10px 22px}}
