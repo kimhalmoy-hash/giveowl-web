@@ -200,3 +200,30 @@
 .fs-alle:hover{background:var(--fs-ink);border-color:var(--fs-ink)}
 .fs-tall div{border-radius:16px}
 .fs-ant{border-radius:999px}
+/* ===== Redesign 2026-10-30, fase 3: fliser, Black Week-bånd, julegaverad (markup fra scripts/lib/nav.mjs) ===== */
+.fs-fliser{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:22px 0 10px}
+.fs-flis{border-radius:16px;padding:16px;color:#fff;min-height:112px;display:flex;flex-direction:column;justify-content:space-between;text-decoration:none;background:var(--natt-2);transition:transform .15s}
+.fs-flis:hover{transform:translateY(-2px)}
+.fs-flis:focus-visible{outline:3px solid var(--oransje);outline-offset:2px}
+.fl-navn{font-family:var(--font-h,inherit);font-weight:800;font-size:18px;line-height:1.15}
+.fl-tall{font-family:var(--font-h,inherit);font-size:30px;font-weight:800;line-height:1}
+.fl-under{font-size:13px;opacity:.92}
+.fl-konk{background:var(--k-konk)}.fl-kal{background:var(--k-kal)}.fl-bw{background:var(--k-bw)}.fl-bw .fl-tall{color:var(--gull)}.fl-gave{background:var(--k-gave)}.fl-guide{background:var(--k-guide)}
+.fs-bwband{background:#111;color:#fff;border-radius:18px;padding:20px 22px;margin:18px 0;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.fs-bwband h2{margin:0 0 10px;font-size:28px;color:#fff}.fs-bwband h2 span{color:var(--gull)}
+.fs-bw-datoer{display:flex;gap:8px;flex-wrap:wrap;margin:0}.fs-bw-datoer span{border:1px solid #fff4;border-radius:999px;padding:4px 10px;font-size:13px}
+.fs-bw-knapp{background:var(--gull);color:#111;font-weight:800;border-radius:999px;padding:12px 20px;text-decoration:none;white-space:nowrap}
+.fs-bw-knapp:hover{filter:brightness(1.05)}
+.fs-gaver{margin:18px 0 8px}.fs-gaver h2{font-size:22px;margin:0 0 10px}
+.fs-gave-rad{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.fs-gavekort{display:flex;flex-direction:column;gap:6px;background:var(--k-gave-l);border:1px solid #DCCBFB;border-left:5px solid var(--k-gave);border-radius:14px;padding:14px 16px;color:var(--blekk);text-decoration:none}
+.fs-gavekort b{font-size:16px}.fs-gavekort span{font-size:14px;color:var(--dempet)}
+.fs-gavekort:hover{border-color:var(--k-gave)}
+footer.site .fotland .fl-grid a{white-space:nowrap}
+@media (max-width:760px){
+  .fs-fliser{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
+  .fs-flis{min-height:92px;padding:14px}
+  .fs-flis:last-child:nth-child(odd){grid-column:1/-1;min-height:72px}
+  .fl-navn{font-size:16px}.fl-tall{font-size:26px}
+  .fs-bwband{padding:18px}.fs-bwband h2{font-size:24px}.fs-bw-knapp{width:100%;text-align:center}
+}

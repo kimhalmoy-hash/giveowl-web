@@ -93,7 +93,9 @@
   // default: 'skjul' = only the country chips and a labelled box with a button; 'merk' = the US list, labelled as US contests.
   R.innhold = function (o) {
     var T = o.T, K = o.K, h = '', skjul = o.usa === 'skjul';
-    var chips = function (forst) { return '<div class="fs-land" role="group" aria-label="' + esc(T.land) + '">' + (forst ? [o.land].concat(K.land.filter(function (x) { return x !== o.land; })) : K.land).map(function (x) {
+    // Redesign 2026-10-30 (fase 3): the flag chip row is gone; the flags live in the country picker (menu) and the footer.
+    var chips = function () { return ''; };
+    var chipsGammel = function (forst) { return '<div class="fs-land" role="group" aria-label="' + esc(T.land) + '">' + (forst ? [o.land].concat(K.land.filter(function (x) { return x !== o.land; })) : K.land).map(function (x) {
       return '<a class="fs-landchip" data-cc="' + x + '" href="/c/' + x.toLowerCase() + '/"' + (forst && x === o.land ? ' aria-current="true"' : '') + '>' + (K.flagg[x] || '') + ' ' + esc(landNavn(x, o)) + '</a>'; }).join('') + '</div>'; };
     if (skjul) return chips(false) + '<section class="fs-sek fs-usa"><div class="fs-usa-boks"><h2><span aria-hidden="true">' + (K.flagg.US || '') + '</span> ' + esc(T.usa_h) + '</h2><p>' + esc(T.usa_u) + '</p><a class="fs-knapp fs-usa-vis" href="/c/us/">' + esc(T.usa_vis) + '</a></div></section>';
     var L = lister(o), ln = landNavn(o.land, o);
