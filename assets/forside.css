@@ -3,7 +3,7 @@
 @font-face{font-family:'DM Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url(/assets/fonts/dmsans-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
 @font-face{font-family:'DM Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url(/assets/fonts/dmsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 /* GiveOwl front page ("Bold & playful"). Used only by the landing pages (/ and /<lang>/). Theme: body[data-tema]. */
-.forside{--fs-bg:#FFFBF5;--fs-ink:#1B1530;--fs-muted:#5F5975;--fs-line:#EFE7DA;--fs-navy:#1F2A5C;--fs-orange:#F7931E;--fs-hero:#FFF1E6;--fs-pop:#C2410C;--fs-bar:#F7931E;--fs-r:24px;
+.forside{--fs-bg:#FAF7F2;--fs-ink:#14213D;--fs-muted:#5B6178;--fs-line:#E8E1D5;--fs-navy:#14213D;--fs-orange:#F7931E;--fs-hero:#FFF1E6;--fs-pop:#C2410C;--fs-bar:#F7931E;--fs-r:24px;
   background:var(--fs-bg);color:var(--fs-ink);font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .forside[data-tema=halloween]{--fs-hero:#F3EBFF;--fs-pop:#C2410C;--fs-bar:#7B2CBF}
 .forside[data-tema=jul]{--fs-hero:#FFF1E6;--fs-pop:#C92A2A;--fs-bar:#1F8A5B}
@@ -182,3 +182,21 @@
 }
 /* 44px tap target for the country chips (were 40px) */
 .fs-landchip{display:inline-flex;align-items:center;min-height:44px}
+
+/* ===== Redesign 2026-10-30, fase 1: felles palett med site.css, mørk topplinje, roligere kort ===== */
+.fs-topp{background:var(--natt,#14213D);border-bottom:0}
+.fs-topp .logo{color:#fff}.fs-topp .logo b{color:var(--fs-orange)}
+.fs-topp .navlenker a{color:#fff;opacity:.92}
+.fs-topp .navlenker a:hover{background:rgba(255,255,255,.12);opacity:1}
+.fs-topp select.sprak{background:#fff;color:var(--fs-ink);border:0}
+.forside{--fs-r:16px}
+.fs-kort{border-radius:14px}
+.fs-kort:hover,.fs-kort:focus-visible{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,33,61,.10)}
+.fs-merke{border-radius:6px;font-size:12px}
+.fs-merke.fs-snart{background:#B42318}
+.fs-frist{border-radius:6px;background:#F3EFE8}
+.fs-frist.fs-rod{background:#FDE8E8;color:#B42318}
+.fs-alle{border-width:1px;border-color:var(--fs-line);background:#fff}
+.fs-alle:hover{background:var(--fs-ink);border-color:var(--fs-ink)}
+.fs-tall div{border-radius:16px}
+.fs-ant{border-radius:999px}

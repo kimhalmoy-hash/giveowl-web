@@ -1,5 +1,10 @@
-:root{--natt:#1F2A5C;--natt-2:#2B3A7A;--natt-3:#3A4B96;--oransje:#F7931E;--oransje-m:#E0701F;--korall:#FF5A5F;--gull:#FFD23F;--gull-lys:#FFF1C9;--krem:#FFF8EE;--papir:#fff;--blekk:#1A2140;--dempet:#5E6787;--linje:#ECE4D6;--ok:#1F9D6B;
---font:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif}
+@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:700 800;font-display:swap;src:url(/assets/fonts/bricolage-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:700 800;font-display:swap;src:url(/assets/fonts/bricolage-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url(/assets/fonts/dmsans-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url(/assets/fonts/dmsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{--natt:#14213D;--natt-2:#22335C;--natt-3:#34497F;--oransje:#F7931E;--oransje-m:#C2620A;--korall:#FF5A5F;--gull:#FFC83D;--gull-lys:#FFF4CC;--krem:#FAF7F2;--papir:#fff;--blekk:#14213D;--dempet:#5B6178;--linje:#E8E1D5;--ok:#1F8A5B;
+--k-konk:#1F8A5B;--k-konk-l:#E3F4EC;--k-kal:#C8102E;--k-kal-l:#FCE7EA;--k-bw:#111111;--k-bw-l:#FFF4CC;--k-gave:#7C3AED;--k-gave-l:#F1EAFE;--k-guide:#2563EB;--k-guide-l:#E6EEFD;--frist:#B42318;--frist-l:#FDE8E8;
+--font:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-h:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;--font-gml:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif}
 *{box-sizing:border-box}html,body{margin:0}
 body{font-family:var(--font);color:var(--blekk);background:var(--krem);-webkit-font-smoothing:antialiased;line-height:1.55}
 a{color:var(--natt-2)}
@@ -261,3 +266,26 @@ p.flere a{display:inline-block;padding:6px 0}
 footer.site .fl-grid a{display:flex;align-items:center;min-height:34px;margin:0;padding:0}
 footer.site .fl-ekstra a{display:inline-flex;min-height:40px;align-items:center}
 /* /nav 2026-10-29 */
+
+/* ===== Redesign 2026-10-30, fase 1: ny palett (CSS-variabler over), roligere kort, mørk topplinje, oransje knapp med mørk tekst ===== */
+h1,h2,h3,.logo{font-family:var(--font-h);letter-spacing:-.01em}
+:lang(ar) h1,:lang(ja) h1,:lang(ko) h1,:lang(zh) h1,:lang(hi) h1,:lang(ar) h2,:lang(ja) h2,:lang(ko) h2,:lang(zh) h2,:lang(hi) h2{letter-spacing:0}
+.seo .topp-smal,.topp-smal{background:var(--natt);color:#fff;border-bottom:0}
+.seo .topp-smal .logo{color:#fff}.seo .topp-smal .logo b{color:var(--oransje)}
+.seo .topp-smal .navlenker>a{color:#fff;opacity:.92}
+.seo .topp-smal .navlenker>a:hover{background:rgba(255,255,255,.12);opacity:1}
+.topp-smal .landvelger summary{color:#fff}
+.topp-smal .landvelger summary:hover,.topp-smal .landvelger[open] summary{background:rgba(255,255,255,.12)}
+footer.site{background:var(--natt)}
+.knapp.primar{background:var(--oransje);color:var(--natt)}
+.knapp.mork{background:var(--natt)}
+/* calmer cards: white, thin line, no heavy shadow */
+.oppf,.kortet,.annkort{border:1px solid var(--linje);border-radius:14px;box-shadow:none}
+.oppf:hover{border-color:#D6CCBB}
+.relkort .rk,.forrneste a{border-radius:12px}
+.tag{border-radius:6px;font-weight:700;background:#F1EEE8;color:var(--blekk)}
+.tag.apen,.tag.fri{background:var(--k-konk-l);color:#14613F}
+.tag.kommer{background:var(--gull-lys);color:#6B4E00}
+.tag.slutt{background:var(--frist-l);color:var(--frist)}
+.tag.kjop{background:#FFEEDD;color:#8a3d00}.tag.ann{background:#F1EEE8;color:#5B4A1F}
+.subnav-lenker .ant{background:#F1EEE8}
