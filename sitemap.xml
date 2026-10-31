@@ -595,10 +595,6 @@
     <lastmod>2026-10-31</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/c/fi/advent-calendars/</loc>
-    <lastmod>2026-10-29</lastmod>
-  </url>
-  <url>
     <loc>https://giveowl.com/c/fr/</loc>
     <lastmod>2026-10-30</lastmod>
   </url>
@@ -707,6 +703,10 @@
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/julkalender/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/fi/joulukalenteri/</loc>
+    <lastmod>2026-10-31</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/advent-calendar-competitions/</loc>
