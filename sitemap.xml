@@ -814,7 +814,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/julekonkurranser/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
@@ -1413,6 +1413,10 @@
     <lastmod>2026-10-30</lastmod>
   </url>
   <url>
+    <loc>https://giveowl.com/e/coop--coop-julekalender--2026/</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/e/coppenrath-wiese--coppenrath-wiese-adventskalender-gewinnspiel--2026/</loc>
     <lastmod>2026-10-30</lastmod>
   </url>
@@ -1487,6 +1491,10 @@
   <url>
     <loc>https://giveowl.com/e/filmweb--filmweb-julekalender--2026/</loc>
     <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/firi--firi-julekalender--2026/</loc>
+    <lastmod>2026-10-31</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/foa--foas-julekalender--2026/</loc>
@@ -5600,6 +5608,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/falske-konkurranser/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/nb/guide/julekalender-pa-tv-2026/</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/nb/guide/skatt-pa-premier/</loc>
     <lastmod>2026-10-30</lastmod>
   </url>
@@ -6096,7 +6108,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
@@ -6106,7 +6118,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/guide/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/ratgeber/"/>
