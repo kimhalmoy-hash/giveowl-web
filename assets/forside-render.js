@@ -63,7 +63,11 @@
     var hall = konk.filter(function (e) { return (e.tags || []).indexOf('halloween') >= 0 || HALLOWEEN.test(e.tittel + ' ' + e.premie); });
     var bw = konk.filter(function (e) { return (e.tags || []).indexOf('black-friday') >= 0 || BLACKWEEK.test(e.tittel); });
     var uke = konk.filter(function (e) { return e.slutt && dagerMellom(idag, e.slutt) <= 7; }).length;
-    return { konk: konk, jul: jul, topp: topp, hall: hall, bw: bw, uke: uke };
+    // R28 (2026-11-01): the advent-calendar NUMBER is the hubs' number (confirmed + expected: every calendar that has not ended, purchase or not).
+    // English front page (/): all countries, the same number as /advent-calendars/. Language pages: only the country's own calendars (no INT).
+    // Under 3 the number is hidden (the cards stay). The cards themselves are unchanged.
+    var glob = o.lang === 'en', julN = o.alle.filter(function (e) { return e.type === 'julekalender' && e.status !== 'utløpt' && !(e.slutt && e.slutt < idag) && (glob || e.land === land); }).length;
+    return { konk: konk, jul: jul, topp: topp, hall: hall, bw: bw, uke: uke, julN: julN >= 3 ? julN : null, julGlob: glob };
   }
 
   function kortHtml(e, o) {
@@ -78,12 +82,12 @@
       '<div class="fs-kropp"><div class="fs-org" dir="auto">' + (e.land === 'INT' ? '🌍 ' : '') + esc(kort(orgNavn(e.arrangor), 40)) + '</div><h3 dir="auto">' + esc(kort(e.tittel, 72)) + '</h3><p dir="auto">' + esc(kort(e.premie, 110)) + '</p>' +
       '<div class="fs-fot">' + (tid ? '<span class="fs-frist' + (snart ? ' fs-rod' : '') + '">' + esc(tid) + '</span>' : '') + (igjen ? '<span class="fs-igjen">' + esc(igjen) + '</span>' : '') + '</div></div></a>';
   }
-  function alleLenke(o, type, n) { return '<a class="fs-alle" href="/browse/?land=' + o.land + '&amp;fane=' + type + '">' + esc(o.T.alle) + ' (' + n + ') ' + (o.lang === 'ar' ? '←' : '→') + '</a>'; }
+  function alleLenke(o, type, n, url) { return '<a class="fs-alle" href="' + (url || '/browse/?land=' + o.land + '&amp;fane=' + type) + '">' + esc(o.T.alle) + (n != null ? ' (' + n + ')' : '') + ' ' + (o.lang === 'ar' ? '←' : '→') + '</a>'; }
   function hode(tittel, n, lenke) { return '<div class="fs-hode"><h2>' + tittel + (n != null ? ' <span class="fs-ant">' + n + '</span>' : '') + '</h2>' + (lenke || '') + '</div>'; }
 
   R.helt = function (o) {
     var T = o.T, L = lister(o), pill;
-    if (o.tema === 'jul' || (o.tema === 'halloween' && L.jul.length)) pill = '🎄 ' + esc(T.jul) + (L.jul.length ? ' · ' + L.jul.length : '');
+    if (o.tema === 'jul' || (o.tema === 'halloween' && L.jul.length)) pill = '🎄 ' + esc(T.jul) + (L.julN ? ' · ' + L.julN : ''); // R28: hub number, hidden under 3
     else if (o.tema === 'halloween') pill = '🎃 ' + esc(T.hall);
     else if (o.tema === 'blackweek') pill = '🏷️ Black Week';
     else pill = esc(T.oppdatert.replace('{d}', dato(o.bygget || o.idag, o.locale)));
@@ -102,22 +106,23 @@
     h += chips(true);
     if (o.usa === 'merk') h += '<p class="fs-usa-merk"><b>' + (K.flagg.US || '') + ' ' + esc(T.usa_h) + '.</b> ' + esc(T.usa_u) + '</p>';
     var t0 = L.topp[0];
-    h += '<div class="fs-tall"><div><b>' + L.konk.length + '</b><span>' + esc(T.konk) + '</span></div>' + (L.jul.length ? '<div><b>' + L.jul.length + '</b><span>' + esc(T.jul) + '</span></div>' : '') +
+    h += '<div class="fs-tall"><div><b>' + L.konk.length + '</b><span>' + esc(T.konk) + '</span></div>' + (L.julN ? '<div><b>' + L.julN + '</b><span>' + esc(T.jul) + '</span></div>' : '') +
       '<div><b>' + L.uke + '</b><span>' + esc(T.uke) + '</span></div>' + (t0 ? '<div><b>' + esc(penger(t0.premieVerdi, t0.valuta, o.locale)) + '</b><span>' + esc(T.topp) + '</span></div>' : '') + '</div>';
+    var julLenke = alleLenke(o, 'julekalender', L.julN, L.julGlob ? '/advent-calendars/' : null); // R28: on / the number is all countries, so it links to /advent-calendars/
     var julVist = false, rad = function (l) { return '<div class="fs-rad">' + l.map(function (e) { return kortHtml(e, o); }).join('') + '</div>'; };
-    if (o.tema === 'jul' && L.jul.length) { julVist = true; h += '<section class="fs-sesong fs-ses-jul">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>'; }
+    if (o.tema === 'jul' && L.jul.length) { julVist = true; h += '<section class="fs-sesong fs-ses-jul">' + hode('🎄 ' + esc(T.jul), L.julN, julLenke) + rad(L.jul.slice(0, 12)) + '</section>'; }
     else if (o.tema === 'halloween' && L.hall.length >= 2) h += '<section class="fs-sesong fs-ses-halloween">' + hode('🎃 ' + esc(T.hall), L.hall.length) + rad(L.hall.slice(0, 12)) + '</section>';
     else if (o.tema === 'blackweek' && L.bw.length >= 2) h += '<section class="fs-sesong fs-ses-blackweek">' + hode('Black Week', L.bw.length) + rad(L.bw.slice(0, 12)) + '</section>';
     var hjemNb = o.lang === 'nb' && o.land === 'NO';
     if (hjemNb) {
       // Norwegian front page: Norwegian advent calendars first, then the newest open Norwegian contests (not 'ending soon').
-      if (!julVist && L.jul.length) { julVist = true; h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>'; }
+      if (!julVist && L.jul.length) { julVist = true; h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.julN, julLenke) + rad(L.jul.slice(0, 12)) + '</section>'; }
       var nye = L.konk.filter(function (e) { return e.status === 'aktiv' && e.land === 'NO'; }).slice().sort(function (a, b) { return (b.funnet || '').localeCompare(a.funnet || '') || (b.slutt || '9999').localeCompare(a.slutt || '9999'); }).slice(0, 8);
       if (nye.length) h += '<section class="fs-sek">' + hode('🆕 Nye konkurranser i Norge', null, alleLenke(o, 'konkurranse', L.konk.length)) + '<div class="fs-kgrid">' + nye.map(function (e) { return kortHtml(e, o); }).join('') + '</div></section>';
     }
     var snart = hjemNb ? [] : medSpons(L.konk.filter(function (e) { return e.status === 'aktiv'; })).slice(0, 8);
     if (snart.length) h += '<section class="fs-sek">' + hode('🔥 ' + esc(T.slutter.replace('{land}', ln)), null, alleLenke(o, 'konkurranse', L.konk.length)) + '<div class="fs-kgrid">' + snart.map(function (e) { return kortHtml(e, o); }).join('') + '</div></section>';
-    if (!julVist && L.jul.length) h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.jul.length, alleLenke(o, 'julekalender', L.jul.length)) + rad(L.jul.slice(0, 12)) + '</section>';
+    if (!julVist && L.jul.length) h += '<section class="fs-sek">' + hode('🎄 ' + esc(T.jul), L.julN, julLenke) + rad(L.jul.slice(0, 12)) + '</section>';
     if (L.topp.length >= 3) h += '<section class="fs-sek">' + hode('🏆 ' + esc(T.topp)) + '<p class="fs-under">' + esc(T.topp_u) + '</p><ol class="fs-toppliste">' + L.topp.slice(0, 6).map(function (e, i) {
       return '<li><a class="fs-t5" href="/e/' + encodeURIComponent(e.id) + '/"><span class="fs-rank" aria-hidden="true">' + (i + 1) + '</span><span class="fs-t5t">' + logoImg(e, 'fs-t5l') + '<span class="fs-t5x"><b dir="auto">' + esc(kort(e.tittel, 70)) + '</b><small dir="auto">' + esc(kort(orgNavn(e.arrangor), 40)) + (e.slutt ? ' · ' + esc(T.frist + ': ' + dato(e.slutt, o.locale)) : '') + '</small></span></span><span class="fs-v">' + esc(penger(e.premieVerdi, e.valuta, o.locale)) + '</span></a></li>'; }).join('') + '</ol></section>';
     return h;
