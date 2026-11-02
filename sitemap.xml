@@ -535,6 +535,33 @@
   <url>
     <loc>https://giveowl.com/c/at/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/at/advent-calendars/</loc>
@@ -547,37 +574,195 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/au/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/be/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/be/fr/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/br/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/ca/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/ch/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/ch/advent-calendars/</loc>
@@ -590,91 +775,628 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/cz/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/de/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/dk/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/es/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fi/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fr/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fr/advent-calendars/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/julkalender/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/joulukalenteri/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/ie/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/in/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/it/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/jp/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/kr/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nl/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nl/advent-calendars/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/julkalender/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/joulukalenteri/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/no/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nz/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/pt/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/se/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/za/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
@@ -687,6 +1409,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -700,6 +1424,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -713,6 +1439,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -726,6 +1454,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -739,6 +1469,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -752,6 +1484,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -765,6 +1499,8 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/advent-calendar-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/advent-calendars/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/advent-calendars/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/advent-calendars/"/>
   </url>
   <url>
@@ -792,6 +1528,10 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
@@ -802,6 +1542,10 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
@@ -812,6 +1556,10 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
@@ -887,6 +1635,10 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
@@ -897,6 +1649,10 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
@@ -986,18 +1742,58 @@
   <url>
     <loc>https://giveowl.com/c/ca/christmas-contests/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fr/concours-noel/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/es/concursos-navidad/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nl/kerstprijsvragen/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fi/voita-matka/</loc>
@@ -1024,38 +1820,97 @@
   <url>
     <loc>https://giveowl.com/c/de/new/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/new/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/fr/daily/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/daily/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/daily/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/daily/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/new/</loc>
     <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/new/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nz/ending-soon/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/ending-soon/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/new/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/new/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/daily/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/daily/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/daily/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/daily/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/za/new/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/new/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/other/</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/c/br/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://giveowl.com/c/ch/"/>
+    <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://giveowl.com/c/cz/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi-FI" href="https://giveowl.com/c/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://giveowl.com/c/in/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://giveowl.com/c/jp/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://giveowl.com/c/kr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://giveowl.com/c/pt/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://giveowl.com/c/za/"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://giveowl.com/c/be/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/other/"/>
   </url>
   <url>
     <loc>https://giveowl.com/e/mafamillezen--calendrier-de-l-avent-mafamillezen-2026-30-cadeaux-a-gagner--2026/</loc>
