@@ -6,15 +6,7 @@
   <atom:link href="https://giveowl.com/c/us/christmas-giveaways/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Christmas-themed giveaways and sweepstakes from US brands for 2026: holiday trips, gift cards and Christmas prizes. Each one is checked against the sponsor's official rules. For everything in the holiday season, including Thanksgiving and Black Friday promotions, see the holiday sweepstakes page.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 01 Nov 2026 08:00:00 GMT</lastBuildDate>
-  <item>
-    <title>WBRC 2026 Christmas Village Shopping Spree Contest – WBRC (Gray Media) / Marketplace Events</title>
-    <link>https://giveowl.com/e/wbrc-gray-media-marketplace-events--wbrc-2026-christmas-village-shopping-spree-contest--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/wbrc-gray-media-marketplace-events--wbrc-2026-christmas-village-shopping-spree-contest--2026/</guid>
-    <enclosure url="https://giveowl.com/og/a55f15efdf33.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Prize: Grand prize: Visa gift card up to $1,000 to spend at Christmas Village Festival, Birmingham (ARV up to $1,072); 5 first prizes: 4 tickets each (ARV $72). Deadline: November 1, 2026. Enter online at wbrc.com/contests (2026 Christmas Village Shopping Spree Contest). Legal residents of listed central Alabama counties, 19+, one entry per email</description>
-  </item>
+  <lastBuildDate>Mon, 02 Nov 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Nintendo NEW YORK My Nintendo Holiday Magic Sweepstakes – Nintendo of America</title>
     <link>https://giveowl.com/e/nintendo-of-america--nintendo-new-york-my-nintendo-holiday-magic-sweepstakes--2026/</link>
@@ -248,6 +240,14 @@
     <description>Prize: Six weekly mall gift cards from $250 to $750 (Bath &amp; Body Works, H&amp;M, Charlotte Russe, Buckle, Hollister, Pandora); $3,000 in total. Deadline: December 22, 2026. Enter online on the mall’s Santa’s Workshop holiday giveaway page (or by text/QR code in the mall); once per giveaway week. US residents 18+. Prizes must be claimed in person at Westmoreland Mall, Greensburg, PA</description>
   </item>
   <item>
+    <title>Macerich Shopping Center Holiday Sweepstakes – Macerich</title>
+    <link>https://giveowl.com/e/macerich--macerich-shopping-center-holiday-sweepstakes--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/macerich--macerich-shopping-center-holiday-sweepstakes--2026/</guid>
+    <enclosure url="https://giveowl.com/og/87caf5243cf0.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Prize: $100,000 grand prize (check); 5 Nespresso coffee machines per participating mall ($229 each). Deadline: December 24, 2026. Fill in the entry form at shoppingcentersweepstakes.com and pick your mall; 1 entry per day. US 18+, must live within 100 miles of a participating Macerich center</description>
+  </item>
+  <item>
     <title>Hallmark Channel's Very Merry Giveaway Sweepstakes – Hallmark Media United States, LLC</title>
     <link>https://giveowl.com/e/hallmark-media-united-states-llc--hallmark-channel-s-very-merry-giveaway-sweepstakes--2026/</link>
     <guid isPermaLink="true">https://giveowl.com/e/hallmark-media-united-states-llc--hallmark-channel-s-very-merry-giveaway-sweepstakes--2026/</guid>
@@ -286,14 +286,6 @@
     <enclosure url="https://giveowl.com/og/b698d121597b.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Prize: $5,000. Deadline: January 6, 2027. Enter twice daily – once on HGTV.com and once on FoodNetwork.com – until Jan 6, 2027 08:59 ET. US residents; check the official rules for the minimum age</description>
-  </item>
-  <item>
-    <title>Macerich Shopping Center Holiday Sweepstakes – Macerich</title>
-    <link>https://giveowl.com/e/macerich--macerich-shopping-center-holiday-sweepstakes--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/macerich--macerich-shopping-center-holiday-sweepstakes--2026/</guid>
-    <enclosure url="https://giveowl.com/og/87caf5243cf0.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Prize: $100,000 grand prize (check); 5 Nespresso coffee machines per participating mall ($229 each). Deadline: December 24, 2026. Fill in the entry form at shoppingcentersweepstakes.com and pick your mall; 1 entry per day. US 18+, must live within 100 miles of a participating Macerich center</description>
   </item>
 </channel>
 </rss>
