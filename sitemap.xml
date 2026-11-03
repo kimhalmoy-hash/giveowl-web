@@ -2028,6 +2028,10 @@
   <url>
     <loc>https://giveowl.com/nb/guide/julekalender-pa-tv-2026/</loc>
     <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendern-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/skatt-pa-premier/</loc>
@@ -2308,7 +2312,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/julekonkurrencer-2026/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -2379,10 +2383,18 @@
   <url>
     <loc>https://giveowl.com/sv/guide/julkalendern-pa-tv-2026/</loc>
     <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendern-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/julekalender-pa-tv-2026/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendern-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/julekalender-pa-tv-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/nb/guide/julekalender-pa-tv-2026/"/>
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/weihnachtsserien-im-tv-2026/</loc>
