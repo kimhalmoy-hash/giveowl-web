@@ -1,0 +1,40 @@
+.onske-app{max-width:760px;margin:0 auto;padding:8px 0 56px}
+.onske-app h1{font-size:clamp(32px,6vw,48px);line-height:1.05;margin:8px 0 8px}
+.onske-lead{font-size:1.08rem;color:var(--dempet);margin:0 0 8px}
+.onske-handlinger,.onske-rad{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.onske-kort,.onske-skjema{background:var(--papir);border:1px solid var(--linje);border-radius:16px;padding:16px;margin:12px 0}
+.onske-skjema{display:grid;gap:12px}
+.onske-skjema label,.onske-felt{display:grid;gap:4px;font-weight:700;font-size:14px}
+.onske-skjema input,.onske-skjema textarea,.onske-skjema select{font:inherit;font-weight:500;border:1px solid var(--linje);border-radius:12px;padding:12px;background:#fff;width:100%;min-height:44px}
+.onske-skjema textarea{min-height:88px;resize:vertical}
+.onske-to{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.onske-sjekk{display:flex;gap:10px;align-items:flex-start;font-weight:600}
+.onske-sjekk input{margin-top:4px;width:20px;height:20px;flex:none}
+.onske-advarsel{background:#FFF4CC;border:1px solid #E8D48A;border-radius:14px;padding:12px 14px;margin:12px 0}
+.onske-stille{background:#F4F7F6;border:1px solid var(--linje);border-radius:14px;padding:12px 14px;margin:12px 0}
+.onske-feil{background:var(--frist-l);border:1px solid #F3C1C1;border-radius:14px;padding:12px 14px;margin:12px 0}
+.onske-ok{background:var(--k-konk-l);border:1px solid #B7E4CC;border-radius:14px;padding:12px 14px;margin:12px 0}
+.onske-moduser{display:flex;flex-wrap:wrap;gap:6px}
+.onske-moduser button[aria-pressed="true"]{background:var(--natt);color:#fff}
+.onske-onske{display:grid;grid-template-columns:112px minmax(0,1fr);gap:12px}
+.onske-bilde,.onske-uten{width:112px;height:112px;border-radius:12px;border:1px solid var(--linje);background:#fff;object-fit:contain}
+.onske-uten{display:grid;place-items:center;font-size:2rem}
+.onske-meta{color:var(--dempet);font-size:14px;margin:2px 0}
+.onske-merke{display:inline-block;font-size:12px;font-weight:800;border-radius:999px;padding:2px 8px;margin:0 6px 6px 0;background:#F1EEE8}
+.onske-merke.mest{background:var(--gull-lys)}
+.onske-merke.ann{background:#FDECEC;color:#7A1F2B}
+.onske-merke.stat{background:#E7F6F4;color:#0F766E}
+.knapp.dempet{background:#fff;color:var(--natt);border:1px solid var(--linje)}
+.knapp.fare{background:#fff;color:var(--frist);border:1px solid #F3C1C1}
+.onske-lenke{font-weight:800}
+.onske-kode{word-break:break-all;font-size:14px;background:#fff;border:1px dashed var(--linje);border-radius:10px;padding:8px}
+.onske-app details{margin:10px 0}
+.onske-app summary{cursor:pointer;font-weight:800}
+.onske-mini{font-size:14px;color:var(--dempet)}
+.f-onske .prikk{background:#2DD4BF}
+@media (max-width:640px){
+  .onske-to{grid-template-columns:1fr}
+  .onske-onske{grid-template-columns:1fr}
+  .onske-bilde,.onske-uten{width:100%;height:200px}
+  .onske-handlinger .knapp,.onske-rad .knapp{flex:1 1 100%;justify-content:center}
+}

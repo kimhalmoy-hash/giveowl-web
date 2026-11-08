@@ -208,7 +208,7 @@
 .fl-navn{font-family:var(--font-h,inherit);font-weight:800;font-size:18px;line-height:1.15}
 .fl-tall{font-family:var(--font-h,inherit);font-size:30px;font-weight:800;line-height:1}
 .fl-under{font-size:13px;opacity:.92}
-.fl-konk{background:var(--k-konk)}.fl-kal{background:var(--k-kal)}.fl-bw{background:var(--k-bw)}.fl-bw .fl-tall{color:var(--gull)}.fl-gave{background:var(--k-gave)}.fl-guide{background:var(--k-guide)}
+.fl-konk{background:var(--k-konk)}.fl-kal{background:var(--k-kal)}.fl-bw{background:var(--k-bw)}.fl-bw .fl-tall{color:var(--gull)}.fl-gave{background:var(--k-gave)}.fl-onske{background:#0F766E}.fl-guide{background:var(--k-guide)}
 .fs-bwband{background:#111;color:#fff;border-radius:18px;padding:20px 22px;margin:18px 0;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .fs-bwband h2{margin:0 0 10px;font-size:28px;color:#fff}.fs-bwband h2 span{color:var(--gull)}
 .fs-bw-datoer{display:flex;gap:8px;flex-wrap:wrap;margin:0}.fs-bw-datoer span{border:1px solid #fff4;border-radius:999px;padding:4px 10px;font-size:13px}
@@ -220,8 +220,13 @@
 .fs-gavekort b{font-size:16px}.fs-gavekort span{font-size:14px;color:var(--dempet)}
 .fs-gavekort:hover{border-color:var(--k-gave)}
 footer.site .fotland .fl-grid a{white-space:nowrap}
+.fs-fliser:has(.fl-onske){grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (min-width:1100px){
+  .fs-fliser:has(.fl-onske){grid-template-columns:repeat(6,minmax(0,1fr))}
+}
 @media (max-width:760px){
   .fs-fliser{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
+  .fs-fliser:has(.fl-onske){grid-template-columns:repeat(2,minmax(0,1fr))}
   .fs-flis{min-height:92px;padding:14px}
   .fs-flis:last-child:nth-child(odd){grid-column:1/-1;min-height:72px}
   .fl-navn{font-size:16px}.fl-tall{font-size:26px}

@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/tr/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -338,7 +338,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/ko/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/zh-hans/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -410,7 +410,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/id/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -434,7 +434,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/ar/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -4374,7 +4374,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/molson-coors-beverage-company-usa-keystone-light--keystone-light-hunt-promotion--2026/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/viking-river-cruises-australia--viking-your-choice-2026-competition--2026/</loc>
@@ -6127,5 +6127,461 @@
   <url>
     <loc>https://giveowl.com/e/the-roasters-pack--the-roasters-pack-coffee-advent-calendar-contest-origin-guess--2026/</loc>
     <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/wishlist/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/onskeliste/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/sv/onskelista/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/da/onskeseddel/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/fi/toivelista/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/de/wunschliste/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/nl/verlanglijstje/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/fr/liste-de-souhaits/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/es/lista-de-deseos/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/it/lista-dei-desideri/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/pt-br/lista-de-desejos/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/pl/lista-zyczen/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/tr/istek-listesi/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/ja/hoshii-mono/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/ko/wisilist/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/zh-hans/xinyuandan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/hi/wishlist/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/id/daftar-keinginan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/ar/qaimat-al-amaniyat/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/onskeliste/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://giveowl.com/sv/onskelista/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://giveowl.com/da/onskeseddel/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://giveowl.com/fi/toivelista/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://giveowl.com/de/wunschliste/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/verlanglijstje/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://giveowl.com/fr/liste-de-souhaits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/lista-de-deseos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://giveowl.com/it/lista-dei-desideri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://giveowl.com/pt-br/lista-de-desejos/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://giveowl.com/pl/lista-zyczen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://giveowl.com/tr/istek-listesi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://giveowl.com/ja/hoshii-mono/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://giveowl.com/ko/wisilist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://giveowl.com/zh-hans/xinyuandan/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://giveowl.com/hi/wishlist/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://giveowl.com/id/daftar-keinginan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://giveowl.com/ar/qaimat-al-amaniyat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/wishlist/"/>
   </url>
 </urlset>
