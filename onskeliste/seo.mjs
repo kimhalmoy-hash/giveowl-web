@@ -11,8 +11,11 @@
  *   node onskeliste/build-pages.mjs
  *
  * API responses always send X-Robots-Tag: noindex, nofollow. That does not change.
+ * The production API is live, so landings may be indexed. Keys stay in the URL fragment.
  */
-export const LANDINGS_INDEXABLE = false;
+export const PRODUCTION_API = 'https://giveowl-onskeliste.kimhalmoy-6c0526.workers.dev/api/onskeliste';
+
+export const LANDINGS_INDEXABLE = true;
 
 export function landingRobots(indexable = LANDINGS_INDEXABLE) {
   return indexable ? 'index, follow' : 'noindex, nofollow';

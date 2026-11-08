@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { startServer } from '../server/dev-server.mjs';
 import { LANG_ORDER, META } from '../meta.mjs';
 import { COPY } from '../copy.mjs';
-import { LANDINGS_INDEXABLE, landingRobots } from '../seo.mjs';
+import { LANDINGS_INDEXABLE, PRODUCTION_API, landingRobots } from '../seo.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '../..');
 
@@ -213,21 +213,24 @@ test('creation is rate limited per client', async () => {
   }
 });
 
-test('list pages are noindex and absent from the sitemap', () => {
+test('landings are indexable and call the deployed API; list keys stay out of the sitemap', () => {
   const sitemap = readFileSync(join(ROOT, 'sitemap.xml'), 'utf8');
-  assert.equal(LANDINGS_INDEXABLE, false);
+  assert.equal(LANDINGS_INDEXABLE, true);
+  assert.equal(landingRobots(), 'index, follow');
   assert.equal(landingRobots(false), 'noindex, nofollow');
-  assert.equal(landingRobots(true), 'index, follow');
-  assert.equal(sitemap.includes('onskeliste-landings:start'), false);
+  assert.equal(sitemap.includes('onskeliste-landings:start'), true);
   const robots = readFileSync(join(ROOT, 'robots.txt'), 'utf8');
   assert.equal(robots.includes('Disallow: /api/onskeliste/'), true);
   const keys = Object.keys(COPY.en);
+  const apiAssignment = `window.GIVEOWL_ONSKE_API=${JSON.stringify(PRODUCTION_API)}`;
   for (const code of LANG_ORDER) {
     assert.deepEqual(Object.keys(COPY[code]).sort(), keys.sort());
-    assert.equal(sitemap.includes(META[code].path), false);
+    assert.equal(sitemap.includes(`<loc>https://giveowl.com${META[code].path}</loc>`), true);
     const html = readFileSync(join(ROOT, META[code].path.replace(/^\//, ''), 'index.html'), 'utf8');
-    assert.match(html, /noindex,\s*nofollow/);
+    assert.match(html, /index,\s*follow/);
+    assert.doesNotMatch(html, /noindex/);
     assert.match(html, /no-referrer/);
+    assert.equal(html.includes(apiAssignment), true);
     assert.match(html, new RegExp(`<title>${META[code].title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</title>`));
     for (const other of LANG_ORDER) assert.match(html, new RegExp(`hreflang="${META[other].hreflang}"`));
     assert.match(html, /hreflang="x-default"/);
@@ -241,6 +244,7 @@ test('list pages are noindex and absent from the sitemap', () => {
   assert.match(chrome, /Ønskeseddel/);
   assert.match(chrome, /verlanglijstje/);
   assert.match(chrome, /Wunschliste/);
+  assert.match(chrome, new RegExp(PRODUCTION_API.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 });
 
 test('swedish lists use the Swedish path, and CORS stays closed to other sites', async () => {

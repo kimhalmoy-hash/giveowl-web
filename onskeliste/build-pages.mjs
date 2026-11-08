@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { COPY } from './copy.mjs';
 import { LANG_ORDER, META } from './meta.mjs';
-import { LANDINGS_INDEXABLE, landingRobots } from './seo.mjs';
+import { LANDINGS_INDEXABLE, PRODUCTION_API, landingRobots } from './seo.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://giveowl.com';
@@ -89,7 +89,7 @@ ${hreflang()}
 <noscript><p>${esc(copy.offline)}</p></noscript>
 </main>
 <footer class="site"><div class="wrap"><p>${gift}<a href="/privacy/">${esc(copy.policy)}</a><a href="mailto:info@hendtas.com">info@hendtas.com</a></p><p>© 2026 GiveOwl · HENDT AS</p></div></footer>
-<script>window.GIVEOWL_ONSKE_LANG=${JSON.stringify(code)};</script>
+<script>window.GIVEOWL_ONSKE_API=${JSON.stringify(PRODUCTION_API)};window.GIVEOWL_ONSKE_LANG=${JSON.stringify(code)};</script>
 <script src="/onskeliste/i18n.js"></script>
 <script src="/onskeliste/app.js" defer></script>
 </body>
@@ -126,9 +126,13 @@ function writeChrome() {
   }
   const file = join(ROOT, 'assets', 'onskeliste.js');
   const source = readFileSync(file, 'utf8');
+  const chromeRe = /\/\* GIVEOWL_CHROME_START \*\/[\s\S]*?\/\* GIVEOWL_CHROME_END \*\//;
+  const apiRe = /\/\* GIVEOWL_API_START \*\/[\s\S]*?\/\* GIVEOWL_API_END \*\//;
+  if (!chromeRe.test(source)) throw new Error('chrome markers missing');
+  if (!apiRe.test(source)) throw new Error('api markers missing');
   const block = `/* GIVEOWL_CHROME_START */\nvar GIVEOWL_CHROME = ${JSON.stringify(chrome)};\n/* GIVEOWL_CHROME_END */`;
-  const next = source.replace(/\/\* GIVEOWL_CHROME_START \*\/[\s\S]*?\/\* GIVEOWL_CHROME_END \*\//, block);
-  if (next === source) throw new Error('chrome markers missing');
+  const apiBlock = `/* GIVEOWL_API_START */\nif (!window.GIVEOWL_ONSKE_API) window.GIVEOWL_ONSKE_API = ${JSON.stringify(PRODUCTION_API)};\n/* GIVEOWL_API_END */`;
+  const next = source.replace(chromeRe, block).replace(apiRe, apiBlock);
   writeFileSync(file, next);
 }
 

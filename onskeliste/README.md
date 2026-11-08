@@ -54,14 +54,11 @@ The same app is translated into GiveOwl’s 19 languages. Each landing has its o
 
 `assets/onskeliste.js` uses the page language for the sixth tab and for «add to wishlist» on gift cards.
 
-### Index the landings later
+### Indexability
 
-They are `noindex, nofollow` and are not in `sitemap.xml` until a production API can save lists. API responses stay `noindex` either way.
+`LANDINGS_INDEXABLE` in `onskeliste/seo.mjs` is `true`. Landing pages are `index, follow` and are listed in `sitemap.xml`. API responses stay `noindex`. List keys stay in the URL fragment, so a list is not its own sitemap URL.
 
-1. In `onskeliste/seo.mjs`, set `LANDINGS_INDEXABLE` to `true`.
-2. Run `node onskeliste/build-pages.mjs`.
-
-That rewrites the robots meta on every landing and inserts a marked block in `sitemap.xml`. Set the flag back to `false` and run the same command to remove the block again. `landingRobots(true)` returns `index, follow`.
+To hide the landings again, set the flag to `false` and run `node onskeliste/build-pages.mjs`.
 
 ## CORS
 
@@ -179,13 +176,7 @@ npx wrangler secret put GIVEOWL_CORS_ORIGINS
 
 The Worker fetches shop pages with `fetch` and checks each redirect against the same public-URL rules. Cloudflare blocks connections to private networks. The Node server still resolves DNS and connects to that address itself.
 
-Do not point the static pages at the Worker until a create-and-reserve check against the deployed URL succeeds. Then set, before the wishlist scripts:
-
-```html
-<script>window.GIVEOWL_ONSKE_API="https://giveowl-onskeliste.kimhalmoy-6c0526.workers.dev/api/onskeliste";</script>
-```
-
-Leave `LANDINGS_INDEXABLE` false until that check passes. The committed HTML does not hardcode the workers.dev host.
+The generated landings and `assets/onskeliste.js` set `window.GIVEOWL_ONSKE_API` to `https://giveowl-onskeliste.kimhalmoy-6c0526.workers.dev/api/onskeliste`. That constant lives in `onskeliste/seo.mjs` as `PRODUCTION_API`. Rebuild with `node onskeliste/build-pages.mjs` after changing it.
 
 ## Privacy contact
 

@@ -70,7 +70,7 @@ function serveStatic(root, req, res) {
     return;
   }
   const headers = { 'content-type': MIME[extname(full)] || 'application/octet-stream', 'x-content-type-options': 'nosniff' };
-  if (url.pathname.startsWith('/onskeliste') || url.pathname.startsWith('/wishlist') || url.pathname.startsWith('/api/')) {
+  if (url.pathname.startsWith('/api/')) {
     headers['x-robots-tag'] = 'noindex, nofollow';
     headers['referrer-policy'] = 'no-referrer';
     headers['cache-control'] = 'no-store';
