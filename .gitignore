@@ -15,6 +15,7 @@ node_modules/
 *.aab
 *.apk
 .DS_Store
+.wrangler/
 onskeliste/data/
 *.sqlite
 *.sqlite-journal

@@ -1,44 +1,14 @@
 import http from 'node:http';
 import https from 'node:https';
+import { lookup as dnsLookup } from 'node:dns/promises';
 import zlib from 'node:zlib';
+import { extractImage, extractTitle } from './html-meta.mjs';
 import { classifyUrl, SafeUrlError } from './ssrf.mjs';
 import { cleanText } from './text.mjs';
 
 const MAX_BYTES = 400_000;
 const TIMEOUT_MS = 5000;
 const MAX_REDIRECTS = 3;
-
-function attr(tag, name) {
-  const re = new RegExp(`\\b${name}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s"'=<>\`]+))`, 'i');
-  const match = re.exec(tag);
-  if (!match) return '';
-  return match[2] ?? match[3] ?? match[4] ?? '';
-}
-
-export function metaContent(html, key) {
-  const slice = html.slice(0, 150_000);
-  const re = /<meta\b[^>]*>/gi;
-  let match;
-  while ((match = re.exec(slice))) {
-    const tag = match[0];
-    const prop = (attr(tag, 'property') || attr(tag, 'name')).toLowerCase();
-    if (prop === key) return attr(tag, 'content');
-  }
-  return '';
-}
-
-export function extractTitle(html) {
-  for (const key of ['og:title', 'twitter:title']) {
-    const value = metaContent(html, key);
-    if (value) return value;
-  }
-  const match = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html.slice(0, 150_000));
-  return match ? match[1] : '';
-}
-
-export function extractImage(html) {
-  return metaContent(html, 'og:image') || metaContent(html, 'twitter:image');
-}
 
 export function defaultRequest(target) {
   return new Promise((resolve, reject) => {
@@ -101,8 +71,12 @@ export function defaultRequest(target) {
  * Fetch a public product page and return a sanitized title plus an image candidate.
  * Redirects are checked one hop at a time. The caller's original URL is not rewritten.
  */
+function nodeLookup(hostname) {
+  return dnsLookup(hostname, { all: true, verbatim: true });
+}
+
 export async function readProduct(rawUrl, deps = {}) {
-  const lookup = deps.lookup;
+  const lookup = deps.lookup || nodeLookup;
   const request = deps.request || defaultRequest;
   let current = rawUrl;
   for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {

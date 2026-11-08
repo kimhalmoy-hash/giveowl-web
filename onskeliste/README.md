@@ -153,7 +153,39 @@ Suggested shape when you are ready:
 
 **Data location in this pull request:** the database file is created only when someone starts the Node server, on that machine. It is not created in production by this change. GitHub Pages (GitHub, Inc.) would still serve the HTML, CSS and JavaScript only. No new paid account is required to run the local server, and this change does not sign anyone up for one.
 
-Cloudflare Workers and D1 (there is a free tier, and D1 can be created with EU jurisdiction) were considered and **not** wired up. The safe product-page fetch pins DNS and connects to that address with Node’s HTTP stack. The Workers runtime does not share that code, and no Cloudflare account or DNS change is available here. The SQL schema is `onskeliste/server/schema.sql` if you later adapt the same statements to D1.
+## Cloudflare Worker (not deployed from this pull request)
+
+The same HTTP API can run as the Worker `giveowl-onskeliste` with the D1 binding `DB` (database `giveowl-onskeliste`, id `6c6de63c-e7b1-48c9-b028-4e639f349703`, Western Europe). `wrangler.toml` does not contain an account id. This change does not deploy and does not publish giveowl.com.
+
+The local command is unchanged: `node onskeliste/server/dev-server.mjs` (Node 22 and `node:sqlite`).
+
+From a machine that is already logged in with Wrangler, apply the schema and deploy:
+
+```bash
+npx wrangler d1 execute giveowl-onskeliste --remote --file=onskeliste/server/schema.d1.sql
+npx wrangler deploy
+```
+
+`schema.d1.sql` is `schema.sql` without the `PRAGMA` line, which D1 rejects. D1 enforces foreign keys itself. The statements are otherwise the same, including the single-row reservation update.
+
+Optional, only if you want a stable rate-limit pepper or extra CORS origins:
+
+```bash
+npx wrangler secret put GIVEOWL_RATE_PEPPER
+npx wrangler secret put GIVEOWL_CORS_ORIGINS
+```
+
+`https://giveowl.com`, `https://www.giveowl.com`, and localhost are already allowed. A daily purge is scheduled at 03:17 UTC. Each request also schedules the same purge, so a list still expires after 365 idle days if the cron is not active.
+
+The Worker fetches shop pages with `fetch` and checks each redirect against the same public-URL rules. Cloudflare blocks connections to private networks. The Node server still resolves DNS and connects to that address itself.
+
+Do not point the static pages at the Worker until a create-and-reserve check against the deployed URL succeeds. Then set, before the wishlist scripts:
+
+```html
+<script>window.GIVEOWL_ONSKE_API="https://giveowl-onskeliste.kimhalmoy-6c0526.workers.dev/api/onskeliste";</script>
+```
+
+Leave `LANDINGS_INDEXABLE` false until that check passes. The committed HTML does not hardcode the workers.dev host.
 
 ## Privacy contact
 

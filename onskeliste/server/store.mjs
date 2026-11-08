@@ -1,8 +1,3 @@
-import { readFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const SCHEMA = readFileSync(join(dirname(fileURLToPath(import.meta.url)), 'schema.sql'), 'utf8');
 const MAX_WISHES = 80;
 
 const WISH_COLS = `id, list_id, title, note, size, color, price_text, price_checked_on, most_wanted,
@@ -10,8 +5,8 @@ const WISH_COLS = `id, list_id, title, note, size, color, price_text, price_chec
 
 export function createStore(db) {
   return {
-    async init() {
-      await db.exec(SCHEMA);
+    async init(schemaSql) {
+      if (schemaSql) await db.exec(schemaSql);
     },
 
     async createList(row) {
@@ -92,7 +87,10 @@ export function createStore(db) {
     },
 
     async deleteList(editHash) {
-      const result = await db.run(`DELETE FROM lists WHERE edit_hash = ?`, [editHash]);
+      const list = await db.get(`SELECT id FROM lists WHERE edit_hash = ?`, [editHash]);
+      if (!list) return false;
+      await db.run(`DELETE FROM wishes WHERE list_id = ?`, [list.id]);
+      const result = await db.run(`DELETE FROM lists WHERE id = ?`, [list.id]);
       return result.changes === 1;
     },
 
@@ -173,6 +171,7 @@ export function createStore(db) {
     },
 
     async purgeInactive(cutoffIso) {
+      await db.run(`DELETE FROM wishes WHERE list_id IN (SELECT id FROM lists WHERE activity_at < ?)`, [cutoffIso]);
       const result = await db.run(`DELETE FROM lists WHERE activity_at < ?`, [cutoffIso]);
       return result.changes;
     },

@@ -1,4 +1,4 @@
-import { createReadStream, existsSync, mkdirSync, statSync } from 'node:fs';
+import { createReadStream, existsSync, mkdirSync, readFileSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { dirname, extname, join, normalize, resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
@@ -100,7 +100,8 @@ export async function startServer(options = {}) {
   const dbPath = options.dbPath || ':memory:';
   const database = openDatabase(dbPath);
   const store = createStore(database);
-  await store.init();
+  const schemaPath = join(dirname(fileURLToPath(import.meta.url)), 'schema.sql');
+  await store.init(readFileSync(schemaPath, 'utf8'));
   const pepper = options.pepper || ratePepper();
   const fetchPage = options.fetchPage || ((target) => readProduct(target));
   const port = options.port ?? 0;
