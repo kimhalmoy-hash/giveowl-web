@@ -606,7 +606,20 @@
     var ml=document.createElement('span');ml.className='merkelapp annonse';ml.textContent=t('annonse');d.appendChild(ml);a.appendChild(d);
     var p=document.createElement('span');p.className='pil';p.setAttribute('aria-hidden','true');p.textContent='↗';a.appendChild(p);
     a.setAttribute('aria-label',s.textContent+'. '+t('annonse')+'. '+t('gaver_apne'));return a;}
+  // 1.6: browser-based gift wishlists, separate from contest favorites (?liste=).
+  var ONSKE_URL = {"en": "/wishlist/", "nb": "/onskeliste/", "sv": "/sv/onskelista/", "da": "/da/onskeseddel/", "fi": "/fi/toivelista/", "de": "/de/wunschliste/", "nl": "/nl/verlanglijstje/", "fr": "/fr/liste-de-souhaits/", "es": "/es/lista-de-deseos/", "it": "/it/lista-dei-desideri/", "pl": "/pl/lista-zyczen/", "pt-BR": "/pt-br/lista-de-desejos/", "tr": "/tr/istek-listesi/", "ja": "/ja/hoshii-mono/", "ko": "/ko/wisilist/", "zh-Hans": "/zh-hans/xinyuandan/", "hi": "/hi/wishlist/", "id": "/id/daftar-keinginan/", "ar": "/ar/qaimat-al-amaniyat/"};
+  function onskelisteKort(){
+    var a=document.createElement('a');a.className='gave-kort';
+    a.href='https://giveowl.com'+(ONSKE_URL[S.lang]||ONSKE_URL.en);
+    a.target='_blank';a.rel='noopener noreferrer';
+    var d=document.createElement('div'),h=document.createElement('strong'),p=document.createElement('small');
+    h.textContent=t('onske_lag');p.textContent=t('onske_intro')+' '+t('onske_nettleser');
+    d.appendChild(h);d.appendChild(p);a.appendChild(d);
+    a.setAttribute('aria-label',t('onske_lag')+'. '+t('onske_nettleser'));
+    return a;
+  }
   function tegnGaver(){var el=$('vGaver');el.innerHTML='';
+    el.appendChild(onskelisteKort());
     var h=document.createElement('h2');h.textContent=t('gaver_tittel');el.appendChild(h);
     var mine=GAVESIDER.filter(function(g){return g.land===S.land;}), andre=GAVESIDER.filter(function(g){return g.land!==S.land;});
     if(mine.length) mine.forEach(function(g){el.appendChild(gaveKort(g));});
