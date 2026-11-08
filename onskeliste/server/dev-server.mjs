@@ -83,7 +83,7 @@ async function toWebRequest(req) {
   const host = req.headers.host || '127.0.0.1';
   const url = new URL(req.url, `http://${host}`);
   const chunks = [];
-  if (req.method !== 'GET' && req.method !== 'HEAD') {
+  if (!['GET', 'HEAD', 'OPTIONS'].includes(req.method)) {
     for await (const chunk of req) chunks.push(chunk);
   }
   const body = Buffer.concat(chunks);
@@ -126,6 +126,7 @@ export async function startServer(options = {}) {
           limits: options.limits,
           pepper,
           now: options.now,
+          corsOrigins: options.corsOrigins,
         });
         const headers = {};
         response.headers.forEach((value, key) => { headers[key] = value; });

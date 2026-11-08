@@ -4,6 +4,9 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { startServer } from '../server/dev-server.mjs';
+import { LANG_ORDER, META } from '../meta.mjs';
+import { COPY } from '../copy.mjs';
+import { LANDINGS_INDEXABLE, landingRobots } from '../seo.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '../..');
 
@@ -212,17 +215,57 @@ test('creation is rate limited per client', async () => {
 
 test('list pages are noindex and absent from the sitemap', () => {
   const sitemap = readFileSync(join(ROOT, 'sitemap.xml'), 'utf8');
-  assert.equal(sitemap.includes('/onskeliste'), false);
-  assert.equal(sitemap.includes('/wishlist'), false);
+  assert.equal(LANDINGS_INDEXABLE, false);
+  assert.equal(landingRobots(false), 'noindex, nofollow');
+  assert.equal(landingRobots(true), 'index, follow');
+  assert.equal(sitemap.includes('onskeliste-landings:start'), false);
   const robots = readFileSync(join(ROOT, 'robots.txt'), 'utf8');
   assert.equal(robots.includes('Disallow: /api/onskeliste/'), true);
-  for (const file of ['onskeliste/index.html', 'wishlist/index.html']) {
-    const html = readFileSync(join(ROOT, file), 'utf8');
-    assert.match(html, /noindex/);
+  const keys = Object.keys(COPY.en);
+  for (const code of LANG_ORDER) {
+    assert.deepEqual(Object.keys(COPY[code]).sort(), keys.sort());
+    assert.equal(sitemap.includes(META[code].path), false);
+    const html = readFileSync(join(ROOT, META[code].path.replace(/^\//, ''), 'index.html'), 'utf8');
+    assert.match(html, /noindex,\s*nofollow/);
     assert.match(html, /no-referrer/);
+    assert.match(html, new RegExp(`<title>${META[code].title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</title>`));
+    for (const other of LANG_ORDER) assert.match(html, new RegExp(`hreflang="${META[other].hreflang}"`));
+    assert.match(html, /hreflang="x-default"/);
+    assert.doesNotMatch(html, /#eier=|#vis=|#res=/);
   }
   const siteJs = readFileSync(join(ROOT, 'assets/site.js'), 'utf8');
   assert.match(siteJs, /assets\/onskeliste\.js/);
   const sw = readFileSync(join(ROOT, 'sw.js'), 'utf8');
   assert.match(sw, /\/api\/onskeliste/);
+  const chrome = readFileSync(join(ROOT, 'assets/onskeliste.js'), 'utf8');
+  assert.match(chrome, /Ønskeseddel/);
+  assert.match(chrome, /verlanglijstje/);
+  assert.match(chrome, /Wunschliste/);
+});
+
+test('swedish lists use the Swedish path, and CORS stays closed to other sites', async () => {
+  const app = await startServer({ dbPath: ':memory:', corsOrigins: 'https://demo.workers.dev' });
+  try {
+    const created = await api(app.url, '/api/onskeliste/lister', { method: 'POST', body: { name: 'Jul', lang: 'sv' } });
+    assert.equal(created.status, 201);
+    assert.equal(created.json.paths.view.startsWith('/sv/onskelista/#vis='), true);
+    assert.equal(created.json.paths.edit.startsWith('/sv/onskelista/#eier='), true);
+    assert.equal(created.json.paths.view.includes(created.json.editToken), false);
+    const headers = { origin: 'https://giveowl.com', 'access-control-request-method': 'POST' };
+    const opt = await fetch(app.url + '/api/onskeliste/lister', { method: 'OPTIONS', headers });
+    assert.equal(opt.status, 204);
+    assert.equal(opt.headers.get('access-control-allow-origin'), 'https://giveowl.com');
+    assert.match(opt.headers.get('access-control-allow-methods'), /POST/);
+    assert.match(opt.headers.get('x-robots-tag'), /noindex/);
+    const local = await fetch(app.url + '/api/onskeliste/helse', { headers: { origin: 'http://127.0.0.1:8787' } });
+    assert.equal(local.headers.get('access-control-allow-origin'), 'http://127.0.0.1:8787');
+    assert.match(local.headers.get('x-robots-tag'), /noindex/);
+    const extra = await fetch(app.url + '/api/onskeliste/helse', { headers: { origin: 'https://demo.workers.dev' } });
+    assert.equal(extra.headers.get('access-control-allow-origin'), 'https://demo.workers.dev');
+    const evil = await fetch(app.url + '/api/onskeliste/helse', { headers: { origin: 'https://evil.example' } });
+    assert.equal(evil.headers.get('access-control-allow-origin'), null);
+    assert.match(evil.headers.get('x-robots-tag'), /noindex/);
+  } finally {
+    await app.close();
+  }
 });

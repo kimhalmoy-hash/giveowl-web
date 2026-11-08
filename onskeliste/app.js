@@ -3,190 +3,13 @@
   var RES = 'giveowl.reservasjoner';
   var API = (window.GIVEOWL_ONSKE_API || '/api/onskeliste').replace(/\/$/, '');
   var root = document.getElementById('app');
-  var lang = /^(en)(-|$)/i.test(document.documentElement.lang || '') ? 'en' : 'nb';
-  var ideas = lang === 'en' ? '/christmas-gifts-us/' : '/julegaveideer/';
-
-  var T = lang === 'en' ? {
-    h1: 'Wishlist',
-    lead: 'Make a list of gifts you would like, and share a view link with your family. No account, phone or email.',
-    create: 'Create a wishlist',
-    mine: 'My lists in this browser',
-    ideas: 'Find gift ideas',
-    ideasNote: 'UK gift ideas are on the UK page.',
-    ideasUk: '/christmas-gifts-uk/',
-    name: 'List name',
-    namePh: 'My Christmas wishes',
-    occasion: 'Occasion (optional)',
-    occasionPh: 'Christmas, birthday…',
-    submit: 'Create the list',
-    lost: 'If you lose both this browser and the edit link, the list cannot be recovered yet. There is no account to send it to.',
-    retention: 'The list is deleted after 12 months (365 days) without a visit or a change. You can delete it yourself at any time, and you can download it first.',
-    privacyTitle: 'Privacy, in short',
-    privacy: 'HENDT AS stores the list, the wishes and the secret keys that grant access. We do not ask for your name, email, phone, address or address book. A giver does not enter a name. For abuse limits, the server keeps a temporary counter per network address for up to one hour. That counter is not attached to the list, and the address is not stored in clear text on the list. The static pages are on GitHub Pages. The wishlist itself is stored in the wishlist server’s database, which is separate. Children\'s lists are run by an adult. There is no public search for children or for lists.',
-    contact: 'Questions: info@hendtas.com',
-    policy: 'Privacy policy',
-    emptyMine: 'No lists are saved in this browser.',
-    open: 'Open',
-    forget: 'Remove from this browser',
-    share: 'Share the list',
-    copied: 'View link copied.',
-    shared: 'Share sheet opened with the view link.',
-    copyEdit: 'Copy edit link',
-    editCopied: 'Edit link copied. Keep it. Do not send it to the people who are buying.',
-    download: 'Download',
-    rotate: 'New share link',
-    rotateWarn: 'The old view link stops working. People who saved it will need the new one.',
-    rotateDo: 'Replace the view link',
-    del: 'Delete the list',
-    delWarn: 'The list, the wishes and the reservations are deleted. This cannot be undone.',
-    delDo: 'Delete now',
-    cancel: 'Cancel',
-    surpriseTitle: 'About surprises',
-    surprise: 'This owner view hides whether a wish is reserved or bought. That is not technically guaranteed secrecy. Anyone with the view link can forward it, and you can open the view link in another browser and see the status there.',
-    qty: 'Each wish is one thing, so only one person can reserve it.',
-    modes: [['text', 'Write a wish'], ['url', 'Paste a shop link'], ['giveowl', 'From GiveOwl']],
-    title: 'What do you want?',
-    titlePh: 'A cinema trip, or a wool sweater, size M, dark blue',
-    url: 'Shop link',
-    fetch: 'Try to fetch title and picture',
-    fetchFail: 'We could not fetch a title or picture. Your link is kept, and you can type the rest. We cannot import from every shop.',
-    giveowlFetch: 'This is a GiveOwl link. Use Add to wishlist on the gift page, or type the name. We do not open the affiliate link from here, and we do not rewrite your own shop link into an affiliate link.',
-    rights: 'I have the right to show this picture, or to link to it. It is stored only as a link, not as a copy. Leave this unchecked to save the wish without a picture.',
-    noPromise: 'We do not promise to fetch a title and picture from every shop.',
-    giveowlHelp: 'Open the gift ideas and use Add to wishlist on a product. A labelled affiliate link can travel with a GiveOwl product. Wishes are not ranked by commission.',
-    size: 'Size',
-    color: 'Colour',
-    price: 'Price',
-    priceDate: 'Price checked on',
-    note: 'Short note',
-    most: 'Most wanted',
-    add: 'Add wish',
-    shop: 'See at the shop',
-    ad: 'Ad',
-    priceHint: 'Indicative price, not a promise of stock or the lowest price. Checked',
-    edit: 'Edit',
-    remove: 'Remove',
-    save: 'Save',
-    empty: 'No wishes yet.',
-    viewLead: 'No account needed. A reservation is an agreement among the people giving the gifts, not a payment. GiveOwl does not take payment, ship gifts or handle returns.',
-    buy: 'I\'ll buy this',
-    reserved: 'Reserved',
-    bought: 'Bought',
-    release: 'Release',
-    mark: 'Bought',
-    undo: 'Save your undo link. It only changes this reservation.',
-    undoCopy: 'Copy undo link',
-    yourRes: 'You reserved this in this browser.',
-    taken: 'Someone else reserved this.',
-    resLead: 'This page only changes your reservation.',
-    back: 'All lists in this browser',
-    loading: 'Loading…',
-    notFound: 'This link does not open a list. It may have been replaced, or the list was deleted.',
-    removedBrowser: 'Removed from this browser. The list on the server is unchanged.',
-    wishGone: 'Wish removed.',
-    listGone: 'The list is deleted from the server and from this browser.',
-    rotated: 'The view link is replaced. Copy the new one before you share it.',
-    added: 'Wish added.',
-    full: 'The list is full (80 wishes).',
-    rate: 'Too many tries in a short time. Wait a little, then try again.',
-    badUrl: 'Use an ordinary http or https link. Internal and private addresses are blocked.',
-    rightsErr: 'Tick the picture box, or save the wish without a picture.',
-    offline: 'The server did not respond. The list is not stored only in this browser.',
-    server: 'Something went wrong. Try again.',
-    required: 'Enter a list name.',
-    bad: 'Check the fields and try again.',
-    help: 'How it works'
-  } : {
-    h1: 'Ønskeliste',
-    lead: 'Lag en liste over gaver du ønsker deg, og del en visningslenke med familien. Ingen konto, telefon eller e-post.',
-    create: 'Lag ønskeliste',
-    mine: 'Mine lister i denne nettleseren',
-    ideas: 'Finn gaveideer',
-    ideasNote: '',
-    ideasUk: '',
-    name: 'Navn på listen',
-    namePh: 'Mine juleønsker',
-    occasion: 'Anledning (valgfritt)',
-    occasionPh: 'jul, bursdag …',
-    submit: 'Opprett listen',
-    lost: 'Hvis du mister både denne nettleseren og redigeringslenken, kan listen ikke gjenopprettes ennå. Vi har ingen konto å sende den til.',
-    retention: 'Listen slettes etter 12 måneder (365 dager) uten besøk eller endring. Du kan slette den selv når som helst, og du kan laste den ned først.',
-    privacyTitle: 'Personvern, kort',
-    privacy: 'HENDT AS lagrer listen, ønskene og nøklene som gir tilgang. Vi ber ikke om navn, e-post, telefon, adresse eller adressebok. En giver oppgir ikke navn. For å begrense misbruk holder serveren et midlertidig tellerverk per nettverksadresse i inntil én time. Telleren er ikke koblet til listen, og adressen lagres ikke i klartekst på listen. De statiske sidene ligger på GitHub Pages. Selve ønskelisten lagres i databasen på ønskeliste-serveren, som er en annen tjeneste. Lister for barn skal styres av en voksen. Det finnes ikke offentlig søk etter barn eller lister.',
-    contact: 'Spørsmål: info@hendtas.com',
-    policy: 'Personvernerklæring',
-    emptyMine: 'Ingen lister er lagret i denne nettleseren.',
-    open: 'Åpne',
-    forget: 'Fjern fra denne nettleseren',
-    share: 'Del listen',
-    copied: 'Visningslenken er kopiert.',
-    shared: 'Delingsarket er åpnet med visningslenken.',
-    copyEdit: 'Kopier redigeringslenke',
-    editCopied: 'Redigeringslenken er kopiert. Ta vare på den. Ikke send den til dem som skal kjøpe.',
-    download: 'Last ned',
-    rotate: 'Ny delingslenke',
-    rotateWarn: 'Den gamle visningslenken slutter å virke. De som har lagret den, trenger den nye.',
-    rotateDo: 'Bytt visningslenke',
-    del: 'Slett listen',
-    delWarn: 'Listen, ønskene og reservasjonene slettes. Dette kan ikke angres.',
-    delDo: 'Slett nå',
-    cancel: 'Avbryt',
-    surpriseTitle: 'Om overraskelser',
-    surprise: 'I denne eier-visningen ser du ikke om et ønske er reservert eller kjøpt. Det er ikke teknisk garantert hemmelighold. Alle med visningslenken kan sende den videre, og du kan selv åpne visningslenken i en annen nettleser og se statusen der.',
-    qty: 'Hvert ønske gjelder én ting, så bare én person kan reservere det.',
-    modes: [['text', 'Skriv et ønske'], ['url', 'Lim inn butikklenke'], ['giveowl', 'Fra GiveOwl']],
-    title: 'Hva ønsker du deg?',
-    titlePh: 'En tur på kino, eller ullgenser, størrelse M, mørk blå',
-    url: 'Butikklenke',
-    fetch: 'Prøv å hente tittel og bilde',
-    fetchFail: 'Vi fikk ikke hentet tittel eller bilde. Lenken beholdes, og du kan skrive resten selv. Vi kan ikke hente fra alle butikker.',
-    giveowlFetch: 'Dette er en GiveOwl-lenke. Bruk «Legg til i ønskeliste» på gavesiden, eller skriv navnet. Vi åpner ikke affiliatelenken herfra, og vi skriver ikke om din egen butikklenke til en affiliatelenke.',
-    rights: 'Jeg har lov til å vise dette bildet, eller til å lenke til det. Det lagres bare som lenke, ikke som en kopi. Lar du feltet stå tomt, lagres ønsket uten bilde.',
-    noPromise: 'Vi lover ikke å hente tittel og bilde fra alle butikker.',
-    giveowlHelp: 'Åpne gaveideene og bruk «Legg til i ønskeliste» på et produkt. En merket affiliate-lenke kan følge med et GiveOwl-produkt. Ønsker rangeres ikke etter provisjon.',
-    size: 'Størrelse',
-    color: 'Farge',
-    price: 'Pris',
-    priceDate: 'Pris sjekket',
-    note: 'Kort notat',
-    most: 'Mest ønsket',
-    add: 'Legg til ønske',
-    shop: 'Se hos butikk',
-    ad: 'Annonse',
-    priceHint: 'Veiledende pris, ikke et løfte om lager eller laveste pris. Sjekket',
-    edit: 'Endre',
-    remove: 'Fjern',
-    save: 'Lagre',
-    empty: 'Ingen ønsker ennå.',
-    viewLead: 'Ingen konto. En reservasjon er en avtale mellom dem som gir, ikke en betaling. GiveOwl tar ikke betalt, sender ikke gaver og håndterer ikke retur.',
-    buy: 'Jeg kjøper denne',
-    reserved: 'Reservert',
-    bought: 'Kjøpt',
-    release: 'Frigi',
-    mark: 'Kjøpt',
-    undo: 'Lagre angre-lenken din. Den endrer bare denne reservasjonen.',
-    undoCopy: 'Kopier angre-lenke',
-    yourRes: 'Du har reservert denne i denne nettleseren.',
-    taken: 'Noen andre rakk å reservere denne.',
-    resLead: 'Denne siden endrer bare reservasjonen din.',
-    back: 'Alle lister i denne nettleseren',
-    loading: 'Laster …',
-    notFound: 'Denne lenken åpner ingen liste. Den kan være byttet ut, eller listen er slettet.',
-    removedBrowser: 'Fjernet fra denne nettleseren. Listen på serveren er uendret.',
-    wishGone: 'Ønsket er fjernet.',
-    listGone: 'Listen er slettet fra serveren og fra denne nettleseren.',
-    rotated: 'Visningslenken er byttet. Kopier den nye før du deler den.',
-    added: 'Ønsket er lagt til.',
-    full: 'Listen er full (80 ønsker).',
-    rate: 'For mange forsøk på kort tid. Vent litt og prøv igjen.',
-    badUrl: 'Bruk en vanlig http- eller https-lenke. Interne og private adresser er sperret.',
-    rightsErr: 'Kryss av for bildet, eller lagre ønsket uten bilde.',
-    offline: 'Får ikke kontakt med serveren. Listen lagres ikke bare i nettleseren.',
-    server: 'Noe gikk galt. Prøv igjen.',
-    required: 'Skriv inn et navn på listen.',
-    bad: 'Sjekk feltene og prøv igjen.',
-    help: 'Slik virker det'
-  };
+  var code = window.GIVEOWL_ONSKE_LANG || 'nb';
+  var I18N = window.GIVEOWL_ONSKE_I18N || {};
+  var META = (window.GIVEOWL_ONSKE_META || {})[code] || {};
+  var T = I18N[code] || I18N.nb || I18N.en || {};
+  var lang = code;
+  var ideas = META.ideas || META.home || '/';
+  var basePath = META.path || '/onskeliste/';
 
   var ERR = {
     name_required: T.required, invalid_field: T.bad, invalid_url: T.badUrl, fetch_failed: T.fetchFail,
@@ -306,7 +129,7 @@
         h('a', { class: 'knapp dempet', href: ideas }, [T.ideas])
       ])
     ]);
-    if (lang === 'en') box.append(h('p', { class: 'onske-mini' }, [T.ideasNote + ' ', h('a', { href: T.ideasUk }, ['Christmas gifts UK'])]));
+    if (T.ideasUk) box.append(h('p', { class: 'onske-mini' }, [T.ideasNote + ' ', h('a', { href: T.ideasUk }, ['Christmas gifts UK'])]));
     var form = h('form', { class: 'onske-skjema', id: 'ny' }, [
       h('h2', {}, [T.create]),
       field(T.name, input({ name: 'name', required: 'required', maxlength: '80', placeholder: T.namePh })),
@@ -392,7 +215,7 @@
     var viewUrl = absolute(data.paths.view);
     var editUrl = absolute(data.paths.edit);
     var box = h('div', {}, [
-      h('p', {}, [h('a', { href: lang === 'en' ? '/wishlist/' : '/onskeliste/' }, ['← ' + T.h1])]),
+      h('p', {}, [h('a', { href: basePath }, ['← ' + T.h1])]),
       h('h1', {}, [data.list.name]),
       data.list.occasion ? p(data.list.occasion, 'onske-lead') : null,
       banner(status && status.ok ? 'onske-ok' : 'onske-feil', status && status.text),
@@ -449,7 +272,7 @@
         ])
       ]));
     }
-    box.append(confirm, addForm(token, data), h('h2', {}, [lang === 'en' ? 'Wishes' : 'Ønsker']));
+    box.append(confirm, addForm(token, data), h('h2', {}, [T.wishes]));
     if (!data.wishes.length) box.append(p(T.empty));
     data.wishes.forEach(function (wish) { box.append(wishCard(token, data, wish, editing)); });
     box.append(help());
@@ -526,8 +349,8 @@
     if (wish.shopName) bits.push(p(wish.shopName, 'onske-meta'));
     var price = priceLine(wish);
     if (price) bits.push(p(price, 'onske-meta'));
-    if (wish.size) bits.push(p((lang === 'en' ? 'Size: ' : 'Størrelse: ') + wish.size, 'onske-meta'));
-    if (wish.color) bits.push(p((lang === 'en' ? 'Colour: ' : 'Farge: ') + wish.color, 'onske-meta'));
+    if (wish.size) bits.push(p(T.sizePrefix + wish.size, 'onske-meta'));
+    if (wish.color) bits.push(p(T.colorPrefix + wish.color, 'onske-meta'));
     if (wish.note) bits.push(p(wish.note));
     var actions = h('div', { class: 'onske-rad' }, [
       shopLink(wish.productUrl),
@@ -639,7 +462,7 @@
   }
 
   function reservation(token, data, status) {
-    var undo = absolute((lang === 'en' ? '/wishlist/' : '/onskeliste/') + '#res=' + encodeURIComponent(token));
+    var undo = absolute(basePath + '#res=' + encodeURIComponent(token));
     var state = data.state === 'bought' ? T.bought : T.reserved;
     show(h('div', {}, [
       h('h1', {}, [data.title]),
@@ -659,7 +482,7 @@
         btn(T.release, 'knapp dempet', function () {
           call('/reservasjon/frigjor', { method: 'POST', token: token }).then(function (res) {
             if (res.status !== 200) { reservation(token, data, { text: message(res.json.error) }); return; }
-            show(h('div', {}, [h('h1', {}, [data.title]), p(lang === 'en' ? 'The wish is available again. This undo link no longer works.' : 'Ønsket er ledig igjen. Denne angre-lenken virker ikke lenger.')]));
+            show(h('div', {}, [h('h1', {}, [data.title]), p(T.releasedDone)]));
           });
         }),
         btn(T.undoCopy, 'knapp dempet', function () { copy(undo).then(function () { reservation(token, data, { ok: true, text: T.copied }); }); })

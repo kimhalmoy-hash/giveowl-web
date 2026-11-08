@@ -1,4 +1,5 @@
 import { createHash, randomBytes, timingSafeEqual } from 'node:crypto';
+import { pathFor } from '../meta.mjs';
 
 export function newSecret(prefix) {
   const raw = prefix + randomBytes(32).toString('base64url');
@@ -29,7 +30,7 @@ export function hashEquals(a, b) {
 }
 
 export function capabilityPaths(lang, parts) {
-  const base = lang === 'en' ? '/wishlist/' : '/onskeliste/';
+  const base = pathFor(lang);
   const out = {};
   if (parts.editToken) out.edit = base + '#eier=' + encodeURIComponent(parts.editToken);
   if (parts.viewToken) out.view = base + '#vis=' + encodeURIComponent(parts.viewToken);

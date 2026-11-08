@@ -1,6 +1,8 @@
 import { createHash, randomBytes } from 'node:crypto';
 import { cleanDate, cleanText } from './text.mjs';
 import { capabilityPaths, hashSecret, newId, newSecret, tokenKind } from './tokens.mjs';
+import { normalizeLang } from '../meta.mjs';
+import { COPY } from '../copy.mjs';
 import { isGiveowlGo, SafeUrlError, storedImageUrl, storedProductUrl } from './ssrf.mjs';
 
 export const RETENTION_DAYS = 365;
@@ -171,7 +173,44 @@ function staleBefore(now) {
   return new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString();
 }
 
-export async function handleRequest(request, ctx) {
+export function isAllowedOrigin(origin, ctx = {}) {
+  if (!origin) return false;
+  if (origin === 'https://giveowl.com' || origin === 'https://www.giveowl.com') return true;
+  if (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin)) return true;
+  const extra = String(ctx.corsOrigins ?? process.env.GIVEOWL_CORS_ORIGINS ?? '');
+  return extra.split(',').map((item) => item.trim()).filter(Boolean).includes(origin);
+}
+
+function corsHeaders(request, ctx) {
+  const origin = request.headers.get('origin') || '';
+  if (!isAllowedOrigin(origin, ctx)) return {};
+  return {
+    'access-control-allow-origin': origin,
+    'access-control-allow-methods': 'GET, POST, PATCH, DELETE, OPTIONS',
+    'access-control-allow-headers': 'Authorization, Content-Type',
+    'access-control-max-age': '86400',
+    vary: 'Origin',
+  };
+}
+
+function withCors(response, request, ctx) {
+  if (!response) return null;
+  const headers = new Headers(response.headers);
+  for (const [key, value] of Object.entries(corsHeaders(request, ctx))) headers.set(key, value);
+  if (!headers.has('x-robots-tag')) headers.set('x-robots-tag', 'noindex, nofollow');
+  return new Response(response.body, { status: response.status, headers });
+}
+
+export async function handleRequest(request, ctx = {}) {
+  const url = new URL(request.url);
+  if (!url.pathname.startsWith('/api/onskeliste')) return null;
+  if (request.method === 'OPTIONS') {
+    return withCors(new Response(null, { status: 204, headers: securityHeaders() }), request, ctx);
+  }
+  return withCors(await dispatch(request, ctx), request, ctx);
+}
+
+async function dispatch(request, ctx) {
   const url = new URL(request.url);
   if (!url.pathname.startsWith('/api/onskeliste')) return null;
   const path = url.pathname.replace(/\/+$/, '') || '/api/onskeliste';
@@ -202,7 +241,7 @@ export async function handleRequest(request, ctx) {
       const name = cleanText(body.value.name, LIMIT.name);
       if (!name) return json(400, { error: 'name_required' });
       const occasion = cleanText(body.value.occasion || '', LIMIT.occasion);
-      const lang = body.value.lang === 'en' ? 'en' : 'nb';
+      const lang = normalizeLang(body.value.lang);
       const edit = newSecret('e_');
       const view = newSecret('v_');
       const id = newId('l');
@@ -278,9 +317,7 @@ export async function handleRequest(request, ctx) {
           occasion: list.occasion,
           lang: list.lang,
           exportedAt: nowIso,
-          note: list.lang === 'en'
-            ? 'Reservations are left out of this file so surprises stay in the view link.'
-            : 'Reservasjoner er ikke med i denne filen, slik at overraskelser blir igjen på visningslenken.',
+          note: (COPY[list.lang] || COPY.nb).exportNote,
           wishes,
         };
         return json(200, body, { 'content-disposition': 'attachment; filename="onskeliste.json"' });

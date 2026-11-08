@@ -26,6 +26,53 @@ This pull request does **not** publish anything to giveowl.com and does not chan
 - Children’s lists are for an adult to run. There is no public search for children or lists.
 - List pages send `noindex` and are not in `sitemap.xml`. `robots.txt` disallows `/api/onskeliste/`.
 
+## Languages and URLs
+
+The same app is translated into GiveOwl’s 19 languages. Each landing has its own path. Access keys stay in the fragment (`#eier=`, `#vis=`, `#res=`), so a list is not a separate URL and is not indexed.
+
+| Language | Path | Main search words in the title |
+| --- | --- | --- |
+| en | `/wishlist/` | wishlist, wish list, gift list |
+| nb | `/onskeliste/` | ønskeliste |
+| sv | `/sv/onskelista/` | önskelista |
+| da | `/da/onskeseddel/` | ønskeseddel |
+| fi | `/fi/toivelista/` | toivelista |
+| de | `/de/wunschliste/` | Wunschliste, Wunschzettel |
+| nl | `/nl/verlanglijstje/` | verlanglijstje |
+| fr | `/fr/liste-de-souhaits/` | liste de souhaits, liste d’envies |
+| es | `/es/lista-de-deseos/` | lista de deseos |
+| it | `/it/lista-dei-desideri/` | lista dei desideri |
+| pt-BR | `/pt-br/lista-de-desejos/` | lista de desejos |
+| pl | `/pl/lista-zyczen/` | lista życzeń |
+| tr | `/tr/istek-listesi/` | istek listesi |
+| ja | `/ja/hoshii-mono/` | ほしい物リスト |
+| ko | `/ko/wisilist/` | 위시리스트 |
+| zh-Hans | `/zh-hans/xinyuandan/` | 心愿单 |
+| hi | `/hi/wishlist/` | विशलिस्ट, इच्छा सूची |
+| id | `/id/daftar-keinginan/` | daftar keinginan |
+| ar | `/ar/qaimat-al-amaniyat/` | قائمة الأمنيات |
+
+`assets/onskeliste.js` uses the page language for the sixth tab and for «add to wishlist» on gift cards.
+
+### Index the landings later
+
+They are `noindex, nofollow` and are not in `sitemap.xml` until a production API can save lists. API responses stay `noindex` either way.
+
+1. In `onskeliste/seo.mjs`, set `LANDINGS_INDEXABLE` to `true`.
+2. Run `node onskeliste/build-pages.mjs`.
+
+That rewrites the robots meta on every landing and inserts a marked block in `sitemap.xml`. Set the flag back to `false` and run the same command to remove the block again. `landingRobots(true)` returns `index, follow`.
+
+## CORS
+
+The API answers `OPTIONS` and echoes `Access-Control-Allow-Origin` only for:
+
+- `https://giveowl.com` and `https://www.giveowl.com`
+- `http` or `https` on `localhost` or `127.0.0.1`, any port
+- extra origins in `GIVEOWL_CORS_ORIGINS` (comma-separated), for example a future `workers.dev` host
+
+Other origins get no CORS header. Allowed methods are `GET`, `POST`, `PATCH`, `DELETE` and `OPTIONS`. Allowed headers are `Authorization` and `Content-Type`.
+
 ## Run it locally
 
 Requirements: Node.js 22 (this repo was checked with Node 22, which includes `node:sqlite`). No `npm install` and no API keys.
