@@ -1,14 +1,15 @@
-// GiveOwl service worker: makes giveowl.com installable and lets /browse/ open offline (v3: /browse/ is split into app.js, per-language lang/*.js, data.js and detaljer.js; all are cached on first use).
+// GiveOwl service worker: makes giveowl.com installable and lets /browse/ open offline (v4: wishlist API is never cached).
 // Pages and data.json: network first (always fresh when online), cache as fallback.
 // Static assets (images, logos): cache first, refreshed in the background. CSS/JS: network first, so new HTML never meets old CSS
 // (several pages link /assets/site.css without a ?v= version). No tracking, no push.
-const V = 'giveowl-v3';
+const V = 'giveowl-v4';
 const KJERNE = ['/browse/', '/browse/index.html', '/browse/config.js', '/browse/sprak.js', '/browse/lang/en.js', '/browse/app.js', '/browse/data.js', '/browse/detaljer.js', '/assets/site.css', '/assets/owl.svg', '/assets/icon-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(KJERNE)).catch(() => {})); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== V).map(x => caches.delete(x)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
   const r = e.request; if (r.method !== 'GET') return;
   const u = new URL(r.url); if (u.origin !== location.origin) return;
+  if (u.pathname.startsWith('/api/onskeliste')) return;
   const kode = /\.(css|js)$/.test(u.pathname);
   const statisk = !kode && (u.pathname.startsWith('/assets/') || u.pathname.startsWith('/og/'));
   if (statisk) {

@@ -208,3 +208,13 @@
     s.addEventListener('keydown', function (e) { if (e.key === 'Enter') { var a = d.querySelector('.lm-gruppe li:not([hidden]) a'); if (a) { e.preventDefault(); location.href = a.href; } } });
   });
 })();
+/* ONSKELISTE-MVP: keep this hook if site.js is regenerated. It loads /assets/onskeliste.js,
+   which inserts the Ønskeliste / Wishlist tab before Guides and the gift-card button. */
+(function () {
+  if (window.__giveowlOnskeBoot) return;
+  window.__giveowlOnskeBoot = 1;
+  var s = document.createElement('script');
+  s.src = '/assets/onskeliste.js?v=20261108a';
+  s.defer = true;
+  document.head.appendChild(s);
+})();

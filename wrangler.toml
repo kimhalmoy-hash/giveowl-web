@@ -1,0 +1,15 @@
+# Wishlist API only. This does not publish giveowl.com.
+# account_id is omitted on purpose. `wrangler login` selects the account.
+# Do not commit an account id.
+name = "giveowl-onskeliste"
+main = "onskeliste/worker/index.mjs"
+compatibility_date = "2026-11-08"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "giveowl-onskeliste"
+database_id = "6c6de63c-e7b1-48c9-b028-4e639f349703"
+
+[triggers]
+crons = ["17 3 * * *"]

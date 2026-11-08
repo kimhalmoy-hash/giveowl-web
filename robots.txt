@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /go/
+Disallow: /api/onskeliste/
 
 Sitemap: https://giveowl.com/sitemap.xml
