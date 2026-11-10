@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Tue, 10 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Get Inspired Black Friday-giveaway: vinn 10 000 kr – Get Inspired (getinspired.no)</title>
     <link>https://giveowl.com/e/get-inspired--get-inspired-black-friday-giveaway-vinn-10-000-kr--2026/</link>
@@ -46,14 +46,6 @@
     <enclosure url="https://giveowl.com/og/b104f70b41cc.jpg" type="image/jpeg" length="0"/>
     <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <description>Premie: Premier for over 100 000 kr bak lukene i Kitch'n-appen (én trekning per luke). Frist: 24. desember 2026. Last ned Kitch'n-appen, logg inn og bli medlem i kundeklubben (gratis). Åpne dagens luke og svar på et enkelt spørsmål hver dag frem til julaften (24 luker). Krever app og kundeklubbmedlemskap; kjøp nevnes ikke.</description>
-  </item>
-  <item>
-    <title>SayBeam Black Friday iPhone 18 Pro Giveaway – SayBeam</title>
-    <link>https://giveowl.com/e/saybeam--saybeam-black-friday-iphone-18-pro-giveaway--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/saybeam--saybeam-black-friday-iphone-18-pro-giveaway--2026/</guid>
-    <enclosure url="https://giveowl.com/og/cb74e95a16bb.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 08 Nov 2026 08:00:00 GMT</pubDate>
-    <description>Premie: One iPhone 18 Pro, 256 GB, unlocked, in the winner’s choice of Burgundy, Glacier Blue, Silver or Black (ARV $1,199). Frist: 30. november 2026. Free entry: email contact@saybeam.com with the subject line &quot;iPhone 18 Pro Giveaway - Free Entry&quot; and your full name, email address and country of residence (see section 4B of the rules). Orders on saybeam.com also earn entries, but no purchase is required and both methods have the same chance per entry. 18+ (or age of majority) wherever the giveaway is permitted; Canadian winners must answer a skill-testing question. Runs Nov 6 – Nov 30, 2026, 11:59:59 p.m. ET; drawing on or about Dec 3, 2026.</description>
   </item>
   <item>
     <title>Kraken: A Christmas Call with Poldi – win a video call with Lukas Podolski – Kraken (Payward Ltd.)</title>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/0ec84dd4c5c9.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Ikke bekreftet for 2026 (i 2025: AirPods 4, PlayStation 5 Pro, Garmin Fenix 8 og en iPhone 17 Pro som hovedpremie – premier for 40 000 kr). 2025: delta i hver adventsluke innen lørdagen før trekning; ekstra lodd for valgfrie handlinger. 18 år+, bosatt i Norge</description>
+  </item>
+  <item>
+    <title>Parats julekalender 2026 – Parat</title>
+    <link>https://giveowl.com/e/parat--parats-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/parat--parats-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/cb4a4593fee2.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ikke bekreftet for 2026 (i 2025: daglig quiz med trekning blant riktige svar; premiene vises ikke lenger på siden). 2025: registrer deg med e-post og svar på dagens quiz. Gratis, 16 år+, medlemskap ikke påkrevd</description>
   </item>
 </channel>
 </rss>
