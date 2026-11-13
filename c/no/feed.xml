@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Fri, 13 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Solgårdens julekalender 2026 – Solgården</title>
     <link>https://giveowl.com/e/solgarden--solgardens-julekalender--2026/</link>
@@ -264,14 +264,6 @@
     <description>Premie: Ikke bekreftet for 2026 (i 2025: bl.a. stor goodiebag verdt 2 900 kr i luke 1 og rabattkode på 500 kr i luke 24). Svar på dagens luke. I 2025 gratis, 16 år+</description>
   </item>
   <item>
-    <title>Hickap Black Week: vinn årets julekalender – Hickap</title>
-    <link>https://giveowl.com/e/hickap--hickap-black-week-vinn-arets-julekalender--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/hickap--hickap-black-week-vinn-arets-julekalender--2026/</guid>
-    <enclosure url="https://giveowl.com/og/f2cc39e89c55.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Tue, 20 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: 10 Hickap-julekalendere med 30 produkter i full størrelse hver (verdi 6 281 SEK per kalender). Frist: 13. november 2026. Meld deg på Black Week-varselet med e-post på Hickaps side, så er du automatisk med i trekningen. 18 år+. Konkurransen går 19.10.–13.11.2026</description>
-  </item>
-  <item>
     <title>Novacare kodekalender 2026 – Novacare</title>
     <link>https://giveowl.com/e/novacare--novacare-kodekalender--2026/</link>
     <guid isPermaLink="true">https://giveowl.com/e/novacare--novacare-kodekalender--2026/</guid>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/fd8fa27df2cc.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Premier trekkes blant riktige svar (premiene er ikke lagt ut ennå). Meld deg på med e-post på parat.julekalender.no for påminnelse, og svar på dagens luke når kalenderen åpner 1. desember. Gratis, uten kjøpsforpliktelse, 16 år+, medlemskap ikke påkrevd</description>
+  </item>
+  <item>
+    <title>The Nature Photography Contest 2026 – The Nature Photography Contest</title>
+    <link>https://giveowl.com/e/the-nature-photography-contest--the-nature-photography-contest--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/the-nature-photography-contest--the-nature-photography-contest--2026/</guid>
+    <enclosure url="https://giveowl.com/og/78c71579d7ae.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Premie: €2,000 in cash prizes. Frist: 15. november 2026. Upload nature photos on the contest website. Open internationally</description>
   </item>
 </channel>
 </rss>
