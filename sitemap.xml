@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/es/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -824,7 +824,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/es/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1126,7 +1126,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/nz/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1213,7 +1213,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/za/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1330,7 +1330,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/black-friday-sweepstakes/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/black-week-tavlingar/"/>
@@ -1342,8 +1342,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/c/us/12-days-of-christmas-giveaways/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/us/christmas-giveaways/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
@@ -1351,6 +1355,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1364,6 +1369,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1377,6 +1383,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1455,6 +1462,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1468,12 +1476,13 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/win-a-trip-sweepstakes/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/win-a-trip-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/holiday-competitions/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/reise-gewinnspiele/"/>
@@ -1484,7 +1493,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/gift-card-giveaways/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
@@ -1565,6 +1574,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1578,6 +1588,21 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/es/concursos-navidad/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekonkurranser/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1591,6 +1616,7 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/weihnachtsgewinnspiele/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://giveowl.com/c/ca/christmas-contests/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://giveowl.com/c/fr/concours-noel/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://giveowl.com/c/es/concursos-navidad/"/>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://giveowl.com/c/nl/kerstprijsvragen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/christmas-giveaways/"/>
   </url>
@@ -1791,7 +1817,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/beste-julekalendere-2026/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2029,7 +2055,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/black-friday-12-days-giveaways-2026/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/guide/black-friday-12-days-giveaways-2026/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/black-week-2026/"/>
@@ -2239,7 +2265,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/es/guia/concursos-navidad-2026-espana/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/it/guida/concorsi-natale-2026-italia/</loc>
@@ -2261,7 +2287,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/christmas-giveaways-2026/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -2576,10 +2602,6 @@
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://giveowl.com/e/all4family--all4family-adventkalender-gewinnspiel--2026/</loc>
-    <lastmod>2026-11-02</lastmod>
-  </url>
-  <url>
     <loc>https://giveowl.com/e/ascona-locarno-tourismus--ascona-locarno-adventskalender-2026-24-preise-und-ein-spezialpreis--2026/</loc>
     <lastmod>2026-10-31</lastmod>
   </url>
@@ -2597,7 +2619,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/card-complete-service-bank-ag--card-complete-adventkalender-2026-taglich-100-gutscheine--2026/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/salling--club-sallings-julekalender--2026/</loc>
@@ -2662,6 +2684,10 @@
   <url>
     <loc>https://giveowl.com/e/italia-partner--italia-partner-julekalender-2026-roma-og-italia--2026/</loc>
     <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/ja-naturlich-naturprodukte-gmbh--ja-naturlich-adventkalender-2026-24-gewinnpakete-und-ein-thermomix-tm7--2026/</loc>
+    <lastmod>2026-11-13</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/juleaften-no--juleaften-no-digital-julekalender--2026/</loc>
@@ -2741,10 +2767,6 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/sandberg-a-s--sandberg-adventni-kalendar-prosinec-2026--2026/</loc>
-    <lastmod>2026-11-02</lastmod>
-  </url>
-  <url>
-    <loc>https://giveowl.com/e/sandberg-a-s--sandberg-adventskalender-dezember-2026-osterreich--2026/</loc>
     <lastmod>2026-11-02</lastmod>
   </url>
   <url>
@@ -2978,10 +3000,6 @@
   <url>
     <loc>https://giveowl.com/e/magnusson-petfood-gmbh--magnussons-adventskalender-2026--2026/</loc>
     <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://giveowl.com/e/raiffeisen-landesbank-steiermark-ag--raiffeisen-steiermark-online-adventkalender-2026--2026/</loc>
-    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/rib-software--rib-s-julekalender--2026/</loc>

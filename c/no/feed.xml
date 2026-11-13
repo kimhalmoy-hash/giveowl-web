@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Thu, 12 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Solgårdens julekalender 2026 – Solgården</title>
+    <link>https://giveowl.com/e/solgarden--solgardens-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/solgarden--solgardens-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/0d2c2c968ad6.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Fri, 13 Nov 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Premier hver dag (premiene er ikke lagt ut; vilkårene nevner Solgården-reisegavekort, som bare kan brukes på reise til Solgården). Meld deg på med e-post på solgarden2026.julekalender.no for påminnelse, og svar i dagens luke når kalenderen åpner (nedtellingen går mot 1. desember). Gratis, uten kjøp, 16 år+. Oppgi fullt navn, mobilnummer og e-post</description>
+  </item>
   <item>
     <title>Get Inspired Black Friday-giveaway: vinn 10 000 kr – Get Inspired (getinspired.no)</title>
     <link>https://giveowl.com/e/get-inspired--get-inspired-black-friday-giveaway-vinn-10-000-kr--2026/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/cb4a4593fee2.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Ikke bekreftet for 2026 (i 2025: daglig quiz med trekning blant riktige svar; premiene vises ikke lenger på siden). 2025: registrer deg med e-post og svar på dagens quiz. Gratis, 16 år+, medlemskap ikke påkrevd</description>
-  </item>
-  <item>
-    <title>The Nature Photography Contest 2026 – The Nature Photography Contest</title>
-    <link>https://giveowl.com/e/the-nature-photography-contest--the-nature-photography-contest--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/the-nature-photography-contest--the-nature-photography-contest--2026/</guid>
-    <enclosure url="https://giveowl.com/og/78c71579d7ae.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: €2,000 in cash prizes. Frist: 15. november 2026. Upload nature photos on the contest website. Open internationally</description>
   </item>
 </channel>
 </rss>
