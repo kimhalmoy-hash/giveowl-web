@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Sat, 14 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>TV1 julekonkurranse: finn julefigurene og vinn gavekort på 5 000 kr – TV1</title>
+    <link>https://giveowl.com/e/tv1--tv1-julekonkurranse-finn-julefigurene--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/tv1--tv1-julekonkurranse-finn-julefigurene--2026/</guid>
+    <enclosure url="https://giveowl.com/og/a0cab8febf9c.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sun, 15 Nov 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ett gavekort på 5 000 kr. Frist: 22. desember 2026. Fra 1. til 22. desember dukker små julefigurer opp i programmer på TV1 (lineær-TV). Ta bilde av hele TV-skjermen med figuren og send det inn sammen med navn, telefonnummer, e-post og adresse via skjemaet på tv1.no/julekonkurranse; hvert gyldige bilde gir ett ekstra lodd. Gratis. 18 år+, én deltaker per husstand. Frist 22. desember kl. 20.00; vinner trekkes 23. desember</description>
+  </item>
   <item>
     <title>Lakkapaa Black Week 2026: vinn en Harvia Glow Corner badstuovn – Nordic Online Center Oy (lakkapaa.no)</title>
     <link>https://giveowl.com/e/nordic-online-center-lakkapaa--lakkapaa-black-week-harvia-glow-corner-no--2026/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/5afaf14113ea.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Ikke bekreftet for 2026 (i 2025: dagspremie 2 kinobilletter og Coca-Cola-julegenser, ukepremie 2 kinobilletter og et brett Coca-Cola Zero Sugar, hovedpremie 3 brett, minikjøleskap og 30 kinobilletter). 2025: åpne dagens luke og meld deg på med navn og e-post, 1.–24. desember. 18 år+</description>
-  </item>
-  <item>
-    <title>Hertz adventskalender 2026 – Hertz Bilutleie</title>
-    <link>https://giveowl.com/e/hertz-bilutleie--hertz-adventskalender--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/hertz-bilutleie--hertz-adventskalender--2026/</guid>
-    <enclosure url="https://giveowl.com/og/0ec84dd4c5c9.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Ikke bekreftet for 2026 (i 2025: AirPods 4, PlayStation 5 Pro, Garmin Fenix 8 og en iPhone 17 Pro som hovedpremie – premier for 40 000 kr). 2025: delta i hver adventsluke innen lørdagen før trekning; ekstra lodd for valgfrie handlinger. 18 år+, bosatt i Norge</description>
   </item>
 </channel>
 </rss>

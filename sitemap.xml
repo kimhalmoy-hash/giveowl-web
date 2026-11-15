@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/nz/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1162,7 +1162,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/za/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1190,7 +1190,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1323,7 +1323,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/au/christmas-competitions/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/christmas-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/christmas-competitions/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/christmas-competitions/"/>
@@ -1441,7 +1441,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/gift-card-giveaways/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
@@ -1592,19 +1592,20 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/au/ending-soon/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/au/new/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
@@ -1620,6 +1621,7 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
@@ -1642,6 +1644,7 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
@@ -1661,6 +1664,7 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
@@ -1683,13 +1687,27 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/nz/ending-soon/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
   </url>
   <url>
     <loc>https://giveowl.com/c/nz/new/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
@@ -1705,6 +1723,7 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
@@ -1717,6 +1736,7 @@
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
@@ -2060,7 +2080,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/julekonkurranser-2026/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -2198,7 +2218,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/christmas-giveaways-2026-australia/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -2493,6 +2513,22 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/geschenkideen/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/christmas-gifts-us/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/christmas-gifts-uk/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/nb/tilbud/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/de/angebote/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/deals-uk/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/deals-us/</loc>
+    <lastmod>2026-11-15</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/mafamillezen--calendrier-de-l-avent-mafamillezen-2026-30-cadeaux-a-gagner--2026/</loc>
@@ -4745,6 +4781,10 @@
   <url>
     <loc>https://giveowl.com/e/nestle-portugal--nestle-baby-me-ganhe-um-carrinho-bugaboo-fox-5-concurso-registo--2026/</loc>
     <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/ghd-north-america--ghd-holiday-giveaway--2026/</loc>
+    <lastmod>2026-11-15</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/salon-business-solutions-sbs-hair--sbs-hair-christmas-competition-2026-samsung-65-4k-tv--2026/</loc>
