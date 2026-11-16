@@ -1604,6 +1604,7 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
@@ -1622,6 +1623,7 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
@@ -1632,6 +1634,18 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
+  </url>
+  <url>
+    <loc>https://giveowl.com/c/it/new/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
@@ -1642,6 +1656,7 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
@@ -1660,6 +1675,7 @@
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/new/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/new/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://giveowl.com/c/it/new/"/>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/new/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/new/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
@@ -2208,7 +2224,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/it/guida/concorsi-natale-2026-italia/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -3225,6 +3241,10 @@
   <url>
     <loc>https://giveowl.com/e/platekompaniet--platekompaniet-black-november-vinn-playstation-5-pakke-med-gta-vi--2026/</loc>
     <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/mindfood--mindfood-30-days-of-christmas-win-a-double-pass-to-a-talent-for-murder--2026/</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/aldi-us--aldi-deck-out-holiday-decorating-contest-win-10-000-in-aldi-groceries--2026/</loc>
