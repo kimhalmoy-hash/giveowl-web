@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/ca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Every listing links to the organizer’s official rules. GiveOwl never collects your entries.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 16 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Tribute: win «The Odyssey» on 4K Ultra HD – Tribute Publishing Inc. (Tribute.ca)</title>
+    <link>https://giveowl.com/e/tribute-ca--tribute-the-odyssey-4k-ultra-hd-contest--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/tribute-ca--tribute-the-odyssey-4k-ultra-hd-contest--2026/</guid>
+    <enclosure url="https://giveowl.com/og/e74ca7c5e091.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Tue, 17 Nov 2026 08:00:00 GMT</pubDate>
+    <description>Prize: One of ten copies of «The Odyssey» on 4K Ultra HD (value $34.99 each). Deadline: December 9, 2026. Fill in the entry form on tribute.ca (name, postal code and email required), answer the skill-testing question and submit. No purchase necessary; unlimited manual entries allowed. Legal residents of Canada, including Québec. Oct 20 – Dec 9, 2026 at 9:00 am ET; random draw Dec 9</description>
+  </item>
   <item>
     <title>Loshen &amp; Crem Glasshouse Advent Calendar Giveaway – Loshen &amp; Crem (Edmonton)</title>
     <link>https://giveowl.com/e/loshen-crem--loshen-crem-glasshouse-advent-calendar-giveaway--2026/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/78f4ae910d6b.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
     <description>Prize: Canon PowerShot V1 camera (ARV $1,249.99 CAD), one per quarter. Deadline: December 31, 2026. Subscribe to Henry's email list and confirm; 1 entry per quarter. Canada excl. Quebec, age of majority</description>
-  </item>
-  <item>
-    <title>Transitions Canada Contest: GoldLeaf train trip for two – Transitions Canada</title>
-    <link>https://giveowl.com/e/transitions-canada--transitions-canada-contest-goldleaf-train-trip-for-two--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/transitions-canada--transitions-canada-contest-goldleaf-train-trip-for-two--2026/</guid>
-    <enclosure url="https://giveowl.com/og/c8c884d10472.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Prize: 3-day luxury rail trip for two (Vancouver–Jasper) with flights, ARV about $16,000. Deadline: December 31, 2026. Fill in the form at transitionscontest.ca (quiz, newsletter and colour pick give up to 3 extra chances). Canada, age of majority</description>
   </item>
 </channel>
 </rss>
