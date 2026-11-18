@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Tue, 17 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Lumond: vinn et gavekort på 250 € – Lumond</title>
+    <link>https://giveowl.com/e/lumond--lumond-vinn-et-gavekort-pa-250--2026-no/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/lumond--lumond-vinn-et-gavekort-pa-250--2026-no/</guid>
+    <enclosure url="https://giveowl.com/og/75ed365c1c1c.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ett Lumond-gavekort på 250 € (duftlys, sett og natursåper på lumond.com). Frist: 30. november 2026. Meld deg på Lumonds nyhetsbrev på konkurransesiden og bekreft e-postadressen via lenken i bekreftelses-e-posten (eksisterende abonnenter er automatisk med). Gratis, uten kjøp, 18 år+, bosatt i Norge eller et annet deltakerland. Én deltakelse per person. Frist 30. november 2026; vinneren trekkes innen 14 dager og varsles på e-post</description>
+  </item>
   <item>
     <title>Luxaflex® Black Friday-konkurranse: vinn gardiner og solskjerming for 75 000 kr – Luxaflex® (Hunter Douglas)</title>
     <link>https://giveowl.com/e/luxaflex--luxaflex-black-friday-konkurranse--2026-no/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/570c26a05ce4.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Premie: Ikke bekreftet for 2026 (i 2025: daglige gavekort fra Byggfag og en radio; hovedpremie AL-KO snøfreser 56 cm). 2025: registrer deg med e-post og svar på dagens luke; deltakelse gir innmelding i Byggfag kundeklubb og nyhetsbrev. Gratis, 16 år+</description>
-  </item>
-  <item>
-    <title>Deltas julekalender 2026 – Delta</title>
-    <link>https://giveowl.com/e/delta--deltas-julekalender--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/delta--deltas-julekalender--2026/</guid>
-    <enclosure url="https://giveowl.com/og/25987f3daa7e.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Premiene for 2026 er ikke publisert ennå (i 2025: bl.a. brannteppe og førstehjelpsskrin fra Gjensidige, gavekort på helgeleie av bil fra AVIS). Registrer deg med e-post og svar på dagens luke. Gratis, 16 år+, medlemskap ikke påkrevd. Nedtelling til åpning 1. desember</description>
   </item>
 </channel>
 </rss>
