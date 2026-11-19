@@ -6,5 +6,5 @@ window.LUKE_CONFIG = {
   submitUrl: '../submit/',
   homeUrl: '../',
   web: true,
-  sesong: {"id":"black-friday","tag":"black-friday","fra":"2026-11-01","til":"2026-11-30","min":5,"antall":{"ES":2,"NO":12,"SE":6,"NL":3,"GB":9,"DE":8,"DK":11,"AU":6,"CH":1,"US":35,"PT":1,"FR":2,"NZ":3,"BE":1,"IE":1,"CA":4,"INT":1}}
+  sesong: {"id":"black-friday","tag":"black-friday","fra":"2026-11-01","til":"2026-11-30","min":5,"antall":{"ES":2,"NO":12,"SE":6,"NL":3,"GB":9,"DE":8,"DK":11,"AU":6,"CH":1,"US":36,"PT":1,"FR":2,"NZ":3,"BE":1,"IE":1,"CA":4,"INT":1}}
 };
