@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -708,7 +708,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/ch/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1242,7 +1242,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1314,7 +1314,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/advent-calendar-competitions/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -2106,7 +2106,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/julekalendere-2026/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2116,7 +2116,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/best-advent-calendar-competitions-2026/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -2224,7 +2224,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/da/guide/vind-en-rejse-2026/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/vinn-en-resa-2026/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/da/guide/vind-en-rejse-2026/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/sv/guide/vinn-en-resa-2026/"/>
@@ -2701,7 +2701,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/e/atp-pensionforalle-dk--atp-pension-for-alle-julekalender-2026--2026/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/igive--igive-julekalender--2026/</loc>
@@ -2918,6 +2918,10 @@
   <url>
     <loc>https://giveowl.com/e/explore-maashorst--maashorst-adventskalender-2026-24-dagen-winacties-en-cadeautjes--2026/</loc>
     <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/nussbaum-medien--nussbaum-adventskalender--2026/</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/orf-extra--orf-extra-adventkalender--2026/</loc>
