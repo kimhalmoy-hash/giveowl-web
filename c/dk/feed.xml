@@ -6,7 +6,7 @@
   <atom:link href="https://giveowl.com/c/dk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver konkurrence linker til arrangørens officielle betingelser. GiveOwl indsamler aldrig dine svar.</description>
   <language>da</language>
-  <lastBuildDate>Thu, 19 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 08:00:00 GMT</lastBuildDate>
   <item>
     <title>Berlingskes adventskalender 2026: vind et gavekort til Hotel d’Angleterre på 10.000 kr. – Berlingske (Berlingske Media)</title>
     <link>https://giveowl.com/e/berlingske--berlingskes-adventskalender--2026/</link>
@@ -376,14 +376,6 @@
     <description>Præmie: Ikke bekræftet for 2026 (i 2025: en ny præmie bag hver af 24 låger og en hovedpræmie – 12 solcelle-lanterner til ca. 3.000 kr.; præmier for i alt ca. 15.000 kr.). 2025: udfyld formularen bag dagens låge og tilmeld dig Claus Dalbys nyhedsbrev, 1.–24. december. 18+, bosat i Danmark</description>
   </item>
   <item>
-    <title>BOLIA-konkurrence: vind 60.000 kr til at shoppe for hos BOLIA – BOLIA A/S</title>
-    <link>https://giveowl.com/e/bolia-a-s--bolia-black-week-konkurrence-vind-dit-favoritdesign--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/bolia-a-s--bolia-black-week-konkurrence-vind-dit-favoritdesign--2026/</guid>
-    <enclosure url="https://giveowl.com/og/b4c3a850020c.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Præmie: 60.000 DKK til at shoppe BOLIA-design for. Frist: 19. november 2026. Bliv medlem af MyBOLIA (gratis: navn, fødselsdag, postnummer og nærmeste butik), så deltager du automatisk i lodtrækningen. 18+, bosat i Danmark, én tilmelding pr. e-mailadresse. 5. oktober – 19. november 2026, lodtrækning 20. november</description>
-  </item>
-  <item>
     <title>Vind gavekort til Go Gift på 1.000 kr (november 2026) – GF Forsikring</title>
     <link>https://giveowl.com/e/gf-forsikring--vind-gavekort-til-go-gift-pa-1-000-kr-november--2026/</link>
     <guid isPermaLink="true">https://giveowl.com/e/gf-forsikring--vind-gavekort-til-go-gift-pa-1-000-kr-november--2026/</guid>
@@ -406,6 +398,14 @@
     <enclosure url="https://giveowl.com/og/8f902fae308c.jpg" type="image/jpeg" length="0"/>
     <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
     <description>Præmie: Gavekort på 3.000 kr. til SWAZI-jagttøj. Frist: 22. december 2026. Tilmeld dig Jagt-Jakts nyhedsbrev via formularen på siden. Lodtrækning 22. december 2026</description>
+  </item>
+  <item>
+    <title>BetterFeast Pakkeleg 2026 – BetterFeast (Familien Sund ApS)</title>
+    <link>https://giveowl.com/e/betterfeast-familien-sund-aps--betterfeast-pakkeleg--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/betterfeast-familien-sund-aps--betterfeast-pakkeleg--2026/</guid>
+    <enclosure url="https://giveowl.com/og/ec07d23962ea.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Præmie: Præmiepulje på 115.000 kr.: rejsegavekort på 25.000 kr., PlayStation 5-bundles, gaming-PC fra Sharkgaming, Bilka-gavekort og måltidskasser. Frist: 23. december 2026. Gratis online pakkeleg med en gratis BetterFeast-konto. Spil dagligt fra 23. november til 23. december 2026. Ugentlige vindere hver søndag, finale og lodtrækning 23. december. 18+, bopæl i Danmark</description>
   </item>
 </channel>
 </rss>
