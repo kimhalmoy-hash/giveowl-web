@@ -679,7 +679,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/ca/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1227,7 +1227,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/za/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://giveowl.com/c/at/"/>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/"/>
     <xhtml:link rel="alternate" hreflang="nl-BE" href="https://giveowl.com/c/be/"/>
@@ -1351,7 +1351,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/black-friday-sweepstakes/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/black-week-tavlingar/"/>
@@ -1364,7 +1364,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/12-days-of-christmas-giveaways/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/c/us/christmas-giveaways/</loc>
@@ -1513,7 +1513,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/us/gift-card-giveaways/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/vinn-gavekort/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/gift-card-giveaways/"/>
@@ -1557,7 +1557,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/ca/black-friday-contests/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/black-friday-sweepstakes/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/black-week-konkurranser/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/c/se/black-week-tavlingar/"/>
@@ -1651,6 +1651,7 @@
     <loc>https://giveowl.com/c/au/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -1672,6 +1673,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/new/"/>
   </url>
   <url>
+    <loc>https://giveowl.com/c/de/ending-soon/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://giveowl.com/c/nz/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/c/us/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://giveowl.com/c/us/ending-soon/"/>
+  </url>
+  <url>
     <loc>https://giveowl.com/c/de/new/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/new/"/>
@@ -1688,6 +1701,7 @@
     <loc>https://giveowl.com/c/dk/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -1712,6 +1726,7 @@
     <loc>https://giveowl.com/c/gb/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -1736,6 +1751,7 @@
     <loc>https://giveowl.com/c/ie/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -1773,6 +1789,7 @@
     <loc>https://giveowl.com/c/nz/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -1797,6 +1814,7 @@
     <loc>https://giveowl.com/c/us/ending-soon/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-AU" href="https://giveowl.com/c/au/ending-soon/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://giveowl.com/c/gb/ending-soon/"/>
     <xhtml:link rel="alternate" hreflang="en-IE" href="https://giveowl.com/c/ie/ending-soon/"/>
@@ -2311,7 +2329,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/christmas-giveaways-2026-canada/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://giveowl.com/nl/gids/kerstwinacties-2026-nederland-belgie/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/julekonkurranser-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/jultavlingar-2026/"/>
@@ -2430,7 +2448,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/de/ratgeber/black-week-gewinnspiele-2026/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://giveowl.com/guide/black-friday-12-days-giveaways-2026/"/>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/black-week-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/black-week-2026/"/>
@@ -2887,6 +2905,10 @@
   <url>
     <loc>https://giveowl.com/e/kristeligt-dagblad--kristeligt-dagblads-julekalender--2026/</loc>
     <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/kompf24--kompf24-adventskalender--2026/</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/ledsa--ledsas-julekalender-2026--2026/</loc>
