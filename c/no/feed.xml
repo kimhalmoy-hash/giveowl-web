@@ -6,7 +6,15 @@
   <atom:link href="https://giveowl.com/c/no/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hver oppføring lenker til arrangørens offisielle vilkår. GiveOwl samler aldri inn svarene dine.</description>
   <language>nb</language>
-  <lastBuildDate>Mon, 23 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 08:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Morild Norway julekalender 2026 – Morild Norway AS</title>
+    <link>https://giveowl.com/e/morild-norway--morild-norway-julekalender--2026/</link>
+    <guid isPermaLink="true">https://giveowl.com/e/morild-norway--morild-norway-julekalender--2026/</guid>
+    <enclosure url="https://giveowl.com/og/86b7f6eb4d62.jpg" type="image/jpeg" length="0"/>
+    <pubDate>Tue, 24 Nov 2026 08:00:00 GMT</pubDate>
+    <description>Premie: Ikke bekreftet for 2026: kalendersiden viser «premier for 28 000 kr», 24 vinnersjanser og hovedpremie gavekort på 5 000 kr, men oppgir verken år eller datoer. Meld deg på med e-post på morildnorway.no/no/pages/julekalender; én vinner trekkes hver dag i advent fram til julaften ifølge siden. Påmelding gir nyhetsbrev fra Morild Norway (kan meldes av). Gratis</description>
+  </item>
   <item>
     <title>Storbuas julegavekalender 2026: premier for over 200 000 kr – Storbua AS (Stordal)</title>
     <link>https://giveowl.com/e/storbua--storbuas-julegavekalender--2026/</link>
@@ -398,14 +406,6 @@
     <enclosure url="https://giveowl.com/og/b287df75cc25.jpg" type="image/jpeg" length="0"/>
     <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
     <description>Premie: 24 luker med spill/quiz og én premie per dag (premiene er ikke spesifisert). Frist: 24. desember 2026. Registrer deg på julekalendersiden og delta i dagens luke; hver luke kan besvares til dagen etter. Gratis, 18 år+, bosatt i Norge; påmelding gir nyhetsbrev. Åpner 1. desember</description>
-  </item>
-  <item>
-    <title>Thon Senter Borg Black Week-lykkehjul: vinn gavekort – Thon Senter Borg (AMFI Borg)</title>
-    <link>https://giveowl.com/e/thon-senter-borg-amfi-borg--thon-senter-borg-black-week-lykkehjul-vinn-gavekort--2026/</link>
-    <guid isPermaLink="true">https://giveowl.com/e/thon-senter-borg-amfi-borg--thon-senter-borg-black-week-lykkehjul-vinn-gavekort--2026/</guid>
-    <enclosure url="https://giveowl.com/og/d104b65e7339.jpg" type="image/jpeg" length="0"/>
-    <pubDate>Sat, 31 Oct 2026 08:00:00 GMT</pubDate>
-    <description>Premie: Dittgavekort.no-gavekort på 1 000 kr og 500 kr. Frist: 28. november 2026. Spinn lykkehjulet på mobilen via lenken på senterets nettside, én sjanse per dag 23.–28. november. Gratis; kundeklubbmedlemmer får ett ekstra spinn per dag (valgfritt)</description>
   </item>
 </channel>
 </rss>
