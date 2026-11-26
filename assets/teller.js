@@ -3,8 +3,9 @@
 if(n.webdriver||l.hostname!=='giveowl.com'||l.protocol!=='https:'||/bot|crawl|spider|headless|lighthouse|preview/i.test(n.userAgent||''))return;
 var s=d.currentScript,e404=s&&s.getAttribute('data-s')==='404';
 var u="https://giveowl-teller.kimhalmoy-6c0526.workers.dev/hit";
+var U=null;try{var q=new URLSearchParams(l.search),g=function(k){var v=q.get(k);return v?v.slice(0,64):''};if(g('utm_source'))U={s:g('utm_source'),m:g('utm_medium'),c:g('utm_campaign'),k:g('utm_content')};}catch(x){}
 function send(t){var r='';try{r=d.referrer?new URL(d.referrer).hostname:'';}catch(x){}
-var b=JSON.stringify({p:(e404?'/404':'')+l.pathname,r:r,t:t});
+var o={p:(e404?'/404':'')+l.pathname,r:r,t:t};if(t==='load'&&U)o.u=U;var b=JSON.stringify(o);
 if(n.sendBeacon&&n.sendBeacon(u,new Blob([b],{type:'text/plain'})))return;
 if(window.fetch)fetch(u,{method:'POST',body:b,keepalive:true,mode:'no-cors',credentials:'omit'}).catch(function(){});}
 function start(){send('load');var acc=0,t0=0,sent=false,iv;
