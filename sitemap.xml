@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://giveowl.com/"/>
     <xhtml:link rel="alternate" hreflang="nb" href="https://giveowl.com/nb/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://giveowl.com/es/"/>
@@ -1084,7 +1084,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/nl/advent-calendars/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1272,7 +1272,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/advent-calendars/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1286,7 +1286,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/no/julekalender/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1300,7 +1300,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/de/adventskalender/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1356,7 +1356,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/c/gb/advent-calendar-competitions/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/c/no/julekalender/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/c/de/adventskalender/"/>
     <xhtml:link rel="alternate" hreflang="da-DK" href="https://giveowl.com/c/dk/julekalender/"/>
@@ -1757,7 +1757,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/nb/guide/beste-julekalendere-2026/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -1988,7 +1988,7 @@
   </url>
   <url>
     <loc>https://giveowl.com/guide/best-advent-calendar-competitions-2026/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="nb-NO" href="https://giveowl.com/nb/guide/beste-julekalendere-2026/"/>
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://giveowl.com/de/ratgeber/beste-online-adventskalender-2026/"/>
     <xhtml:link rel="alternate" hreflang="sv-SE" href="https://giveowl.com/sv/guide/julkalendrar-2026/"/>
@@ -3086,6 +3086,10 @@
   <url>
     <loc>https://giveowl.com/e/zurcher-landbank--zlb-adventskalender--2026/</loc>
     <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://giveowl.com/e/hertz-bilutleie--hertz-adventskalender--2026/</loc>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://giveowl.com/e/precision-kart--precision-kart-advent-calendar--2026/</loc>
